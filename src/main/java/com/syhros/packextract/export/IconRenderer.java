@@ -7,7 +7,9 @@ import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.entity.RenderItem;
+import net.minecraft.client.renderer.texture.TextureManager;
 import net.minecraft.client.renderer.texture.TextureMap;
+import net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher;
 import net.minecraft.client.shader.Framebuffer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
@@ -32,6 +34,7 @@ public final class IconRenderer {
 
     public IconRenderer(int size) {
         this.size = size;
+        ensureTileEntityTextures();
         this.fb = OpenGlHelper.isFramebufferEnabled() ? new Framebuffer(size, size, true) : null;
         if (fb != null) {
             fb.setFramebufferColor(0, 0, 0, 0);
@@ -42,6 +45,32 @@ public final class IconRenderer {
 
     public int size() {
         return size;
+    }
+
+    /**
+     * Chests and other items drawn by a tile entity renderer bind their textures through the tile entity dispatcher,
+     * which only gets the texture manager once a world loads. Without it (an export from the main menu) they are drawn
+     * with whatever texture is bound. Set it if it is missing.
+     */
+    private void ensureTileEntityTextures() {
+        try {
+            Object dispatcher = TileEntityRendererDispatcher.instance;
+            for (java.lang.reflect.Field f : TileEntityRendererDispatcher.class.getDeclaredFields()) {
+                if (f.getType() == TextureManager.class) {
+                    f.setAccessible(true);
+                    if (f.get(dispatcher) == null) {
+                        f.set(dispatcher, mc.getTextureManager());
+                    }
+                } else if (f.getType() == net.minecraft.client.gui.FontRenderer.class) {
+                    f.setAccessible(true);
+                    if (f.get(dispatcher) == null) {
+                        f.set(dispatcher, mc.fontRenderer);
+                    }
+                }
+            }
+        } catch (Throwable ignored) {
+            // only affects tile-entity-rendered items in main-menu exports
+        }
     }
 
     /** True when rendering goes to an off-screen buffer (otherwise into the corner of the screen). */

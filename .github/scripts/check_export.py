@@ -93,8 +93,10 @@ table = next((r for r in crafting if r.get("output") and r["output"].get("item")
 if table:
     print("crafting table recipe:", json.dumps(table)[:400])
     check(table["type"] in ("shaped", "shapeless") and any(table["inputs"]), "crafting table recipe has inputs")
-check(any(r["input"]["item"] == "minecraft:iron_ore:0" and r["output"]["item"] == "minecraft:iron_ingot:0" for r in smelting),
-      "iron ore smelts to iron ingot")
+# Vanilla registers block smelting for any variant: the input is "minecraft:iron_ore:*" with anyOf.
+check(any(r["input"] and r["output"] and r["output"].get("item") == "minecraft:iron_ingot:0"
+          and (r["input"].get("item") == "minecraft:iron_ore:0" or "minecraft:iron_ore:0" in r["input"].get("anyOf", []))
+          for r in smelting), "iron ore smelts to iron ingot")
 check(manifest["counts"]["craftingRecipes"] > 200, "more than 200 crafting recipes")
 
 if profile == "gregtech":
