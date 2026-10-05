@@ -1,0 +1,154 @@
+0,0 minecraft:log:0 Oak Wood
+0,1 minecraft:iron_ingot:0 Iron Ingot
+0,2 minecraft:concrete_powder:12 Brown Concrete Powder
+0,3 minecraft:dirt:1 Coarse Dirt
+0,4 minecraft:stained_glass:8 Light Gray Stained Glass
+0,5 minecraft:spawn_egg:0#c92180e4 Spawn Stray
+0,6 minecraft:diamond_hoe:0 Diamond Hoe
+0,7 minecraft:bed:5 Lime Bed
+0,8 minecraft:stone_slab:0 Stone Slab
+0,9 minecraft:concrete_powder:4 Yellow Concrete Powder
+0,10 minecraft:quartz:0 Nether Quartz
+0,11 minecraft:fermented_spider_eye:0 Fermented Spider Eye
+1,0 minecraft:map:0 Empty Map
+1,1 minecraft:painting:0 Painting
+1,2 minecraft:lingering_potion:0#13b50ac5 Lingering Potion of Harming
+1,3 minecraft:purpur_pillar:0 Purpur Pillar
+1,4 minecraft:spawn_egg:0#8dc64968 Spawn Horse
+1,5 minecraft:potion:0#e4af8979 Potion of Luck
+1,6 minecraft:purpur_slab:0 Purpur Slab
+1,7 minecraft:stonebrick:3 Chiseled Stone Bricks
+1,8 minecraft:daylight_detector:0 Daylight Sensor
+1,9 minecraft:concrete:8 Light Gray Concrete
+1,10 minecraft:log:3 Jungle Wood
+1,11 minecraft:chainmail_leggings:0 Chain Leggings
+2,0 minecraft:mutton:0 Raw Mutton
+2,1 minecraft:splash_potion:0#bf50a57e Splash Potion of Strength
+2,2 minecraft:iron_ore:0 Iron Ore
+2,3 minecraft:snow_layer:0 Snow
+2,4 minecraft:wheat_seeds:0 Seeds
+2,5 minecraft:deadbush:0 Dead Bush
+2,6 minecraft:nether_star:0 Nether Star
+2,7 minecraft:stone_slab:7 Quartz Slab
+2,8 minecraft:stone:6 Polished Andesite
+2,9 minecraft:enchanted_book:0#31f663cf Enchanted Book
+2,10 minecraft:iron_trapdoor:0 Iron Trapdoor
+2,11 minecraft:splash_potion:0#1362c9bd Splash Potion of Invisibility
+3,0 minecraft:trapped_chest:0 Trapped Chest
+3,1 minecraft:sugar:0 Sugar
+3,2 minecraft:tipped_arrow:0#fffe6755 Arrow of Fire Resistance
+3,3 minecraft:sponge:0 Sponge
+3,4 minecraft:dispenser:0 Dispenser
+3,5 minecraft:bone_block:0 Bone Block
+3,6 minecraft:lingering_potion:0#74110538 Lingering Potion of Water Breathing
+3,7 minecraft:golden_axe:0 Golden Axe
+3,8 minecraft:end_crystal:0 End Crystal
+3,9 minecraft:rotten_flesh:0 Rotten Flesh
+3,10 minecraft:heavy_weighted_pressure_plate:0 Weighted Pressure Plate (Heavy)
+3,11 minecraft:diamond_boots:0 Diamond Boots
+4,0 minecraft:ender_chest:0 Ender Chest
+4,1 minecraft:redstone:0 Redstone
+4,2 minecraft:book:0 Book
+4,3 minecraft:enchanted_book:0#1cc69df7 Enchanted Book
+4,4 minecraft:stained_glass_pane:8 Light Gray Stained Glass Pane
+4,5 minecraft:leaves2:0 Acacia Leaves
+4,6 minecraft:enchanted_book:0#4668b13f Enchanted Book
+4,7 minecraft:torch:0 Torch
+4,8 minecraft:enchanted_book:0#1fe14383 Enchanted Book
+4,9 minecraft:quartz_block:2 Pillar Quartz Block
+4,10 minecraft:green_glazed_terracotta:0 Green Glazed Terracotta
+4,11 minecraft:tipped_arrow:0#9f5afaa6 Arrow of Poison
+5,0 minecraft:rabbit:0 Raw Rabbit
+5,1 minecraft:melon_seeds:0 Melon Seeds
+5,2 minecraft:iron_bars:0 Iron Bars
+5,3 minecraft:enchanted_book:0#b924265c Enchanted Book
+5,4 minecraft:sandstone:0 Sandstone
+5,5 minecraft:emerald_block:0 Block of Emerald
+5,6 minecraft:firework_charge:0#363d8a1e Firework Star
+5,7 minecraft:fire_charge:0 Fire Charge
+5,8 minecraft:mob_spawner:0 Monster Spawner
+5,9 minecraft:poisonous_potato:0 Poisonous Potato
+5,10 minecraft:lingering_potion:0#236dc225 Lingering Potion of Leaping
+5,11 minecraft:red_mushroom:0 Mushroom
+6,0 minecraft:potion:0#c39dd438 Potion of Harming
+6,1 minecraft:monster_egg:0 Stone Monster Egg
+6,2 minecraft:magenta_glazed_terracotta:0 Magenta Glazed Terracotta
+6,3 minecraft:quartz_ore:0 Nether Quartz Ore
+6,4 minecraft:concrete_powder:5 Lime Concrete Powder
+6,5 minecraft:lapis_block:0 Lapis Lazuli Block
+6,6 minecraft:tipped_arrow:0#74110538 Arrow of Water Breathing
+6,7 minecraft:enchanted_book:0#44d184f9 Enchanted Book
+6,8 minecraft:double_plant:0 Sunflower
+6,9 minecraft:anvil:0 Anvil
+6,10 minecraft:dragon_egg:0 Dragon Egg
+6,11 minecraft:sapling:3 Jungle Sapling
+7,0 minecraft:dye:9 Pink Dye
+7,1 minecraft:potion:0#9f5afaa6 Potion of Poison
+7,2 minecraft:tipped_arrow:0#761853a3 Arrow of Night Vision
+7,3 minecraft:jungle_stairs:0 Jungle Wood Stairs
+7,4 minecraft:splash_potion:0#15564886 Mundane Splash Potion
+7,5 minecraft:acacia_stairs:0 Acacia Wood Stairs
+7,6 minecraft:sapling:0 Oak Sapling
+7,7 minecraft:dropper:0 Dropper
+7,8 minecraft:splash_potion:0#761853a3 Splash Potion of Night Vision
+7,9 minecraft:quartz_stairs:0 Quartz Stairs
+7,10 minecraft:purpur_block:0 Purpur Block
+7,11 minecraft:iron_helmet:0 Iron Helmet
+8,0 minecraft:experience_bottle:0 Bottle o' Enchanting
+8,1 minecraft:redstone_ore:0 Redstone Ore
+8,2 minecraft:trapdoor:0 Wooden Trapdoor
+8,3 minecraft:dye:1 Rose Red
+8,4 minecraft:potion:0#f849df76 Potion of Slowness
+8,5 minecraft:iron_sword:0 Iron Sword
+8,6 minecraft:stone_brick_stairs:0 Stone Brick Stairs
+8,7 minecraft:carpet:6 Pink Carpet
+8,8 minecraft:cooked_beef:0 Steak
+8,9 minecraft:dye:14 Orange Dye
+8,10 minecraft:cauldron:0 Cauldron
+8,11 minecraft:baked_potato:0 Baked Potato
+9,0 minecraft:melon:0 Melon
+9,1 minecraft:planks:2 Birch Wood Planks
+9,2 minecraft:ice:0 Ice
+9,3 minecraft:sapling:5 Dark Oak Sapling
+9,4 minecraft:red_mushroom_block:0 Mushroom
+9,5 minecraft:potion:0#fffe6755 Potion of Fire Resistance
+9,6 minecraft:iron_ingot:0 Iron Ingot
+9,7 minecraft:enchanted_book:0#0e2f7fb9 Enchanted Book
+9,8 minecraft:lit_pumpkin:0 Jack o'Lantern
+9,9 minecraft:glass:0 Glass
+9,10 minecraft:nether_brick_fence:0 Nether Brick Fence
+9,11 minecraft:red_shulker_box:0 Red Shulker Box
+10,0 minecraft:repeater:0 Redstone Repeater
+10,1 minecraft:red_flower:4 Red Tulip
+10,2 minecraft:tipped_arrow:0#1362c9bd Arrow of Invisibility
+10,3 minecraft:carpet:9 Cyan Carpet
+10,4 minecraft:arrow:0 Arrow
+10,5 minecraft:splash_potion:0#69e1d45f Splash Potion of Leaping
+10,6 minecraft:banner:6 Cyan Banner
+10,7 minecraft:stone_slab2:0 Red Sandstone Slab
+10,8 minecraft:lingering_potion:0#48d3cb42 Lingering Potion of Slowness
+10,9 minecraft:potion:0#8f80a98c Potion of Swiftness
+10,10 minecraft:potion:0#6efd7726 Potion of Swiftness
+10,11 minecraft:anvil:2 Very Damaged Anvil
+11,0 minecraft:coal_block:0 Block of Coal
+11,1 minecraft:gold_ingot:0 Gold Ingot
+11,2 minecraft:potion:0#0fcab14a Potion of Strength
+11,3 minecraft:yellow_flower:0 Dandelion
+11,4 minecraft:spawn_egg:0#78c3dec0 Spawn Chicken
+11,5 minecraft:diamond:0 Diamond
+11,6 minecraft:mossy_cobblestone:0 Moss Stone
+11,7 minecraft:skull:0 Skeleton Skull
+11,8 minecraft:record_stal:0 Music Disc
+11,9 minecraft:banner:8 Gray Banner
+11,10 minecraft:tipped_arrow:0#8b0ba957 Arrow of Regeneration
+11,11 minecraft:dragon_breath:0 Dragon's Breath
+12,0 minecraft:dark_oak_door:0 Dark Oak Door
+12,1 minecraft:lingering_potion:0#e8f52ddf Lingering Potion of Weakness
+12,2 minecraft:double_plant:3 Large Fern
+12,3 minecraft:enchanted_book:0#aee66c98 Enchanted Book
+12,4 minecraft:golden_rail:0 Powered Rail
+12,5 minecraft:stone_shovel:0 Stone Shovel
+12,6 minecraft:nether_brick:0 Nether Brick
+12,7 minecraft:concrete_powder:10 Purple Concrete Powder
+12,8 fluid:water Water
+12,9 fluid:lava Lava

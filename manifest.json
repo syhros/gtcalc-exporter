@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "generator": "Pack Extract 1.1.0",
+  "minecraft": "1.12.2",
+  "loader": "Forge 14.23.5.2864",
+  "pack": "ci-1.12.2-vanilla",
+  "generatedAt": "2026-10-05T23:52:52Z",
+  "seconds": 1,
+  "imageSize": 64,
+  "maxItems": 500,
+  "counts": {
+    "itemsFromRegistry": 821,
+    "itemsAddedByJei": 102,
+    "itemsAddedByOreDictionary": 0,
+    "craftingRecipes": 432,
+    "craftingSpecialRecipes": 11,
+    "smeltingRecipes": 67,
+    "recipes": 510,
+    "oreDictionaryNames": 155,
+    "imagesWritten": 502,
+    "blankImages": 0,
+    "items": 923,
+    "fluids": 2,
+    "errors": 0
+  },
+  "stageMillis": {
+    "items": 116,
+    "fluids": 47,
+    "recipes:craftingRecipes": 58,
+    "recipes:smeltingRecipes": 63,
+    "recipes": 63,
+    "tags": 40,
+    "item_images": 1385,
+    "fluid_images": 58
+  },
+  "files": {
+    "items": "items.json",
+    "itemsCsv": "items.csv",
+    "fluids": "fluids.json",
+    "fluidsCsv": "fluids.csv",
+    "craftingRecipes": "recipes/crafting.json",
+    "smeltingRecipes": "recipes/smelting.json",
+    "oreDictionary": "oredict.json",
+    "errors": "errors.log"
+  },
+  "mods": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "version": "1.12.2"
+    },
+    {
+      "id": "mcp",
+      "name": "Minecraft Coder Pack",
+      "version": "9.42"
+    },
+    {
+      "id": "FML",
+      "name": "Forge Mod Loader",
+      "version": "8.0.99.99"
+    },
+    {
+      "id": "forge",
+      "name": "Minecraft Forge",
+      "version": "14.23.5.2864"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "version": "4.22.0.1035"
+    },
+    {
+      "id": "packextract",
+      "name": "Pack Extract",
+      "version": "1.1.0"
+    }
+  ]
+}
