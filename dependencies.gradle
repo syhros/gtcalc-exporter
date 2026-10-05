@@ -1,0 +1,14 @@
+// Pack Extract has no compile-time dependency on other mods: NotEnoughItems and GregTech are read by
+// reflection, so one jar works across their versions.
+//
+// The dev client used by CI loads NEI, and with -PdevGregTech=true also GregTech 5 (GT5-Unofficial),
+// to run a real export.
+dependencies {
+    runtimeOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:2.7.69-GTNH:dev")
+    if (project.findProperty("devGregTech") == "true") {
+        runtimeOnlyNonPublishable("com.github.GTNewHorizons:GT5-Unofficial:5.09.51.482:dev")
+    }
+
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.10.2")
+}
