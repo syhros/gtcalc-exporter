@@ -15,6 +15,10 @@ NEI dumps and RecEx miss things gtcalc needs:
 - **Images match the game.** Icons are rendered by Minecraft's own item renderer, so layered GregTech icons, 3D blocks and mods' custom renderers look as they do in your inventory.
 - **Chances.** GregTech output chances (and input and fluid chances where the GT version has them) are part of each recipe.
 
+## Download
+
+[Releases page](https://github.com/syhros/gtcalc-exporter/releases): `packextract-<version>.jar`.
+
 ## Use it
 
 1. Put `packextract-<version>.jar` in the instance's `mods` folder. It is client-side only; servers do not need it.
@@ -164,6 +168,18 @@ For scripted exports you can also set `PACKEXTRACT_AUTO=1`, `PACKEXTRACT_QUIT=1`
 
 - **Recipe types.** Crafting, furnace and GregTech 5 recipe maps are exported (in GTNH that includes GT++, BartWorks, GoodGenerator and the other addons that register GT recipe maps). Other mods' own machines (Thaumcraft, Botania and so on) are not exported yet.
 - **Minecraft versions.** Only 1.7.10. Newer packs (GregTech CEu on 1.12.2 or 1.20.1) need a separate build of the mod.
+
+## What has been tested
+
+Every release runs, in GitHub Actions, a real Minecraft 1.7.10 client twice: once with NEI only, and once with GregTech 5 (GT5-Unofficial 5.09.54.207 with GT++, BartWorks, GoodGenerator, TecTech, AE2 and the other mods it pulls in). Each run opens a world, exports and checks the result. The GregTech run exports about 63,000 items, 1,400 fluids and 98,000 GregTech recipes in 168 maps in under a minute, and checks:
+
+- iron dust, impure and purified iron dust and purified crushed iron ore are listed with correctly coloured images
+- molten iron and water have textured images
+- macerator recipes carry chanced outputs, and every item a GregTech recipe uses is in `items.json`
+
+Not yet tested: the full GT New Horizons 2.8.4 pack itself. It uses an older GregTech (5.09.51), which the mod reads through the same recipe API. Please report anything that looks wrong.
+
+Tools in the images show their durability bar, and electric items their charge marks, exactly as they look in an inventory.
 
 ## Building
 
