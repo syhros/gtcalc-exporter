@@ -44,7 +44,7 @@ final class GregTechRecipes {
 
     private final Refs refs;
     private final Problems problems;
-    private static final String RECIPE_CLASS = "com.gregtechceu.gtceu.api.recipe.GTRecipe";
+    // api.recipe.GTRecipe in most versions; api.recipe.kind.GTRecipe in GTCEu 7.0 for 1.21.
     private final Map<String, Field> fields = new HashMap<>();
 
     private GregTechRecipes(Refs refs, Problems problems) {
@@ -62,7 +62,7 @@ final class GregTechRecipes {
 
     private static boolean isGregTech(Object recipe) {
         for (Class<?> c = recipe.getClass(); c != null; c = c.getSuperclass()) {
-            if (c.getName().equals(RECIPE_CLASS)) {
+            if (c.getSimpleName().equals("GTRecipe") && c.getName().startsWith("com.gregtechceu.gtceu.")) {
                 return true;
             }
         }
