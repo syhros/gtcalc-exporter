@@ -1,0 +1,379 @@
+{
+  "format": 1,
+  "generator": "Pack Extract v1.1.0-main.1+a5dfefa694-dirty",
+  "minecraft": "1.7.10",
+  "loader": "Forge 10.13.4.1614",
+  "pack": "ci-gregtech",
+  "generatedAt": "2026-10-05T23:52:32Z",
+  "seconds": 5,
+  "imageSize": 64,
+  "maxItems": 500,
+  "counts": {
+    "itemsFromRegistry": 36229,
+    "itemsAddedByNei": 187,
+    "itemsAddedByOreDictionary": 5663,
+    "itemsAddedByFluidContainers": 2,
+    "craftingRecipes": 35352,
+    "craftingSpecialRecipes": 564,
+    "smeltingRecipes": 5785,
+    "gregtechRecipes": 98152,
+    "gregtechMaps": 168,
+    "recipes": 139853,
+    "oreDictionaryNames": 40708,
+    "imagesWritten": 1000,
+    "blankImages": 0,
+    "items": 63268,
+    "fluids": 1398,
+    "errors": 0
+  },
+  "stageMillis": {
+    "items": 311,
+    "fluids": 67,
+    "recipes:craftingRecipes": 700,
+    "recipes:smeltingRecipes": 724,
+    "recipes:gregtechRecipes": 1666,
+    "recipes": 1666,
+    "tags": 96,
+    "item_images": 2155,
+    "fluid_images": 311
+  },
+  "files": {
+    "items": "items.json",
+    "itemsCsv": "items.csv",
+    "fluids": "fluids.json",
+    "fluidsCsv": "fluids.csv",
+    "craftingRecipes": "recipes/crafting.json",
+    "smeltingRecipes": "recipes/smelting.json",
+    "gregtechRecipes": "recipes/gregtech.json",
+    "gregtechMaps": "recipes/gregtech-maps.json",
+    "oreDictionary": "oredict.json",
+    "errors": "errors.log"
+  },
+  "mods": [
+    {
+      "id": "mcp",
+      "name": "Minecraft Coder Pack",
+      "version": "9.05"
+    },
+    {
+      "id": "FML",
+      "name": "Forge Mod Loader",
+      "version": "7.10.99.99"
+    },
+    {
+      "id": "Forge",
+      "name": "Minecraft Forge",
+      "version": "10.13.4.1614"
+    },
+    {
+      "id": "NotEnoughItems",
+      "name": "NotEnoughItems",
+      "version": "2.8.155-GTNH"
+    },
+    {
+      "id": "CodeChickenCore",
+      "name": "CodeChicken Core",
+      "version": "1.4.21"
+    },
+    {
+      "id": "chunkapicore",
+      "name": "ChunkAPI Core",
+      "version": "0.8.3"
+    },
+    {
+      "id": "GTNHLib Core",
+      "name": "GTNHLib Core",
+      "version": "0.11.52"
+    },
+    {
+      "id": "endlessids_biome",
+      "name": "EndlessIDs Biome Module",
+      "version": "1.7.3"
+    },
+    {
+      "id": "endlessids_blockitem",
+      "name": "EndlessIDs BlockItem Module",
+      "version": "1.7.3"
+    },
+    {
+      "id": "endlessids_datawatcher",
+      "name": "EndlessIDs DataWatcher Module",
+      "version": "1.7.3"
+    },
+    {
+      "id": "endlessids_enchantment",
+      "name": "EndlessIDs Enchantment Module",
+      "version": "1.7.3"
+    },
+    {
+      "id": "endlessids_potion",
+      "name": "EndlessIDs Potion Module",
+      "version": "1.7.3"
+    },
+    {
+      "id": "appliedenergistics2-core",
+      "name": "Applied Energistics 2 Core",
+      "version": "rv3-beta-1079-GTNH"
+    },
+    {
+      "id": "<CoFH ASM>",
+      "name": "CoFH ASM",
+      "version": "000"
+    },
+    {
+      "id": "packextract",
+      "name": "Pack Extract",
+      "version": "v1.1.0-main.1+a5dfefa694-dirty"
+    },
+    {
+      "id": "IC2",
+      "name": "IndustrialCraft 2",
+      "version": "2.2.827-experimental"
+    },
+    {
+      "id": "ggfab",
+      "name": "GigaGramFab",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "Waila",
+      "name": "Waila",
+      "version": "1.19.34"
+    },
+    {
+      "id": "Mantle",
+      "name": "Mantle",
+      "version": "0.5.4"
+    },
+    {
+      "id": "CoFHCore",
+      "name": "CoFH Core",
+      "version": "1.7.10R3.1.4"
+    },
+    {
+      "id": "TConstruct",
+      "name": "Tinkers' Construct",
+      "version": "1.14.118-GTNH"
+    },
+    {
+      "id": "structurelib",
+      "name": "StructureLib",
+      "version": "1.4.45"
+    },
+    {
+      "id": "gtnhlib",
+      "name": "GTNH Lib",
+      "version": "0.11.52"
+    },
+    {
+      "id": "unimixins",
+      "name": "UniMixins",
+      "version": "0.3.1"
+    },
+    {
+      "id": "gtnhmixins",
+      "name": "UniMixins: GTNHMixins",
+      "version": "2.2.0"
+    },
+    {
+      "id": "hodgepodge",
+      "name": "Hodgepodge",
+      "version": "2.7.213"
+    },
+    {
+      "id": "modularui",
+      "name": "ModularUI",
+      "version": "1.3.4"
+    },
+    {
+      "id": "modularui2",
+      "name": "Modular UI 2",
+      "version": "2.3.92-1.7.10"
+    },
+    {
+      "id": "appliedenergistics2",
+      "name": "Applied Energistics 2",
+      "version": "rv3-beta-1079-GTNH"
+    },
+    {
+      "id": "gtneioreplugin",
+      "name": "GT NEI Ore Plugin GT:NH Mod",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "tectech",
+      "name": "TecTech - Tec Technology!",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "bartworks",
+      "name": "BartWorks",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "bartworkscrossmodtgregworkscontainer",
+      "name": "BartWorks Mod Additions - TGregworks Container",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "GoodGenerator",
+      "name": "Good Generator",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "gtnhlanth",
+      "name": "GTNH: Lanthanides",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "miscutils",
+      "name": "GT++",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "bartworkscrossmod",
+      "name": "BartWorks Mod Additions",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "detravscannermod",
+      "name": "GT Scanner Mod",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "galacticgreg",
+      "name": "Galactic Greg",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "gregtech_nh",
+      "name": "GregTech GTNH",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "gtnhintergalactic",
+      "name": "GTNH-Intergalactic",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "kekztech",
+      "name": "KekzTech",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "DraconicEvolution",
+      "name": "Draconic Evolution",
+      "version": "1.5.33-GTNH"
+    },
+    {
+      "id": "kubatech",
+      "name": "KubaTech",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "ToxicEverglades",
+      "name": "GregTech ToxicEverglades",
+      "version": "5.09.54.207"
+    },
+    {
+      "id": "ae2fc",
+      "name": "AE2 Fluid Crafting",
+      "version": "1.5.111-gtnh"
+    },
+    {
+      "id": "postea",
+      "name": "Postea",
+      "version": "1.2.7"
+    },
+    {
+      "id": "ForgeMultipart",
+      "name": "Forge Multipart",
+      "version": "1.7.14"
+    },
+    {
+      "id": "ForgeMicroblock",
+      "name": "Forge Microblocks",
+      "version": "1.7.14"
+    },
+    {
+      "id": "McMultipart",
+      "name": "Minecraft Multipart Plugin",
+      "version": "1.7.14"
+    },
+    {
+      "id": "serverutilities",
+      "name": "ServerUtilities",
+      "version": "2.4.10"
+    },
+    {
+      "id": "unimixins-mixin",
+      "name": "UniMixins: Mixin (UniMix)",
+      "version": "0.3.1"
+    },
+    {
+      "id": "unimixins-compat",
+      "name": "UniMixins: Compatibility",
+      "version": "0.3.1"
+    },
+    {
+      "id": "mixingasm",
+      "name": "UniMixins: Mixingasm",
+      "version": "0.3"
+    },
+    {
+      "id": "spongemixins",
+      "name": "UniMixins: SpongeMixins",
+      "version": "2.0.1"
+    },
+    {
+      "id": "mixinbooterlegacy",
+      "name": "UniMixins: MixinBooterLegacy",
+      "version": "1.2.1"
+    },
+    {
+      "id": "mixinextras",
+      "name": "UniMixins: MixinExtras",
+      "version": "0.3.1"
+    },
+    {
+      "id": "Baubles",
+      "name": "Baubles",
+      "version": "2.2.24-GTNH"
+    },
+    {
+      "id": "Baubles|Expanded",
+      "name": "Baubles Expanded",
+      "version": "2.2.24-GTNH"
+    },
+    {
+      "id": "chunkapi",
+      "name": "ChunkAPI",
+      "version": "0.8.3"
+    },
+    {
+      "id": "falsepatternlib",
+      "name": "FalsePatternLib",
+      "version": "1.12.0"
+    },
+    {
+      "id": "endlessids",
+      "name": "EndlessIDs",
+      "version": "1.7.3"
+    },
+    {
+      "id": "TiCTooltips",
+      "name": "TiC Tooltips",
+      "version": "1.4.2"
+    },
+    {
+      "id": "gtnhextlib",
+      "name": "GTNHExtLib",
+      "version": "1.0.5"
+    },
+    {
+      "id": "gregtech",
+      "name": "GregTech",
+      "version": "5.09.54.207"
+    }
+  ]
+}

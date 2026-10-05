@@ -1,0 +1,193 @@
+0,0 minecraft:log:0 Oak Wood
+0,1 minecraft:wool:14 Red Wool
+0,2 minecraft:chest:0 Chest
+0,3 minecraft:wool:15 Black Wool
+0,4 IC2:itemDustSmall:4 Tiny Pile of Silver Dust
+0,5 gregtech:gt.metatool.01:160#0fb9b5db Soldering Iron (LV)
+0,6 gregtech:gt.blockores2:3548 Roasted Iron Ore
+0,7 bartworks:gt.bwMetaGeneratedspring:10024 Extremely Unstable Naquadah Spring
+0,8 minecraft:leaves:0 Oak Leaves
+0,9 minecraft:diamond_block:0 Block of Diamond
+0,10 minecraft:wool:7 Gray Wool
+0,11 structurelib:blockhint:7 Hint 8 dots
+1,0 bartworks:gt.bwMetaGeneratedfoil:11351 Mu-metal Foil
+1,1 minecraft:trapped_chest:0 Trapped Chest
+1,2 minecraft:activator_rail:0 Activator Rail
+1,3 gregtech:gt.metaitem.02:30512 Exquisite Spinel
+1,4 minecraft:waterlily:0 Lily Pad
+1,5 gregtech:gt.metaitem.02:5147 Six-Phased Copper Hammer Head
+1,6 minecraft:mob_spawner:96 Monster Spawner
+1,7 minecraft:web:0 Cobweb
+1,8 minecraft:stained_hardened_clay:6 Pink Stained Clay
+1,9 minecraft:sapling:3 Jungle Sapling
+1,10 gregtech:gt.metatool.01:114#fdc29871 Chainsaw (HV)
+1,11 gregtech:gt.metatool.01:160#b00e9dcc Soldering Iron (LV)
+2,0 minecraft:end_portal:0 tile.null.name
+2,1 minecraft:beacon:0 Beacon
+2,2 gregtech:gt.metaitem.01:9981 Indium Gallium Phosphide Nugget
+2,3 bartworks:gt.bwMetaGeneratedtoolHeadSaw:23 Fayalite Saw Blade
+2,4 bartworks:gt.bwMetaGeneratedItem0:6 Circuit Imprint
+2,5 minecraft:grass:0 Grass Block
+2,6 miscutils:gt.Volumetric_Flask_8k:0#4bcf5501 Large Volumetric Flask
+2,7 minecraft:anvil:1 Slightly Damaged Anvil
+2,8 minecraft:rail:0 Rail
+2,9 miscutils:gt.Volumetric_Flask_Infinite:0#f5ce64cc Klein Bottle
+2,10 gregtech:gt.metatool.01:170#02e9e333 Small Turbine
+2,11 minecraft:mob_spawner:54 Monster Spawner
+3,0 appliedenergistics2:item.ItemFacade:0#561274b6 Cable Facade - Perlite Ore
+3,1 minecraft:piston:0 Piston
+3,2 gregtech:gt.metatool.01:114#9d150545 Chainsaw (HV)
+3,3 minecraft:stained_glass:5 Lime Stained Glass
+3,4 minecraft:sapling:4 Acacia Sapling
+3,5 minecraft:sapling:0 Oak Sapling
+3,6 minecraft:sapling:2 Birch Sapling
+3,7 gregtech:gt.metaitem.02:24111 Purified Tengam Spring
+3,8 miscutils:blockFrameGtArcanite:0 Arcanite Frame Box
+3,9 minecraft:cobblestone:0 Cobblestone
+3,10 gregtech:gt.metatool.01:104#56970adb Drill (HV)
+3,11 minecraft:nether_brick:0 Nether Brick
+4,0 miscutils:itemDustSmallInconel690:0 Small Pile of Inconel-690 Dust
+4,1 minecraft:mob_spawner:99 Monster Spawner
+4,2 minecraft:emerald_block:0 Block of Emerald
+4,3 miscutils:gt.Volumetric_Flask_Infinite:0#feeccbd2 Klein Bottle
+4,4 gregtech:gt.metatool.01:154#46a8b6df Screwdriver (HV)
+4,5 gregtech:gt.blockores2:1840 Tetrahedrite Ore
+4,6 minecraft:mob_spawner:49 Monster Spawner
+4,7 miscutils:GTPP.BattPack.03.name:0 §9Charge Pack [HV]§7
+4,8 minecraft:carrots:0 Carrots
+4,9 gregtech:gt.metatool.01:142#d398cdbe Buzzsaw (MV)
+4,10 NotEnoughItems:neiFluidDisplay:843#51a4663e Splash Invisible Brew
+4,11 minecraft:mob_spawner:56 Monster Spawner
+5,0 minecraft:monster_egg:2 Stone Brick Monster Egg
+5,1 minecraft:mob_spawner:55 Monster Spawner
+5,2 gregtech:gt.Volumetric_Flask:0#73ca1d21 Volumetric Flask
+5,3 minecraft:mob_spawner:48 Monster Spawner
+5,4 gregtech:gt.metatool.01:142#2129a7b0 Buzzsaw (MV)
+5,5 minecraft:quartz_ore:0 Nether Quartz Ore
+5,6 minecraft:clay:0 Clay
+5,7 gregtech:gt.metatool.01:200#41edb9be Wire Cutter (HV)
+5,8 minecraft:emerald_ore:0 Emerald Ore
+5,9 gregtech:gt.metatool.01:20#502017f9 Crowbar
+5,10 NotEnoughItems:neiFluidDisplay:1095#51a4663e Burnt Reactor Fuel II
+5,11 gregtech:gt.metaitem.02:19352 Fine Black Bronze Wire
+6,0 minecraft:deadbush:0 Dead Bush
+6,1 minecraft:obsidian:0 Obsidian
+6,2 gregtech:gt.metaitem.01:29338 Ironwood Foil
+6,3 miscutils:gt.Volumetric_Flask_Infinite:0#239280d2 Klein Bottle
+6,4 minecraft:pumpkin:0 Pumpkin
+6,5 minecraft:wool:8 Light Gray Wool
+6,6 ForgeMicroblock:microblock:516#ee692f23 Seared Road Notch
+6,7 minecraft:stained_glass:13 Green Stained Glass
+6,8 gregtech:gt.metatool.01:198#8a6f5a72 Wire Cutter (MV)
+6,9 miscutils:gt.Volumetric_Flask_32k:0#9373ced7 Gigantic Volumetric Flask
+6,10 gregtech:gt.blockmachines:1022 Large Titanium Boiler
+6,11 gregtech:gt.metatool.01:134#fb0a237d JackHammer (HV)
+7,0 gregtech:gt.blockmachines:4227 gt.oreprefix.superconductor_base_uiv_frame_box
+7,1 gregtech:gt.Volumetric_Flask:0#899ea46c Volumetric Flask
+7,2 minecraft:fire:0 Fire
+7,3 minecraft:portal:0 Portal
+7,4 minecraft:ice:0 Ice
+7,5 appliedenergistics2:item.ItemFacade:0#ce4b3c06 Cable Facade - Samarium Ore
+7,6 gregtech:gt.blockmachines:475 Advanced Amplifabricator IV
+7,7 gregtech:gt.blockmachines:2053 2x Superconductor Base UIV Wire
+7,8 minecraft:end_stone:0 End Stone
+7,9 appliedenergistics2:item.ItemFacade:0#8bd97c46 Cable Facade - Red Garnet Ore
+7,10 minecraft:bedrock:0 Bedrock
+7,11 minecraft:stained_hardened_clay:2 Magenta Stained Clay
+8,0 minecraft:mob_spawner:60 Monster Spawner
+8,1 gregtech:gt.metatool.01:202#4b9bc074 File (LV)
+8,2 minecraft:wooden_slab:1 Spruce Wood Slab
+8,3 minecraft:sandstone_stairs:0 Sandstone Stairs
+8,4 gregtech:gt.fakecircuitcomponent:104 Spooled Spacetime Wire
+8,5 minecraft:stone_slab:5 Stone Bricks Slab
+8,6 minecraft:glass_pane:0 Glass Pane
+8,7 NotEnoughItems:neiFluidDisplay:87#51a4663e Mercury
+8,8 miscutils:gt.Volumetric_Flask_8k:0#ab47629b Large Volumetric Flask
+8,9 gregtech:gt.metaitem.01:1797 Small Pile of Calcium Hydride Dust
+8,10 gregtech:gt.Volumetric_Flask:0#629f6c4a Volumetric Flask
+8,11 ForgeMicroblock:microblock:258#f45002d2 Hollow Polished Stone Brick Panel
+9,0 minecraft:brick_stairs:0 Brick Stairs
+9,1 minecraft:noteblock:0 Note Block
+9,2 gregtech:gt.metatool.01:134#14049751 JackHammer (HV)
+9,3 gregtech:gt.metaitem.99:988 Molten Superconductor Base HV Cell
+9,4 gregtech:gt.blockmachines:5195 Quadruple Enderium Fluid Pipe
+9,5 minecraft:wool:2 Magenta Wool
+9,6 minecraft:double_stone_slab:0 Stone Slab
+9,7 gregtech:gt.blockcasings3:1 Yellow Stripes Block
+9,8 gregtech:gt.metatool.01:198#6fc79d76 Wire Cutter (MV)
+9,9 minecraft:vine:0 Vines
+9,10 minecraft:stained_hardened_clay:7 Gray Stained Clay
+9,11 ForgeMicroblock:microblock:2#babdfb7b Chiseled Sandstone Panel
+10,0 gregtech:gt.metatool.01:114#492d6c74 Chainsaw (HV)
+10,1 minecraft:quartz_stairs:0 Quartz Stairs
+10,2 minecraft:sand:0 Sand
+10,3 minecraft:stained_glass:0 White Stained Glass
+10,4 miscutils:gt.Volumetric_Flask_8k:0#e09344ee Large Volumetric Flask
+10,5 gregtech:gt.metaitem.01:18581 Double Transcendent Metal Plate
+10,6 appliedenergistics2:item.ItemFacade:0#8b8fee20 Cable Facade - Small Osmium Ore
+10,7 TConstruct:metalPattern:25 Arrowhead Cast
+10,8 bartworks:gt.bwMetaGeneratedingotHot:92 Hot High Durability Compound Steel Ingot
+10,9 gregtech:gt.metaitem.02:23081 Small Tungsten Spring
+10,10 minecraft:stone_slab:4 Bricks Slab
+10,11 minecraft:stone_slab:3 Cobblestone Slab
+11,0 gregtech:gt.blockmachines:1481 2x Blue Alloy Wire
+11,1 minecraft:mob_spawner:52 Monster Spawner
+11,2 minecraft:planks:1 Spruce Wood Planks
+11,3 minecraft:mob_spawner:91 Monster Spawner
+11,4 tectech:gt.godforgecasing:2 Boundless Gravitationally Severed Structure Casing
+11,5 gregtech:gt.metaitem.01:4394 Purified Pile of Infinity Catalyst Dust
+11,6 gregtech:gt.detrav.metatool.01:12#f0d94ba5 Prospector's Scanner (LuV)
+11,7 minecraft:wooden_slab:2 Birch Wood Slab
+11,8 gregtech:gt.blockmachines:12639 Cable Diode 4A LuV
+11,9 gregtech:gt.metatool.01:102#5ecc576c Drill (MV)
+11,10 TConstruct:knifeBlade:2 Iron Knife Blade
+11,11 minecraft:stonebrick:0 Stone Bricks
+12,0 gregtech:gt.metatool.01:164#5429e896 Soldering Iron (HV)
+12,1 minecraft:stone_stairs:0 Stone Stairs
+12,2 gregtech:gt.metaitem.03:32069 Raw Crystal Chip
+12,3 miscutils:gt.Volumetric_Flask_32k:0#1e3b33d0 Gigantic Volumetric Flask
+12,4 gregtech:gt.metatool.01:154#14678641 Screwdriver (HV)
+12,5 minecraft:dirt:0 Dirt
+12,6 minecraft:nether_brick_fence:0 Nether Brick Fence
+12,7 gregtech:gt.blockmachines:11025 Epic Pulsation Filter III
+12,8 minecraft:wool:13 Green Wool
+12,9 fluid:diluted monazite rare earth mud Diluted Monazite Rare Earth Mud
+12,10 fluid:molten.botmium Molten Botmium
+12,11 fluid:liquid_lpg LPG
+13,0 fluid:molten.infusedgold Molten Infused Gold
+13,1 fluid:iron.molten Molten Iron
+13,2 fluid:liquidoxygen Liquid Oxygen
+13,3 fluid:binnibacteriafluid Binni Bacteria Fluid
+13,4 fluid:dimensionallytranscendentcrudecatalyst Dimensionally Transcendent Crude Catalyst
+13,5 fluid:dye.watermixed.dyeyellow Water Mixed Yellow Dye
+13,6 fluid:molten.hellishmetal Molten Hellish Metal
+13,7 fluid:helium-3 Helium-3
+13,8 fluid:filled praseodymium extracting nano resin Filled Praseodymium Extracting Nano Resin
+13,9 fluid:molten.duralumin Molten Duralumin
+13,10 fluid:woodtar Wood Tar
+13,11 fluid:dimensionallytranscendentprosaiccatalyst Dimensionally Transcendent Prosaic Catalyst
+14,0 fluid:rocket_fuel Rocket Fuel
+14,1 fluid:potion.reedwater Reed Water
+14,2 fluid:molten.scandium Molten Scandium
+14,3 fluid:molten.arceusalloy2b Molten Arceus Alloy 2B
+14,4 fluid:europium extracting nano resin Europium Extracting Nano Resin
+14,5 fluid:silicontetrachloride Silicon Tetrachloride
+14,6 fluid:potion.poison.splash Splash Poisonous Brew
+14,7 fluid:molten.sunnarium Molten Sunnarium
+14,8 fluid:netherair Nether Air
+14,9 fluid:molten.uraniumhexafluoride Uranium Hexafluoride
+14,10 fluid:gadolinium chloride concentrate Gadolinium Chloride Concentrate
+14,11 fluid:plasma.plutonium241 Plutonium 241 Plasma
+15,0 fluid:styrene Styrene
+15,1 fluid:molten.copperiisulfate Molten Copper(II) Sulfate
+15,2 fluid:molten.zircaloy-2 Molten Zircaloy-2
+15,3 fluid:lightlysteamcracked.naphtha Lightly Steam-Cracked Naphtha
+15,4 fluid:entangled_chromaticglass Entangled Chromatic Glass Bose-Einstein Condensate
+15,5 fluid:plasma.iridium Iridium Plasma
+15,6 fluid:plasma.fermium Fermium Plasma
+15,7 fluid:molten.orundum Molten Orundum
+15,8 fluid:molten.vividalloy Molten Vivid Alloy
+15,9 fluid:molten.chrome Molten Chrome
+15,10 fluid:plasma.chlorine Chlorine Plasma
+15,11 fluid:moderatelyhydrocracked.propane Moderately Hydro-Cracked Propane
+16,0 fluid:prismarinesolution Prismarine Solution

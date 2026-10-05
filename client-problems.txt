@@ -1,0 +1,400 @@
+Note: /home/runner/work/gtcalc-exporter/gtcalc-exporter/src/main/java/com/syhros/packextract/client/ExportCommand.java uses unchecked or unsafe operations.
+[23:51:28] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[23:51:28] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[23:51:29] [main/INFO] [GTNHMixins]: Loading [mixins.hodgepodge.early.json] minecraft.MixinEntityLivingBase_FixPotionException
+[23:51:34] [Client thread/ERROR]: Couldn't initialize twitch stream
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+[23:51:38] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException
+[23:51:38] [Client thread/ERROR] [FML]: There was a problem reading the entry org/antlr/v4/Tool$1UndefChecker.class in the jar /home/runner/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.13.2/a2bc0d399506a7297568baee188b481727d45d3b/antlr4-4.13.2.jar - probably a corrupt zip
+cpw.mods.fml.common.LoaderException: java.lang.IllegalArgumentException
+Caused by: java.lang.IllegalArgumentException
+cpw.mods.fml.common.LoaderException: java.lang.IllegalArgumentException
+Caused by: java.lang.IllegalArgumentException
+[23:51:39] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException
+[23:51:39] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar /home/runner/work/gtcalc-exporter/gtcalc-exporter/run/client/falsepattern/org.joml-joml-1.10.8.jar - probably a corrupt zip
+cpw.mods.fml.common.LoaderException: java.lang.IllegalArgumentException
+Caused by: java.lang.IllegalArgumentException
+cpw.mods.fml.common.LoaderException: java.lang.IllegalArgumentException
+Caused by: java.lang.IllegalArgumentException
+[23:51:39] [Client thread/INFO] [GTNHMixins]: LoadedMods [NotEnoughItems, Waila, TConstruct, unimixins-compat, appliedenergistics2-core, ForgeMicroblock, chunkapi, mixinbooterlegacy, mcp, Mantle, unimixins-mixin, appliedenergistics2, endlessids_enchantment, endlessids, kubatech, modularui2, mixinextras, galacticgreg, DraconicEvolution, kekztech, McMultipart, endlessids_datawatcher, chunkapicore, detravscannermod, GoodGenerator, gregtech_nh, gregtech, hodgepodge, ForgeMultipart, CoFHCore, miscutils, Forge, postea, ae2fc, gtnhlanth, endlessids_biome, CodeChickenCore, GTNHLib Core, IC2, falsepatternlib, bartworks, structurelib, mixingasm, packextract, gtnhmixins, FML, bartworkscrossmod, modularui, serverutilities, spongemixins, TiCTooltips, gtneioreplugin, gtnhextlib, <CoFH ASM>, gtnhlib, Baubles, gtnhintergalactic, ToxicEverglades, unimixins, endlessids_potion, bartworkscrossmodtgregworkscontainer, endlessids_blockitem, ggfab, tectech, Baubles|Expanded]
+[23:51:40] [Client thread/WARN] [mixin]: Error loading class: MoreFunQuicksandMod/main/MFQM (java.lang.ClassNotFoundException: The specified class 'MoreFunQuicksandMod.main.MFQM' was not found)
+[23:51:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, chunkapicore, GTNHLib Core, endlessids_biome, endlessids_blockitem, endlessids_datawatcher, endlessids_enchantment, endlessids_potion, appliedenergistics2-core, <CoFH ASM>, packextract, bartworks, bartworkscrossmod, bartworkscrossmodtgregworkscontainer, detravscannermod, galacticgreg, ggfab, GoodGenerator, gregtech, gregtech_nh, miscutils, gtneioreplugin, gtnhintergalactic, gtnhlanth, kekztech, kubatech, tectech, ToxicEverglades, TConstruct, hodgepodge, structurelib, modularui, modularui2, ae2fc, Waila, appliedenergistics2, DraconicEvolution, postea, Mantle, ForgeMicroblock, ForgeMultipart, McMultipart, serverutilities, gtnhlib, unimixins, unimixins-mixin, unimixins-compat, mixingasm, spongemixins, mixinbooterlegacy, gtnhmixins, mixinextras, Baubles, Baubles|Expanded, IC2, endlessids, chunkapi, TiCTooltips, gtnhextlib, falsepatternlib, CoFHCore] at CLIENT
+[23:51:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, chunkapicore, GTNHLib Core, endlessids_biome, endlessids_blockitem, endlessids_datawatcher, endlessids_enchantment, endlessids_potion, appliedenergistics2-core, <CoFH ASM>, packextract, bartworks, bartworkscrossmod, bartworkscrossmodtgregworkscontainer, detravscannermod, galacticgreg, ggfab, GoodGenerator, gregtech, gregtech_nh, miscutils, gtneioreplugin, gtnhintergalactic, gtnhlanth, kekztech, kubatech, tectech, ToxicEverglades, TConstruct, hodgepodge, structurelib, modularui, modularui2, ae2fc, Waila, appliedenergistics2, DraconicEvolution, postea, Mantle, ForgeMicroblock, ForgeMultipart, McMultipart, serverutilities, gtnhlib, unimixins, unimixins-mixin, unimixins-compat, mixingasm, spongemixins, mixinbooterlegacy, gtnhmixins, mixinextras, Baubles, Baubles|Expanded, IC2, endlessids, chunkapi, TiCTooltips, gtnhextlib, falsepatternlib, CoFHCore] at SERVER
+[23:51:40] [Client thread/ERROR] [IC2]: The mod IC2 is expecting signature de041f9f6187debbc77034a344134053277aa3b0 for source ic2-242638-2353971-deobf.jar, however there is no signature matching that description
+[23:51:42] [Client thread/WARN] [FalsePatternLib]: Invalid value  for enum configuration field CONFIG_ERROR_LOGGING of type com.falsepattern.lib.internal.config.ConfigEngineConfig$LoggingLevel in config class com.falsepattern.lib.internal.config.ConfigEngineConfig! Using default value of Log!
+[23:51:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NotEnoughItems, FMLFileResourcePack:Pack Extract, FMLFileResourcePack:BartWorks, FMLFileResourcePack:BartWorks Mod Additions, FMLFileResourcePack:BartWorks Mod Additions - TGregworks Container, FMLFileResourcePack:GT Scanner Mod, FMLFileResourcePack:Galactic Greg, FMLFileResourcePack:GigaGramFab, FMLFileResourcePack:Good Generator, FMLFileResourcePack:GregTech, FMLFileResourcePack:GregTech GTNH, FMLFileResourcePack:GT++, FMLFileResourcePack:GT NEI Ore Plugin GT:NH Mod, FMLFileResourcePack:GTNH-Intergalactic, FMLFileResourcePack:GTNH: Lanthanides, FMLFileResourcePack:KekzTech, FMLFileResourcePack:KubaTech, FMLFileResourcePack:TecTech - Tec Technology!, FMLFileResourcePack:GregTech ToxicEverglades, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Hodgepodge, FMLFileResourcePack:StructureLib, FMLFileResourcePack:ModularUI, FMLFileResourcePack:Modular UI 2, FMLFileResourcePack:AE2 Fluid Crafting, FMLFileResourcePack:Waila, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:Draconic Evolution, FMLFileResourcePack:Postea, FMLFileResourcePack:Mantle, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:ServerUtilities, FMLFileResourcePack:GTNH Lib, FMLFileResourcePack:UniMixins, FMLFileResourcePack:UniMixins: Mixin (UniMix), FMLFileResourcePack:UniMixins: Compatibility, FMLFileResourcePack:UniMixins: Mixingasm, FMLFileResourcePack:UniMixins: SpongeMixins, FMLFileResourcePack:UniMixins: MixinBooterLegacy, FMLFileResourcePack:UniMixins: GTNHMixins, FMLFileResourcePack:UniMixins: MixinExtras, FMLFileResourcePack:Baubles, FMLFileResourcePack:Baubles Expanded, IC2 resource pack injected by Hodgepodge, FMLFileResourcePack:EndlessIDs, FMLFileResourcePack:ChunkAPI, FMLFileResourcePack:TiC Tooltips, FMLFileResourcePack:GTNHExtLib, FMLFileResourcePack:FalsePatternLib, FMLFileResourcePack:CoFH Core
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+[23:51:55] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[23:51:56] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[23:51:56] [Client thread/INFO] [packextract]: Pack Extract will export automatically once a world has loaded
+[23:51:57] [AE2 CSV Export/ERROR] [BartWorks]: catching
+java.lang.Exception: NO SUCH ITEM! wireFineLumiium If you encounter this as a user, make sure to contact the authors of the pack/the mods you're playing! If you are a Developer, you forgot to enable wireFine OrePrefix for Werkstoff Lumiium
+Exception in thread "AE2 CSV Export" [23:51:57] [AE2 CSV Export/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: java.lang.NullPointerException
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+java.lang.Exception
+[23:52:01] [Client thread/ERROR] [GregTech GTNH]: EUt > Practical Voltage detected. EUt: 2013265920, Practical Voltage: 2013265912
+[23:52:01] [Client thread/ERROR] [GregTech GTNH]: java.lang.IllegalArgumentException
+[23:52:01] [Client thread/ERROR] [GregTech GTNH]: EUt > Practical Voltage detected. EUt: 2013265920, Practical Voltage: 2013265912
+[23:52:01] [Client thread/ERROR] [GregTech GTNH]: java.lang.IllegalArgumentException
+[23:52:01] [Client thread/ERROR] [GregTech GTNH]: EUt > Practical Voltage detected. EUt: 2013265920, Practical Voltage: 2013265912
+[23:52:01] [Client thread/ERROR] [GregTech GTNH]: java.lang.IllegalArgumentException
+[23:52:01] [Client thread/ERROR] [GregTech GTNH]: EUt > Practical Voltage detected. EUt: 2013265920, Practical Voltage: 2013265912
+[23:52:01] [Client thread/ERROR] [GregTech GTNH]: java.lang.IllegalArgumentException
+[23:52:01] [Client thread/ERROR] [NotEnoughItems]: Failed to load 'untranslator.cfg' file nei:untranslator.cfg
+ic2.core.util.Config$ParseException: invalid input specified: IC2:reactorMOXQuaddepleted at line 44 (IC2:reactorMOXQuaddepleted = IC2:itemPlutoniumSmall@0@4 IC2:itemPlutonium@0@12 IC2:itemDust@5@6 @heat:5000).
+ic2.core.util.Config$ParseException: invalid input specified: IC2:reactorUraniumDualdepleted at line 50 (IC2:reactorUraniumDualdepleted = IC2:itemPlutoniumSmall@0@2 IC2:itemUran238@0@8 IC2:itemDust@5@3 @heat:4000).
+ic2.core.util.Config$ParseException: invalid input specified: IC2:reactorUraniumQuaddepleted at line 54 (IC2:reactorUraniumQuaddepleted = IC2:itemPlutoniumSmall@0@4 IC2:itemUran238@0@16 IC2:itemDust@5@6 @heat:4000).
+ic2.core.util.Config$ParseException: invalid input specified: IC2:reactorUraniumSimpledepleted at line 64 (IC2:reactorUraniumSimpledepleted = IC2:itemPlutoniumSmall IC2:itemUran238@0@4 IC2:itemDust@5 @heat:4000).
+ic2.core.util.Config$ParseException: invalid input specified: IC2:reactorMOXSimpledepleted at line 74 (IC2:reactorMOXSimpledepleted = IC2:itemPlutoniumSmall IC2:itemPlutonium@0@3 IC2:itemDust@5 @heat:5000).
+ic2.core.util.Config$ParseException: invalid input specified: IC2:reactorMOXDualdepleted at line 76 (IC2:reactorMOXDualdepleted = IC2:itemPlutoniumSmall@0@2 IC2:itemPlutonium@0@6 IC2:itemDust@5@3 @heat:5000).
+[23:52:02] [Client thread/ERROR] [modularui2]: Tried to parse UITexture from json, but no texture with name 'gregtech:overlay_slot_in_primitive' is registered!
+[23:52:02] [Client thread/ERROR] [ForgeMultipart]: Trait already registered for net/minecraftforge/fluids/IFluidHandler
+[23:52:02] [Client thread/ERROR] [ForgeMultipart]: Trait already registered for net/minecraftforge/fluids/IFluidHandler
+[23:52:02] [Client thread/ERROR] [ForgeMultipart]: Trait already registered for net/minecraft/inventory/ISidedInventory
+[23:52:02] [Client thread/ERROR] [ForgeMultipart]: Trait already registered for net/minecraft/inventory/ISidedInventory
+[23:52:02] [Client thread/ERROR] [tectech]: NHCoreMod not present. Disabling all the recipes
+[23:52:02] [Client thread/ERROR] [GregTech GTNH]: EUt > Practical Voltage detected. EUt: 131072, Practical Voltage: 122880
+[23:52:02] [Client thread/ERROR] [GregTech GTNH]: java.lang.IllegalArgumentException
+[23:52:02] [Client thread/ERROR] [GregTech GTNH]: EUt > Practical Voltage detected. EUt: 131072, Practical Voltage: 122880
+[23:52:02] [Client thread/ERROR] [GregTech GTNH]: java.lang.IllegalArgumentException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in recipe oredict input
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: addAssemblingLineRecipe Fluid Storage Core T2 --> item.fluidCore.2 there is some null item in that recipe
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in recipe oredict input
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: addAssemblingLineRecipe Fluid Storage Core T3 --> item.fluidCore.3 there is some null item in that recipe
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in recipe oredict input
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: addAssemblingLineRecipe Fluid Storage Core T4 --> item.fluidCore.4 there is some null item in that recipe
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in recipe oredict input
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: addAssemblingLineRecipe Fluid Storage Core T5 --> item.fluidCore.5 there is some null item in that recipe
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in recipe oredict input
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: addAssemblingLineRecipe Fluid Storage Core T6 --> item.fluidCore.6 there is some null item in that recipe
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in recipe oredict input
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: addAssemblingLineRecipe Fluid Storage Core T7 --> item.fluidCore.7 there is some null item in that recipe
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in recipe oredict input
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: addAssemblingLineRecipe Fluid Storage Core T8 --> item.fluidCore.8 there is some null item in that recipe
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in recipe oredict input
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: addAssemblingLineRecipe Fluid Storage Core T9 --> item.fluidCore.9 there is some null item in that recipe
+[23:52:03] [Client thread/ERROR] [tectech]: addAssemblingLineRecipe Component Assembly Line Casing (UV) --> componentAssemblyLineCasing.8 there is some null item in that recipe
+[23:52:03] [Client thread/ERROR] [tectech]: addAssemblingLineRecipe Component Assembly Line Casing (UHV) --> componentAssemblyLineCasing.9 there is some null item in that recipe
+[23:52:03] [Client thread/ERROR] [tectech]: addAssemblingLineRecipe Component Assembly Line Casing (UEV) --> componentAssemblyLineCasing.10 there is some null item in that recipe
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+java.lang.Exception
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in recipe oredict input
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: addAssemblingLineRecipe Tungstensteel Pipe Casing --> casing.coolant_delivery there is some null item in that recipe
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemInputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: invalid recipe: not enough input items
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.IllegalArgumentException
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: null detected in itemOutputs
+[23:52:03] [Client thread/ERROR] [GregTech GTNH]: java.lang.NullPointerException
