@@ -1,0 +1,25 @@
+name: Update release notes
+
+# Rewrites the latest release's notes from .github/RELEASE_NOTES.md whenever that file changes on main.
+on:
+  push:
+    branches: [main]
+    paths: ['.github/RELEASE_NOTES.md']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  notes:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Edit the latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=$(gh release list --repo "${GITHUB_REPOSITORY}" --limit 1 --json tagName --jq '.[0].tagName')
+          if [ -z "$TAG" ]; then echo "no release yet"; exit 0; fi
+          gh release edit "$TAG" --repo "${GITHUB_REPOSITORY}" --notes-file .github/RELEASE_NOTES.md
+          echo "updated $TAG"
