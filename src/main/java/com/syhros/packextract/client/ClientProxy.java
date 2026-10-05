@@ -87,7 +87,9 @@ public class ClientProxy extends CommonProxy {
             return;
         }
         Minecraft mc = Minecraft.getMinecraft();
-        if (auto == Auto.WAIT_WORLD) {
+        if (auto == Auto.WAIT_MENU) {
+            tickAutoWorld(mc);
+        } else if (auto == Auto.WAIT_WORLD) {
             tickAutoExport(mc);
         }
         if (pending == null) {
@@ -102,22 +104,32 @@ public class ClientProxy extends CommonProxy {
 
     @SubscribeEvent
     public void onGuiOpen(GuiOpenEvent event) {
-        if (!ClientConfig.autoExport || !(event.gui instanceof GuiMainMenu)) {
+        if (ClientConfig.autoExport && auto == Auto.OFF && event.gui instanceof GuiMainMenu) {
+            auto = Auto.WAIT_MENU;
+            autoTicks = 0;
+        }
+    }
+
+    /**
+     * Opens (or creates) a flat creative world once the main menu has been up for a second. GregTech and NEI only
+     * finish setting up their rendering and item lists inside a world. Not done inside GuiOpenEvent: the first main
+     * menu opens while the game is still initialising.
+     */
+    private static void tickAutoWorld(Minecraft mc) {
+        if (!(mc.currentScreen instanceof GuiMainMenu) || ++autoTicks < 20) {
             return;
         }
-        if (auto == Auto.OFF) {
-            auto = Auto.WAIT_MENU;
-        }
-        if (auto == Auto.WAIT_MENU) {
-            // Open (or create) a flat creative world: GregTech and NEI only finish setting up their rendering and item
-            // lists inside a world.
-            auto = Auto.WAIT_WORLD;
-            autoTicks = 0;
-            PackExtract.LOG.info("Automatic export: loading world {}", AUTO_WORLD);
+        auto = Auto.WAIT_WORLD;
+        autoTicks = 0;
+        PackExtract.LOG.info("Automatic export: loading world {}", AUTO_WORLD);
+        try {
             WorldSettings settings = new WorldSettings(0L, WorldSettings.GameType.CREATIVE, false, false,
                 WorldType.FLAT);
             settings.enableCommands();
-            Minecraft.getMinecraft().launchIntegratedServer(AUTO_WORLD, AUTO_WORLD, settings);
+            mc.launchIntegratedServer(AUTO_WORLD, AUTO_WORLD, settings);
+        } catch (Throwable t) {
+            PackExtract.LOG.error("Automatic export: could not open a world", t);
+            auto = Auto.STARTED;
         }
     }
 
