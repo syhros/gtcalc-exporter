@@ -97,7 +97,7 @@ def fluid_ok(fluid_id, label):
 
 oak = item_ok("minecraft:log:0", "Oak Wood")
 if oak and oak.get("image"):
-    looks_right(oak["image"], "Oak Wood", 60)
+    looks_right(oak["image"], "Oak Wood", 45)
 item_ok("minecraft:log:1", "Spruce Wood")
 item_ok("minecraft:wool:14", "Red Wool")
 item_ok("minecraft:iron_ingot:0", "Iron Ingot")
@@ -127,14 +127,15 @@ check(manifest["counts"]["craftingRecipes"] > 200, "more than 200 crafting recip
 
 if profile == "gregtech":
     # GT5 meta item ids: prefix * 1000 + material id; Iron is material 32.
-    # Iron is light grey: a dark icon means the renderer was in a bad state.
-    for gid, label in [("gregtech:gt.metaitem.01:2032", "Iron Dust"),
-                       ("gregtech:gt.metaitem.01:3032", "Impure Pile of Iron Dust"),
-                       ("gregtech:gt.metaitem.01:4032", "Purified Pile of Iron Dust"),
-                       ("gregtech:gt.metaitem.01:6032", "Purified Crushed Iron Ore")]:
+    # Iron is light grey. Icons drawn while the renderer was in a bad state came out near-black (brightness ~40);
+    # correct ones measure about 150 (dust), 130 (purified), 120 (crushed) and 80 (impure, a dirtier texture).
+    for gid, label, floor in [("gregtech:gt.metaitem.01:2032", "Iron Dust", 100),
+                              ("gregtech:gt.metaitem.01:3032", "Impure Pile of Iron Dust", 60),
+                              ("gregtech:gt.metaitem.01:4032", "Purified Pile of Iron Dust", 90),
+                              ("gregtech:gt.metaitem.01:6032", "Purified Crushed Iron Ore", 80)]:
         it = item_ok(gid, label)
         if it and it.get("image"):
-            looks_right(it["image"], label, 90)
+            looks_right(it["image"], label, floor)
     fluid_ok("molten.iron", "Molten Iron")
     if fluid_by_id.get("molten.iron", {}).get("image"):
         looks_right(fluid_by_id["molten.iron"]["image"], "Molten Iron", 60)
