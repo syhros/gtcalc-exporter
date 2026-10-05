@@ -136,7 +136,9 @@ jobs:
           grep -E "Pack Extract|packextract|Export" client.log | tail -60 || true
 
       - name: Check the export
-        run: python3 .github/scripts/check_export.py export-out ${{ matrix.profile }} contact-sheet-${{ matrix.profile }}.png
+        run: |
+          python3 .github/scripts/check_export.py export-out ${{ matrix.profile }} contact-sheet-${{ matrix.profile }}.png 2>&1 | tee check-${{ matrix.profile }}.txt
+          exit ${PIPESTATUS[0]}
 
       - name: Show problems
         if: always()
@@ -150,6 +152,7 @@ jobs:
           [ -f contact-sheet-${{ matrix.profile }}.png ] || exit 0
           mkdir -p /tmp/shots && cp contact-sheet-${{ matrix.profile }}.png* /tmp/shots/
           cp export-out/*/manifest.json /tmp/shots/manifest-${{ matrix.profile }}.json || true
+          cp check-${{ matrix.profile }}.txt /tmp/shots/ || true
           cd /tmp/shots
           git init -q -b ci-screenshots
           git config user.name "github-actions[bot]"

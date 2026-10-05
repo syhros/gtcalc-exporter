@@ -138,7 +138,8 @@ if profile == "gregtech":
             looks_right(it["image"], label, floor)
     fluid_ok("molten.iron", "Molten Iron")
     if fluid_by_id.get("molten.iron", {}).get("image"):
-        looks_right(fluid_by_id["molten.iron"]["image"], "Molten Iron", 60)
+        # GT's molten texture is animated and nearly flat (2-3 colours in some frames): brightness only.
+        looks_right(fluid_by_id["molten.iron"]["image"], "Molten Iron", 60, 1)
     check(manifest["counts"].get("itemsAddedByNei", 0) > 0, "NEI's item list was used (export ran in a world)")
     check(len(gregtech) > 10000, f"more than 10000 GregTech recipes ({len(gregtech)})")
     check(len(gt_maps) > 50, f"more than 50 GregTech recipe maps ({len(gt_maps)})")
