@@ -2,11 +2,13 @@
 // reflection, so one jar works across their versions.
 //
 // The dev client used by CI loads NEI, and with -PdevGregTech=true also GregTech 5 (GT5-Unofficial),
-// to run a real export.
+// to run a real export. -PdevGregTechVersion picks the GT version (older GT dev builds resolve
+// mismatched GTNHLib/ModularUI2 versions and do not start, so the default is a recent one).
 dependencies {
     if (project.findProperty("devGregTech") == "true") {
         // GregTech brings the NEI, GTNHLib and ModularUI versions it was built with.
-        runtimeOnlyNonPublishable("com.github.GTNewHorizons:GT5-Unofficial:5.09.51.482:dev")
+        def gt = project.findProperty("devGregTechVersion") ?: "5.09.54.207"
+        runtimeOnlyNonPublishable("com.github.GTNewHorizons:GT5-Unofficial:${gt}:dev")
     } else {
         runtimeOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:2.7.69-GTNH:dev")
     }
