@@ -1,0 +1,7 @@
+Mekanism-1.20.1-10.4.16.80.jar
+appliedenergistics2-forge-15.4.11.jar
+create-1.20.1-6.0.8.jar
+guideme-20.1.15.jar
+jei-1.20.1-forge-15.62.0.219.jar
+mezz_config-1.20.1-forge-0.6.8.jar
+packextract-forge-1.20.1-1.1.0.jar

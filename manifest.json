@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "generator": "Pack Extract 1.1.0",
+  "minecraft": "1.20.1",
+  "loader": "Forge 47.4.26",
+  "pack": "ci-1.20.1-popular",
+  "generatedAt": "2026-10-05T23:53:59Z",
+  "seconds": 2,
+  "imageSize": 64,
+  "maxItems": 500,
+  "counts": {
+    "itemsFromRegistry": 2698,
+    "itemsAddedByCreativeTabs": 1004,
+    "itemsAddedByJei": 5,
+    "craftingRecipes": 2072,
+    "craftingSpecialRecipes": 19,
+    "smeltingRecipes": 185,
+    "otherRecipes": 2340,
+    "otherRecipeTypes": 48,
+    "recipes": 4616,
+    "itemTags": 536,
+    "fluidTags": 29,
+    "blockTags": 345,
+    "imagesWritten": 525,
+    "blankImages": 1,
+    "items": 3708,
+    "fluids": 25,
+    "errors": 0
+  },
+  "stageMillis": {
+    "items": 574,
+    "fluids": 77,
+    "recipes:craftingRecipes": 212,
+    "recipes:smeltingRecipes": 220,
+    "recipes:otherRecipes": 244,
+    "recipes": 244,
+    "tags": 67,
+    "item_images": 1553,
+    "fluid_images": 214
+  },
+  "files": {
+    "items": "items.json",
+    "itemsCsv": "items.csv",
+    "fluids": "fluids.json",
+    "fluidsCsv": "fluids.csv",
+    "craftingRecipes": "recipes/crafting.json",
+    "smeltingRecipes": "recipes/smelting.json",
+    "otherRecipes": "recipes/other.json",
+    "tags": "tags.json",
+    "errors": "errors.log"
+  },
+  "mods": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "version": "1.20.1"
+    },
+    {
+      "id": "packextract",
+      "name": "Pack Extract",
+      "version": "1.1.0"
+    },
+    {
+      "id": "mixinextras",
+      "name": "MixinExtras",
+      "version": "0.4.1"
+    },
+    {
+      "id": "guideme",
+      "name": "GuideME",
+      "version": "20.1.15"
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "version": "47.4.26"
+    },
+    {
+      "id": "flywheel",
+      "name": "Flywheel",
+      "version": "1.0.5"
+    },
+    {
+      "id": "ponder",
+      "name": "Ponder",
+      "version": "1.0.91"
+    },
+    {
+      "id": "create",
+      "name": "Create",
+      "version": "6.0.8"
+    },
+    {
+      "id": "mezz_config",
+      "name": "MezzConfig",
+      "version": "0.6.8"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "version": "15.62.0.219"
+    },
+    {
+      "id": "ae2",
+      "name": "Applied Energistics 2",
+      "version": "15.4.11"
+    },
+    {
+      "id": "mekanism",
+      "name": "Mekanism",
+      "version": "10.4.16"
+    }
+  ]
+}
