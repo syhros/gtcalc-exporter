@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "generator": "Pack Extract 1.1.0",
+  "minecraft": "1.20.1",
+  "loader": "Forge 47.4.26",
+  "pack": "ci-1.20.1-gregtech",
+  "generatedAt": "2026-10-05T23:53:50Z",
+  "seconds": 7,
+  "imageSize": 64,
+  "maxItems": 500,
+  "counts": {
+    "itemsFromRegistry": 10062,
+    "itemsAddedByCreativeTabs": 1559,
+    "itemsAddedByJei": 872,
+    "craftingRecipes": 7631,
+    "craftingSpecialRecipes": 15,
+    "smeltingRecipes": 3965,
+    "gregtechRecipes": 27741,
+    "gregtechMaps": 56,
+    "otherRecipes": 261,
+    "otherRecipeTypes": 2,
+    "recipes": 39613,
+    "itemTags": 3976,
+    "fluidTags": 446,
+    "blockTags": 842,
+    "imagesWritten": 938,
+    "blankImages": 0,
+    "items": 13806,
+    "fluids": 438,
+    "errors": 0
+  },
+  "stageMillis": {
+    "items": 1725,
+    "fluids": 118,
+    "recipes:craftingRecipes": 941,
+    "recipes:smeltingRecipes": 1025,
+    "recipes:gregtechRecipes": 3616,
+    "recipes:otherRecipes": 3621,
+    "recipes": 3621,
+    "tags": 85,
+    "item_images": 1314,
+    "fluid_images": 455
+  },
+  "files": {
+    "items": "items.json",
+    "itemsCsv": "items.csv",
+    "fluids": "fluids.json",
+    "fluidsCsv": "fluids.csv",
+    "craftingRecipes": "recipes/crafting.json",
+    "smeltingRecipes": "recipes/smelting.json",
+    "gregtechRecipes": "recipes/gregtech.json",
+    "gregtechMaps": "recipes/gregtech-maps.json",
+    "otherRecipes": "recipes/other.json",
+    "tags": "tags.json",
+    "errors": "errors.log"
+  },
+  "mods": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "version": "1.20.1"
+    },
+    {
+      "id": "packextract",
+      "name": "Pack Extract",
+      "version": "1.1.0"
+    },
+    {
+      "id": "configuration",
+      "name": "Configuration",
+      "version": "2.2.0"
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "version": "47.4.26"
+    },
+    {
+      "id": "mezz_config",
+      "name": "MezzConfig",
+      "version": "0.6.8"
+    },
+    {
+      "id": "ldlib",
+      "name": "LowDragLib",
+      "version": "1.0.40.b"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "version": "15.62.0.219"
+    },
+    {
+      "id": "gtceu",
+      "name": "GregTech",
+      "version": "7.5.3"
+    }
+  ]
+}

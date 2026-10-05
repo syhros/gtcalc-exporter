@@ -1,0 +1,75 @@
+/home/runner/work/gtcalc-exporter/gtcalc-exporter/.github/scripts/check_export.py:94: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = [p for p in im.getdata() if p[3] > 128]
+export folder: export-out/ci-1.20.1-gregtech-20261005-235350
+minecraft 1.20.1 Forge 47.4.26 | modern ids
+{
+ "itemsFromRegistry": 10062,
+ "itemsAddedByCreativeTabs": 1559,
+ "itemsAddedByJei": 872,
+ "craftingRecipes": 7631,
+ "craftingSpecialRecipes": 15,
+ "smeltingRecipes": 3965,
+ "gregtechRecipes": 27741,
+ "gregtechMaps": 56,
+ "otherRecipes": 261,
+ "otherRecipeTypes": 2,
+ "recipes": 39613,
+ "itemTags": 3976,
+ "fluidTags": 446,
+ "blockTags": 842,
+ "imagesWritten": 938,
+ "blankImages": 0,
+ "items": 13806,
+ "fluids": 438,
+ "errors": 0
+}
+stage times (ms): {'items': 1725, 'fluids': 118, 'recipes:craftingRecipes': 941, 'recipes:smeltingRecipes': 1025, 'recipes:gregtechRecipes': 3616, 'recipes:otherRecipes': 3621, 'recipes': 3621, 'tags': 85, 'item_images': 1314, 'fluid_images': 455}
+ok   item ids are unique (13806 items)
+ok   items have names (0 without, e.g. [])
+ok   manifest item count matches items.json
+ok   few errors logged (0)
+ok   500 item images (expected about 500)
+ok   every item image file exists (0 missing, e.g. [])
+ok   blank item images under 5% (0, e.g. [])
+ok   438 fluid images (expected about 438)
+mods with images: ['gtceu', 'minecraft']
+ok   Oak Wood (minecraft:oak_log) is listed
+ok   Oak Wood has a non-blank image
+ok   Oak Wood image looks right (brightness 63 >= 45, 21 colours >= 4)
+ok   Spruce Wood (minecraft:spruce_log) is listed
+ok   Spruce Wood has a non-blank image
+ok   Red Wool (minecraft:red_wool) is listed
+ok   Red Wool has a non-blank image
+ok   Iron Ingot (minecraft:iron_ingot) is listed
+ok   fluid Water (minecraft:water) is listed
+ok   fluid Water has a non-blank image
+ok   Water image looks right (brightness 67 >= 40, 9 colours >= 4)
+ok   fluid Lava (minecraft:lava) is listed
+ok   fluid Lava has a non-blank image
+ok   item tag minecraft:logs contains oak logs
+ok   fluid tags exported (446)
+ok   crafting table recipe exported
+crafting table recipe: {"id": "minecraft:crafting_table", "type": "shaped", "width": 2, "height": 2, "inputs": [{"amount": 1, "anyOf": ["minecraft:oak_planks", "minecraft:spruce_planks", "minecraft:birch_planks", "minecraft:jungle_planks", "minecraft:acacia_planks", "minecraft:dark_oak_planks", "minecraft:crimson_planks", "minecraft:warped_planks", "minecraft:mangrove_planks", "minecraft:bamboo_planks", "minecraft:cherr
+ok   crafting table recipe has inputs
+ok   iron ore smelts to iron ingot
+ok   more than 200 crafting recipes
+ok   every item a recipe uses is in items.json (0 missing, e.g. [])
+other.json types and classes (top 20):
+     201 minecraft:stonecutting net.minecraft.world.item.crafting.StonecutterRecipe
+      44 minecraft:smithing net.minecraft.world.item.crafting.SmithingTransformRecipe
+      16 minecraft:smithing net.minecraft.world.item.crafting.SmithingTrimRecipe
+ok   more than 30 GregTech recipe maps (56)
+ok   more than 5000 GregTech recipes (27741)
+ok   macerator recipes exported (6230 in gtceu:macerator)
+ok   macerator recipes with chanced outputs (2104)
+chanced macerator recipe: {"map": "gtceu:macerator", "id": "gtceu:macerator/macerate_granite_tungstate_ore_to_crushed_ore", "inputs": [{"item": "gtceu:granite_tungstate_ore", "amount": 1}], "outputs": [{"item": "gtceu:crushed_tungstate_ore", "amount": 2}, {"item": "gtceu:manganese_dust", "amount": 1, "chance": 0.14}, {"item": "gtceu:granite_dust", "amount": 1, "chance": 0.67}], "fluidInputs": [], "fluidOutputs": [], "eut": 2, "duration": 400}
+ok   recipes with fluids (11450)
+ok   eut and duration are numbers
+ok   GregTech items have images (224)
+ok   GregTech images are not blank (0 of 224 blank, e.g. [])
+ok   Iron Dust (gtceu:iron_dust) is listed
+ok   blast furnace recipes carry their coil temperature (286)
+items added by JEI: 872
+contact sheet: contact-sheet.png
+
+all checks passed

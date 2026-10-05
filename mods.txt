@@ -1,0 +1,4 @@
+gtceu-1.20.1-7.5.3.jar
+jei-1.20.1-forge-15.62.0.219.jar
+mezz_config-1.20.1-forge-0.6.8.jar
+packextract-forge-1.20.1-1.1.0.jar

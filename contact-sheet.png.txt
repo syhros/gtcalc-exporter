@@ -1,0 +1,192 @@
+0,0 minecraft:oak_log Oak Log
+0,1 minecraft:red_wool Red Wool
+0,2 minecraft:raw_iron_block Block of Raw Iron
+0,3 gtceu:andesite_cobaltite_ore Andesite Cobaltite Ore
+0,4 minecraft:potion#09976461 Potion of the Turtle Master
+0,5 gtceu:iron_chainsaw_head Iron Chainsaw Head
+0,6 gtceu:plutonium_241_rod Plutonium 241 Rod
+0,7 minecraft:warped_planks Warped Planks
+0,8 minecraft:stripped_crimson_stem Stripped Crimson Stem
+0,9 minecraft:lapis_ore Lapis Lazuli Ore
+0,10 minecraft:light_gray_terracotta Light Gray Terracotta
+0,11 gtceu:pure_spodumene_dust Purified Pile of Spodumene Dust
+1,0 minecraft:spruce_slab Spruce Slab
+1,1 minecraft:stone_slab Stone Slab
+1,2 gtceu:high_octane_gasoline_bucket High Octane Gasoline Bucket
+1,3 minecraft:black_wool Black Wool
+1,4 gtceu:small_rtm_alloy_dust Small Pile of RTM Alloy Dust
+1,5 minecraft:waxed_weathered_cut_copper_slab Waxed Weathered Cut Copper Slab
+1,6 minecraft:coal_ore Coal Ore
+1,7 minecraft:mud_brick_slab Mud Brick Slab
+1,8 minecraft:dirt Dirt
+1,9 gtceu:blue_steel_butchery_knife#b20cac5e Blue Steel Butchery Knife
+1,10 gtceu:lv_steel_screwdriver#b9859537 Steel Screwdriver (LV)
+1,11 minecraft:azure_bluet Azure Bluet
+2,0 minecraft:kelp Kelp
+2,1 gtceu:trona_indicator Trona Surface Rock
+2,2 gtceu:rhodium_gear Rhodium Gear
+2,3 gtceu:cobalt_rod Cobalt Rod
+2,4 minecraft:granite Granite
+2,5 gtceu:luv_voltage_coil Ludicrous Voltage Coil
+2,6 minecraft:bamboo Bamboo
+2,7 minecraft:stripped_acacia_wood Stripped Acacia Wood
+2,8 gtceu:thorium_dust Thorium Dust
+2,9 gtceu:aluminium_knife#762d589a Aluminium Knife
+2,10 minecraft:mangrove_roots Mangrove Roots
+2,11 gtceu:endstone_graphite_ore End Graphite Ore
+3,0 minecraft:copper_ore Copper Ore
+3,1 gtceu:iv_tungsten_steel_drill#ae8a55ba Tungstensteel Drill (IV)
+3,2 minecraft:flowering_azalea_leaves Flowering Azalea Leaves
+3,3 minecraft:coarse_dirt Coarse Dirt
+3,4 minecraft:tuff Tuff
+3,5 minecraft:grass_block Grass Block
+3,6 gtceu:impure_enriched_naquadah_solution_bucket Impure Enriched Naquadah Solution Bucket
+3,7 gtceu:niobium_block Block of Niobium
+3,8 minecraft:polished_diorite Polished Diorite
+3,9 gtceu:lv_ultimet_wrench#104ba87c Ultimet Wrench (LV)
+3,10 minecraft:dandelion Dandelion
+3,11 gtceu:hv_electric_piston HV Electric Piston
+4,0 minecraft:spruce_log Spruce Log
+4,1 minecraft:warped_roots Warped Roots
+4,2 gtceu:chromium_dust Chromium Dust
+4,3 gtceu:hv_wrought_iron_screwdriver#346579d9 Wrought Iron Screwdriver (HV)
+4,4 gtceu:steel_brick_casing Bricked Wrought Iron Casing
+4,5 minecraft:acacia_log Acacia Log
+4,6 gtceu:red_steel_crowbar#d8c38835 Red Steel Crowbar
+4,7 minecraft:moss_block Moss Block
+4,8 gtceu:neutronium_knife#9eb34c7f Neutronium Knife
+4,9 gtceu:red_granite_pyrolusite_ore Red Granite Pyrolusite Ore
+4,10 minecraft:crimson_stem Crimson Stem
+4,11 minecraft:dead_bush Dead Bush
+5,0 minecraft:muddy_mangrove_roots Muddy Mangrove Roots
+5,1 gtceu:lv_diode §7LV Diode
+5,2 minecraft:jungle_log Jungle Log
+5,3 gtceu:bronze_spade#ce7c906b Bronze Spade
+5,4 minecraft:dark_oak_slab Dark Oak Slab
+5,5 minecraft:cherry_wood Cherry Wood
+5,6 gtceu:hv_cobalt_brass_screwdriver#d6c1be5d Cobalt Brass Screwdriver (HV)
+5,7 minecraft:crimson_fungus Crimson Fungus
+5,8 gtceu:iron_knife#b9859537 Iron Knife
+5,9 gtceu:blackstone_pyrite_ore Blackstone Pyrite Ore
+5,10 gtceu:molten_tungsten_steel_bucket Molten Tungstensteel Bucket
+5,11 minecraft:deepslate_iron_ore Deepslate Iron Ore
+6,0 minecraft:waxed_weathered_copper Waxed Weathered Copper
+6,1 gtceu:titanium_quadruple_fluid_pipe Quadruple Titanium Fluid Pipe
+6,2 gtceu:borosilicate_glass_dust Borosilicate Glass Dust
+6,3 minecraft:crimson_hyphae Crimson Hyphae
+6,4 minecraft:deepslate_lapis_ore Deepslate Lapis Lazuli Ore
+6,5 gtceu:tiny_rare_earth_dust Tiny Pile of Rare Earth
+6,6 minecraft:cut_sandstone Cut Sandstone
+6,7 gtceu:steel_mining_hammer#ca488c1f Steel Mining Hammer
+6,8 gtceu:refined_bauxite_ore Refined Bauxite Ore
+6,9 minecraft:horn_coral_block Horn Coral Block
+6,10 gtceu:naquadah_alloy_saw#cc16738c Naquadah Alloy Saw
+6,11 minecraft:spruce_chest_boat Spruce Boat with Chest
+7,0 gtceu:tungsten_steel_drum Tungstensteel Drum
+7,1 minecraft:waxed_cut_copper Waxed Cut Copper
+7,2 minecraft:birch_leaves Birch Leaves
+7,3 minecraft:birch_wood Birch Wood
+7,4 gtceu:basalt_bastnasite_ore Basalt Bastnasite Ore
+7,5 minecraft:lime_glazed_terracotta Lime Glazed Terracotta
+7,6 minecraft:mangrove_pressure_plate Mangrove Pressure Plate
+7,7 minecraft:orange_tulip Orange Tulip
+7,8 gtceu:marble_neodymium_ore Marble Neodymium Ore
+7,9 minecraft:rooted_dirt Rooted Dirt
+7,10 minecraft:petrified_oak_slab Petrified Oak Slab
+7,11 minecraft:stripped_birch_log Stripped Birch Log
+8,0 gtceu:iron_mining_hammer#b9859537 Iron Mining Hammer
+8,1 minecraft:lily_of_the_valley Lily of the Valley
+8,2 minecraft:red_mushroom Red Mushroom
+8,3 gtceu:luv_transformer_4a §dLudicrous Voltage§r Hi-Amp (4x) Transformer
+8,4 minecraft:oxidized_cut_copper_stairs Oxidized Cut Copper Stairs
+8,5 minecraft:light_gray_wool Light Gray Wool
+8,6 gtceu:deepslate_almandine_ore Deepslate Almandine Ore
+8,7 gtceu:niobium_titanium_nugget Niobium Titanium Nugget
+8,8 gtceu:blue_topaz_gem Blue Topaz
+8,9 gtceu:ev_substation_input_hatch_64a §5EV 64A Substation Energy Hatch
+8,10 gtceu:tiny_basaltic_mineral_sand_dust Tiny Pile of Basaltic Mineral Sand
+8,11 minecraft:brown_wool Brown Wool
+9,0 minecraft:suspicious_sand Suspicious Sand
+9,1 gtceu:hv_vanadium_steel_screwdriver#47f50665 Vanadium Steel Screwdriver (HV)
+9,2 gtceu:zpm_macerator §cElite Macerator III§r
+9,3 minecraft:iron_shovel#a431e2b5 Iron Shovel
+9,4 minecraft:deepslate_gold_ore Deepslate Gold Ore
+9,5 minecraft:weathered_cut_copper Weathered Cut Copper
+9,6 minecraft:shulker_shell Shulker Shell
+9,7 gtceu:cobalt_brass_wire_cutter#48d4f86c Cobalt Brass Wire Cutter
+9,8 minecraft:purple_wool Purple Wool
+9,9 minecraft:nether_brick_slab Nether Brick Slab
+9,10 gtceu:tiny_silver_dust Tiny Pile of Silver Dust
+9,11 gtceu:lv_red_steel_chainsaw#fe78b937 Red Steel Chainsaw (LV)
+10,0 minecraft:warped_slab Warped Slab
+10,1 minecraft:oak_planks Oak Planks
+10,2 minecraft:acacia_leaves Acacia Leaves
+10,3 gtceu:hot_naquadah_alloy_ingot Hot Naquadah Alloy Ingot
+10,4 gtceu:niobium_nitride_quadruple_wire 4x Niobium Nitride Wire
+10,5 gtceu:sand_garnet_sand_ore Sand Garnet Sand Ore
+10,6 gtceu:red_granite_cobalt_ore Red Granite Cobalt Ore
+10,7 gtceu:americium_ingot Americium Ingot
+10,8 gtceu:severely_steam_cracked_heavy_fuel_bucket Severely Steam-Cracked Heavy Fuel Bucket
+10,9 minecraft:weathered_cut_copper_stairs Weathered Cut Copper Stairs
+10,10 minecraft:exposed_cut_copper_stairs Exposed Cut Copper Stairs
+10,11 minecraft:cobbled_deepslate_slab Cobbled Deepslate Slab
+11,0 minecraft:mangrove_log Mangrove Log
+11,1 minecraft:polished_andesite Polished Andesite
+11,2 minecraft:waxed_exposed_cut_copper_stairs Waxed Exposed Cut Copper Stairs
+11,3 gtceu:tin_alloy_block Block of Tin Alloy
+11,4 gtceu:impure_plutonium_dust Impure Pile of Plutonium Dust
+11,5 gtceu:light_gray_borderless_lamp#f3f0db17 Light Gray Borderless Lamp
+11,6 minecraft:wither_rose Wither Rose
+11,7 minecraft:gold_nugget Gold Nugget
+11,8 gtceu:black_borderless_lamp#e4d8bfd7 Black Borderless Lamp
+11,9 gtceu:gravel_opal_ore Gravel Opal Ore
+11,10 minecraft:orange_wool Orange Wool
+11,11 minecraft:enchanted_book#e178a31e Enchanted Book
+12,0 minecraft:stripped_cherry_wood Stripped Cherry Wood
+12,1 gtceu:hv_forge_hammer §6Advanced Forge Hammer II§r
+12,2 gtceu:refined_chalcopyrite_ore Refined Chalcopyrite Ore
+12,3 gtceu:sterling_silver_crowbar#0179363f Sterling Silver Crowbar
+12,4 minecraft:polished_granite Polished Granite
+12,5 minecraft:poppy Poppy
+12,6 minecraft:ink_sac Ink Sac
+12,7 minecraft:ancient_debris Ancient Debris
+12,8 fluid:minecraft:water Water
+12,9 fluid:minecraft:lava Lava
+12,10 fluid:minecraft:milk Milk
+12,11 fluid:gtceu:potion Uncraftable Potion
+13,0 fluid:gtceu:iron_ii_chloride Iron II Chloride
+13,1 fluid:gtceu:nitration_mixture Nitration Mixture
+13,2 fluid:gtceu:hsss Liquid HSS-S
+13,3 fluid:gtceu:molten_hsss Molten HSS-S
+13,4 fluid:gtceu:dichlorobenzene Dichlorobenzene
+13,5 fluid:gtceu:lightly_hydro_cracked_naphtha Lightly Hydro-Cracked Naphtha
+13,6 fluid:gtceu:vinyl_chloride Vinyl Chloride
+13,7 fluid:gtceu:lubricant Lubricant
+13,8 fluid:gtceu:hsse Liquid HSS-E
+13,9 fluid:gtceu:molten_hsse Molten HSS-E
+13,10 fluid:gtceu:formamide Formamide
+13,11 fluid:gtceu:mc_guffium_239 Mc Guffium 239
+14,0 fluid:gtceu:potin Liquid Potin
+14,1 fluid:gtceu:liquid_ender_air Liquid Ender Air
+14,2 fluid:gtceu:copper Liquid Copper
+14,3 fluid:gtceu:butadiene Butadiene
+14,4 fluid:gtceu:white_dye White Dye
+14,5 fluid:gtceu:glycerol Glycerol
+14,6 fluid:gtceu:steam_cracked_ethane Steam-Cracked Ethane
+14,7 fluid:gtceu:rhodium_sulfate Rhodium Sulfate
+14,8 fluid:gtceu:plutonium_241 Liquid Plutonium 241
+14,9 fluid:gtceu:black_dye Black Dye
+14,10 fluid:gtceu:silver Liquid Silver
+14,11 fluid:gtceu:steel Liquid Steel
+15,0 fluid:gtceu:severely_steam_cracked_light_fuel Severely Steam-Cracked Light Fuel
+15,1 fluid:gtceu:carbon Liquid Carbon
+15,2 fluid:gtceu:steam_cracked_butadiene Steam-Cracked Butadiene
+15,3 fluid:gtceu:gray_dye Gray Dye
+15,4 fluid:gtceu:nitric_acid Nitric Acid
+15,5 fluid:gtceu:ruthenium_trinium_americium_neutronate Liquid Ruthenium Trinium Americium Neutronate
+15,6 fluid:gtceu:molten_ruthenium_trinium_americium_neutronate Molten Ruthenium Trinium Americium Neutronate
+15,7 fluid:gtceu:sapphire_slurry Sapphire Slurry
+15,8 fluid:gtceu:magenta_dye Magenta Dye
+15,9 fluid:gtceu:carbon_monoxide Carbon Monoxide
+15,10 fluid:gtceu:niobium_nitride Liquid Niobium Nitride
+15,11 fluid:gtceu:molten_niobium_nitride Molten Niobium Nitride
