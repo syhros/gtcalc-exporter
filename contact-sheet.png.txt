@@ -1,0 +1,168 @@
+0,0 minecraft:bed:2 Magenta Bed
+0,1 mekanism:balloon:6 §3Cyan Balloon
+0,2 mekanism:machineblock:15 Logistical Sorter
+0,3 minecraft:spawn_egg:0#e2fe82b4 Spawn Skeleton Horse
+0,4 minecraft:sea_lantern:0 Sea Lantern
+0,5 mekanism:basicblock:2 Refined Obsidian
+0,6 minecraft:potion:0#15564886 Mundane Potion
+0,7 minecraft:red_flower:3 Azure Bluet
+0,8 mekanism:walkietalkie:0 Walkie-Talkie
+0,9 minecraft:jukebox:0 Jukebox
+0,10 minecraft:tipped_arrow:0#48d3cb42 Arrow of Slowness
+0,11 minecraft:tipped_arrow:0#6eeb9410 Arrow of Regeneration
+1,0 minecraft:splash_potion:0#cc161735 Splash Potion of Strength
+1,1 minecraft:stone_slab:5 Stone Bricks Slab
+1,2 minecraft:hopper_minecart:0 Minecart with Hopper
+1,3 minecraft:red_mushroom:0 Mushroom
+1,4 mekanism:basicblock:14 Thermal Evaporation Controller
+1,5 mekanism:ingot:0 Refined Obsidian Ingot
+1,6 mekanism:glowplasticblock:13 §dMagenta Plastic Glow Block
+1,7 minecraft:carrot:0 Carrot
+1,8 mekanism:machineblock:5#8c93365e Basic Sawing Factory
+1,9 minecraft:record_blocks:0 Music Disc
+1,10 minecraft:tipped_arrow:0#236dc225 Arrow of Leaping
+1,11 minecraft:enchanted_book:0 Enchanted Book
+2,0 mekanism:compresseddiamond:0 Compressed Diamond
+2,1 minecraft:obsidian:0 Obsidian
+2,2 mekanism:glowplasticblock:0 §8Black Plastic Glow Block
+2,3 minecraft:record_far:0 Music Disc
+2,4 minecraft:tipped_arrow:0#8f80a98c Arrow of Swiftness
+2,5 minecraft:potion:0#37cb7cfb Potion of Invisibility
+2,6 minecraft:carpet:6 Pink Carpet
+2,7 minecraft:enchanted_book:0#3ca8e25f Enchanted Book
+2,8 minecraft:concrete_powder:4 Yellow Concrete Powder
+2,9 mekanism:gastank:0#c00360d8 Ultimate Gas Tank
+2,10 minecraft:bone_block:0 Bone Block
+2,11 mekanism:slickplasticblock:15 §fWhite Slick Plastic Block
+3,0 minecraft:potion:0#e8f52ddf Potion of Weakness
+3,1 mekanism:glowplasticblock:14 §6Orange Plastic Glow Block
+3,2 mekanism:glowplasticblock:10 §aLime Plastic Glow Block
+3,3 mekanism:glowplasticblock:12 §9Light Blue Plastic Glow Block
+3,4 minecraft:splash_potion:0#6eeb9410 Splash Potion of Regeneration
+3,5 minecraft:stonebrick:0 Stone Bricks
+3,6 mekanism:glowplasticblock:3 §6Brown Plastic Glow Block
+3,7 mekanism:nugget:5 Copper Nugget
+3,8 minecraft:stone_slab:6 Nether Brick Slab
+3,9 minecraft:fence_gate:0 Oak Fence Gate
+3,10 minecraft:nether_wart_block:0 Nether Wart Block
+3,11 minecraft:nether_brick_stairs:0 Nether Brick Stairs
+4,0 minecraft:carpet:15 Black Carpet
+4,1 minecraft:enchanted_book:0#ec4c5bc9 Enchanted Book
+4,2 mekanism:glowpanel:11 §eYellow Glow Panel
+4,3 minecraft:concrete_powder:0 White Concrete Powder
+4,4 minecraft:enchanted_book:0#6007919e Enchanted Book
+4,5 minecraft:tipped_arrow:0#fffe6755 Arrow of Fire Resistance
+4,6 minecraft:enchanted_book:0#6b79aa0c Enchanted Book
+4,7 minecraft:feather:0 Feather
+4,8 minecraft:concrete_powder:6 Pink Concrete Powder
+4,9 minecraft:green_glazed_terracotta:0 Green Glazed Terracotta
+4,10 minecraft:concrete_powder:5 Lime Concrete Powder
+4,11 minecraft:lingering_potion:0#36beb5df Lingering Potion of Water Breathing
+5,0 mekanism:salt:0 Salt
+5,1 minecraft:enchanted_book:0#f14f0959 Enchanted Book
+5,2 minecraft:tipped_arrow:0#13b50ac5 Arrow of Harming
+5,3 minecraft:potion:0#74110538 Potion of Water Breathing
+5,4 minecraft:planks:5 Dark Oak Wood Planks
+5,5 minecraft:diamond_pickaxe:0 Diamond Pickaxe
+5,6 mekanism:machineblock:6#6f67ef95 Advanced Compressing Factory
+5,7 minecraft:sapling:0 Oak Sapling
+5,8 minecraft:splash_potion:0#f3451cd8 Splash Potion of Leaping
+5,9 minecraft:wooden_axe:0 Wooden Axe
+5,10 mekanism:roadplasticblock:10 §aLime Plastic Road
+5,11 minecraft:banner:12 Light Blue Banner
+6,0 minecraft:carpet:11 Blue Carpet
+6,1 minecraft:potion:0#13b50ac5 Potion of Harming
+6,2 minecraft:red_flower:4 Red Tulip
+6,3 minecraft:nether_brick_fence:0 Nether Brick Fence
+6,4 minecraft:leaves2:0 Acacia Leaves
+6,5 minecraft:dragon_egg:0 Dragon Egg
+6,6 mekanism:plasticfence:13 §dMagenta Plastic Barrier
+6,7 minecraft:grass_path:0 Grass Path
+6,8 minecraft:bowl:0 Bowl
+6,9 mekanism:basicblock2:6 Pressure Disperser
+6,10 minecraft:lingering_potion:0#52b1e6e5 Lingering Potion of Night Vision
+6,11 mekanism:roadplasticblock:12 §9Light Blue Plastic Road
+7,0 minecraft:potion:0#8421cb27 Potion of Poison
+7,1 minecraft:potion:0#f849df76 Potion of Slowness
+7,2 mekanism:robit:0 Robit
+7,3 mekanism:dirtydust:2 Dirty Osmium Dust
+7,4 mekanism:basicblock2:4#eb2e331b Basic Induction Provider
+7,5 minecraft:lapis_ore:0 Lapis Lazuli Ore
+7,6 minecraft:golden_axe:0 Golden Axe
+7,7 minecraft:wheat_seeds:0 Seeds
+7,8 minecraft:tipped_arrow:0#cc161735 Arrow of Strength
+7,9 minecraft:concrete_powder:11 Blue Concrete Powder
+7,10 mekanism:machineblock:0 Enrichment Chamber
+7,11 minecraft:jungle_stairs:0 Jungle Wood Stairs
+8,0 minecraft:quartz_ore:0 Nether Quartz Ore
+8,1 minecraft:monster_egg:0 Stone Monster Egg
+8,2 mekanism:roadplasticblock:3 §6Brown Plastic Road
+8,3 mekanism:freerunners:0#6f657cb6 Free Runners
+8,4 minecraft:noteblock:0 Note Block
+8,5 minecraft:beetroot:0 Beetroot
+8,6 mekanism:machineblock2:11#c00360d8 Ultimate Fluid Tank
+8,7 minecraft:lingering_potion:0#4ff91987 Lingering Potion of Swiftness
+8,8 minecraft:magenta_glazed_terracotta:0 Magenta Glazed Terracotta
+8,9 minecraft:stone_slab:1 Sandstone Slab
+8,10 mekanism:basicblock:10 Structural Glass
+8,11 minecraft:stained_glass:12 Brown Stained Glass
+9,0 minecraft:wool:12 Brown Wool
+9,1 minecraft:chainmail_leggings:0 Chain Leggings
+9,2 minecraft:sponge:1 Wet Sponge
+9,3 minecraft:melon:0 Melon
+9,4 minecraft:wooden_pickaxe:0 Wooden Pickaxe
+9,5 mekanism:otherdust:6 Obsidian Dust
+9,6 minecraft:beef:0 Raw Beef
+9,7 mekanism:ingot:1 Osmium Ingot
+9,8 minecraft:stone:6 Polished Andesite
+9,9 minecraft:tnt_minecart:0 Minecart with TNT
+9,10 minecraft:tipped_arrow:0#4a422156 Arrow of Regeneration
+9,11 minecraft:gold_ingot:0 Gold Ingot
+10,0 minecraft:potion:0#6eeb9410 Potion of Regeneration
+10,1 minecraft:reeds:0 Sugar Canes
+10,2 mekanism:transmitter:2#c00360d8 Ultimate Pressurized Tube
+10,3 mekanism:gastank:0#c9764c30 Creative Gas Tank
+10,4 minecraft:stained_glass_pane:8 Light Gray Stained Glass Pane
+10,5 minecraft:purple_shulker_box:0 Purple Shulker Box
+10,6 minecraft:splash_potion:0#c39dd438 Splash Potion of Harming
+10,7 mekanism:roadplasticblock:2 §2Green Plastic Road
+10,8 mekanism:roadplasticblock:1 §cRed Plastic Road
+10,9 mekanism:basicblock2:3#eb2e331b Basic Induction Cell
+10,10 minecraft:concrete_powder:3 Light Blue Concrete Powder
+10,11 mekanism:glowplasticblock:5 §5Purple Plastic Glow Block
+11,0 minecraft:silver_shulker_box:0 Light Gray Shulker Box
+11,1 minecraft:gray_shulker_box:0 Gray Shulker Box
+11,2 minecraft:diamond_hoe:0 Diamond Hoe
+11,3 mekanism:energycube:0#eb2e331b Basic Energy Cube
+11,4 minecraft:leather_helmet:0 Leather Cap
+11,5 minecraft:sand:0 Sand
+11,6 mekanism:energycube:0#d9185199 Elite Energy Cube
+11,7 minecraft:stained_glass_pane:4 Yellow Stained Glass Pane
+11,8 minecraft:spruce_fence_gate:0 Spruce Fence Gate
+11,9 mekanism:reinforcedplasticblock:13 §dMagenta Reinforced Plastic Block
+11,10 minecraft:potion:0#236dc225 Potion of Leaping
+11,11 minecraft:wool:4 Yellow Wool
+12,0 minecraft:water_bucket:0 Water Bucket
+12,1 minecraft:firework_charge:0#0332d096 Firework Star
+12,2 mekanism:glowplasticblock:1 §cRed Plastic Glow Block
+12,3 minecraft:stone_slab:7 Quartz Slab
+12,4 mekanism:seismicreader:0#fea31e45 Seismic Reader
+12,5 minecraft:bed:0 White Bed
+12,6 fluid:water Water
+12,7 fluid:lava Lava
+12,8 fluid:liquidhydrogen Liquid Hydrogen
+12,9 fluid:liquidoxygen Liquid Oxygen
+12,10 fluid:liquidchlorine Liquid Chlorine
+12,11 fluid:liquidsulfurdioxide Liquid Sulfur Dioxide
+13,0 fluid:liquidsulfurtrioxide Liquid Sulfur Trioxide
+13,1 fluid:sulfuricacid Sulfuric Acid
+13,2 fluid:liquidhydrogenchloride Liquid Hydrogen Chloride
+13,3 fluid:liquidethene Liquid Ethylene
+13,4 fluid:liquidsodium Liquid Sodium
+13,5 fluid:brine Brine
+13,6 fluid:liquiddeuterium Liquid Deuterium
+13,7 fluid:liquidtritium Liquid Tritium
+13,8 fluid:liquidfusionfuel Liquid D-T Fuel
+13,9 fluid:liquidlithium Liquid Lithium
+13,10 fluid:heavywater Heavy Water
+13,11 fluid:steam Steam

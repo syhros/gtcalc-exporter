@@ -1,0 +1,3 @@
+Mekanism-1.12.2-9.8.3.390.jar
+jei_1.12.2-4.22.0.1035.jar
+packextract-forge-1.12.2-1.1.0.jar

@@ -1,0 +1,1500 @@
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 385 minecraft:entity.sheep.ambient net.minecraft.util.SoundEvent@6dd1f638
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 386 minecraft:entity.sheep.death net.minecraft.util.SoundEvent@414f13fc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 387 minecraft:entity.sheep.hurt net.minecraft.util.SoundEvent@4b76aa5a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 388 minecraft:entity.sheep.shear net.minecraft.util.SoundEvent@63a28987
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 389 minecraft:entity.sheep.step net.minecraft.util.SoundEvent@120d3fd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 390 minecraft:entity.shulker.ambient net.minecraft.util.SoundEvent@38c9e0d6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 391 minecraft:entity.shulker.close net.minecraft.util.SoundEvent@4693a9ef
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 392 minecraft:entity.shulker.death net.minecraft.util.SoundEvent@310aee0b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 393 minecraft:entity.shulker.hurt net.minecraft.util.SoundEvent@36327cec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 394 minecraft:entity.shulker.hurt_closed net.minecraft.util.SoundEvent@410ae5ac
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 395 minecraft:entity.shulker.open net.minecraft.util.SoundEvent@1a8df0b3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 396 minecraft:entity.shulker.shoot net.minecraft.util.SoundEvent@7c112f5f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 397 minecraft:entity.shulker.teleport net.minecraft.util.SoundEvent@5961e92d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 398 minecraft:entity.shulker_bullet.hit net.minecraft.util.SoundEvent@4fd05028
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 399 minecraft:entity.shulker_bullet.hurt net.minecraft.util.SoundEvent@3a2d3909
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 400 minecraft:entity.silverfish.ambient net.minecraft.util.SoundEvent@4fb392c4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 401 minecraft:entity.silverfish.death net.minecraft.util.SoundEvent@194d329e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 402 minecraft:entity.silverfish.hurt net.minecraft.util.SoundEvent@54d1608f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 403 minecraft:entity.silverfish.step net.minecraft.util.SoundEvent@7e7fe6d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 404 minecraft:entity.skeleton.ambient net.minecraft.util.SoundEvent@541179e7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 405 minecraft:entity.skeleton.death net.minecraft.util.SoundEvent@24386839
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 406 minecraft:entity.skeleton.hurt net.minecraft.util.SoundEvent@7b32b129
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 407 minecraft:entity.skeleton.shoot net.minecraft.util.SoundEvent@439e3cb4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 408 minecraft:entity.skeleton.step net.minecraft.util.SoundEvent@1c9fbb61
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 409 minecraft:entity.skeleton_horse.ambient net.minecraft.util.SoundEvent@7b81616b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 410 minecraft:entity.skeleton_horse.death net.minecraft.util.SoundEvent@15d42ccb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 411 minecraft:entity.skeleton_horse.hurt net.minecraft.util.SoundEvent@279dd959
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 412 minecraft:entity.slime.attack net.minecraft.util.SoundEvent@46383a78
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 413 minecraft:entity.slime.death net.minecraft.util.SoundEvent@36c281ed
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 414 minecraft:entity.slime.hurt net.minecraft.util.SoundEvent@244418a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 415 minecraft:entity.slime.jump net.minecraft.util.SoundEvent@4b5a078a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 416 minecraft:entity.slime.squish net.minecraft.util.SoundEvent@4c361f63
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 417 minecraft:entity.small_magmacube.death net.minecraft.util.SoundEvent@6ed922e1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 418 minecraft:entity.small_magmacube.hurt net.minecraft.util.SoundEvent@4eb166a1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 419 minecraft:entity.small_magmacube.squish net.minecraft.util.SoundEvent@554c4eaa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 420 minecraft:entity.small_slime.death net.minecraft.util.SoundEvent@29fd8e67
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 421 minecraft:entity.small_slime.hurt net.minecraft.util.SoundEvent@e146f93
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 422 minecraft:entity.small_slime.jump net.minecraft.util.SoundEvent@4bd5849e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 423 minecraft:entity.small_slime.squish net.minecraft.util.SoundEvent@7cdbaa50
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 424 minecraft:entity.snowball.throw net.minecraft.util.SoundEvent@39909d1a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 425 minecraft:entity.snowman.ambient net.minecraft.util.SoundEvent@1455154c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 426 minecraft:entity.snowman.death net.minecraft.util.SoundEvent@7343922c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 427 minecraft:entity.snowman.hurt net.minecraft.util.SoundEvent@526b2f3e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 428 minecraft:entity.snowman.shoot net.minecraft.util.SoundEvent@6f2e1024
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 429 minecraft:entity.spider.ambient net.minecraft.util.SoundEvent@536d97f8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 430 minecraft:entity.spider.death net.minecraft.util.SoundEvent@3c50ad4b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 431 minecraft:entity.spider.hurt net.minecraft.util.SoundEvent@37496720
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 432 minecraft:entity.spider.step net.minecraft.util.SoundEvent@28f9fedd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 433 minecraft:entity.splash_potion.break net.minecraft.util.SoundEvent@17947e6d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 434 minecraft:entity.splash_potion.throw net.minecraft.util.SoundEvent@2e17a321
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 435 minecraft:entity.squid.ambient net.minecraft.util.SoundEvent@521bb1a4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 436 minecraft:entity.squid.death net.minecraft.util.SoundEvent@35f3a22c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 437 minecraft:entity.squid.hurt net.minecraft.util.SoundEvent@1a0c5e9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 438 minecraft:entity.stray.ambient net.minecraft.util.SoundEvent@123d7057
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 439 minecraft:entity.stray.death net.minecraft.util.SoundEvent@1d247525
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 440 minecraft:entity.stray.hurt net.minecraft.util.SoundEvent@35ee466f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 441 minecraft:entity.stray.step net.minecraft.util.SoundEvent@32e652b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 442 minecraft:entity.tnt.primed net.minecraft.util.SoundEvent@4ba02375
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 443 minecraft:entity.vex.ambient net.minecraft.util.SoundEvent@7593ea79
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 444 minecraft:entity.vex.charge net.minecraft.util.SoundEvent@3289079a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 445 minecraft:entity.vex.death net.minecraft.util.SoundEvent@32fa809f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 446 minecraft:entity.vex.hurt net.minecraft.util.SoundEvent@788ba63e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 447 minecraft:entity.villager.ambient net.minecraft.util.SoundEvent@12a14b74
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 448 minecraft:entity.villager.death net.minecraft.util.SoundEvent@68ee3b6d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 449 minecraft:entity.villager.hurt net.minecraft.util.SoundEvent@e76b097
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 450 minecraft:entity.villager.no net.minecraft.util.SoundEvent@2be95d31
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 451 minecraft:entity.villager.trading net.minecraft.util.SoundEvent@338b49d3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 452 minecraft:entity.villager.yes net.minecraft.util.SoundEvent@2aa7399c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 453 minecraft:entity.vindication_illager.ambient net.minecraft.util.SoundEvent@11eed657
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 454 minecraft:entity.vindication_illager.death net.minecraft.util.SoundEvent@708f018e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 455 minecraft:entity.vindication_illager.hurt net.minecraft.util.SoundEvent@19a31b9d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 456 minecraft:entity.witch.ambient net.minecraft.util.SoundEvent@a5bbaec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 457 minecraft:entity.witch.death net.minecraft.util.SoundEvent@6d60899e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 458 minecraft:entity.witch.drink net.minecraft.util.SoundEvent@65eb76cd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 459 minecraft:entity.witch.hurt net.minecraft.util.SoundEvent@6415f61e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 460 minecraft:entity.witch.throw net.minecraft.util.SoundEvent@334ebcaa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 461 minecraft:entity.wither.ambient net.minecraft.util.SoundEvent@5a0bef24
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 462 minecraft:entity.wither.break_block net.minecraft.util.SoundEvent@6468a7b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 463 minecraft:entity.wither.death net.minecraft.util.SoundEvent@2f860823
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 464 minecraft:entity.wither.hurt net.minecraft.util.SoundEvent@696b4a95
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 465 minecraft:entity.wither.shoot net.minecraft.util.SoundEvent@6c1cfa53
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 466 minecraft:entity.wither.spawn net.minecraft.util.SoundEvent@4d68b571
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 467 minecraft:entity.wither_skeleton.ambient net.minecraft.util.SoundEvent@52b06bef
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 468 minecraft:entity.wither_skeleton.death net.minecraft.util.SoundEvent@61bcbcce
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 469 minecraft:entity.wither_skeleton.hurt net.minecraft.util.SoundEvent@6af91cc8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 470 minecraft:entity.wither_skeleton.step net.minecraft.util.SoundEvent@6232ffdb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 471 minecraft:entity.wolf.ambient net.minecraft.util.SoundEvent@330c1f61
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 472 minecraft:entity.wolf.death net.minecraft.util.SoundEvent@37d28f02
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 473 minecraft:entity.wolf.growl net.minecraft.util.SoundEvent@15efda6c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 474 minecraft:entity.wolf.howl net.minecraft.util.SoundEvent@6056232d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 475 minecraft:entity.wolf.hurt net.minecraft.util.SoundEvent@33f2df51
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 476 minecraft:entity.wolf.pant net.minecraft.util.SoundEvent@107bfcb2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 477 minecraft:entity.wolf.shake net.minecraft.util.SoundEvent@7bac686b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 478 minecraft:entity.wolf.step net.minecraft.util.SoundEvent@2ab26378
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 479 minecraft:entity.wolf.whine net.minecraft.util.SoundEvent@f9f3928
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 480 minecraft:entity.zombie.ambient net.minecraft.util.SoundEvent@404eca05
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 481 minecraft:entity.zombie.attack_door_wood net.minecraft.util.SoundEvent@58b91d57
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 482 minecraft:entity.zombie.attack_iron_door net.minecraft.util.SoundEvent@61a91c9b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 483 minecraft:entity.zombie.break_door_wood net.minecraft.util.SoundEvent@17092fff
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 484 minecraft:entity.zombie.death net.minecraft.util.SoundEvent@2121d1f9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 485 minecraft:entity.zombie.hurt net.minecraft.util.SoundEvent@31e2232f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 486 minecraft:entity.zombie.infect net.minecraft.util.SoundEvent@1806bc4c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 487 minecraft:entity.zombie.step net.minecraft.util.SoundEvent@462e1e64
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 488 minecraft:entity.zombie_horse.ambient net.minecraft.util.SoundEvent@69afa141
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 489 minecraft:entity.zombie_horse.death net.minecraft.util.SoundEvent@49f40c00
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 490 minecraft:entity.zombie_horse.hurt net.minecraft.util.SoundEvent@643d2dae
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 491 minecraft:entity.zombie_pig.ambient net.minecraft.util.SoundEvent@52d6d273
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 492 minecraft:entity.zombie_pig.angry net.minecraft.util.SoundEvent@4667c4c1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 493 minecraft:entity.zombie_pig.death net.minecraft.util.SoundEvent@2f9a4401
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 494 minecraft:entity.zombie_pig.hurt net.minecraft.util.SoundEvent@22c75c01
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 495 minecraft:entity.zombie_villager.ambient net.minecraft.util.SoundEvent@46e64760
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 496 minecraft:entity.zombie_villager.converted net.minecraft.util.SoundEvent@3e5fd2b1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 497 minecraft:entity.zombie_villager.cure net.minecraft.util.SoundEvent@43982337
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 498 minecraft:entity.zombie_villager.death net.minecraft.util.SoundEvent@5b275811
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 499 minecraft:entity.zombie_villager.hurt net.minecraft.util.SoundEvent@2f0ed952
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 500 minecraft:entity.zombie_villager.step net.minecraft.util.SoundEvent@6f044c58
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 501 minecraft:item.armor.equip_chain net.minecraft.util.SoundEvent@6d074b14
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 502 minecraft:item.armor.equip_diamond net.minecraft.util.SoundEvent@c017175
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 503 minecraft:item.armor.equip_elytra net.minecraft.util.SoundEvent@559cedee
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 504 minecraft:item.armor.equip_generic net.minecraft.util.SoundEvent@18371d89
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 505 minecraft:item.armor.equip_gold net.minecraft.util.SoundEvent@4f3faa70
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 506 minecraft:item.armor.equip_iron net.minecraft.util.SoundEvent@4832f03b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 507 minecraft:item.armor.equip_leather net.minecraft.util.SoundEvent@7af3874e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 508 minecraft:item.bottle.empty net.minecraft.util.SoundEvent@5a8816cc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 509 minecraft:item.bottle.fill net.minecraft.util.SoundEvent@68565bc7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 510 minecraft:item.bottle.fill_dragonbreath net.minecraft.util.SoundEvent@37baddde
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 511 minecraft:item.bucket.empty net.minecraft.util.SoundEvent@5115f590
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 512 minecraft:item.bucket.empty_lava net.minecraft.util.SoundEvent@4b31a708
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 513 minecraft:item.bucket.fill net.minecraft.util.SoundEvent@11e355ca
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 514 minecraft:item.bucket.fill_lava net.minecraft.util.SoundEvent@70d63e05
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 515 minecraft:item.chorus_fruit.teleport net.minecraft.util.SoundEvent@e11ecfa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 516 minecraft:item.elytra.flying net.minecraft.util.SoundEvent@485e13d7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 517 minecraft:item.firecharge.use net.minecraft.util.SoundEvent@43984213
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 518 minecraft:item.flintandsteel.use net.minecraft.util.SoundEvent@2ff7a73
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 519 minecraft:item.hoe.till net.minecraft.util.SoundEvent@38830ea
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 520 minecraft:item.shield.block net.minecraft.util.SoundEvent@3b705be7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 521 minecraft:item.shield.break net.minecraft.util.SoundEvent@3a790e40
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 522 minecraft:item.shovel.flatten net.minecraft.util.SoundEvent@43acd79e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 523 minecraft:item.totem.use net.minecraft.util.SoundEvent@1e1b061
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 524 minecraft:music.creative net.minecraft.util.SoundEvent@38f77cd9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 525 minecraft:music.credits net.minecraft.util.SoundEvent@4a8e6e89
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 526 minecraft:music.dragon net.minecraft.util.SoundEvent@6fbb4061
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 527 minecraft:music.end net.minecraft.util.SoundEvent@63d5874f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 528 minecraft:music.game net.minecraft.util.SoundEvent@60c73e58
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 529 minecraft:music.menu net.minecraft.util.SoundEvent@5984feef
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 530 minecraft:music.nether net.minecraft.util.SoundEvent@6c0905f6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 531 minecraft:record.11 net.minecraft.util.SoundEvent@23a918c7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 532 minecraft:record.13 net.minecraft.util.SoundEvent@7a45d714
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 533 minecraft:record.blocks net.minecraft.util.SoundEvent@4483d35
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 534 minecraft:record.cat net.minecraft.util.SoundEvent@204abeff
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 535 minecraft:record.chirp net.minecraft.util.SoundEvent@4b4ee511
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 536 minecraft:record.far net.minecraft.util.SoundEvent@1f67761b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 537 minecraft:record.mall net.minecraft.util.SoundEvent@5a034157
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 538 minecraft:record.mellohi net.minecraft.util.SoundEvent@2f4ba1ae
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 539 minecraft:record.stal net.minecraft.util.SoundEvent@1391af3b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 540 minecraft:record.strad net.minecraft.util.SoundEvent@3762c4fc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 541 minecraft:record.wait net.minecraft.util.SoundEvent@77ab22be
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 542 minecraft:record.ward net.minecraft.util.SoundEvent@59fbb34
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 543 minecraft:ui.button.click net.minecraft.util.SoundEvent@1b6924cb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 544 minecraft:ui.toast.in net.minecraft.util.SoundEvent@3a8d467e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 545 minecraft:ui.toast.out net.minecraft.util.SoundEvent@141d3d43
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 546 minecraft:ui.toast.challenge_complete net.minecraft.util.SoundEvent@6ca372ef
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 547 minecraft:weather.rain net.minecraft.util.SoundEvent@3ebe4ccc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 548 minecraft:weather.rain.above net.minecraft.util.SoundEvent@6ed043d3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 549 mekanism:etc.beep net.minecraft.util.SoundEvent@79851013
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 550 mekanism:etc.click net.minecraft.util.SoundEvent@109d63ca
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 551 mekanism:etc.ding net.minecraft.util.SoundEvent@cf7146
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 552 mekanism:etc.error net.minecraft.util.SoundEvent@1126dae7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 553 mekanism:etc.gasmask net.minecraft.util.SoundEvent@40f25558
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 554 mekanism:etc.hydraulic net.minecraft.util.SoundEvent@3b8afdbf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 555 mekanism:etc.pop net.minecraft.util.SoundEvent@40b4fec9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 556 mekanism:etc.success net.minecraft.util.SoundEvent@6762e5da
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 557 mekanism:etc.cj net.minecraft.util.SoundEvent@356824fb
+[23:53:04] [Server thread/TRACE] [FML]: Registry Name : minecraft:potiontypes
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 0 minecraft:empty net.minecraft.potion.PotionType@3e39f08c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 1 minecraft:water net.minecraft.potion.PotionType@16e07bae
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 2 minecraft:mundane net.minecraft.potion.PotionType@598778cc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 3 minecraft:thick net.minecraft.potion.PotionType@3386ed8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 4 minecraft:awkward net.minecraft.potion.PotionType@727453a3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 5 minecraft:night_vision net.minecraft.potion.PotionType@67dc6b48
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 6 minecraft:long_night_vision net.minecraft.potion.PotionType@57f2e67
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 7 minecraft:invisibility net.minecraft.potion.PotionType@4571cebe
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 8 minecraft:long_invisibility net.minecraft.potion.PotionType@154864f8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 9 minecraft:leaping net.minecraft.potion.PotionType@11cadb32
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 10 minecraft:long_leaping net.minecraft.potion.PotionType@6d3ad37a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 11 minecraft:strong_leaping net.minecraft.potion.PotionType@26f5e45d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 12 minecraft:fire_resistance net.minecraft.potion.PotionType@704c3bdf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 13 minecraft:long_fire_resistance net.minecraft.potion.PotionType@37986daf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 14 minecraft:swiftness net.minecraft.potion.PotionType@c82d925
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 15 minecraft:long_swiftness net.minecraft.potion.PotionType@55c03e4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 16 minecraft:strong_swiftness net.minecraft.potion.PotionType@14df5253
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 17 minecraft:slowness net.minecraft.potion.PotionType@605eb072
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 18 minecraft:long_slowness net.minecraft.potion.PotionType@7a0f06ad
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 19 minecraft:water_breathing net.minecraft.potion.PotionType@1fa9692b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 20 minecraft:long_water_breathing net.minecraft.potion.PotionType@710afd47
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 21 minecraft:healing net.minecraft.potion.PotionType@64420e34
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 22 minecraft:strong_healing net.minecraft.potion.PotionType@667a467f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 23 minecraft:harming net.minecraft.potion.PotionType@324e8baa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 24 minecraft:strong_harming net.minecraft.potion.PotionType@1488a861
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 25 minecraft:poison net.minecraft.potion.PotionType@604f376a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 26 minecraft:long_poison net.minecraft.potion.PotionType@5432dca2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 27 minecraft:strong_poison net.minecraft.potion.PotionType@12670e55
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 28 minecraft:regeneration net.minecraft.potion.PotionType@43fd77d8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 29 minecraft:long_regeneration net.minecraft.potion.PotionType@5a90fcaa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 30 minecraft:strong_regeneration net.minecraft.potion.PotionType@1805ec96
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 31 minecraft:strength net.minecraft.potion.PotionType@32ba5c65
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 32 minecraft:long_strength net.minecraft.potion.PotionType@1ad1be5d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 33 minecraft:strong_strength net.minecraft.potion.PotionType@47797401
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 34 minecraft:weakness net.minecraft.potion.PotionType@702f4124
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 35 minecraft:long_weakness net.minecraft.potion.PotionType@10166230
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 36 minecraft:luck net.minecraft.potion.PotionType@7221539
+[23:53:04] [Server thread/TRACE] [FML]: Registry Name : minecraft:enchantments
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 0 minecraft:protection net.minecraft.enchantment.EnchantmentProtection@79308a2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 1 minecraft:fire_protection net.minecraft.enchantment.EnchantmentProtection@11574592
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 2 minecraft:feather_falling net.minecraft.enchantment.EnchantmentProtection@352e5a82
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 3 minecraft:blast_protection net.minecraft.enchantment.EnchantmentProtection@315b5913
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 4 minecraft:projectile_protection net.minecraft.enchantment.EnchantmentProtection@2e929182
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 5 minecraft:respiration net.minecraft.enchantment.EnchantmentOxygen@2987d0fa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 6 minecraft:aqua_affinity net.minecraft.enchantment.EnchantmentWaterWorker@39374689
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 7 minecraft:thorns net.minecraft.enchantment.EnchantmentThorns@2513155a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 8 minecraft:depth_strider net.minecraft.enchantment.EnchantmentWaterWalker@60f662bd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 9 minecraft:frost_walker net.minecraft.enchantment.EnchantmentFrostWalker@3562e7c7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 10 minecraft:binding_curse net.minecraft.enchantment.EnchantmentBindingCurse@6029f2a4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 16 minecraft:sharpness net.minecraft.enchantment.EnchantmentDamage@7fac18dc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 17 minecraft:smite net.minecraft.enchantment.EnchantmentDamage@50bf795f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 18 minecraft:bane_of_arthropods net.minecraft.enchantment.EnchantmentDamage@29fcfc54
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 19 minecraft:knockback net.minecraft.enchantment.EnchantmentKnockback@110620d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 20 minecraft:fire_aspect net.minecraft.enchantment.EnchantmentFireAspect@7c226095
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 21 minecraft:looting net.minecraft.enchantment.EnchantmentLootBonus@65fc8edc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 22 minecraft:sweeping net.minecraft.enchantment.EnchantmentSweepingEdge@3eb9c575
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 32 minecraft:efficiency net.minecraft.enchantment.EnchantmentDigging@6cf047cf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 33 minecraft:silk_touch net.minecraft.enchantment.EnchantmentUntouching@1716c037
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 34 minecraft:unbreaking net.minecraft.enchantment.EnchantmentDurability@32e830a0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 35 minecraft:fortune net.minecraft.enchantment.EnchantmentLootBonus@135e49b2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 48 minecraft:power net.minecraft.enchantment.EnchantmentArrowDamage@63262071
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 49 minecraft:punch net.minecraft.enchantment.EnchantmentArrowKnockback@41167ded
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 50 minecraft:flame net.minecraft.enchantment.EnchantmentArrowFire@33187485
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 51 minecraft:infinity net.minecraft.enchantment.EnchantmentArrowInfinite@77ff14ce
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 61 minecraft:luck_of_the_sea net.minecraft.enchantment.EnchantmentLootBonus@733fae8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 62 minecraft:lure net.minecraft.enchantment.EnchantmentFishingSpeed@7ba06506
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 70 minecraft:mending net.minecraft.enchantment.EnchantmentMending@145a821d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 71 minecraft:vanishing_curse net.minecraft.enchantment.EnchantmentVanishingCurse@60c98f25
+[23:53:04] [Server thread/TRACE] [FML]: Registry Name : minecraft:recipes
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 0 minecraft:armordye net.minecraft.item.crafting.RecipesArmorDyes@1dd64243
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 1 minecraft:bookcloning net.minecraft.item.crafting.RecipeBookCloning@145fe8ab
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 2 minecraft:mapcloning net.minecraft.item.crafting.RecipesMapCloning@6e67a8c0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 3 minecraft:mapextending net.minecraft.item.crafting.RecipesMapExtending@7fb82f73
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 4 minecraft:fireworks net.minecraft.item.crafting.RecipeFireworks@4ad8d36f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 5 minecraft:repairitem net.minecraft.item.crafting.RecipeRepairItem@570ed9c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 6 minecraft:tippedarrow net.minecraft.item.crafting.RecipeTippedArrow@1dfe5dd1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 7 minecraft:bannerduplicate net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern@1d06801f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 8 minecraft:banneraddpattern net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern@ad5cffa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 9 minecraft:shielddecoration net.minecraft.item.crafting.ShieldRecipes$Decoration@2b400bd0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 10 minecraft:shulkerboxcoloring net.minecraft.item.crafting.ShulkerBoxRecipes$ShulkerBoxColoring@1592e540
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 11 minecraft:yellow_wool net.minecraft.item.crafting.ShapelessRecipes@27fc0217
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 12 minecraft:yellow_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@472719df
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 13 minecraft:yellow_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@3e28af44
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 14 minecraft:yellow_stained_glass net.minecraft.item.crafting.ShapedRecipes@f42336c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 15 minecraft:yellow_dye_from_sunflower net.minecraft.item.crafting.ShapelessRecipes@40013051
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 16 minecraft:yellow_dye_from_dandelion net.minecraft.item.crafting.ShapelessRecipes@43294e9b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 17 minecraft:yellow_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@3e9b3b3c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 18 minecraft:yellow_carpet net.minecraft.item.crafting.ShapedRecipes@22a63740
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 19 minecraft:yellow_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@294ebe11
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 20 minecraft:yellow_bed net.minecraft.item.crafting.ShapedRecipes@398694a6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 21 minecraft:yellow_banner net.minecraft.item.crafting.ShapedRecipes@6cbbfe29
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 22 minecraft:writable_book net.minecraft.item.crafting.ShapelessRecipes@64544ee4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 23 minecraft:wooden_sword net.minecraft.item.crafting.ShapedRecipes@178dc733
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 24 minecraft:wooden_shovel net.minecraft.item.crafting.ShapedRecipes@1aa59698
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 25 minecraft:wooden_pressure_plate net.minecraft.item.crafting.ShapedRecipes@ca10069
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 26 minecraft:wooden_pickaxe net.minecraft.item.crafting.ShapedRecipes@41a8f0d8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 27 minecraft:wooden_hoe net.minecraft.item.crafting.ShapedRecipes@2ca1e49a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 28 minecraft:wooden_door net.minecraft.item.crafting.ShapedRecipes@7fd2a67a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 29 minecraft:wooden_button net.minecraft.item.crafting.ShapedRecipes@56b751b1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 30 minecraft:wooden_axe net.minecraft.item.crafting.ShapedRecipes@48d31d25
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 31 minecraft:white_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@4f2fdf3d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 32 minecraft:white_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@3cf06a01
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 33 minecraft:white_stained_glass net.minecraft.item.crafting.ShapedRecipes@87220f1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 34 minecraft:white_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@bb5f9d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 35 minecraft:white_carpet net.minecraft.item.crafting.ShapedRecipes@5dce5c03
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 36 minecraft:white_bed net.minecraft.item.crafting.ShapedRecipes@174b8d0e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 37 minecraft:white_banner net.minecraft.item.crafting.ShapedRecipes@4627dfda
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 38 minecraft:wheat net.minecraft.item.crafting.ShapedRecipes@6ab50d1c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 39 minecraft:tripwire_hook net.minecraft.item.crafting.ShapedRecipes@778197c0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 40 minecraft:trapped_chest net.minecraft.item.crafting.ShapelessRecipes@20a946d9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 41 minecraft:trapdoor net.minecraft.item.crafting.ShapedRecipes@1f4dd016
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 42 minecraft:torch net.minecraft.item.crafting.ShapedRecipes@199806aa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 43 minecraft:tnt_minecart net.minecraft.item.crafting.ShapedRecipes@18b3db6e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 44 minecraft:tnt net.minecraft.item.crafting.ShapedRecipes@2299f6d7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 45 minecraft:sugar net.minecraft.item.crafting.ShapedRecipes@41f40dfa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 46 minecraft:string_to_wool net.minecraft.item.crafting.ShapedRecipes@3dad535f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 47 minecraft:stonebrick net.minecraft.item.crafting.ShapedRecipes@224d537d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 48 minecraft:stone_sword net.minecraft.item.crafting.ShapedRecipes@65d23aa3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 49 minecraft:stone_stairs net.minecraft.item.crafting.ShapedRecipes@1dd443c1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 50 minecraft:stone_slab net.minecraft.item.crafting.ShapedRecipes@29532e91
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 51 minecraft:stone_shovel net.minecraft.item.crafting.ShapedRecipes@5b64f771
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 52 minecraft:stone_pressure_plate net.minecraft.item.crafting.ShapedRecipes@65503a26
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 53 minecraft:stone_pickaxe net.minecraft.item.crafting.ShapedRecipes@6408be5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 54 minecraft:stone_hoe net.minecraft.item.crafting.ShapedRecipes@77d54a41
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 55 minecraft:stone_button net.minecraft.item.crafting.ShapedRecipes@731e0bff
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 56 minecraft:stone_brick_stairs net.minecraft.item.crafting.ShapedRecipes@2890e479
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 57 minecraft:stone_brick_slab net.minecraft.item.crafting.ShapedRecipes@628bd77e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 58 minecraft:stone_axe net.minecraft.item.crafting.ShapedRecipes@1dbc607d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 59 minecraft:sticky_piston net.minecraft.item.crafting.ShapedRecipes@362cf66
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 60 minecraft:stick net.minecraft.item.crafting.ShapedRecipes@1ab268bd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 61 minecraft:spruce_wooden_slab net.minecraft.item.crafting.ShapedRecipes@6a552721
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 62 minecraft:spruce_stairs net.minecraft.item.crafting.ShapedRecipes@5e020dd1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 63 minecraft:spruce_planks net.minecraft.item.crafting.ShapedRecipes@361f26b4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 64 minecraft:spruce_fence_gate net.minecraft.item.crafting.ShapedRecipes@4990b335
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 65 minecraft:spruce_fence net.minecraft.item.crafting.ShapedRecipes@45f241df
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 66 minecraft:spruce_door net.minecraft.item.crafting.ShapedRecipes@3c2dda7c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 67 minecraft:spruce_boat net.minecraft.item.crafting.ShapedRecipes@60e67c06
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 68 minecraft:spectral_arrow net.minecraft.item.crafting.ShapedRecipes@7210f559
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 69 minecraft:speckled_melon net.minecraft.item.crafting.ShapedRecipes@41404aa2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 70 minecraft:snow_layer net.minecraft.item.crafting.ShapedRecipes@41bdaa81
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 71 minecraft:snow net.minecraft.item.crafting.ShapedRecipes@289a4b90
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 72 minecraft:smooth_sandstone net.minecraft.item.crafting.ShapedRecipes@41d877bb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 73 minecraft:smooth_red_sandstone net.minecraft.item.crafting.ShapedRecipes@53d87b2d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 74 minecraft:slime_ball net.minecraft.item.crafting.ShapedRecipes@4ff9f715
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 75 minecraft:slime net.minecraft.item.crafting.ShapedRecipes@74f649a7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 76 minecraft:sign net.minecraft.item.crafting.ShapedRecipes@bc52a41
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 77 minecraft:shield net.minecraft.item.crafting.ShapedRecipes@2e8986b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 78 minecraft:shears net.minecraft.item.crafting.ShapedRecipes@3aca2579
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 79 minecraft:sea_lantern net.minecraft.item.crafting.ShapedRecipes@31443680
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 80 minecraft:sandstone_stairs net.minecraft.item.crafting.ShapedRecipes@1818390b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 81 minecraft:sandstone_slab net.minecraft.item.crafting.ShapedRecipes@683fe7b5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 82 minecraft:sandstone net.minecraft.item.crafting.ShapedRecipes@14b48f39
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 83 minecraft:repeater net.minecraft.item.crafting.ShapedRecipes@1ab9c735
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 84 minecraft:redstone_torch net.minecraft.item.crafting.ShapedRecipes@72ceafeb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 85 minecraft:redstone_lamp net.minecraft.item.crafting.ShapedRecipes@63d3c9dc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 86 minecraft:redstone_block net.minecraft.item.crafting.ShapedRecipes@4be460e5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 87 minecraft:redstone net.minecraft.item.crafting.ShapedRecipes@c2e33
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 88 minecraft:red_wool net.minecraft.item.crafting.ShapelessRecipes@26679788
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 89 minecraft:red_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@70aa58e1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 90 minecraft:red_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@25ea068e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 91 minecraft:red_stained_glass net.minecraft.item.crafting.ShapedRecipes@71eff6a3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 92 minecraft:red_sandstone_stairs net.minecraft.item.crafting.ShapedRecipes@236a4d30
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 93 minecraft:red_sandstone_slab net.minecraft.item.crafting.ShapedRecipes@13662609
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 94 minecraft:red_sandstone net.minecraft.item.crafting.ShapedRecipes@4c000cc4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 95 minecraft:red_nether_brick net.minecraft.item.crafting.ShapedRecipes@1a4cbcc6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 96 minecraft:red_dye_from_tulip net.minecraft.item.crafting.ShapelessRecipes@1d5048d1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 97 minecraft:red_dye_from_rose_bush net.minecraft.item.crafting.ShapelessRecipes@58b3eb1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 98 minecraft:red_dye_from_poppy net.minecraft.item.crafting.ShapelessRecipes@2986427e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 99 minecraft:red_dye_from_beetroot net.minecraft.item.crafting.ShapelessRecipes@26c6288d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 100 minecraft:red_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@7c048b30
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 101 minecraft:red_carpet net.minecraft.item.crafting.ShapedRecipes@11170228
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 102 minecraft:red_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@2e0163cb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 103 minecraft:red_bed net.minecraft.item.crafting.ShapedRecipes@32d1d6c5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 104 minecraft:red_banner net.minecraft.item.crafting.ShapedRecipes@115ef673
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 105 minecraft:rail net.minecraft.item.crafting.ShapedRecipes@77476fcf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 106 minecraft:rabbit_stew_from_red_mushroom net.minecraft.item.crafting.ShapedRecipes@775edae0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 107 minecraft:rabbit_stew_from_brown_mushroom net.minecraft.item.crafting.ShapedRecipes@2ce24a1a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 108 minecraft:quartz_stairs net.minecraft.item.crafting.ShapedRecipes@20914835
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 109 minecraft:quartz_slab net.minecraft.item.crafting.ShapedRecipes@1e7d3d87
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 110 minecraft:quartz_block net.minecraft.item.crafting.ShapedRecipes@5c5f12e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 111 minecraft:purpur_stairs net.minecraft.item.crafting.ShapedRecipes@2b058bfd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 112 minecraft:purpur_slab net.minecraft.item.crafting.ShapedRecipes@85cd413
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 113 minecraft:purpur_pillar net.minecraft.item.crafting.ShapedRecipes@46b21632
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 114 minecraft:purpur_block net.minecraft.item.crafting.ShapedRecipes@2579d8a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 115 minecraft:purple_wool net.minecraft.item.crafting.ShapelessRecipes@1c62d2ad
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 116 minecraft:purple_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@7a34c1f6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 117 minecraft:purple_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@527d5e48
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 118 minecraft:purple_stained_glass net.minecraft.item.crafting.ShapedRecipes@4ea48b2e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 119 minecraft:purple_shulker_box net.minecraft.item.crafting.ShapedRecipes@562f6681
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 120 minecraft:purple_dye net.minecraft.item.crafting.ShapelessRecipes@40a7974
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 121 minecraft:purple_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@1b6cad77
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 122 minecraft:purple_carpet net.minecraft.item.crafting.ShapedRecipes@5f9a8ddc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 123 minecraft:purple_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@45790cb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 124 minecraft:purple_bed net.minecraft.item.crafting.ShapedRecipes@612ac38b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 125 minecraft:purple_banner net.minecraft.item.crafting.ShapedRecipes@50bb1c1f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 126 minecraft:pumpkin_seeds net.minecraft.item.crafting.ShapedRecipes@b4d83ac
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 127 minecraft:pumpkin_pie net.minecraft.item.crafting.ShapelessRecipes@2cd5b19c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 128 minecraft:prismarine_bricks net.minecraft.item.crafting.ShapedRecipes@286dfa20
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 129 minecraft:prismarine net.minecraft.item.crafting.ShapedRecipes@11f9b95a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 130 minecraft:polished_granite net.minecraft.item.crafting.ShapedRecipes@75f8d9b0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 131 minecraft:polished_diorite net.minecraft.item.crafting.ShapedRecipes@38923cfe
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 132 minecraft:polished_andesite net.minecraft.item.crafting.ShapedRecipes@14ad42
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 133 minecraft:piston net.minecraft.item.crafting.ShapedRecipes@52290e63
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 134 minecraft:pink_wool net.minecraft.item.crafting.ShapelessRecipes@249a45fd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 135 minecraft:pink_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@16e5344c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 136 minecraft:pink_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@6a0c7af6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 137 minecraft:pink_stained_glass net.minecraft.item.crafting.ShapedRecipes@be1c08a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 138 minecraft:pink_dye_from_red_bonemeal net.minecraft.item.crafting.ShapelessRecipes@3c6fb501
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 139 minecraft:pink_dye_from_pink_tulip net.minecraft.item.crafting.ShapelessRecipes@1ff81b0d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 140 minecraft:pink_dye_from_peony net.minecraft.item.crafting.ShapelessRecipes@5c3007d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 141 minecraft:pink_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@b849fa6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 142 minecraft:pink_carpet net.minecraft.item.crafting.ShapedRecipes@56ba8e8c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 143 minecraft:pink_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@40ddf339
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 144 minecraft:pink_bed net.minecraft.item.crafting.ShapedRecipes@53e82089
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 145 minecraft:pink_banner net.minecraft.item.crafting.ShapedRecipes@257b3561
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 146 minecraft:pillar_quartz_block net.minecraft.item.crafting.ShapedRecipes@6207145c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 147 minecraft:paper net.minecraft.item.crafting.ShapedRecipes@670c171c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 148 minecraft:painting net.minecraft.item.crafting.ShapedRecipes@6fcc0a1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 149 minecraft:orange_wool net.minecraft.item.crafting.ShapelessRecipes@2633d09c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 150 minecraft:orange_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@3749c2b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 151 minecraft:orange_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@51df2a41
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 152 minecraft:orange_stained_glass net.minecraft.item.crafting.ShapedRecipes@46e6458d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 153 minecraft:orange_dye_from_red_yellow net.minecraft.item.crafting.ShapelessRecipes@4f82248f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 154 minecraft:orange_dye_from_orange_tulip net.minecraft.item.crafting.ShapelessRecipes@7f1fec57
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 155 minecraft:orange_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@54f69311
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 156 minecraft:orange_carpet net.minecraft.item.crafting.ShapedRecipes@4ac7856f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 157 minecraft:orange_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@3c4ad54
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 158 minecraft:orange_bed net.minecraft.item.crafting.ShapedRecipes@1124dd79
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 159 minecraft:orange_banner net.minecraft.item.crafting.ShapedRecipes@7a274521
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 160 minecraft:observer net.minecraft.item.crafting.ShapedRecipes@537451d5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 161 minecraft:oak_wooden_slab net.minecraft.item.crafting.ShapedRecipes@1d8dbf10
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 162 minecraft:oak_stairs net.minecraft.item.crafting.ShapedRecipes@2d7aa291
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 163 minecraft:oak_planks net.minecraft.item.crafting.ShapedRecipes@2cff03cf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 164 minecraft:noteblock net.minecraft.item.crafting.ShapedRecipes@7d5a0b14
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 165 minecraft:nether_wart_block net.minecraft.item.crafting.ShapedRecipes@27dc81be
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 166 minecraft:nether_brick_stairs net.minecraft.item.crafting.ShapedRecipes@3245efdb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 167 minecraft:nether_brick_slab net.minecraft.item.crafting.ShapedRecipes@72e49f6a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 168 minecraft:nether_brick_fence net.minecraft.item.crafting.ShapedRecipes@1cab19e2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 169 minecraft:nether_brick net.minecraft.item.crafting.ShapedRecipes@1f3f434
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 170 minecraft:mushroom_stew net.minecraft.item.crafting.ShapelessRecipes@96be1ae
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 171 minecraft:mossy_stonebrick net.minecraft.item.crafting.ShapelessRecipes@38b54694
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 172 minecraft:mossy_cobblestone_wall net.minecraft.item.crafting.ShapedRecipes@35ff072c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 173 minecraft:mossy_cobblestone net.minecraft.item.crafting.ShapelessRecipes@662713b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 174 minecraft:minecart net.minecraft.item.crafting.ShapedRecipes@b8142f4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 175 minecraft:melon_seeds net.minecraft.item.crafting.ShapedRecipes@33f2eb04
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 176 minecraft:melon_block net.minecraft.item.crafting.ShapedRecipes@146833a2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 177 minecraft:map net.minecraft.item.crafting.ShapedRecipes@59c862af
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 178 minecraft:magma_cream net.minecraft.item.crafting.ShapelessRecipes@6fa7ce4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 179 minecraft:magma net.minecraft.item.crafting.ShapedRecipes@44106e25
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 180 minecraft:magenta_wool net.minecraft.item.crafting.ShapelessRecipes@4552f905
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 181 minecraft:magenta_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@4e3ee457
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 182 minecraft:magenta_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@2d2a8819
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 183 minecraft:magenta_stained_glass net.minecraft.item.crafting.ShapedRecipes@48da64f2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 184 minecraft:magenta_dye_from_purple_and_pink net.minecraft.item.crafting.ShapelessRecipes@2133b712
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 185 minecraft:magenta_dye_from_lilac net.minecraft.item.crafting.ShapelessRecipes@5c2a3f0c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 186 minecraft:magenta_dye_from_lapis_red_pink net.minecraft.item.crafting.ShapelessRecipes@55397d15
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 187 minecraft:magenta_dye_from_lapis_ink_bonemeal net.minecraft.item.crafting.ShapelessRecipes@13f36d75
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 188 minecraft:magenta_dye_from_allium net.minecraft.item.crafting.ShapelessRecipes@4ebd8d2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 189 minecraft:magenta_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@5e05a706
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 190 minecraft:magenta_carpet net.minecraft.item.crafting.ShapedRecipes@543ac221
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 191 minecraft:magenta_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@7323c38c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 192 minecraft:magenta_bed net.minecraft.item.crafting.ShapedRecipes@35d4035f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 193 minecraft:magenta_banner net.minecraft.item.crafting.ShapedRecipes@12a0d249
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 194 minecraft:lit_pumpkin net.minecraft.item.crafting.ShapedRecipes@4d525897
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 195 minecraft:lime_wool net.minecraft.item.crafting.ShapelessRecipes@74231642
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 196 minecraft:lime_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@545f0b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 197 minecraft:lime_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@166ddfb7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 198 minecraft:lime_stained_glass net.minecraft.item.crafting.ShapedRecipes@6be422da
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 199 minecraft:lime_dye net.minecraft.item.crafting.ShapelessRecipes@1b36d248
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 200 minecraft:lime_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@3cf70afa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 201 minecraft:lime_carpet net.minecraft.item.crafting.ShapedRecipes@6eded11a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 202 minecraft:lime_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@5de335cf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 203 minecraft:lime_bed net.minecraft.item.crafting.ShapedRecipes@3a3bc0da
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 204 minecraft:lime_banner net.minecraft.item.crafting.ShapedRecipes@103478b8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 205 minecraft:light_weighted_pressure_plate net.minecraft.item.crafting.ShapedRecipes@39f68aec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 206 minecraft:light_gray_wool net.minecraft.item.crafting.ShapelessRecipes@351c6341
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 207 minecraft:light_gray_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@df6f19b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 208 minecraft:light_gray_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@2759749
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 209 minecraft:light_gray_stained_glass net.minecraft.item.crafting.ShapedRecipes@4adcc981
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 210 minecraft:light_gray_dye_from_white_tulip net.minecraft.item.crafting.ShapelessRecipes@d190639
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 211 minecraft:light_gray_dye_from_oxeye_daisy net.minecraft.item.crafting.ShapelessRecipes@1f85904a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 212 minecraft:light_gray_dye_from_ink_bonemeal net.minecraft.item.crafting.ShapelessRecipes@45cb5307
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 213 minecraft:light_gray_dye_from_gray_bonemeal net.minecraft.item.crafting.ShapelessRecipes@399c408c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 214 minecraft:light_gray_dye_from_azure_bluet net.minecraft.item.crafting.ShapelessRecipes@2cebf82f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 215 minecraft:light_gray_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@4af0c50
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 216 minecraft:light_gray_carpet net.minecraft.item.crafting.ShapedRecipes@301d84f6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 217 minecraft:light_gray_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@57920d6c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 218 minecraft:light_gray_bed net.minecraft.item.crafting.ShapedRecipes@433b1597
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 219 minecraft:light_gray_banner net.minecraft.item.crafting.ShapedRecipes@4e20a985
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 220 minecraft:light_blue_wool net.minecraft.item.crafting.ShapelessRecipes@7438c3d5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 221 minecraft:light_blue_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@17332039
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 222 minecraft:light_blue_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@69d021c1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 223 minecraft:light_blue_stained_glass net.minecraft.item.crafting.ShapedRecipes@3d8bd881
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 224 minecraft:light_blue_dye_from_lapis_bonemeal net.minecraft.item.crafting.ShapelessRecipes@6968bb65
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 225 minecraft:light_blue_dye_from_blue_orchid net.minecraft.item.crafting.ShapelessRecipes@4d0abb23
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 226 minecraft:light_blue_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@6fefc5ea
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 227 minecraft:light_blue_carpet net.minecraft.item.crafting.ShapedRecipes@264576e4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 228 minecraft:light_blue_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@1031c1a0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 229 minecraft:light_blue_bed net.minecraft.item.crafting.ShapedRecipes@36330be8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 230 minecraft:light_blue_banner net.minecraft.item.crafting.ShapedRecipes@73958426
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 231 minecraft:lever net.minecraft.item.crafting.ShapedRecipes@7921a37d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 232 minecraft:leather_leggings net.minecraft.item.crafting.ShapedRecipes@1c787389
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 233 minecraft:leather_helmet net.minecraft.item.crafting.ShapedRecipes@46fa2a7e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 234 minecraft:leather_chestplate net.minecraft.item.crafting.ShapedRecipes@6ec98ccc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 235 minecraft:leather_boots net.minecraft.item.crafting.ShapedRecipes@718ad3a6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 236 minecraft:leather net.minecraft.item.crafting.ShapedRecipes@1859e55c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 237 minecraft:lead net.minecraft.item.crafting.ShapedRecipes@1c0cf193
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 238 minecraft:lapis_lazuli net.minecraft.item.crafting.ShapedRecipes@32428874
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 239 minecraft:lapis_block net.minecraft.item.crafting.ShapedRecipes@104bc677
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 240 minecraft:ladder net.minecraft.item.crafting.ShapedRecipes@3dd591b9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 241 minecraft:jungle_wooden_slab net.minecraft.item.crafting.ShapedRecipes@780c0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 242 minecraft:jungle_stairs net.minecraft.item.crafting.ShapedRecipes@5e62ca19
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 243 minecraft:jungle_planks net.minecraft.item.crafting.ShapedRecipes@2dd2ff87
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 244 minecraft:jungle_fence_gate net.minecraft.item.crafting.ShapedRecipes@1c421b0f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 245 minecraft:jungle_fence net.minecraft.item.crafting.ShapedRecipes@1df9f7c6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 246 minecraft:jungle_door net.minecraft.item.crafting.ShapedRecipes@22f80e36
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 247 minecraft:jungle_boat net.minecraft.item.crafting.ShapedRecipes@13d5606c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 248 minecraft:jukebox net.minecraft.item.crafting.ShapedRecipes@b5ff70b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 249 minecraft:item_frame net.minecraft.item.crafting.ShapedRecipes@756200d1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 250 minecraft:iron_trapdoor net.minecraft.item.crafting.ShapedRecipes@322ab6ce
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 251 minecraft:iron_sword net.minecraft.item.crafting.ShapedRecipes@5b1f5fcc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 252 minecraft:iron_shovel net.minecraft.item.crafting.ShapedRecipes@53e166ad
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 253 minecraft:iron_pickaxe net.minecraft.item.crafting.ShapedRecipes@7ef9c8a5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 254 minecraft:iron_nugget net.minecraft.item.crafting.ShapedRecipes@29ea5e0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 255 minecraft:iron_leggings net.minecraft.item.crafting.ShapedRecipes@3d7314b3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 256 minecraft:iron_ingot_from_nuggets net.minecraft.item.crafting.ShapedRecipes@48860139
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 257 minecraft:iron_ingot_from_block net.minecraft.item.crafting.ShapedRecipes@33568e26
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 258 minecraft:iron_hoe net.minecraft.item.crafting.ShapedRecipes@229749f0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 259 minecraft:iron_helmet net.minecraft.item.crafting.ShapedRecipes@26888c31
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 260 minecraft:iron_door net.minecraft.item.crafting.ShapedRecipes@626df173
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 261 minecraft:iron_chestplate net.minecraft.item.crafting.ShapedRecipes@194e78af
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 262 minecraft:iron_boots net.minecraft.item.crafting.ShapedRecipes@37c37d67
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 263 minecraft:iron_block net.minecraft.item.crafting.ShapedRecipes@7614378d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 264 minecraft:iron_bars net.minecraft.item.crafting.ShapedRecipes@7337bd2e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 265 minecraft:iron_axe net.minecraft.item.crafting.ShapedRecipes@c1f0c7b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 266 minecraft:hopper_minecart net.minecraft.item.crafting.ShapedRecipes@5831989d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 267 minecraft:hopper net.minecraft.item.crafting.ShapedRecipes@1ce6a9bd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 268 minecraft:heavy_weighted_pressure_plate net.minecraft.item.crafting.ShapedRecipes@3b42b729
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 269 minecraft:hay_block net.minecraft.item.crafting.ShapedRecipes@25b20860
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 270 minecraft:green_wool net.minecraft.item.crafting.ShapelessRecipes@703cb756
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 271 minecraft:green_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@3a13f663
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 272 minecraft:green_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@59014efe
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 273 minecraft:green_stained_glass net.minecraft.item.crafting.ShapedRecipes@6ad3fbe4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 274 minecraft:green_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@656c5818
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 275 minecraft:green_carpet net.minecraft.item.crafting.ShapedRecipes@4bdef487
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 276 minecraft:green_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@774304ca
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 277 minecraft:green_bed net.minecraft.item.crafting.ShapedRecipes@79e90571
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 278 minecraft:green_banner net.minecraft.item.crafting.ShapedRecipes@2762253e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 279 minecraft:gray_wool net.minecraft.item.crafting.ShapelessRecipes@120d13ae
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 280 minecraft:gray_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@75663443
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 281 minecraft:gray_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@111cbcda
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 282 minecraft:gray_stained_glass net.minecraft.item.crafting.ShapedRecipes@3b8b4846
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 283 minecraft:gray_dye net.minecraft.item.crafting.ShapelessRecipes@4a2653a0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 284 minecraft:gray_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@3d9c8c3c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 285 minecraft:gray_carpet net.minecraft.item.crafting.ShapedRecipes@577cf459
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 286 minecraft:gray_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@22368ddc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 287 minecraft:gray_bed net.minecraft.item.crafting.ShapedRecipes@59b853aa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 288 minecraft:gray_banner net.minecraft.item.crafting.ShapedRecipes@34652065
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 289 minecraft:granite net.minecraft.item.crafting.ShapelessRecipes@28bc9749
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 290 minecraft:golden_sword net.minecraft.item.crafting.ShapedRecipes@2066e897
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 291 minecraft:golden_shovel net.minecraft.item.crafting.ShapedRecipes@1397b141
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 292 minecraft:golden_rail net.minecraft.item.crafting.ShapedRecipes@73a116d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 293 minecraft:golden_pickaxe net.minecraft.item.crafting.ShapedRecipes@24b8a393
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 294 minecraft:golden_leggings net.minecraft.item.crafting.ShapedRecipes@20be793a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 295 minecraft:golden_hoe net.minecraft.item.crafting.ShapedRecipes@b842275
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 296 minecraft:golden_helmet net.minecraft.item.crafting.ShapedRecipes@6cb662e8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 297 minecraft:golden_chestplate net.minecraft.item.crafting.ShapedRecipes@52a75c12
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 298 minecraft:golden_carrot net.minecraft.item.crafting.ShapedRecipes@3b8d2abe
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 299 minecraft:golden_boots net.minecraft.item.crafting.ShapedRecipes@400008bf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 300 minecraft:golden_axe net.minecraft.item.crafting.ShapedRecipes@1b732dd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 301 minecraft:golden_apple net.minecraft.item.crafting.ShapedRecipes@13c18bba
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 302 minecraft:gold_nugget net.minecraft.item.crafting.ShapedRecipes@5bdb9c69
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 303 minecraft:gold_ingot_from_nuggets net.minecraft.item.crafting.ShapedRecipes@369fb99a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 304 minecraft:gold_ingot_from_block net.minecraft.item.crafting.ShapedRecipes@751bb780
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 305 minecraft:gold_block net.minecraft.item.crafting.ShapedRecipes@696298ea
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 306 minecraft:glowstone net.minecraft.item.crafting.ShapedRecipes@740ad32e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 307 minecraft:glass_pane net.minecraft.item.crafting.ShapedRecipes@4f563f96
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 308 minecraft:glass_bottle net.minecraft.item.crafting.ShapedRecipes@61bf405d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 309 minecraft:furnace_minecart net.minecraft.item.crafting.ShapedRecipes@38394dc3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 310 minecraft:furnace net.minecraft.item.crafting.ShapedRecipes@75f65d54
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 311 minecraft:flower_pot net.minecraft.item.crafting.ShapedRecipes@121dce2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 312 minecraft:flint_and_steel net.minecraft.item.crafting.ShapelessRecipes@378c48c1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 313 minecraft:fishing_rod net.minecraft.item.crafting.ShapedRecipes@b90c5a5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 314 minecraft:fire_charge net.minecraft.item.crafting.ShapelessRecipes@be083e1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 315 minecraft:fermented_spider_eye net.minecraft.item.crafting.ShapelessRecipes@5f803481
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 316 minecraft:fence_gate net.minecraft.item.crafting.ShapedRecipes@404dc999
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 317 minecraft:fence net.minecraft.item.crafting.ShapedRecipes@62dc1203
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 318 minecraft:ender_eye net.minecraft.item.crafting.ShapelessRecipes@3c62f69a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 319 minecraft:ender_chest net.minecraft.item.crafting.ShapedRecipes@1c2b65cc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 320 minecraft:end_rod net.minecraft.item.crafting.ShapedRecipes@50c2ef56
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 321 minecraft:end_crystal net.minecraft.item.crafting.ShapedRecipes@2bf4fa1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 322 minecraft:end_bricks net.minecraft.item.crafting.ShapedRecipes@70700b8a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 323 minecraft:enchanting_table net.minecraft.item.crafting.ShapedRecipes@71df5f30
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 324 minecraft:emerald_block net.minecraft.item.crafting.ShapedRecipes@539dd2d0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 325 minecraft:emerald net.minecraft.item.crafting.ShapedRecipes@3664c596
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 326 minecraft:dropper net.minecraft.item.crafting.ShapedRecipes@5d2e65bd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 327 minecraft:dispenser net.minecraft.item.crafting.ShapedRecipes@bff764c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 328 minecraft:diorite net.minecraft.item.crafting.ShapedRecipes@142918a0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 329 minecraft:diamond_sword net.minecraft.item.crafting.ShapedRecipes@21eedcde
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 330 minecraft:diamond_shovel net.minecraft.item.crafting.ShapedRecipes@47f0e078
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 331 minecraft:diamond_pickaxe net.minecraft.item.crafting.ShapedRecipes@37fffef3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 332 minecraft:diamond_leggings net.minecraft.item.crafting.ShapedRecipes@7ca0166c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 333 minecraft:diamond_hoe net.minecraft.item.crafting.ShapedRecipes@705d914f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 334 minecraft:diamond_helmet net.minecraft.item.crafting.ShapedRecipes@795eddda
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 335 minecraft:diamond_chestplate net.minecraft.item.crafting.ShapedRecipes@1a77eb6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 336 minecraft:diamond_boots net.minecraft.item.crafting.ShapedRecipes@2db3675a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 337 minecraft:diamond_block net.minecraft.item.crafting.ShapedRecipes@64508788
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 338 minecraft:diamond_axe net.minecraft.item.crafting.ShapedRecipes@4fd92289
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 339 minecraft:diamond net.minecraft.item.crafting.ShapedRecipes@1987807b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 340 minecraft:detector_rail net.minecraft.item.crafting.ShapedRecipes@43cf5bff
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 341 minecraft:daylight_detector net.minecraft.item.crafting.ShapedRecipes@65a2755e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 342 minecraft:dark_prismarine net.minecraft.item.crafting.ShapedRecipes@649009d6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 343 minecraft:dark_oak_wooden_slab net.minecraft.item.crafting.ShapedRecipes@3acc3ee
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 344 minecraft:dark_oak_stairs net.minecraft.item.crafting.ShapedRecipes@32c6d164
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 345 minecraft:dark_oak_planks net.minecraft.item.crafting.ShapedRecipes@dd060be
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 346 minecraft:dark_oak_fence_gate net.minecraft.item.crafting.ShapedRecipes@4e671ef
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 347 minecraft:dark_oak_fence net.minecraft.item.crafting.ShapedRecipes@62f37bfd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 348 minecraft:dark_oak_door net.minecraft.item.crafting.ShapedRecipes@25c6ab3f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 349 minecraft:dark_oak_boat net.minecraft.item.crafting.ShapedRecipes@70e1aa20
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 350 minecraft:cyan_wool net.minecraft.item.crafting.ShapelessRecipes@48b09105
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 351 minecraft:cyan_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@7bef7505
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 352 minecraft:cyan_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@3e55d844
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 353 minecraft:cyan_stained_glass net.minecraft.item.crafting.ShapedRecipes@1c972ae6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 354 minecraft:cyan_dye net.minecraft.item.crafting.ShapelessRecipes@2e66f1bd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 355 minecraft:cyan_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@2a5d2041
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 356 minecraft:cyan_carpet net.minecraft.item.crafting.ShapedRecipes@4040ccae
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 357 minecraft:cyan_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@7178d811
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 358 minecraft:cyan_bed net.minecraft.item.crafting.ShapedRecipes@647af13d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 359 minecraft:cyan_banner net.minecraft.item.crafting.ShapedRecipes@1805ca5c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 360 minecraft:crafting_table net.minecraft.item.crafting.ShapedRecipes@3cc74fc4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 361 minecraft:cookie net.minecraft.item.crafting.ShapedRecipes@62c53685
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 362 minecraft:compass net.minecraft.item.crafting.ShapedRecipes@608eb42e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 363 minecraft:comparator net.minecraft.item.crafting.ShapedRecipes@3fe24670
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 364 minecraft:cobblestone_wall net.minecraft.item.crafting.ShapedRecipes@6d4c18b8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 365 minecraft:cobblestone_slab net.minecraft.item.crafting.ShapedRecipes@56a9a7b5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 366 minecraft:coarse_dirt net.minecraft.item.crafting.ShapedRecipes@746fd19b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 367 minecraft:coal_block net.minecraft.item.crafting.ShapedRecipes@3991fe6d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 368 minecraft:coal net.minecraft.item.crafting.ShapedRecipes@23954300
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 369 minecraft:clock net.minecraft.item.crafting.ShapedRecipes@7509226c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 370 minecraft:clay net.minecraft.item.crafting.ShapedRecipes@5f01fb5c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 371 minecraft:chiseled_stonebrick net.minecraft.item.crafting.ShapedRecipes@3d4b45b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 372 minecraft:chiseled_sandstone net.minecraft.item.crafting.ShapedRecipes@3f87780b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 373 minecraft:chiseled_red_sandstone net.minecraft.item.crafting.ShapedRecipes@240f2efd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 374 minecraft:chiseled_quartz_block net.minecraft.item.crafting.ShapedRecipes@4bfe83d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 375 minecraft:chest_minecart net.minecraft.item.crafting.ShapedRecipes@eb695e8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 376 minecraft:chest net.minecraft.item.crafting.ShapedRecipes@10f397d0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 377 minecraft:cauldron net.minecraft.item.crafting.ShapedRecipes@6b5e1fc5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 378 minecraft:carrot_on_a_stick net.minecraft.item.crafting.ShapedRecipes@248d2cec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 379 minecraft:cake net.minecraft.item.crafting.ShapedRecipes@6e66b498
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 380 minecraft:bucket net.minecraft.item.crafting.ShapedRecipes@1e32037d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 381 minecraft:brown_wool net.minecraft.item.crafting.ShapelessRecipes@53b2e1eb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 382 minecraft:brown_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@2c4cf7eb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 383 minecraft:brown_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@72d0196d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 384 minecraft:brown_stained_glass net.minecraft.item.crafting.ShapedRecipes@47d81427
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 385 minecraft:brown_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@43df1377
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 386 minecraft:brown_carpet net.minecraft.item.crafting.ShapedRecipes@405223e4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 387 minecraft:brown_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@3883031d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 388 minecraft:brown_bed net.minecraft.item.crafting.ShapedRecipes@798b36fd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 389 minecraft:brown_banner net.minecraft.item.crafting.ShapedRecipes@237cd264
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 390 minecraft:brick_stairs net.minecraft.item.crafting.ShapedRecipes@71f056a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 391 minecraft:brick_slab net.minecraft.item.crafting.ShapedRecipes@2e1ad7de
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 392 minecraft:brick_block net.minecraft.item.crafting.ShapedRecipes@395197cb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 393 minecraft:brewing_stand net.minecraft.item.crafting.ShapedRecipes@191774d6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 394 minecraft:bread net.minecraft.item.crafting.ShapedRecipes@6723e6b3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 395 minecraft:bowl net.minecraft.item.crafting.ShapedRecipes@58f97013
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 396 minecraft:bow net.minecraft.item.crafting.ShapedRecipes@195cbf5e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 397 minecraft:bookshelf net.minecraft.item.crafting.ShapedRecipes@7adff6cb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 398 minecraft:book net.minecraft.item.crafting.ShapelessRecipes@5a537a16
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 399 minecraft:bone_meal_from_bone net.minecraft.item.crafting.ShapelessRecipes@2ee095c9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 400 minecraft:bone_meal_from_block net.minecraft.item.crafting.ShapelessRecipes@24cbf894
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 401 minecraft:bone_block net.minecraft.item.crafting.ShapedRecipes@4db16677
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 402 minecraft:boat net.minecraft.item.crafting.ShapedRecipes@18f8e2e0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 403 minecraft:blue_wool net.minecraft.item.crafting.ShapelessRecipes@6109d880
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 404 minecraft:blue_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@72d16d6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 405 minecraft:blue_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@2b15ba1a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 406 minecraft:blue_stained_glass net.minecraft.item.crafting.ShapedRecipes@1203d787
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 407 minecraft:blue_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@5981f2c6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 408 minecraft:blue_carpet net.minecraft.item.crafting.ShapedRecipes@3f033664
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 409 minecraft:blue_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@59b1edab
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 410 minecraft:blue_bed net.minecraft.item.crafting.ShapedRecipes@6843fdc4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 411 minecraft:blue_banner net.minecraft.item.crafting.ShapedRecipes@69944a90
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 412 minecraft:blaze_powder net.minecraft.item.crafting.ShapelessRecipes@7131d668
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 413 minecraft:black_wool net.minecraft.item.crafting.ShapelessRecipes@78e97d4d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 414 minecraft:black_stained_hardened_clay net.minecraft.item.crafting.ShapedRecipes@1293f8d7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 415 minecraft:black_stained_glass_pane net.minecraft.item.crafting.ShapedRecipes@666b91db
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 416 minecraft:black_stained_glass net.minecraft.item.crafting.ShapedRecipes@9cb927e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 417 minecraft:black_concrete_powder net.minecraft.item.crafting.ShapelessRecipes@3c116f26
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 418 minecraft:black_carpet net.minecraft.item.crafting.ShapedRecipes@3c6b300a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 419 minecraft:black_bed_from_white_bed net.minecraft.item.crafting.ShapelessRecipes@44a13699
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 420 minecraft:black_bed net.minecraft.item.crafting.ShapedRecipes@4189e668
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 421 minecraft:black_banner net.minecraft.item.crafting.ShapedRecipes@4037cdb0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 422 minecraft:birch_wooden_slab net.minecraft.item.crafting.ShapedRecipes@776d8097
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 423 minecraft:birch_stairs net.minecraft.item.crafting.ShapedRecipes@55b45ea1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 424 minecraft:birch_planks net.minecraft.item.crafting.ShapedRecipes@4c418496
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 425 minecraft:birch_fence_gate net.minecraft.item.crafting.ShapedRecipes@52035328
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 426 minecraft:birch_fence net.minecraft.item.crafting.ShapedRecipes@7891cf3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 427 minecraft:birch_door net.minecraft.item.crafting.ShapedRecipes@78a165db
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 428 minecraft:birch_boat net.minecraft.item.crafting.ShapedRecipes@6dbeaef8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 429 minecraft:beetroot_soup net.minecraft.item.crafting.ShapedRecipes@40cb95c1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 430 minecraft:beacon net.minecraft.item.crafting.ShapedRecipes@644e6a8e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 431 minecraft:arrow net.minecraft.item.crafting.ShapedRecipes@4258106
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 432 minecraft:armor_stand net.minecraft.item.crafting.ShapedRecipes@113c4ad6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 433 minecraft:anvil net.minecraft.item.crafting.ShapedRecipes@352e4b6d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 434 minecraft:andesite net.minecraft.item.crafting.ShapelessRecipes@7b5c9412
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 435 minecraft:activator_rail net.minecraft.item.crafting.ShapedRecipes@215a329c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 436 minecraft:acacia_wooden_slab net.minecraft.item.crafting.ShapedRecipes@2b0d85bd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 437 minecraft:acacia_stairs net.minecraft.item.crafting.ShapedRecipes@1f57666b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 438 minecraft:acacia_planks net.minecraft.item.crafting.ShapedRecipes@1ed12d10
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 439 minecraft:acacia_fence_gate net.minecraft.item.crafting.ShapedRecipes@30ed4034
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 440 minecraft:acacia_fence net.minecraft.item.crafting.ShapedRecipes@3bb4c2b2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 441 minecraft:acacia_door net.minecraft.item.crafting.ShapedRecipes@38caad07
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 442 minecraft:acacia_boat net.minecraft.item.crafting.ShapedRecipes@85c3522
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 443 mekanism:walkietalkie net.minecraftforge.oredict.ShapedOreRecipe@28186be6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 444 mekanism:transmitter_6_alt_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@4e5b41c9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 445 mekanism:transmitter_6_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@10d72540
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 446 mekanism:transmitter_6_alt net.minecraftforge.oredict.ShapedOreRecipe@159b00e5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 447 mekanism:transmitter_6 net.minecraftforge.oredict.ShapedOreRecipe@25e9f618
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 448 mekanism:transmitter_5 net.minecraftforge.oredict.ShapedOreRecipe@5dfeb041
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 449 mekanism:transmitter_4 net.minecraftforge.oredict.ShapedOreRecipe@6068c103
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 450 mekanism:transmitter_3_alt_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@20c3548c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 451 mekanism:transmitter_3_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@61d6ce5c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 452 mekanism:transmitter_3_alt net.minecraftforge.oredict.ShapedOreRecipe@1df17084
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 453 mekanism:transmitter_3 net.minecraftforge.oredict.ShapedOreRecipe@45e5815d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 454 mekanism:transmitter_2_alt_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@2242dbb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 455 mekanism:transmitter_2_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@2db2e2a3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 456 mekanism:transmitter_2_alt net.minecraftforge.oredict.ShapedOreRecipe@1aa7f497
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 457 mekanism:transmitter_2 net.minecraftforge.oredict.ShapedOreRecipe@f06456e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 458 mekanism:transmitter_1_alt_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@8f756a1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 459 mekanism:transmitter_1_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@1099b61a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 460 mekanism:transmitter_1_alt net.minecraftforge.oredict.ShapedOreRecipe@30e632cd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 461 mekanism:transmitter_1 net.minecraftforge.oredict.ShapedOreRecipe@4434c36c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 462 mekanism:transmitter_0_alt_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@66d911d3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 463 mekanism:transmitter_0_alt_alt net.minecraftforge.oredict.ShapedOreRecipe@668f3892
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 464 mekanism:transmitter_0_alt net.minecraftforge.oredict.ShapedOreRecipe@470832f1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 465 mekanism:transmitter_0 net.minecraftforge.oredict.ShapedOreRecipe@5c322956
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 466 mekanism:tierinstaller_3 net.minecraftforge.oredict.ShapedOreRecipe@4cc173de
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 467 mekanism:tierinstaller_2 net.minecraftforge.oredict.ShapedOreRecipe@4119360e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 468 mekanism:tierinstaller_1 net.minecraftforge.oredict.ShapedOreRecipe@2d0c1399
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 469 mekanism:tierinstaller_0 net.minecraftforge.oredict.ShapedOreRecipe@1ca14468
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 470 mekanism:teleportationcore net.minecraftforge.oredict.ShapedOreRecipe@6426b954
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 471 mekanism:speedupgrade net.minecraftforge.oredict.ShapedOreRecipe@640e67e1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 472 mekanism:slickplasticblock_9_alt net.minecraftforge.oredict.ShapedOreRecipe@127df224
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 473 mekanism:slickplasticblock_9 net.minecraftforge.oredict.ShapedOreRecipe@3fd00253
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 474 mekanism:slickplasticblock_8_alt net.minecraftforge.oredict.ShapedOreRecipe@1257039c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 475 mekanism:slickplasticblock_8 net.minecraftforge.oredict.ShapedOreRecipe@6263c92e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 476 mekanism:slickplasticblock_7_alt net.minecraftforge.oredict.ShapedOreRecipe@1c54604c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 477 mekanism:slickplasticblock_7 net.minecraftforge.oredict.ShapedOreRecipe@71764d0b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 478 mekanism:slickplasticblock_6_alt net.minecraftforge.oredict.ShapedOreRecipe@24f5805f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 479 mekanism:slickplasticblock_6 net.minecraftforge.oredict.ShapedOreRecipe@1437100e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 480 mekanism:slickplasticblock_5_alt net.minecraftforge.oredict.ShapedOreRecipe@376c627f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 481 mekanism:slickplasticblock_5 net.minecraftforge.oredict.ShapedOreRecipe@26d85edc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 482 mekanism:slickplasticblock_4_alt net.minecraftforge.oredict.ShapedOreRecipe@655c1c55
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 483 mekanism:slickplasticblock_4 net.minecraftforge.oredict.ShapedOreRecipe@3df6babd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 484 mekanism:slickplasticblock_3_alt net.minecraftforge.oredict.ShapedOreRecipe@7f099be1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 485 mekanism:slickplasticblock_3 net.minecraftforge.oredict.ShapedOreRecipe@291f4a22
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 486 mekanism:slickplasticblock_2_alt net.minecraftforge.oredict.ShapedOreRecipe@42d610a5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 487 mekanism:slickplasticblock_2 net.minecraftforge.oredict.ShapedOreRecipe@327d5b74
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 488 mekanism:slickplasticblock_1_alt net.minecraftforge.oredict.ShapedOreRecipe@6b94cb56
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 489 mekanism:slickplasticblock_15_alt net.minecraftforge.oredict.ShapedOreRecipe@5162bf3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 490 mekanism:slickplasticblock_15 net.minecraftforge.oredict.ShapedOreRecipe@1b196c08
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 491 mekanism:slickplasticblock_14_alt net.minecraftforge.oredict.ShapedOreRecipe@a826a3e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 492 mekanism:slickplasticblock_14 net.minecraftforge.oredict.ShapedOreRecipe@3b8e73b2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 493 mekanism:slickplasticblock_13_alt net.minecraftforge.oredict.ShapedOreRecipe@1635cb05
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 494 mekanism:slickplasticblock_13 net.minecraftforge.oredict.ShapedOreRecipe@4e64f7af
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 495 mekanism:slickplasticblock_12_alt net.minecraftforge.oredict.ShapedOreRecipe@565fd532
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 496 mekanism:slickplasticblock_12 net.minecraftforge.oredict.ShapedOreRecipe@3afda2d9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 497 mekanism:slickplasticblock_11_alt net.minecraftforge.oredict.ShapedOreRecipe@1b73adc2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 498 mekanism:slickplasticblock_11 net.minecraftforge.oredict.ShapedOreRecipe@5dc88d33
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 499 mekanism:slickplasticblock_10_alt net.minecraftforge.oredict.ShapedOreRecipe@3013532e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 500 mekanism:slickplasticblock_10 net.minecraftforge.oredict.ShapedOreRecipe@7ae70ec3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 501 mekanism:slickplasticblock_1 net.minecraftforge.oredict.ShapedOreRecipe@2ddafc2f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 502 mekanism:slickplasticblock_0_alt net.minecraftforge.oredict.ShapedOreRecipe@30d3f58b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 503 mekanism:slickplasticblock_0 net.minecraftforge.oredict.ShapedOreRecipe@62edef46
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 504 mekanism:seismicreader mekanism.common.recipe.ShapedMekanismRecipe@47c247f8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 505 mekanism:scubatank mekanism.common.recipe.ShapedMekanismRecipe@8316546
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 506 mekanism:saltblock net.minecraft.item.crafting.ShapedRecipes@1d50c780
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 507 mekanism:robit mekanism.common.recipe.ShapedMekanismRecipe@2bb8820c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 508 mekanism:roadplasticblock_9_alt net.minecraftforge.oredict.ShapedOreRecipe@71fe859b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 509 mekanism:roadplasticblock_9 net.minecraft.item.crafting.ShapedRecipes@a13fd6d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 510 mekanism:roadplasticblock_8_alt net.minecraftforge.oredict.ShapedOreRecipe@6aa5478c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 511 mekanism:roadplasticblock_8 net.minecraft.item.crafting.ShapedRecipes@2ab57395
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 512 mekanism:roadplasticblock_7_alt net.minecraftforge.oredict.ShapedOreRecipe@7ea0de79
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 513 mekanism:roadplasticblock_7 net.minecraft.item.crafting.ShapedRecipes@693d7da5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 514 mekanism:roadplasticblock_6_alt net.minecraftforge.oredict.ShapedOreRecipe@43c1927a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 515 mekanism:roadplasticblock_6 net.minecraft.item.crafting.ShapedRecipes@b4417b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 516 mekanism:roadplasticblock_5_alt net.minecraftforge.oredict.ShapedOreRecipe@14ed0f42
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 517 mekanism:roadplasticblock_5 net.minecraft.item.crafting.ShapedRecipes@22ef2620
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 518 mekanism:roadplasticblock_4_alt net.minecraftforge.oredict.ShapedOreRecipe@3d9f1a41
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 519 mekanism:roadplasticblock_4 net.minecraft.item.crafting.ShapedRecipes@74cfc140
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 520 mekanism:roadplasticblock_3_alt net.minecraftforge.oredict.ShapedOreRecipe@3c64902c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 521 mekanism:roadplasticblock_3 net.minecraft.item.crafting.ShapedRecipes@4709fb80
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 522 mekanism:roadplasticblock_2_alt net.minecraftforge.oredict.ShapedOreRecipe@25a174e8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 523 mekanism:roadplasticblock_2 net.minecraft.item.crafting.ShapedRecipes@27ec9646
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 524 mekanism:roadplasticblock_1_alt net.minecraftforge.oredict.ShapedOreRecipe@6858f4d9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 525 mekanism:roadplasticblock_15_alt net.minecraftforge.oredict.ShapedOreRecipe@6547cb87
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 526 mekanism:roadplasticblock_15 net.minecraft.item.crafting.ShapedRecipes@8172844
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 527 mekanism:roadplasticblock_14_alt net.minecraftforge.oredict.ShapedOreRecipe@9225384
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 528 mekanism:roadplasticblock_14 net.minecraft.item.crafting.ShapedRecipes@535a3ce6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 529 mekanism:roadplasticblock_13_alt net.minecraftforge.oredict.ShapedOreRecipe@228f78b9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 530 mekanism:roadplasticblock_13 net.minecraft.item.crafting.ShapedRecipes@769ddc7d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 531 mekanism:roadplasticblock_12_alt net.minecraftforge.oredict.ShapedOreRecipe@21939549
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 532 mekanism:roadplasticblock_12 net.minecraft.item.crafting.ShapedRecipes@d173636
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 533 mekanism:roadplasticblock_11_alt net.minecraftforge.oredict.ShapedOreRecipe@6a503a3e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 534 mekanism:roadplasticblock_11 net.minecraft.item.crafting.ShapedRecipes@1489257e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 535 mekanism:roadplasticblock_10_alt net.minecraftforge.oredict.ShapedOreRecipe@50d0adba
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 536 mekanism:roadplasticblock_10 net.minecraft.item.crafting.ShapedRecipes@7beaabda
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 537 mekanism:roadplasticblock_1 net.minecraft.item.crafting.ShapedRecipes@67f5ddc0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 538 mekanism:roadplasticblock_0_alt net.minecraftforge.oredict.ShapedOreRecipe@6c2e9c38
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 539 mekanism:roadplasticblock_0 net.minecraft.item.crafting.ShapedRecipes@682e9f40
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 540 mekanism:reinforcedplasticblock_9_alt net.minecraftforge.oredict.ShapedOreRecipe@6f6f9bf5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 541 mekanism:reinforcedplasticblock_9 net.minecraftforge.oredict.ShapedOreRecipe@6a1d77dd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 542 mekanism:reinforcedplasticblock_8_alt net.minecraftforge.oredict.ShapedOreRecipe@437e1544
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 543 mekanism:reinforcedplasticblock_8 net.minecraftforge.oredict.ShapedOreRecipe@78be38af
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 544 mekanism:reinforcedplasticblock_7_alt net.minecraftforge.oredict.ShapedOreRecipe@f5341c6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 545 mekanism:reinforcedplasticblock_7 net.minecraftforge.oredict.ShapedOreRecipe@2f277e80
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 546 mekanism:reinforcedplasticblock_6_alt net.minecraftforge.oredict.ShapedOreRecipe@55403c88
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 547 mekanism:reinforcedplasticblock_6 net.minecraftforge.oredict.ShapedOreRecipe@61a329c4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 548 mekanism:reinforcedplasticblock_5_alt net.minecraftforge.oredict.ShapedOreRecipe@428f1f6e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 549 mekanism:reinforcedplasticblock_5 net.minecraftforge.oredict.ShapedOreRecipe@1d77c891
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 550 mekanism:reinforcedplasticblock_4_alt net.minecraftforge.oredict.ShapedOreRecipe@6cbc6e8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 551 mekanism:reinforcedplasticblock_4 net.minecraftforge.oredict.ShapedOreRecipe@76a8ba17
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 552 mekanism:reinforcedplasticblock_3_alt net.minecraftforge.oredict.ShapedOreRecipe@2df2d95
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 553 mekanism:reinforcedplasticblock_3 net.minecraftforge.oredict.ShapedOreRecipe@19e9880d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 554 mekanism:reinforcedplasticblock_2_alt net.minecraftforge.oredict.ShapedOreRecipe@28bbdc43
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 555 mekanism:reinforcedplasticblock_2 net.minecraftforge.oredict.ShapedOreRecipe@421af1b4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 556 mekanism:reinforcedplasticblock_1_alt net.minecraftforge.oredict.ShapedOreRecipe@2a4c8c42
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 557 mekanism:reinforcedplasticblock_15_alt net.minecraftforge.oredict.ShapedOreRecipe@7f6cbda1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 558 mekanism:reinforcedplasticblock_15 net.minecraftforge.oredict.ShapedOreRecipe@6471fec8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 559 mekanism:reinforcedplasticblock_14_alt net.minecraftforge.oredict.ShapedOreRecipe@56d63ab0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 560 mekanism:reinforcedplasticblock_14 net.minecraftforge.oredict.ShapedOreRecipe@48705dcc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 561 mekanism:reinforcedplasticblock_13_alt net.minecraftforge.oredict.ShapedOreRecipe@1449ad79
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 562 mekanism:reinforcedplasticblock_13 net.minecraftforge.oredict.ShapedOreRecipe@7d51f106
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 563 mekanism:reinforcedplasticblock_12_alt net.minecraftforge.oredict.ShapedOreRecipe@43246511
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 564 mekanism:reinforcedplasticblock_12 net.minecraftforge.oredict.ShapedOreRecipe@29bcf902
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 565 mekanism:reinforcedplasticblock_11_alt net.minecraftforge.oredict.ShapedOreRecipe@b11a465
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 566 mekanism:reinforcedplasticblock_11 net.minecraftforge.oredict.ShapedOreRecipe@6ee5460f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 567 mekanism:reinforcedplasticblock_10_alt net.minecraftforge.oredict.ShapedOreRecipe@3a8d3643
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 568 mekanism:reinforcedplasticblock_10 net.minecraftforge.oredict.ShapedOreRecipe@644a0631
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 569 mekanism:reinforcedplasticblock_1 net.minecraftforge.oredict.ShapedOreRecipe@241f3f8c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 570 mekanism:reinforcedplasticblock_0_alt net.minecraftforge.oredict.ShapedOreRecipe@740ff2bd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 571 mekanism:reinforcedplasticblock_0 net.minecraftforge.oredict.ShapedOreRecipe@4b4e83a4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 572 mekanism:rail net.minecraftforge.oredict.ShapedOreRecipe@6d9c1599
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 573 mekanism:portableteleporter mekanism.common.recipe.ShapedMekanismRecipe@18da218f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 574 mekanism:polyethene_3 net.minecraft.item.crafting.ShapedRecipes@1a30c741
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 575 mekanism:polyethene_2 net.minecraft.item.crafting.ShapedRecipes@28f16a79
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 576 mekanism:polyethene_1 net.minecraft.item.crafting.ShapedRecipes@3a8ae382
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 577 mekanism:plasticfence_9_alt net.minecraftforge.oredict.ShapedOreRecipe@e2b9ce9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 578 mekanism:plasticfence_9 net.minecraft.item.crafting.ShapedRecipes@29c34fa4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 579 mekanism:plasticfence_8_alt net.minecraftforge.oredict.ShapedOreRecipe@4565b430
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 580 mekanism:plasticfence_8 net.minecraft.item.crafting.ShapedRecipes@58b27de7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 581 mekanism:plasticfence_7_alt net.minecraftforge.oredict.ShapedOreRecipe@3ef5400f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 582 mekanism:plasticfence_7 net.minecraft.item.crafting.ShapedRecipes@2287a118
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 583 mekanism:plasticfence_6_alt net.minecraftforge.oredict.ShapedOreRecipe@40f78a8a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 584 mekanism:plasticfence_6 net.minecraft.item.crafting.ShapedRecipes@d6d7a7f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 585 mekanism:plasticfence_5_alt net.minecraftforge.oredict.ShapedOreRecipe@4b98711d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 586 mekanism:plasticfence_5 net.minecraft.item.crafting.ShapedRecipes@74a54e7f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 587 mekanism:plasticfence_4_alt net.minecraftforge.oredict.ShapedOreRecipe@2e1d5400
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 588 mekanism:plasticfence_4 net.minecraft.item.crafting.ShapedRecipes@594722f1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 589 mekanism:plasticfence_3_alt net.minecraftforge.oredict.ShapedOreRecipe@3f1eabcb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 590 mekanism:plasticfence_3 net.minecraft.item.crafting.ShapedRecipes@1094450d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 591 mekanism:plasticfence_2_alt net.minecraftforge.oredict.ShapedOreRecipe@43713466
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 592 mekanism:plasticfence_2 net.minecraft.item.crafting.ShapedRecipes@eccd5ed
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 593 mekanism:plasticfence_1_alt net.minecraftforge.oredict.ShapedOreRecipe@c1efb6e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 594 mekanism:plasticfence_15_alt net.minecraftforge.oredict.ShapedOreRecipe@53c6e031
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 595 mekanism:plasticfence_15 net.minecraft.item.crafting.ShapedRecipes@3fc35891
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 596 mekanism:plasticfence_14_alt net.minecraftforge.oredict.ShapedOreRecipe@10ae65ea
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 597 mekanism:plasticfence_14 net.minecraft.item.crafting.ShapedRecipes@3a0b37ee
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 598 mekanism:plasticfence_13_alt net.minecraftforge.oredict.ShapedOreRecipe@40eca7f2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 599 mekanism:plasticfence_13 net.minecraft.item.crafting.ShapedRecipes@126515b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 600 mekanism:plasticfence_12_alt net.minecraftforge.oredict.ShapedOreRecipe@67cc777b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 601 mekanism:plasticfence_12 net.minecraft.item.crafting.ShapedRecipes@1287e3e9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 602 mekanism:plasticfence_11_alt net.minecraftforge.oredict.ShapedOreRecipe@573845e0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 603 mekanism:plasticfence_11 net.minecraft.item.crafting.ShapedRecipes@1c59a4a1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 604 mekanism:plasticfence_10_alt net.minecraftforge.oredict.ShapedOreRecipe@6628d62d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 605 mekanism:plasticfence_10 net.minecraft.item.crafting.ShapedRecipes@14acccf1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 606 mekanism:plasticfence_1 net.minecraft.item.crafting.ShapedRecipes@37595f77
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 607 mekanism:plasticfence_0_alt net.minecraftforge.oredict.ShapedOreRecipe@61f0742d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 608 mekanism:plasticfence_0 net.minecraft.item.crafting.ShapedRecipes@22518cb9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 609 mekanism:plasticblock_9_alt net.minecraftforge.oredict.ShapedOreRecipe@166a08d8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 610 mekanism:plasticblock_9 net.minecraftforge.oredict.ShapedOreRecipe@4e58e3a0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 611 mekanism:plasticblock_8_alt net.minecraftforge.oredict.ShapedOreRecipe@569a2cbf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 612 mekanism:plasticblock_8 net.minecraftforge.oredict.ShapedOreRecipe@36e115e7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 613 mekanism:plasticblock_7_alt net.minecraftforge.oredict.ShapedOreRecipe@7807688e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 614 mekanism:plasticblock_7 net.minecraftforge.oredict.ShapedOreRecipe@a2a2056
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 615 mekanism:plasticblock_6_alt net.minecraftforge.oredict.ShapedOreRecipe@22463bee
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 616 mekanism:plasticblock_6 net.minecraftforge.oredict.ShapedOreRecipe@748c7e57
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 617 mekanism:plasticblock_5_alt net.minecraftforge.oredict.ShapedOreRecipe@3232f9ec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 618 mekanism:plasticblock_5 net.minecraftforge.oredict.ShapedOreRecipe@29bb0e19
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 619 mekanism:plasticblock_4_alt net.minecraftforge.oredict.ShapedOreRecipe@29a44521
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 620 mekanism:plasticblock_4 net.minecraftforge.oredict.ShapedOreRecipe@49c318ed
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 621 mekanism:plasticblock_3_alt net.minecraftforge.oredict.ShapedOreRecipe@825184d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 622 mekanism:plasticblock_3 net.minecraftforge.oredict.ShapedOreRecipe@2bd9a603
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 623 mekanism:plasticblock_2_alt net.minecraftforge.oredict.ShapedOreRecipe@10d11ec5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 624 mekanism:plasticblock_2 net.minecraftforge.oredict.ShapedOreRecipe@3c52918e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 625 mekanism:plasticblock_1_alt net.minecraftforge.oredict.ShapedOreRecipe@1b3a9111
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 626 mekanism:plasticblock_15_alt net.minecraftforge.oredict.ShapedOreRecipe@727a73f2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 627 mekanism:plasticblock_15 net.minecraft.item.crafting.ShapedRecipes@293892ec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 628 mekanism:plasticblock_14_alt net.minecraftforge.oredict.ShapedOreRecipe@1834c28a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 629 mekanism:plasticblock_14 net.minecraftforge.oredict.ShapedOreRecipe@69a97468
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 630 mekanism:plasticblock_13_alt net.minecraftforge.oredict.ShapedOreRecipe@3cc8f773
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 631 mekanism:plasticblock_13 net.minecraftforge.oredict.ShapedOreRecipe@4ae85baa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 632 mekanism:plasticblock_12_alt net.minecraftforge.oredict.ShapedOreRecipe@566d6857
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 633 mekanism:plasticblock_12 net.minecraftforge.oredict.ShapedOreRecipe@188bd46a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 634 mekanism:plasticblock_11_alt net.minecraftforge.oredict.ShapedOreRecipe@7a2a35fe
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 635 mekanism:plasticblock_11 net.minecraftforge.oredict.ShapedOreRecipe@7d34ce48
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 636 mekanism:plasticblock_10_alt net.minecraftforge.oredict.ShapedOreRecipe@186deb87
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 637 mekanism:plasticblock_10 net.minecraftforge.oredict.ShapedOreRecipe@425b32da
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 638 mekanism:plasticblock_1 net.minecraftforge.oredict.ShapedOreRecipe@49fcf198
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 639 mekanism:plasticblock_0_alt net.minecraftforge.oredict.ShapedOreRecipe@378aefc0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 640 mekanism:plasticblock_0 net.minecraftforge.oredict.ShapedOreRecipe@5602c3b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 641 mekanism:paper net.minecraft.item.crafting.ShapedRecipes@870d329
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 642 mekanism:obsidiantnt net.minecraft.item.crafting.ShapedRecipes@352ef8ce
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 643 mekanism:nugget_6 net.minecraftforge.oredict.ShapedOreRecipe@5983459c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 644 mekanism:nugget_5 net.minecraftforge.oredict.ShapedOreRecipe@15544b0a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 645 mekanism:nugget_4 net.minecraftforge.oredict.ShapedOreRecipe@109aa6d9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 646 mekanism:nugget_3 net.minecraftforge.oredict.ShapedOreRecipe@384194b2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 647 mekanism:nugget_2 net.minecraftforge.oredict.ShapedOreRecipe@439dd258
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 648 mekanism:nugget_1 net.minecraftforge.oredict.ShapedOreRecipe@36d29ff6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 649 mekanism:nugget_0 net.minecraftforge.oredict.ShapedOreRecipe@1a586eec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 650 mekanism:networkreader mekanism.common.recipe.ShapedMekanismRecipe@2e16f2e3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 651 mekanism:mufflingupgrade net.minecraftforge.oredict.ShapedOreRecipe@154a54da
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 652 mekanism:machineblock_9 mekanism.common.recipe.ShapedMekanismRecipe@1c5b39ec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 653 mekanism:machineblock_8 mekanism.common.recipe.ShapedMekanismRecipe@2994a396
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 654 mekanism:machineblock_7_alt_alt_alt_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@762b698
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 655 mekanism:machineblock_7_alt_alt_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@51305b68
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 656 mekanism:machineblock_7_alt_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@56beea77
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 657 mekanism:machineblock_7_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@40e4b8cd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 658 mekanism:machineblock_7_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@79c8ce72
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 659 mekanism:machineblock_7_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@5ec3d4f8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 660 mekanism:machineblock_7_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@1af2bc40
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 661 mekanism:machineblock_7_alt mekanism.common.recipe.ShapedMekanismRecipe@42327d38
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 662 mekanism:machineblock_7 mekanism.common.recipe.ShapedMekanismRecipe@679c08ea
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 663 mekanism:machineblock_6_alt_alt_alt_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@5b9562e9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 664 mekanism:machineblock_6_alt_alt_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@4360ecc1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 665 mekanism:machineblock_6_alt_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@504b5440
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 666 mekanism:machineblock_6_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@26b7a8a1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 667 mekanism:machineblock_6_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@591b4895
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 668 mekanism:machineblock_6_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@ab1a5f6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 669 mekanism:machineblock_6_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@9c5ed30
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 670 mekanism:machineblock_6_alt mekanism.common.recipe.ShapedMekanismRecipe@5564eafa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 671 mekanism:machineblock_6 mekanism.common.recipe.ShapedMekanismRecipe@705f2da4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 672 mekanism:machineblock_5_alt_alt_alt_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@6ec9b8ad
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 673 mekanism:machineblock_5_alt_alt_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@75b1d73a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 674 mekanism:machineblock_5_alt_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@5cc12adb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 675 mekanism:machineblock_5_alt_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@84b1a3b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 676 mekanism:machineblock_5_alt_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@4caebb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 677 mekanism:machineblock_5_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@1005997d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 678 mekanism:machineblock_5_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@7a9b21cb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 679 mekanism:machineblock_5_alt mekanism.common.recipe.ShapedMekanismRecipe@26eeff6d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 680 mekanism:machineblock_5 mekanism.common.recipe.ShapedMekanismRecipe@701ce89e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 681 mekanism:machineblock_4 mekanism.common.recipe.ShapedMekanismRecipe@7223ffd5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 682 mekanism:machineblock_3 mekanism.common.recipe.ShapedMekanismRecipe@1d853e91
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 683 mekanism:machineblock_2 mekanism.common.recipe.ShapedMekanismRecipe@725b67ab
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 684 mekanism:machineblock_15 mekanism.common.recipe.ShapedMekanismRecipe@48cd9bec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 685 mekanism:machineblock_14 mekanism.common.recipe.ShapedMekanismRecipe@43ab281f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 686 mekanism:machineblock_13 mekanism.common.recipe.ShapedMekanismRecipe@2917a11
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 687 mekanism:machineblock_12 mekanism.common.recipe.ShapedMekanismRecipe@546e2bd7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 688 mekanism:machineblock_11 mekanism.common.recipe.ShapedMekanismRecipe@29ac2d4d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 689 mekanism:machineblock_10 mekanism.common.recipe.ShapedMekanismRecipe@343b5eae
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 690 mekanism:machineblock_1 mekanism.common.recipe.ShapedMekanismRecipe@5a0bc864
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 691 mekanism:machineblock_0 mekanism.common.recipe.ShapedMekanismRecipe@5aa54b13
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 692 mekanism:machineblock3_6 mekanism.common.recipe.ShapedMekanismRecipe@2ed7a513
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 693 mekanism:machineblock3_5 mekanism.common.recipe.ShapedMekanismRecipe@48580b18
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 694 mekanism:machineblock3_4 mekanism.common.recipe.ShapedMekanismRecipe@2002e2d3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 695 mekanism:machineblock3_3 mekanism.common.recipe.ShapedMekanismRecipe@3f76936a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 696 mekanism:machineblock3_1 mekanism.common.recipe.ShapedMekanismRecipe@31c144a6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 697 mekanism:machineblock3_0 mekanism.common.recipe.ShapedMekanismRecipe@5b6a74e7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 698 mekanism:machineblock2_9 mekanism.common.recipe.ShapedMekanismRecipe@6a576ef7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 699 mekanism:machineblock2_8 mekanism.common.recipe.ShapedMekanismRecipe@5ca60810
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 700 mekanism:machineblock2_7 mekanism.common.recipe.ShapedMekanismRecipe@7553c3d3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 701 mekanism:machineblock2_6 mekanism.common.recipe.ShapedMekanismRecipe@13e5d52b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 702 mekanism:machineblock2_5 mekanism.common.recipe.ShapedMekanismRecipe@7a273ab2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 703 mekanism:machineblock2_4 mekanism.common.recipe.ShapedMekanismRecipe@1dac3859
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 704 mekanism:machineblock2_3 mekanism.common.recipe.ShapedMekanismRecipe@1886675b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 705 mekanism:machineblock2_2 mekanism.common.recipe.ShapedMekanismRecipe@7411fd90
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 706 mekanism:machineblock2_15 net.minecraft.item.crafting.ShapedRecipes@6a38ff29
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 707 mekanism:machineblock2_14 mekanism.common.recipe.ShapedMekanismRecipe@56f3c3d6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 708 mekanism:machineblock2_13 mekanism.common.recipe.ShapedMekanismRecipe@334c5fc8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 709 mekanism:machineblock2_12 mekanism.common.recipe.ShapedMekanismRecipe@1adef192
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 710 mekanism:machineblock2_11_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@2f26e423
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 711 mekanism:machineblock2_11_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@4b67f61e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 712 mekanism:machineblock2_11_alt mekanism.common.recipe.ShapedMekanismRecipe@24a57e4e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 713 mekanism:machineblock2_11 mekanism.common.recipe.ShapedMekanismRecipe@1877e927
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 714 mekanism:machineblock2_10 mekanism.common.recipe.ShapedMekanismRecipe@5081426d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 715 mekanism:machineblock2_1 mekanism.common.recipe.ShapedMekanismRecipe@7e6bca8c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 716 mekanism:machineblock2_0 mekanism.common.recipe.ShapedMekanismRecipe@1f5c55da
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 717 mekanism:jetpack mekanism.common.recipe.ShapedMekanismRecipe@222d6997
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 718 mekanism:ingot_6_alt net.minecraftforge.oredict.ShapedOreRecipe@6d9dbcd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 719 mekanism:ingot_6 net.minecraft.item.crafting.ShapedRecipes@5b1957f0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 720 mekanism:ingot_5_alt net.minecraftforge.oredict.ShapedOreRecipe@a9c481a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 721 mekanism:ingot_5 net.minecraft.item.crafting.ShapedRecipes@31e6631d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 722 mekanism:ingot_4_alt net.minecraftforge.oredict.ShapedOreRecipe@52154754
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 723 mekanism:ingot_4 net.minecraft.item.crafting.ShapedRecipes@267c53b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 724 mekanism:ingot_3_alt net.minecraftforge.oredict.ShapedOreRecipe@21d64941
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 725 mekanism:ingot_3 net.minecraft.item.crafting.ShapedRecipes@45fa7c5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 726 mekanism:ingot_2_alt net.minecraftforge.oredict.ShapedOreRecipe@411a5128
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 727 mekanism:ingot_2 net.minecraft.item.crafting.ShapedRecipes@4f9e94b5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 728 mekanism:ingot_1_alt net.minecraftforge.oredict.ShapedOreRecipe@6868766c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 729 mekanism:ingot_1 net.minecraft.item.crafting.ShapedRecipes@29a6f835
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 730 mekanism:ingot_0_alt net.minecraftforge.oredict.ShapedOreRecipe@7a1a89dd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 731 mekanism:ingot_0 net.minecraft.item.crafting.ShapedRecipes@3cd03423
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 732 mekanism:glowplasticblock_9_alt net.minecraftforge.oredict.ShapedOreRecipe@6f931694
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 733 mekanism:glowplasticblock_9 net.minecraft.item.crafting.ShapelessRecipes@45a10e73
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 734 mekanism:glowplasticblock_8_alt net.minecraftforge.oredict.ShapedOreRecipe@1a2171f8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 735 mekanism:glowplasticblock_8 net.minecraft.item.crafting.ShapelessRecipes@4af3fdd9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 736 mekanism:glowplasticblock_7_alt net.minecraftforge.oredict.ShapedOreRecipe@4bc22979
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 737 mekanism:glowplasticblock_7 net.minecraft.item.crafting.ShapelessRecipes@5e4cecdb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 738 mekanism:glowplasticblock_6_alt net.minecraftforge.oredict.ShapedOreRecipe@618a2884
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 739 mekanism:glowplasticblock_6 net.minecraft.item.crafting.ShapelessRecipes@5c43fa5e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 740 mekanism:glowplasticblock_5_alt net.minecraftforge.oredict.ShapedOreRecipe@6e670b85
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 741 mekanism:glowplasticblock_5 net.minecraft.item.crafting.ShapelessRecipes@4c4272ec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 742 mekanism:glowplasticblock_4_alt net.minecraftforge.oredict.ShapedOreRecipe@2230b578
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 743 mekanism:glowplasticblock_4 net.minecraft.item.crafting.ShapelessRecipes@4361a03
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 744 mekanism:glowplasticblock_3_alt net.minecraftforge.oredict.ShapedOreRecipe@13d97491
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 745 mekanism:glowplasticblock_3 net.minecraft.item.crafting.ShapelessRecipes@2ff3e606
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 746 mekanism:glowplasticblock_2_alt net.minecraftforge.oredict.ShapedOreRecipe@1f9831e9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 747 mekanism:glowplasticblock_2 net.minecraft.item.crafting.ShapelessRecipes@69fdae43
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 748 mekanism:glowplasticblock_1_alt net.minecraftforge.oredict.ShapedOreRecipe@4a3f7e02
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 749 mekanism:glowplasticblock_15_alt net.minecraftforge.oredict.ShapedOreRecipe@5155982b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 750 mekanism:glowplasticblock_15 net.minecraft.item.crafting.ShapelessRecipes@5a9dd35
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 751 mekanism:glowplasticblock_14_alt net.minecraftforge.oredict.ShapedOreRecipe@603c6ca1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 752 mekanism:glowplasticblock_14 net.minecraft.item.crafting.ShapelessRecipes@12d4acaf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 753 mekanism:glowplasticblock_13_alt net.minecraftforge.oredict.ShapedOreRecipe@28a87258
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 754 mekanism:glowplasticblock_13 net.minecraft.item.crafting.ShapelessRecipes@6636cbb6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 755 mekanism:glowplasticblock_12_alt net.minecraftforge.oredict.ShapedOreRecipe@70a206a9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 756 mekanism:glowplasticblock_12 net.minecraft.item.crafting.ShapelessRecipes@63045c76
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 757 mekanism:glowplasticblock_11_alt net.minecraftforge.oredict.ShapedOreRecipe@2f7a7da7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 758 mekanism:glowplasticblock_11 net.minecraft.item.crafting.ShapelessRecipes@6f2957d7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 759 mekanism:glowplasticblock_10_alt net.minecraftforge.oredict.ShapedOreRecipe@64c30a1e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 760 mekanism:glowplasticblock_10 net.minecraft.item.crafting.ShapelessRecipes@3ecad139
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 761 mekanism:glowplasticblock_1 net.minecraft.item.crafting.ShapelessRecipes@178f1637
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 762 mekanism:glowplasticblock_0_alt net.minecraftforge.oredict.ShapedOreRecipe@42b8af3a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 763 mekanism:glowplasticblock_0 net.minecraft.item.crafting.ShapelessRecipes@7ad45b4b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 764 mekanism:glowpanel_9_alt net.minecraftforge.oredict.ShapedOreRecipe@129003e8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 765 mekanism:glowpanel_9 net.minecraftforge.oredict.ShapedOreRecipe@6a32beed
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 766 mekanism:glowpanel_8_alt net.minecraftforge.oredict.ShapedOreRecipe@3d730cb1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 767 mekanism:glowpanel_8 net.minecraftforge.oredict.ShapedOreRecipe@2f742911
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 768 mekanism:glowpanel_7_alt net.minecraftforge.oredict.ShapedOreRecipe@71b4b729
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 769 mekanism:glowpanel_7 net.minecraftforge.oredict.ShapedOreRecipe@3d902e0d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 770 mekanism:glowpanel_6_alt net.minecraftforge.oredict.ShapedOreRecipe@4cabd3cd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 771 mekanism:glowpanel_6 net.minecraftforge.oredict.ShapedOreRecipe@24d64443
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 772 mekanism:glowpanel_5_alt net.minecraftforge.oredict.ShapedOreRecipe@709000f4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 773 mekanism:glowpanel_5 net.minecraftforge.oredict.ShapedOreRecipe@7192a77e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 774 mekanism:glowpanel_4_alt net.minecraftforge.oredict.ShapedOreRecipe@1dd79e92
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 775 mekanism:glowpanel_4 net.minecraftforge.oredict.ShapedOreRecipe@3c1bd7f6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 776 mekanism:glowpanel_3_alt net.minecraftforge.oredict.ShapedOreRecipe@77807d12
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 777 mekanism:glowpanel_3 net.minecraftforge.oredict.ShapedOreRecipe@6f388f1c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 778 mekanism:glowpanel_2_alt net.minecraftforge.oredict.ShapedOreRecipe@4a4a03bc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 779 mekanism:glowpanel_2 net.minecraftforge.oredict.ShapedOreRecipe@22cdee3f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 780 mekanism:glowpanel_1_alt net.minecraftforge.oredict.ShapedOreRecipe@6bbf1903
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 781 mekanism:glowpanel_15_alt net.minecraftforge.oredict.ShapedOreRecipe@68454089
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 782 mekanism:glowpanel_15 net.minecraftforge.oredict.ShapedOreRecipe@499738d2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 783 mekanism:glowpanel_14_alt net.minecraftforge.oredict.ShapedOreRecipe@7c16608b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 784 mekanism:glowpanel_14 net.minecraftforge.oredict.ShapedOreRecipe@522e577c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 785 mekanism:glowpanel_13_alt net.minecraftforge.oredict.ShapedOreRecipe@69070e03
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 786 mekanism:glowpanel_13 net.minecraftforge.oredict.ShapedOreRecipe@1d8eb62d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 787 mekanism:glowpanel_12_alt net.minecraftforge.oredict.ShapedOreRecipe@54d5bf3f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 788 mekanism:glowpanel_12 net.minecraftforge.oredict.ShapedOreRecipe@636e4fd6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 789 mekanism:glowpanel_11_alt net.minecraftforge.oredict.ShapedOreRecipe@77d64f3e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 790 mekanism:glowpanel_11 net.minecraftforge.oredict.ShapedOreRecipe@241a9ecd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 791 mekanism:glowpanel_10_alt net.minecraftforge.oredict.ShapedOreRecipe@46e74beb
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 792 mekanism:glowpanel_10 net.minecraftforge.oredict.ShapedOreRecipe@72204ec9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 793 mekanism:glowpanel_1 net.minecraftforge.oredict.ShapedOreRecipe@37a63e0c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 794 mekanism:glowpanel_0_alt net.minecraftforge.oredict.ShapedOreRecipe@542fc681
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 795 mekanism:glowpanel_0 net.minecraftforge.oredict.ShapedOreRecipe@f41f4a2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 796 mekanism:gaugedropper mekanism.common.recipe.ShapedMekanismRecipe@45779ed0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 797 mekanism:gasupgrade net.minecraftforge.oredict.ShapedOreRecipe@71a3ac4b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 798 mekanism:gastank_0_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@67982b34
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 799 mekanism:gastank_0_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@366f2c9a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 800 mekanism:gastank_0_alt mekanism.common.recipe.ShapedMekanismRecipe@19840d0d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 801 mekanism:gastank_0 mekanism.common.recipe.ShapedMekanismRecipe@4ade8f0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 802 mekanism:gasmask net.minecraftforge.oredict.ShapedOreRecipe@45b6368d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 803 mekanism:freerunners mekanism.common.recipe.ShapedMekanismRecipe@2c786721
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 804 mekanism:flamethrower mekanism.common.recipe.ShapedMekanismRecipe@74cd7fa1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 805 mekanism:filterupgrade net.minecraftforge.oredict.ShapedOreRecipe@27ced872
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 806 mekanism:energyupgrade net.minecraftforge.oredict.ShapedOreRecipe@7366663b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 807 mekanism:energytablet mekanism.common.recipe.ShapedMekanismRecipe@3444ae87
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 808 mekanism:energycube_0_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@17a02e93
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 809 mekanism:energycube_0_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@4490d465
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 810 mekanism:energycube_0_alt mekanism.common.recipe.ShapedMekanismRecipe@6f3eab30
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 811 mekanism:energycube_0 mekanism.common.recipe.ShapedMekanismRecipe@22f4eb41
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 812 mekanism:electrolyticcore net.minecraftforge.oredict.ShapedOreRecipe@65947da3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 813 mekanism:electricbow net.minecraft.item.crafting.ShapedRecipes@67601131
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 814 mekanism:dictionary net.minecraftforge.oredict.ShapedOreRecipe@6142c9f3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 815 mekanism:craftingformula net.minecraftforge.oredict.ShapelessOreRecipe@78a1c562
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 816 mekanism:controlcircuit_3 net.minecraftforge.oredict.ShapedOreRecipe@7aadac2f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 817 mekanism:controlcircuit_2 net.minecraftforge.oredict.ShapedOreRecipe@79e48df8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 818 mekanism:controlcircuit_1 net.minecraftforge.oredict.ShapedOreRecipe@4aa01433
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 819 mekanism:configurator net.minecraft.item.crafting.ShapedRecipes@219f91bf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 820 mekanism:configurationcard net.minecraftforge.oredict.ShapedOreRecipe@487f5f65
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 821 mekanism:coal_1 net.minecraft.item.crafting.ShapedRecipes@1644280c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 822 mekanism:cardboardbox net.minecraftforge.oredict.ShapedOreRecipe@ebe3ff4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 823 mekanism:basicblock_9 mekanism.common.recipe.ShapedMekanismRecipe@7c2aa249
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 824 mekanism:basicblock_8 mekanism.common.recipe.ShapedMekanismRecipe@3359e554
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 825 mekanism:basicblock_7 mekanism.common.recipe.ShapedMekanismRecipe@5a26581e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 826 mekanism:basicblock_6_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@23637ca8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 827 mekanism:basicblock_6_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@56688aff
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 828 mekanism:basicblock_6_alt mekanism.common.recipe.ShapedMekanismRecipe@2cac00e0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 829 mekanism:basicblock_6 mekanism.common.recipe.ShapedMekanismRecipe@3838ac01
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 830 mekanism:basicblock_5 mekanism.common.recipe.ShapedMekanismRecipe@17a77d10
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 831 mekanism:basicblock_4 mekanism.common.recipe.ShapedMekanismRecipe@764380e1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 832 mekanism:basicblock_3 net.minecraft.item.crafting.ShapedRecipes@5cc03dc9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 833 mekanism:basicblock_2 mekanism.common.recipe.ShapedMekanismRecipe@39f4aa2b
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 834 mekanism:basicblock_15 mekanism.common.recipe.ShapedMekanismRecipe@7a4514f4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 835 mekanism:basicblock_14 mekanism.common.recipe.ShapedMekanismRecipe@512ea3df
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 836 mekanism:basicblock_13 mekanism.common.recipe.ShapedMekanismRecipe@23395048
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 837 mekanism:basicblock_12 mekanism.common.recipe.ShapedMekanismRecipe@1860b484
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 838 mekanism:basicblock_11 mekanism.common.recipe.ShapedMekanismRecipe@298ccf4f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 839 mekanism:basicblock_10 mekanism.common.recipe.ShapedMekanismRecipe@11eb4b16
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 840 mekanism:basicblock_1 mekanism.common.recipe.ShapedMekanismRecipe@777bf392
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 841 mekanism:basicblock_0 mekanism.common.recipe.ShapedMekanismRecipe@47505eae
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 842 mekanism:basicblock2_9 mekanism.common.recipe.ShapedMekanismRecipe@2d2b220f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 843 mekanism:basicblock2_8 mekanism.common.recipe.ShapedMekanismRecipe@77b4818a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 844 mekanism:basicblock2_7 mekanism.common.recipe.ShapedMekanismRecipe@218c293e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 845 mekanism:basicblock2_6 mekanism.common.recipe.ShapedMekanismRecipe@116d043d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 846 mekanism:basicblock2_5 mekanism.common.recipe.ShapedMekanismRecipe@1c3a70ee
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 847 mekanism:basicblock2_4_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@6ec101bf
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 848 mekanism:basicblock2_4_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@479740d7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 849 mekanism:basicblock2_4_alt mekanism.common.recipe.ShapedMekanismRecipe@748eabac
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 850 mekanism:basicblock2_4 mekanism.common.recipe.ShapedMekanismRecipe@4243b415
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 851 mekanism:basicblock2_3_alt_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@474d5b03
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 852 mekanism:basicblock2_3_alt_alt mekanism.common.recipe.ShapedMekanismRecipe@8e35473
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 853 mekanism:basicblock2_3_alt mekanism.common.recipe.ShapedMekanismRecipe@71405888
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 854 mekanism:basicblock2_3 mekanism.common.recipe.ShapedMekanismRecipe@1ef7bafe
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 855 mekanism:basicblock2_2 mekanism.common.recipe.ShapedMekanismRecipe@2a2a4645
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 856 mekanism:basicblock2_1 mekanism.common.recipe.ShapedMekanismRecipe@39b62bf8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 857 mekanism:basicblock2_0 mekanism.common.recipe.ShapedMekanismRecipe@4bf15f5d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 858 mekanism:balloon_9_alt net.minecraftforge.oredict.ShapelessOreRecipe@5a58c35a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 859 mekanism:balloon_9 net.minecraftforge.oredict.ShapelessOreRecipe@31dae2dd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 860 mekanism:balloon_8_alt net.minecraftforge.oredict.ShapelessOreRecipe@6d743923
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 861 mekanism:balloon_8 net.minecraftforge.oredict.ShapelessOreRecipe@856f1f7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 862 mekanism:balloon_7_alt net.minecraftforge.oredict.ShapelessOreRecipe@13eb3d7f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 863 mekanism:balloon_7 net.minecraftforge.oredict.ShapelessOreRecipe@452025ae
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 864 mekanism:balloon_6_alt net.minecraftforge.oredict.ShapelessOreRecipe@766d4242
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 865 mekanism:balloon_6 net.minecraftforge.oredict.ShapelessOreRecipe@2301821a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 866 mekanism:balloon_5_alt net.minecraftforge.oredict.ShapelessOreRecipe@ef87000
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 867 mekanism:balloon_5 net.minecraftforge.oredict.ShapelessOreRecipe@3c1b9d72
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 868 mekanism:balloon_4_alt net.minecraftforge.oredict.ShapelessOreRecipe@6de91425
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 869 mekanism:balloon_4 net.minecraftforge.oredict.ShapelessOreRecipe@7dfd55e9
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 870 mekanism:balloon_3_alt net.minecraftforge.oredict.ShapelessOreRecipe@4cca7158
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 871 mekanism:balloon_3 net.minecraftforge.oredict.ShapelessOreRecipe@257f3205
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 872 mekanism:balloon_2_alt net.minecraftforge.oredict.ShapelessOreRecipe@6ede0b49
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 873 mekanism:balloon_2 net.minecraftforge.oredict.ShapelessOreRecipe@50b905dc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 874 mekanism:balloon_1_alt net.minecraftforge.oredict.ShapelessOreRecipe@5880da84
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 875 mekanism:balloon_15_alt net.minecraftforge.oredict.ShapelessOreRecipe@30b1764d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 876 mekanism:balloon_15 net.minecraftforge.oredict.ShapelessOreRecipe@190728b4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 877 mekanism:balloon_14_alt net.minecraftforge.oredict.ShapelessOreRecipe@7a798bfa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 878 mekanism:balloon_14 net.minecraftforge.oredict.ShapelessOreRecipe@59707ffd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 879 mekanism:balloon_13_alt net.minecraftforge.oredict.ShapelessOreRecipe@3ecffcd1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 880 mekanism:balloon_13 net.minecraftforge.oredict.ShapelessOreRecipe@3d46ef24
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 881 mekanism:balloon_12_alt net.minecraftforge.oredict.ShapelessOreRecipe@381b699c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 882 mekanism:balloon_12 net.minecraftforge.oredict.ShapelessOreRecipe@3ff66103
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 883 mekanism:balloon_11_alt net.minecraftforge.oredict.ShapelessOreRecipe@2486db7d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 884 mekanism:balloon_11 net.minecraftforge.oredict.ShapelessOreRecipe@59e5ded8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 885 mekanism:balloon_10_alt net.minecraftforge.oredict.ShapelessOreRecipe@46238227
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 886 mekanism:balloon_10 net.minecraftforge.oredict.ShapelessOreRecipe@7665c205
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 887 mekanism:balloon_1 net.minecraftforge.oredict.ShapelessOreRecipe@77c8e613
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 888 mekanism:balloon_0_alt net.minecraftforge.oredict.ShapelessOreRecipe@52fb969
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 889 mekanism:balloon_0 net.minecraftforge.oredict.ShapelessOreRecipe@4994717a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 890 mekanism:atomicdisassembler mekanism.common.recipe.ShapedMekanismRecipe@29858547
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 891 mekanism:armoredjetpack mekanism.common.recipe.ShapedMekanismRecipe@5bf5be5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 892 mekanism:anchorupgrade net.minecraftforge.oredict.ShapedOreRecipe@8dd1a9c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 893 mekanism:bin mekanism.common.recipe.BinRecipe@180f3fc8
+[23:53:04] [Server thread/TRACE] [FML]: Registry Name : minecraft:villagerprofessions
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 0 minecraft:farmer net.minecraftforge.fml.common.registry.VillagerRegistry$VillagerProfession@5e1d1524
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 1 minecraft:librarian net.minecraftforge.fml.common.registry.VillagerRegistry$VillagerProfession@41f7c02d
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 2 minecraft:priest net.minecraftforge.fml.common.registry.VillagerRegistry$VillagerProfession@66314fee
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 3 minecraft:smith net.minecraftforge.fml.common.registry.VillagerRegistry$VillagerProfession@14b5325f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 4 minecraft:butcher net.minecraftforge.fml.common.registry.VillagerRegistry$VillagerProfession@13404f75
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 5 minecraft:nitwit net.minecraftforge.fml.common.registry.VillagerRegistry$VillagerProfession@6cc90398
+[23:53:04] [Server thread/TRACE] [FML]: Registry Name : minecraft:dataserializers
+[23:53:04] [Server thread/TRACE] [FML]: Registry Name : minecraft:entities
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 0 mekanism:obsidiantnt net.minecraftforge.fml.common.registry.EntityEntry@35a917e0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 1 minecraft:item net.minecraftforge.fml.common.registry.EntityEntry@75805562
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 2 minecraft:xp_orb net.minecraftforge.fml.common.registry.EntityEntry@3129299f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 3 minecraft:area_effect_cloud net.minecraftforge.fml.common.registry.EntityEntry@8debe42
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 4 minecraft:elder_guardian net.minecraftforge.fml.common.registry.EntityEntry@6bf0f70a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 5 minecraft:wither_skeleton net.minecraftforge.fml.common.registry.EntityEntry@738a39cc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 6 minecraft:stray net.minecraftforge.fml.common.registry.EntityEntry@1255de25
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 7 minecraft:egg net.minecraftforge.fml.common.registry.EntityEntry@4fc3529
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 8 minecraft:leash_knot net.minecraftforge.fml.common.registry.EntityEntry@192f5f39
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 9 minecraft:painting net.minecraftforge.fml.common.registry.EntityEntry@2965dd88
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 10 minecraft:arrow net.minecraftforge.fml.common.registry.EntityEntry@51141f64
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 11 minecraft:snowball net.minecraftforge.fml.common.registry.EntityEntry@35ceec81
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 12 minecraft:fireball net.minecraftforge.fml.common.registry.EntityEntry@cf08c97
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 13 minecraft:small_fireball net.minecraftforge.fml.common.registry.EntityEntry@42b43a6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 14 minecraft:ender_pearl net.minecraftforge.fml.common.registry.EntityEntry@129b69b2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 15 minecraft:eye_of_ender_signal net.minecraftforge.fml.common.registry.EntityEntry@eb1d475
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 16 minecraft:potion net.minecraftforge.fml.common.registry.EntityEntry@718f3088
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 17 minecraft:xp_bottle net.minecraftforge.fml.common.registry.EntityEntry@11bfd751
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 18 minecraft:item_frame net.minecraftforge.fml.common.registry.EntityEntry@2152fde5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 19 minecraft:wither_skull net.minecraftforge.fml.common.registry.EntityEntry@17df689e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 20 minecraft:tnt net.minecraftforge.fml.common.registry.EntityEntry@3a7469ca
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 21 minecraft:falling_block net.minecraftforge.fml.common.registry.EntityEntry@70f98f7a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 22 minecraft:fireworks_rocket net.minecraftforge.fml.common.registry.EntityEntry@681d704e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 23 minecraft:husk net.minecraftforge.fml.common.registry.EntityEntry@404009df
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 24 minecraft:spectral_arrow net.minecraftforge.fml.common.registry.EntityEntry@7bda01da
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 25 minecraft:shulker_bullet net.minecraftforge.fml.common.registry.EntityEntry@77e6761f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 26 minecraft:dragon_fireball net.minecraftforge.fml.common.registry.EntityEntry@380fdcf2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 27 minecraft:zombie_villager net.minecraftforge.fml.common.registry.EntityEntry@8d810f2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 28 minecraft:skeleton_horse net.minecraftforge.fml.common.registry.EntityEntry@1f68e4e8
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 29 minecraft:zombie_horse net.minecraftforge.fml.common.registry.EntityEntry@3f45dfec
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 30 minecraft:armor_stand net.minecraftforge.fml.common.registry.EntityEntry@7b52b18a
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 31 minecraft:donkey net.minecraftforge.fml.common.registry.EntityEntry@654b899f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 32 minecraft:mule net.minecraftforge.fml.common.registry.EntityEntry@13f4048e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 33 minecraft:evocation_fangs net.minecraftforge.fml.common.registry.EntityEntry@287ad0da
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 34 minecraft:evocation_illager net.minecraftforge.fml.common.registry.EntityEntry@eb91027
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 35 minecraft:vex net.minecraftforge.fml.common.registry.EntityEntry@dde6f87
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 36 minecraft:vindication_illager net.minecraftforge.fml.common.registry.EntityEntry@1b28cff
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 37 minecraft:illusion_illager net.minecraftforge.fml.common.registry.EntityEntry@149b53fa
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 38 mekanism:robit net.minecraftforge.fml.common.registry.EntityEntry@40a70de1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 39 mekanism:balloon net.minecraftforge.fml.common.registry.EntityEntry@4c9c2dac
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 40 minecraft:commandblock_minecart net.minecraftforge.fml.common.registry.EntityEntry@356fa0d1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 41 minecraft:boat net.minecraftforge.fml.common.registry.EntityEntry@5f20b6fe
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 42 minecraft:minecart net.minecraftforge.fml.common.registry.EntityEntry@79295932
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 43 minecraft:chest_minecart net.minecraftforge.fml.common.registry.EntityEntry@343d1d25
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 44 minecraft:furnace_minecart net.minecraftforge.fml.common.registry.EntityEntry@e5c5e6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 45 minecraft:tnt_minecart net.minecraftforge.fml.common.registry.EntityEntry@2a54c92e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 46 minecraft:hopper_minecart net.minecraftforge.fml.common.registry.EntityEntry@8cb7185
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 47 minecraft:spawner_minecart net.minecraftforge.fml.common.registry.EntityEntry@58ec8271
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 48 mekanism:babyskeleton net.minecraftforge.fml.common.registry.EntityEntry@5e7aefbd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 49 mekanism:flame net.minecraftforge.fml.common.registry.EntityEntry@4f93ec20
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 50 minecraft:creeper net.minecraftforge.fml.common.registry.EntityEntry@73a49597
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 51 minecraft:skeleton net.minecraftforge.fml.common.registry.EntityEntry@5d32c1c7
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 52 minecraft:spider net.minecraftforge.fml.common.registry.EntityEntry@3a3316b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 53 minecraft:giant net.minecraftforge.fml.common.registry.EntityEntry@3ccfac29
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 54 minecraft:zombie net.minecraftforge.fml.common.registry.EntityEntry@77ea960f
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 55 minecraft:slime net.minecraftforge.fml.common.registry.EntityEntry@1ff542a3
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 56 minecraft:ghast net.minecraftforge.fml.common.registry.EntityEntry@4ede035e
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 57 minecraft:zombie_pigman net.minecraftforge.fml.common.registry.EntityEntry@20f63ddc
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 58 minecraft:enderman net.minecraftforge.fml.common.registry.EntityEntry@6ed691fd
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 59 minecraft:cave_spider net.minecraftforge.fml.common.registry.EntityEntry@77ce8bc5
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 60 minecraft:silverfish net.minecraftforge.fml.common.registry.EntityEntry@6f4d2294
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 61 minecraft:blaze net.minecraftforge.fml.common.registry.EntityEntry@347b370c
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 62 minecraft:magma_cube net.minecraftforge.fml.common.registry.EntityEntry@92fd091
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 63 minecraft:ender_dragon net.minecraftforge.fml.common.registry.EntityEntry@340b4f07
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 64 minecraft:wither net.minecraftforge.fml.common.registry.EntityEntry@11295cb1
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 65 minecraft:bat net.minecraftforge.fml.common.registry.EntityEntry@2619cb76
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 66 minecraft:witch net.minecraftforge.fml.common.registry.EntityEntry@350342e0
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 67 minecraft:endermite net.minecraftforge.fml.common.registry.EntityEntry@1dd44289
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 68 minecraft:guardian net.minecraftforge.fml.common.registry.EntityEntry@43fe2008
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 69 minecraft:shulker net.minecraftforge.fml.common.registry.EntityEntry@4ab9d160
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 90 minecraft:pig net.minecraftforge.fml.common.registry.EntityEntry@74431832
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 91 minecraft:sheep net.minecraftforge.fml.common.registry.EntityEntry@39695803
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 92 minecraft:cow net.minecraftforge.fml.common.registry.EntityEntry@6dd38df2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 93 minecraft:chicken net.minecraftforge.fml.common.registry.EntityEntry@57b711b6
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 94 minecraft:squid net.minecraftforge.fml.common.registry.EntityEntry@248b2b61
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 95 minecraft:wolf net.minecraftforge.fml.common.registry.EntityEntry@590dea35
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 96 minecraft:mooshroom net.minecraftforge.fml.common.registry.EntityEntry@46994f26
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 97 minecraft:snowman net.minecraftforge.fml.common.registry.EntityEntry@1cdd31a4
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 98 minecraft:ocelot net.minecraftforge.fml.common.registry.EntityEntry@7c206b14
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 99 minecraft:villager_golem net.minecraftforge.fml.common.registry.EntityEntry@79d14037
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 100 minecraft:horse net.minecraftforge.fml.common.registry.EntityEntry@4b50c21
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 101 minecraft:rabbit net.minecraftforge.fml.common.registry.EntityEntry@37f41a81
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 102 minecraft:polar_bear net.minecraftforge.fml.common.registry.EntityEntry@185339ed
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 103 minecraft:llama net.minecraftforge.fml.common.registry.EntityEntry@6bc25ac2
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 104 minecraft:llama_spit net.minecraftforge.fml.common.registry.EntityEntry@f08d676
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 105 minecraft:parrot net.minecraftforge.fml.common.registry.EntityEntry@59a5bb61
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 120 minecraft:villager net.minecraftforge.fml.common.registry.EntityEntry@12266084
+[23:53:04] [Server thread/TRACE] [FML]:   Registry: 200 minecraft:ender_crystal net.minecraftforge.fml.common.registry.EntityEntry@2a65e237
+[23:53:04] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
+[23:53:04] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
+[23:53:04] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[23:53:04] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
+[23:53:04] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
+[23:53:04] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[23:53:04] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[23:53:04] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[23:53:04] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[23:53:04] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
+[23:53:04] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
+[23:53:04] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.166s
+[23:53:04] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod jei
+[23:53:04] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod jei
+[23:53:04] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Just Enough Items took 0.000s
+[23:53:04] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mekanism
+[23:53:04] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mekanism
+[23:53:04] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Mekanism took 0.000s
+[23:53:04] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod packextract
+[23:53:04] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod packextract
+[23:53:04] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Pack Extract took 0.000s
+[23:53:04] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.168s
+[23:53:04] [Server thread/INFO] [FML]: Applying holder lookups
+[23:53:04] [Server thread/INFO] [FML]: Holder lookups applied
+[23:53:04] [Server thread/DEBUG] [FML]: Loading persistent fluid defaults from world
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidhydrogen has been selected as the default fluid for liquidhydrogen
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidsulfurtrioxide has been selected as the default fluid for liquidsulfurtrioxide
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidoxygen has been selected as the default fluid for liquidoxygen
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:steam has been selected as the default fluid for steam
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidlithium has been selected as the default fluid for liquidlithium
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidchlorine has been selected as the default fluid for liquidchlorine
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:heavywater has been selected as the default fluid for heavywater
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:sulfuricacid has been selected as the default fluid for sulfuricacid
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidfusionfuel has been selected as the default fluid for liquidfusionfuel
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid minecraft:lava has been selected as the default fluid for lava
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid minecraft:water has been selected as the default fluid for water
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:brine has been selected as the default fluid for brine
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidsulfurdioxide has been selected as the default fluid for liquidsulfurdioxide
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidhydrogenchloride has been selected as the default fluid for liquidhydrogenchloride
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidethene has been selected as the default fluid for liquidethene
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidsodium has been selected as the default fluid for liquidsodium
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquidtritium has been selected as the default fluid for liquidtritium
+[23:53:04] [Server thread/DEBUG] [FML]: The fluid mekanism:liquiddeuterium has been selected as the default fluid for liquiddeuterium
+[23:53:04] [Server thread/INFO] [FML]: Loading dimension 0 (packextract-auto) (net.minecraft.server.integrated.IntegratedServer@406f609f)
+[23:53:05] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[23:53:05] [Server thread/INFO] [FML]: Loading dimension -1 (packextract-auto) (net.minecraft.server.integrated.IntegratedServer@406f609f)
+[23:53:05] [Server thread/INFO] [FML]: Loading dimension 1 (packextract-auto) (net.minecraft.server.integrated.IntegratedServer@406f609f)
+[23:53:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod minecraft
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod minecraft
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mcp
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mcp
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod FML
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod FML
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod forge
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod forge
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Forge took 0.014s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod jei
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod jei
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Just Enough Items took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mekanism
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mekanism
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Mekanism took 0.008s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod packextract
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod packextract
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Pack Extract took 0.000s
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarting took 0.024s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod minecraft
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod minecraft
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mcp
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mcp
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod FML
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod FML
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod forge
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod forge
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod jei
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod jei
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Just Enough Items took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mekanism
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mekanism
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Mekanism took 0.000s
+[23:53:05] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod packextract
+[23:53:05] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod packextract
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Pack Extract took 0.000s
+[23:53:05] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarted took 0.001s
+[23:53:05] [Server thread/DEBUG] [FML]: Queueing dimension -1 to unload
+[23:53:05] [Server thread/DEBUG] [FML]: Queueing dimension 1 to unload
+[23:53:05] [Server thread/INFO] [FML]: Unloading dimension -1
+[23:53:06] [Server thread/INFO] [FML]: Unloading dimension 1
+[23:53:06] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[23:53:06] [Netty Server IO #1/DEBUG] [net.minecraft.network.NetworkManager]: Set listener of net.minecraft.network.NetworkManager@36e7a17f to net.minecraft.client.network.NetHandlerHandshakeMemory@5701b87e
+[23:53:06] [Client thread/DEBUG] [net.minecraft.network.NetworkManager]: Set listener of net.minecraft.network.NetworkManager@53f1a7f5 to net.minecraft.client.network.NetHandlerLoginClient@29280fe7
+[23:53:06] [Netty Server IO #1/DEBUG] [net.minecraft.network.NetworkManager]: Enabled auto read
+[23:53:06] [Netty Local Client IO #0/DEBUG] [net.minecraft.network.NetworkManager]: Enabled auto read
+[23:53:06] [Client thread/DEBUG] [com.mojang.authlib.HttpAuthenticationService]: Opening connection to https://sessionserver.mojang.com/session/minecraft/profile/22689332a7fd41919600b0fe1135ee34?unsigned=false
+[23:53:06] [Client thread/DEBUG] [com.mojang.authlib.HttpAuthenticationService]: Reading data from https://sessionserver.mojang.com/session/minecraft/profile/22689332a7fd41919600b0fe1135ee34?unsigned=false
+[23:53:06] [Netty Server IO #1/DEBUG] [net.minecraft.network.NetworkManager]: Enabled auto read
+[23:53:06] [Netty Server IO #1/DEBUG] [net.minecraft.network.NetworkManager]: Set listener of net.minecraft.network.NetworkManager@36e7a17f to net.minecraft.server.network.NetHandlerLoginServer@7fbf9593
+[23:53:06] [Client thread/DEBUG] [com.mojang.authlib.HttpAuthenticationService]: Successful read, server response was 204
+[23:53:06] [Client thread/DEBUG] [com.mojang.authlib.HttpAuthenticationService]: Response: 
+[23:53:06] [Client thread/DEBUG] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't fetch profile properties for com.mojang.authlib.GameProfile@7e75d10f[id=22689332-a7fd-4191-9600-b0fe1135ee34,name=Offline,properties={},legacy=false] as the profile does not exist
+[23:53:06] [Client thread/DEBUG] [net.minecraft.network.NetworkManager]: Disabled auto read
+[23:53:06] [Netty Local Client IO #0/DEBUG] [net.minecraft.network.NetworkManager]: Enabled auto read
+[23:53:06] [Netty Local Client IO #0/DEBUG] [net.minecraft.network.NetworkManager]: Enabled auto read
+[23:53:06] [Netty Local Client IO #0/DEBUG] [net.minecraft.network.NetworkManager]: Set listener of net.minecraft.network.NetworkManager@53f1a7f5 to net.minecraft.client.network.NetHandlerPlayClient@2001edf8
+[23:53:06] [Netty Local Client IO #0/TRACE] [FML]: Handshake channel activating
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]:   Next: HELLO
+[23:53:06] [Netty Local Client IO #0/DEBUG] [net.minecraft.network.NetworkManager]: Enabled auto read
+[23:53:06] [Server thread/TRACE] [FML]: Handshake channel activating
+[23:53:06] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[23:53:06] [Server thread/DEBUG] [FML]:   Next: HELLO
+[23:53:06] [Server thread/DEBUG] [net.minecraft.network.NetworkManager]: Set listener of net.minecraft.network.NetworkManager@36e7a17f to net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1@14114b90
+[23:53:06] [Server thread/DEBUG] [net.minecraft.network.NetworkManager]: Enabled auto read
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: Server FML protocol version 2, 4 byte dimension received 0
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: $ServerHello->FMLHandshakeClientState$2:HELLO
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]:   Next: WAITINGSERVERDATA
+[23:53:06] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: Received override dimension 0
+[23:53:06] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[23:53:06] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[23:53:06] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ModList:7 mods->FMLHandshakeServerState$2:HELLO
+[23:53:06] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,packextract@1.1.0,FML@8.0.99.99,mekanism@1.12.2-9.8.3.390,forge@14.23.5.2864,mcp@9.42,jei@4.22.0.1035
+[23:53:06] [Netty Server IO #1/DEBUG] [FML]:   Next: WAITINGCACK
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: $ModList:7 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]:   Next: PENDINGCOMPLETE
+[23:53:06] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[23:53:06] [Netty Server IO #1/DEBUG] [FML]:   Next: COMPLETE
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]:   Next: COMPLETE
+[23:53:06] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[23:53:06] [Netty Server IO #1/DEBUG] [FML]:   Next: DONE
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidhydrogen has been selected as the default fluid for liquidhydrogen
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidsulfurtrioxide has been selected as the default fluid for liquidsulfurtrioxide
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidoxygen has been selected as the default fluid for liquidoxygen
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:steam has been selected as the default fluid for steam
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidlithium has been selected as the default fluid for liquidlithium
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidchlorine has been selected as the default fluid for liquidchlorine
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:heavywater has been selected as the default fluid for heavywater
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:sulfuricacid has been selected as the default fluid for sulfuricacid
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidfusionfuel has been selected as the default fluid for liquidfusionfuel
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid minecraft:lava has been selected as the default fluid for lava
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid minecraft:water has been selected as the default fluid for water
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:brine has been selected as the default fluid for brine
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidsulfurdioxide has been selected as the default fluid for liquidsulfurdioxide
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidhydrogenchloride has been selected as the default fluid for liquidhydrogenchloride
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidethene has been selected as the default fluid for liquidethene
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidsodium has been selected as the default fluid for liquidsodium
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquidtritium has been selected as the default fluid for liquidtritium
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: The fluid mekanism:liquiddeuterium has been selected as the default fluid for liquiddeuterium
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[23:53:06] [Netty Local Client IO #0/DEBUG] [FML]:   Next: DONE
+[23:53:06] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[23:53:06] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[23:53:06] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:53:06] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Offline[local:E:b1f7e127] logged in with entity id 3 at (517.5, 4.0, 8.5)
+[23:53:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Offline joined the game
+[23:53:06] [Netty Local Client IO #0/INFO] [Mekanism]: Received Cardboard Box blacklist entries from server (19 explicit blocks, 2 mod wildcards)
+[23:53:06] [Client thread/DEBUG] [FML]: Overriding dimension: using 0
+[23:53:07] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[23:53:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'packextract-auto'/overworld
+[23:53:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save packextract-auto
+[23:53:07] [pool-2-thread-1/DEBUG] [com.mojang.authlib.HttpAuthenticationService]: Opening connection to https://sessionserver.mojang.com/session/minecraft/profile/22689332a7fd41919600b0fe1135ee34?unsigned=true
+[23:53:07] [pool-2-thread-1/DEBUG] [com.mojang.authlib.HttpAuthenticationService]: Reading data from https://sessionserver.mojang.com/session/minecraft/profile/22689332a7fd41919600b0fe1135ee34?unsigned=true
+[23:53:07] [pool-2-thread-1/DEBUG] [com.mojang.authlib.HttpAuthenticationService]: Successful read, server response was 204
+[23:53:07] [pool-2-thread-1/DEBUG] [com.mojang.authlib.HttpAuthenticationService]: Response: 
+[23:53:07] [pool-2-thread-1/DEBUG] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't fetch profile properties for com.mojang.authlib.GameProfile@7c88ef1c[id=22689332-a7fd-4191-9600-b0fe1135ee34,name=Offline,properties={},legacy=false] as the profile does not exist
+[23:53:12] [Client thread/INFO] [packextract]: Automatic export: starting (JEI ready)
+[23:53:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[23:53:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'packextract-auto'/overworld
+[23:53:12] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save packextract-auto
+[23:53:12] [Client thread/INFO] [packextract]: Export: Collecting fluids
+[23:53:12] [Client thread/INFO] [packextract]: Export: Recipes
+[23:53:12] [Client thread/INFO] [packextract]: Export: Ore dictionary and tags
+[23:53:12] [Client thread/INFO] [packextract]: Export: Item images
+[23:53:14] [Client thread/INFO] [packextract]: Export: Fluid images
+[23:53:14] [Client thread/INFO] [packextract]: Export: Writing files
+[23:53:14] [Client thread/INFO] [packextract]: Export: Done
+[23:53:14] [Client thread/INFO] [packextract]: Export finished: /home/runner/work/gtcalc-exporter/gtcalc-exporter/export-out/ci-1.12.2-popular-20261005-235312 ({itemsFromRegistry=1234, itemsAddedByJei=103, itemsAddedByOreDictionary=0, craftingRecipes=882, craftingSpecialRecipes=12, smeltingRecipes=76, recipes=970, oreDictionaryNames=243, imagesWritten=518, blankImages=1, items=1342, fluids=18, errors=0})
+[23:53:14] [Client thread/INFO] [packextract]: Export done, closing the game
+[23:53:15] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod minecraft
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod minecraft
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mcp
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mcp
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod FML
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod FML
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod forge
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod forge
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod jei
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod jei
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Just Enough Items took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mekanism
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mekanism
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Mekanism took 0.004s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod packextract
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod packextract
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Pack Extract took 0.000s
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.005s
+[23:53:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:53:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[23:53:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[23:53:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'packextract-auto'/overworld
+[23:53:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save packextract-auto
+[23:53:15] [Server thread/INFO] [FML]: Unloading dimension 0
+[23:53:15] [Server thread/DEBUG] [FML]: Reverting to frozen data state.
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.001s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.096s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod jei
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod jei
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Just Enough Items took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mekanism
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mekanism
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Mekanism took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod packextract
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod packextract
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Pack Extract took 0.000s
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.098s
+[23:53:15] [Server thread/INFO] [FML]: Applying holder lookups
+[23:53:15] [Server thread/INFO] [FML]: Holder lookups applied
+[23:53:15] [Server thread/DEBUG] [FML]: Frozen state restored.
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod jei
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod jei
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Just Enough Items took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mekanism
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mekanism
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Mekanism took 0.000s
+[23:53:15] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod packextract
+[23:53:15] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod packextract
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Pack Extract took 0.000s
+[23:53:15] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.001s
+[23:53:15] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[23:53:15] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
