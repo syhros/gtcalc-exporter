@@ -256,7 +256,7 @@ public final class GregTechRecipes {
         return String.valueOf(key);
     }
 
-    private void flag(JsonWriter w, Object r, String name, String field) throws IOException {
+    private void flag(JsonWriter w, Object r, String name, String field) throws Exception {
         Object v = get(r, field);
         if (v instanceof Boolean) {
             w.name(name).value((Boolean) v);
