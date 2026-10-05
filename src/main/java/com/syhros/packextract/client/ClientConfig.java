@@ -12,8 +12,8 @@ public final class ClientConfig {
     public static boolean neiItems = true;
     public static String outputDir = "pack-extract";
     public static String packName = "";
-    public static boolean exportOnMainMenu = false;
-    public static boolean quitAfterMainMenuExport = false;
+    public static boolean autoExport = false;
+    public static boolean quitAfterAutoExport = false;
     public static int frameBudgetMillis = 40;
 
     private ClientConfig() {}
@@ -52,22 +52,23 @@ public final class ClientConfig {
             1000,
             "Time spent exporting per frame. Higher is faster but the progress screen updates less often.");
         String a = "automation";
-        exportOnMainMenu = c.getBoolean(
-            "exportOnMainMenu",
+        autoExport = c.getBoolean(
+            "autoExport",
             a,
             false,
-            "Start an export as soon as the main menu opens (no world needed, but NEI's extra item variants are skipped).");
-        quitAfterMainMenuExport = c.getBoolean(
-            "quitAfterMainMenuExport",
+            "Export automatically when the game starts: opens (or creates) a flat creative world named "
+                + "packextract-auto, waits for NEI, exports, then returns to the menu.");
+        quitAfterAutoExport = c.getBoolean(
+            "quitAfterAutoExport",
             a,
             false,
-            "Close the game when an export started from the main menu finishes.");
+            "Close the game when an automatic export finishes.");
         if (c.hasChanged()) {
             c.save();
         }
         // Overrides for scripted runs: -Dpackextract.auto=true / PACKEXTRACT_AUTO=1 and so on.
-        exportOnMainMenu = flag("packextract.auto", "PACKEXTRACT_AUTO", exportOnMainMenu);
-        quitAfterMainMenuExport = flag("packextract.quit", "PACKEXTRACT_QUIT", quitAfterMainMenuExport);
+        autoExport = flag("packextract.auto", "PACKEXTRACT_AUTO", autoExport);
+        quitAfterAutoExport = flag("packextract.quit", "PACKEXTRACT_QUIT", quitAfterAutoExport);
         String out = setting("packextract.out", "PACKEXTRACT_OUT");
         if (out != null) {
             outputDir = out;

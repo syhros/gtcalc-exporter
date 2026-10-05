@@ -115,7 +115,7 @@ jobs:
           mkdir -p "$OUT"
           for d in run/client/config run/config; do
             mkdir -p "$d"
-            printf 'automation {\n    B:exportOnMainMenu=true\n    B:quitAfterMainMenuExport=true\n}\n\nexport {\n    S:outputDir=%s\n    S:packName=ci-%s\n}\n' "$OUT" "${{ matrix.profile }}" > "$d/packextract.cfg"
+            printf 'automation {\n    B:autoExport=true\n    B:quitAfterAutoExport=true\n}\n\nexport {\n    S:outputDir=%s\n    S:packName=ci-%s\n}\n' "$OUT" "${{ matrix.profile }}" > "$d/packextract.cfg"
           done
           cat run/client/config/packextract.cfg
 
@@ -130,7 +130,7 @@ jobs:
           ./gradlew --stacktrace $EXTRA setupCIWorkspace
           ./gradlew --stacktrace $EXTRA spotlessApply
           set +e
-          timeout 3000 xvfb-run -a -s "-screen 0 1280x720x24" ./gradlew --stacktrace $EXTRA runClient 2>&1 | tee client.log
+          timeout 3300 xvfb-run -a -s "-screen 0 1280x720x24" ./gradlew --stacktrace $EXTRA runClient 2>&1 | tee client.log
           echo "client exited with ${PIPESTATUS[0]}"
           set -e
           grep -E "Pack Extract|packextract|Export" client.log | tail -60 || true

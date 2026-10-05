@@ -58,6 +58,28 @@ fluid_images = [f for f in fluids if f.get("image")]
 check(len(fluid_images) / max(1, len(fluids)) > 0.9, f"{len(fluid_images)}/{len(fluids)} fluids have an image")
 
 
+def image_stats(rel):
+    """(mean brightness 0-255 of visible pixels, number of distinct colours) or None without Pillow."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return None
+    im = Image.open(os.path.join(d, rel)).convert("RGBA")
+    px = [p for p in im.getdata() if p[3] > 128]
+    if not px:
+        return (0, 0)
+    mean = sum((p[0] + p[1] + p[2]) / 3 for p in px) / len(px)
+    return (mean, len(set(px)))
+
+
+def looks_right(rel, label, min_brightness=0, min_colours=4):
+    st = image_stats(rel)
+    if st is None:
+        return
+    check(st[0] >= min_brightness and st[1] >= min_colours,
+          f"{label} image looks right (brightness {st[0]:.0f} >= {min_brightness}, {st[1]} colours >= {min_colours})")
+
+
 def item_ok(item_id, label):
     i = by_id.get(item_id)
     check(i is not None, f"{label} ({item_id}) is listed")
@@ -73,11 +95,15 @@ def fluid_ok(fluid_id, label):
         check(bool(f.get("image")) and not f.get("imageBlank"), f"fluid {label} has a non-blank image")
 
 
-item_ok("minecraft:log:0", "Oak Wood")
+oak = item_ok("minecraft:log:0", "Oak Wood")
+if oak and oak.get("image"):
+    looks_right(oak["image"], "Oak Wood", 60)
 item_ok("minecraft:log:1", "Spruce Wood")
 item_ok("minecraft:wool:14", "Red Wool")
 item_ok("minecraft:iron_ingot:0", "Iron Ingot")
 fluid_ok("water", "Water")
+if fluid_by_id.get("water", {}).get("image"):
+    looks_right(fluid_by_id["water"]["image"], "Water", 40)
 fluid_ok("lava", "Lava")
 check("logWood" in oredict and "minecraft:log:0" in oredict["logWood"], "ore dictionary logWood contains oak wood")
 
@@ -101,11 +127,18 @@ check(manifest["counts"]["craftingRecipes"] > 200, "more than 200 crafting recip
 
 if profile == "gregtech":
     # GT5 meta item ids: prefix * 1000 + material id; Iron is material 32.
-    item_ok("gregtech:gt.metaitem.01:2032", "Iron Dust")
-    item_ok("gregtech:gt.metaitem.01:3032", "Impure Pile of Iron Dust")
-    item_ok("gregtech:gt.metaitem.01:4032", "Purified Pile of Iron Dust")
-    item_ok("gregtech:gt.metaitem.01:6032", "Purified Crushed Iron Ore")
+    # Iron is light grey: a dark icon means the renderer was in a bad state.
+    for gid, label in [("gregtech:gt.metaitem.01:2032", "Iron Dust"),
+                       ("gregtech:gt.metaitem.01:3032", "Impure Pile of Iron Dust"),
+                       ("gregtech:gt.metaitem.01:4032", "Purified Pile of Iron Dust"),
+                       ("gregtech:gt.metaitem.01:6032", "Purified Crushed Iron Ore")]:
+        it = item_ok(gid, label)
+        if it and it.get("image"):
+            looks_right(it["image"], label, 90)
     fluid_ok("molten.iron", "Molten Iron")
+    if fluid_by_id.get("molten.iron", {}).get("image"):
+        looks_right(fluid_by_id["molten.iron"]["image"], "Molten Iron", 60)
+    check(manifest["counts"].get("itemsAddedByNei", 0) > 0, "NEI's item list was used (export ran in a world)")
     check(len(gregtech) > 10000, f"more than 10000 GregTech recipes ({len(gregtech)})")
     check(len(gt_maps) > 50, f"more than 50 GregTech recipe maps ({len(gt_maps)})")
     mac = [r for r in gregtech if r["map"] == "gt.recipe.macerator"]

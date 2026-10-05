@@ -18,6 +18,8 @@ import net.minecraftforge.fluids.Fluid;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
+import org.lwjgl.opengl.GL20;
+import org.lwjgl.opengl.GLContext;
 
 /**
  * Renders item and fluid icons into an off-screen framebuffer and reads the pixels back. Must run on the render
@@ -31,6 +33,7 @@ public final class IconRenderer {
     private final Framebuffer fb;
     private final ByteBuffer pixels;
     private final byte[] bytes;
+    private final boolean shaders = GLContext.getCapabilities().OpenGL20;
 
     public IconRenderer(int size) {
         this.size = size;
@@ -151,6 +154,8 @@ public final class IconRenderer {
         GL11.glEnable(GL11.GL_ALPHA_TEST);
         GL11.glAlphaFunc(GL11.GL_GREATER, 0.004f);
         GL11.glColor4f(1, 1, 1, 1);
+        // Inventory screens draw items at full brightness.
+        OpenGlHelper.setLightmapTextureCoords(OpenGlHelper.lightmapTexUnit, 240f, 240f);
     }
 
     private void end() {
@@ -159,6 +164,7 @@ public final class IconRenderer {
         GL11.glPixelStorei(GL11.GL_PACK_ALIGNMENT, 1);
         GL11.glReadPixels(0, 0, size, size, GL11.GL_RGBA, GL11.GL_UNSIGNED_BYTE, pixels);
         pixels.get(bytes);
+        resetLeakedState();
         RenderHelper.disableStandardItemLighting();
         GL11.glMatrixMode(GL11.GL_PROJECTION);
         GL11.glPopMatrix();
@@ -171,6 +177,29 @@ public final class IconRenderer {
             GL11.glViewport(0, 0, mc.displayWidth, mc.displayHeight);
         }
         GL11.glPopAttrib();
+    }
+
+    /**
+     * Some mods' item renderers leave state behind (a bound shader, a changed texture matrix, the lightmap texture
+     * unit switched on), especially when they throw half-way. glPopAttrib does not cover these, and every icon drawn
+     * afterwards would come out wrong, so reset them after each icon.
+     */
+    private void resetLeakedState() {
+        try {
+            if (shaders) {
+                GL20.glUseProgram(0);
+            }
+            OpenGlHelper.setActiveTexture(OpenGlHelper.lightmapTexUnit);
+            GL11.glMatrixMode(GL11.GL_TEXTURE);
+            GL11.glLoadIdentity();
+            GL11.glDisable(GL11.GL_TEXTURE_2D);
+            OpenGlHelper.setActiveTexture(OpenGlHelper.defaultTexUnit);
+            GL11.glMatrixMode(GL11.GL_TEXTURE);
+            GL11.glLoadIdentity();
+            GL11.glMatrixMode(GL11.GL_MODELVIEW);
+        } catch (Throwable ignored) {
+            // best effort
+        }
     }
 
     public void delete() {

@@ -4,6 +4,8 @@ import java.io.File;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiMainMenu;
+import net.minecraft.world.WorldSettings;
+import net.minecraft.world.WorldType;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.client.event.GuiOpenEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -20,8 +22,18 @@ import cpw.mods.fml.common.gameevent.TickEvent;
 
 public class ClientProxy extends CommonProxy {
 
+    private static final String AUTO_WORLD = "packextract-auto";
+
+    private enum Auto {
+        OFF,
+        WAIT_MENU,
+        WAIT_WORLD,
+        STARTED
+    }
+
     private static ExportJob.Settings pending;
-    private static boolean autoStarted;
+    private static Auto auto = Auto.OFF;
+    private static int autoTicks;
 
     @Override
     public void preInit(FMLPreInitializationEvent event) {
@@ -33,8 +45,8 @@ public class ClientProxy extends CommonProxy {
         ClientCommandHandler.instance.registerCommand(new ExportCommand());
         MinecraftForge.EVENT_BUS.register(this);
         FMLCommonHandler.instance().bus().register(this);
-        if (ClientConfig.exportOnMainMenu) {
-            PackExtract.LOG.info("Pack Extract will export as soon as the main menu opens");
+        if (ClientConfig.autoExport) {
+            PackExtract.LOG.info("Pack Extract will export automatically once a world has loaded");
         }
     }
 
@@ -71,10 +83,16 @@ public class ClientProxy extends CommonProxy {
 
     @SubscribeEvent
     public void onClientTick(TickEvent.ClientTickEvent event) {
-        if (event.phase != TickEvent.Phase.END || pending == null) {
+        if (event.phase != TickEvent.Phase.END) {
             return;
         }
         Minecraft mc = Minecraft.getMinecraft();
+        if (auto == Auto.WAIT_WORLD) {
+            tickAutoExport(mc);
+        }
+        if (pending == null) {
+            return;
+        }
         if (mc.currentScreen == null) {
             ExportJob.Settings s = pending;
             pending = null;
@@ -84,11 +102,51 @@ public class ClientProxy extends CommonProxy {
 
     @SubscribeEvent
     public void onGuiOpen(GuiOpenEvent event) {
-        if (ClientConfig.exportOnMainMenu && !autoStarted && event.gui instanceof GuiMainMenu) {
-            autoStarted = true;
-            PackExtract.LOG.info("Starting the main-menu export");
-            event.gui = new ExportScreen(new ExportJob(settings(true)), event.gui,
-                ClientConfig.quitAfterMainMenuExport);
+        if (!ClientConfig.autoExport || !(event.gui instanceof GuiMainMenu)) {
+            return;
+        }
+        if (auto == Auto.OFF) {
+            auto = Auto.WAIT_MENU;
+        }
+        if (auto == Auto.WAIT_MENU) {
+            // Open (or create) a flat creative world: GregTech and NEI only finish setting up their rendering and item
+            // lists inside a world.
+            auto = Auto.WAIT_WORLD;
+            autoTicks = 0;
+            PackExtract.LOG.info("Automatic export: loading world {}", AUTO_WORLD);
+            WorldSettings settings = new WorldSettings(0L, WorldSettings.GameType.CREATIVE, false, false,
+                WorldType.FLAT);
+            settings.enableCommands();
+            Minecraft.getMinecraft().launchIntegratedServer(AUTO_WORLD, AUTO_WORLD, settings);
+        }
+    }
+
+    /** Waits for the world and for NEI's item list, then starts the export. */
+    private static void tickAutoExport(Minecraft mc) {
+        if (mc.theWorld == null || mc.thePlayer == null) {
+            return;
+        }
+        autoTicks++;
+        boolean neiReady = neiItemListReady();
+        if (autoTicks < 100 || (!neiReady && autoTicks < 1200)) {
+            return;
+        }
+        if (mc.currentScreen != null) {
+            mc.displayGuiScreen(null);
+        }
+        auto = Auto.STARTED;
+        PackExtract.LOG.info("Automatic export: starting (NEI item list {})", neiReady ? "ready" : "not loaded");
+        mc.displayGuiScreen(new ExportScreen(new ExportJob(settings(true)), null, ClientConfig.quitAfterAutoExport));
+    }
+
+    private static boolean neiItemListReady() {
+        try {
+            Class<?> itemList = Class.forName("codechicken.nei.ItemList");
+            return Boolean.TRUE.equals(itemList.getField("loadFinished").get(null));
+        } catch (ClassNotFoundException e) {
+            return true;
+        } catch (Throwable t) {
+            return true;
         }
     }
 }

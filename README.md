@@ -155,8 +155,8 @@ Optional fields: `"chance": 0.25` (0 to 1; missing means always) and `"consumed"
 | `outputDir` | `pack-extract` | Output folder, relative to the instance folder or absolute |
 | `packName` | (instance folder name) | Name for the export folder and manifest |
 | `frameBudgetMillis` | 40 | Work done per frame; higher is faster, the progress screen updates less often |
-| `exportOnMainMenu` | false | Export as soon as the main menu opens, without joining a world |
-| `quitAfterMainMenuExport` | false | Close the game after that export |
+| `autoExport` | false | Export automatically at start-up: opens (or creates) a flat creative world named `packextract-auto`, waits for NEI, then exports |
+| `quitAfterAutoExport` | false | Close the game when that export finishes |
 
 For scripted exports you can also set `PACKEXTRACT_AUTO=1`, `PACKEXTRACT_QUIT=1`, `PACKEXTRACT_OUT=<folder>` and `PACKEXTRACT_IMAGE_SIZE=<px>` as environment variables, or the same as `-Dpackextract.auto=true` and so on.
 
@@ -164,7 +164,6 @@ For scripted exports you can also set `PACKEXTRACT_AUTO=1`, `PACKEXTRACT_QUIT=1`
 
 - **Recipe types.** Crafting, furnace and GregTech 5 recipe maps are exported (in GTNH that includes GT++, BartWorks, GoodGenerator and the other addons that register GT recipe maps). Other mods' own machines (Thaumcraft, Botania and so on) are not exported yet.
 - **Minecraft versions.** Only 1.7.10. Newer packs (GregTech CEu on 1.12.2 or 1.20.1) need a separate build of the mod.
-- **Main-menu exports.** NEI only builds its item list after you join a world, so a main-menu export skips the few variants that only NEI generates.
 
 ## Building
 
@@ -174,7 +173,7 @@ For scripted exports you can also set `PACKEXTRACT_AUTO=1`, `PACKEXTRACT_QUIT=1`
 ./gradlew runClient -PdevGregTech=true   # dev client with NEI and GregTech 5
 ```
 
-GitHub Actions builds the jar, runs the unit tests, then starts a real client with NEI, and again with GregTech 5, exports from the main menu and checks the output. That check covers impure and purified iron dust with images, molten iron, chanced macerator outputs, and every item a GregTech recipe uses being listed. A contact sheet of sample images from each run is pushed to the `ci-screenshots-vanilla` and `ci-screenshots-gregtech` branches.
+GitHub Actions builds the jar, runs the unit tests, then starts a real client with NEI, and again with GregTech 5, loads a world, exports and checks the output. That check covers impure and purified iron dust with images, molten iron, chanced macerator outputs, and every item a GregTech recipe uses being listed. A contact sheet of sample images from each run is pushed to the `ci-screenshots-vanilla` and `ci-screenshots-gregtech` branches.
 
 ## License
 
