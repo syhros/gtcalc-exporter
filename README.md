@@ -1,5 +1,7 @@
 # Pack Extract
 
+Repository: [syhros/gtcalc-exporter](https://github.com/syhros/gtcalc-exporter). The mod itself is called Pack Extract (mod id `packextract`, command `/packextract`).
+
 A Minecraft mod that exports everything in a modpack: every item and its variants, every fluid, an image of each, the ore dictionary, and the recipes, including GregTech recipes with their chanced outputs. It writes plain JSON and CSV that a website such as [gtcalc.app](https://gtcalc.app) can load.
 
 The first version targets **Minecraft 1.7.10 with Forge**, which covers GT New Horizons.

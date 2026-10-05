@@ -4,7 +4,7 @@
   "description": "Exports every item, fluid, icon and recipe of the modpack to JSON and CSV. Run /packextract in game.",
   "version": "${modVersion}",
   "mcversion": "${minecraftVersion}",
-  "url": "https://github.com/syhros/pack-extract",
+  "url": "https://github.com/syhros/gtcalc-exporter",
   "authorList": ["syhros"],
   "credits": "",
   "logoFile": "",
