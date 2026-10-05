@@ -62,7 +62,9 @@ def fluid(legacy, modern_id):
 
 
 check(len(by_id) == len(items), f"item ids are unique ({len(items)} items)")
-check(all(i.get("name") for i in items[:5000]), "items have names")
+nameless = [i["id"] for i in items if not i.get("name")]
+# A few mods register items with a blank display name (hidden or technical items).
+check(len(nameless) <= max(5, len(items) // 500), f"items have names ({len(nameless)} without, e.g. {nameless[:5]})")
 check(manifest["counts"]["items"] == len(items), "manifest item count matches items.json")
 check(manifest["counts"].get("errors", 0) < max(50, len(items) // 100),
       f"few errors logged ({manifest['counts'].get('errors', 0)})")

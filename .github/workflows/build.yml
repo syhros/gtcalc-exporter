@@ -246,7 +246,8 @@ jobs:
           - { mc: '1.20.1', loader: forge, java: '17', profile: gregtech, mods: 'jei gregtechceu-modern' }
           - { mc: '1.20.1', loader: forge, java: '17', profile: popular, mods: 'jei mekanism create ae2' }
           - { mc: '1.21.1', loader: neoforge, java: '21', profile: vanilla, mods: 'jei' }
-          - { mc: '1.21.1', loader: neoforge, java: '21', profile: gregtech, mods: 'jei gregtechceu-modern' }
+          # LDLib from GTCEu 7.0.2's time fails its own mixin on current NeoForge, so the newest one is pinned.
+          - { mc: '1.21.1', loader: neoforge, java: '21', profile: gregtech, mods: 'jei ldlib@mc1.21.1-2.2.42-neoforge gregtechceu-modern' }
           - { mc: '1.21.1', loader: neoforge, java: '21', profile: popular, mods: 'jei mekanism create ae2' }
     steps:
       - uses: actions/checkout@v5
