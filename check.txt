@@ -1,0 +1,75 @@
+/home/runner/work/gtcalc-exporter/gtcalc-exporter/.github/scripts/check_export.py:94: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = [p for p in im.getdata() if p[3] > 128]
+export folder: export-out/ci-1.21.1-gregtech-20261005-235332
+minecraft 1.21.1 NeoForge 21.1.255 | modern ids
+{
+ "itemsFromRegistry": 10026,
+ "itemsAddedByCreativeTabs": 1077,
+ "itemsAddedByJei": 4,
+ "craftingRecipes": 6882,
+ "craftingSpecialRecipes": 16,
+ "smeltingRecipes": 1458,
+ "gregtechRecipes": 24733,
+ "gregtechMaps": 56,
+ "otherRecipes": 277,
+ "otherRecipeTypes": 2,
+ "recipes": 33366,
+ "itemTags": 4078,
+ "fluidTags": 452,
+ "blockTags": 871,
+ "imagesWritten": 938,
+ "blankImages": 16,
+ "items": 11954,
+ "fluids": 438,
+ "errors": 0
+}
+stage times (ms): {'items': 403, 'fluids': 159, 'recipes:craftingRecipes': 456, 'recipes:smeltingRecipes': 480, 'recipes:gregtechRecipes': 3163, 'recipes:otherRecipes': 3167, 'recipes': 3167, 'tags': 129, 'item_images': 1681, 'fluid_images': 918}
+ok   item ids are unique (11954 items)
+ok   items have names (0 without, e.g. [])
+ok   manifest item count matches items.json
+ok   few errors logged (0)
+ok   500 item images (expected about 500)
+ok   every item image file exists (0 missing, e.g. [])
+ok   blank item images under 5% (16, e.g. ['gtceu:plutonium_239_indicator', 'gtceu:stibnite_indicator', 'gtceu:diatomite_indicator', 'gtceu:aluminium_double_wire', 'gtceu:gold_quadruple_wire'])
+ok   438 fluid images (expected about 438)
+mods with images: ['gtceu', 'minecraft']
+ok   Oak Wood (minecraft:oak_log) is listed
+ok   Oak Wood has a non-blank image
+ok   Oak Wood image looks right (brightness 63 >= 45, 21 colours >= 4)
+ok   Spruce Wood (minecraft:spruce_log) is listed
+ok   Spruce Wood has a non-blank image
+ok   Red Wool (minecraft:red_wool) is listed
+ok   Red Wool has a non-blank image
+ok   Iron Ingot (minecraft:iron_ingot) is listed
+ok   fluid Water (minecraft:water) is listed
+ok   fluid Water has a non-blank image
+ok   Water image looks right (brightness 67 >= 40, 9 colours >= 4)
+ok   fluid Lava (minecraft:lava) is listed
+ok   fluid Lava has a non-blank image
+ok   item tag minecraft:logs contains oak logs
+ok   fluid tags exported (452)
+ok   crafting table recipe exported
+crafting table recipe: {"id": "minecraft:crafting_table", "type": "shaped", "width": 2, "height": 2, "inputs": [{"tag": "minecraft:planks", "amount": 1, "anyOf": ["minecraft:oak_planks", "minecraft:spruce_planks", "minecraft:birch_planks", "minecraft:jungle_planks", "minecraft:acacia_planks", "minecraft:dark_oak_planks", "minecraft:crimson_planks", "minecraft:warped_planks", "minecraft:mangrove_planks", "minecraft:bambo
+ok   crafting table recipe has inputs
+ok   iron ore smelts to iron ingot
+ok   more than 200 crafting recipes
+ok   every item a recipe uses is in items.json (0 missing, e.g. [])
+other.json types and classes (top 20):
+     250 minecraft:stonecutting net.minecraft.world.item.crafting.StonecutterRecipe
+      18 minecraft:smithing net.minecraft.world.item.crafting.SmithingTrimRecipe
+       9 minecraft:smithing net.minecraft.world.item.crafting.SmithingTransformRecipe
+ok   more than 30 GregTech recipe maps (56)
+ok   more than 5000 GregTech recipes (24733)
+ok   macerator recipes exported (4915 in gtceu:macerator)
+ok   macerator recipes with chanced outputs (894)
+chanced macerator recipe: {"map": "gtceu:macerator", "id": "gtceu:macerator/macerate_gold_crushed_ore_to_dust", "inputs": [{"tag": "c:purified_ores/gold", "amount": 1, "anyOf": ["gtceu:purified_gold_ore"]}], "outputs": [{"item": "gtceu:pure_gold_dust", "amount": 1}, {"item": "gtceu:nickel_dust", "amount": 1, "chance": 0.14}], "fluidInputs": [], "fluidOutputs": [], "eut": 2, "duration": 400}
+ok   recipes with fluids (11147)
+ok   eut and duration are numbers
+ok   GregTech items have images (217)
+ok   GregTech images are not blank (16 of 217 blank, e.g. ['gtceu:plutonium_239_indicator', 'gtceu:stibnite_indicator', 'gtceu:diatomite_indicator', 'gtceu:aluminium_double_wire', 'gtceu:gold_quadruple_wire', 'gtceu:osmium_octal_wire'])
+ok   Iron Dust (gtceu:iron_dust) is listed
+ok   blast furnace recipes carry their coil temperature (286)
+items added by JEI: 4
+contact sheet: contact-sheet.png
+
+all checks passed
