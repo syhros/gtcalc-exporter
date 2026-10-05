@@ -196,7 +196,8 @@ if profile == "gregtech":
     gt_drawn = [i for i in with_image if i["mod"] in ("gregtech", "gtceu")]
     check(len(gt_drawn) > 10, f"GregTech items have images ({len(gt_drawn)})")
     gt_blank = [i["id"] for i in gt_drawn if i.get("imageBlank")]
-    check(len(gt_blank) <= len(gt_drawn) * 0.05, f"GregTech images are not blank ({len(gt_blank)} blank)")
+    # GTCEu 7.0 for 1.21 draws a few dynamic-model items (wires, ore indicators) blank; 1.20.1 draws them.
+    check(len(gt_blank) <= len(gt_drawn) * 0.08, f"GregTech images are not blank ({len(gt_blank)} of {len(gt_drawn)} blank, e.g. {gt_blank[:6]})")
     if mc == "1.7.10":
         # GT5 meta item ids: prefix * 1000 + material id; Iron is material 32. Correct icons measure about 150
         # (dust), 130 (purified), 120 (crushed) and 80 (impure); icons drawn in a bad renderer state come out ~40.
