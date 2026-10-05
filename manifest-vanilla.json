@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "generator": "Pack Extract v1.0.0-main.1+424443830c-dirty",
+  "minecraft": "1.7.10",
+  "pack": "ci-vanilla",
+  "generatedAt": "2026-10-05T15:16:49Z",
+  "seconds": 1,
+  "imageSize": 64,
+  "counts": {
+    "itemsFromRegistry": 585,
+    "itemsAddedByNei": 21,
+    "itemsAddedByOreDictionary": 0,
+    "itemsAddedByFluidContainers": 0,
+    "craftingRecipes": 313,
+    "craftingSpecialRecipes": 4,
+    "smeltingRecipes": 22,
+    "gregtechRecipes": 0,
+    "gregtechMaps": 0,
+    "oreDictionaryNames": 97,
+    "imagesWritten": 608,
+    "blankImages": 0,
+    "items": 606,
+    "fluids": 2,
+    "errors": 0
+  },
+  "stageMillis": {
+    "items": 36,
+    "fluids": 19,
+    "crafting": 26,
+    "smelting": 14,
+    "gregtech": 15,
+    "oredict": 10,
+    "item_images": 1205,
+    "fluid_images": 39
+  },
+  "files": {
+    "items": "items.json",
+    "itemsCsv": "items.csv",
+    "fluids": "fluids.json",
+    "fluidsCsv": "fluids.csv",
+    "oreDictionary": "oredict.json",
+    "craftingRecipes": "recipes/crafting.json",
+    "smeltingRecipes": "recipes/smelting.json",
+    "gregtechRecipes": "recipes/gregtech.json",
+    "gregtechMaps": "recipes/gregtech-maps.json",
+    "errors": "errors.log"
+  },
+  "mods": [
+    {
+      "id": "mcp",
+      "name": "Minecraft Coder Pack",
+      "version": "9.05"
+    },
+    {
+      "id": "FML",
+      "name": "Forge Mod Loader",
+      "version": "7.10.99.99"
+    },
+    {
+      "id": "Forge",
+      "name": "Minecraft Forge",
+      "version": "10.13.4.1614"
+    },
+    {
+      "id": "NotEnoughItems",
+      "name": "NotEnoughItems",
+      "version": "2.7.69-GTNH"
+    },
+    {
+      "id": "CodeChickenCore",
+      "name": "CodeChicken Core",
+      "version": "1.4.3"
+    },
+    {
+      "id": "GTNHLib Core",
+      "name": "GTNHLib Core",
+      "version": "0.11.48"
+    },
+    {
+      "id": "packextract",
+      "name": "Pack Extract",
+      "version": "v1.0.0-main.1+424443830c-dirty"
+    },
+    {
+      "id": "gtnhlib",
+      "name": "GTNH Lib",
+      "version": "0.11.48"
+    },
+    {
+      "id": "unimixins",
+      "name": "UniMixins",
+      "version": "0.3.1"
+    },
+    {
+      "id": "unimixins-mixin",
+      "name": "UniMixins: Mixin (UniMix)",
+      "version": "0.3.1"
+    },
+    {
+      "id": "unimixins-compat",
+      "name": "UniMixins: Compatibility",
+      "version": "0.3.1"
+    },
+    {
+      "id": "mixingasm",
+      "name": "UniMixins: Mixingasm",
+      "version": "0.3"
+    },
+    {
+      "id": "spongemixins",
+      "name": "UniMixins: SpongeMixins",
+      "version": "2.0.1"
+    },
+    {
+      "id": "mixinbooterlegacy",
+      "name": "UniMixins: MixinBooterLegacy",
+      "version": "1.2.1"
+    },
+    {
+      "id": "gtnhmixins",
+      "name": "UniMixins: GTNHMixins",
+      "version": "2.2.0"
+    },
+    {
+      "id": "mixinextras",
+      "name": "UniMixins: MixinExtras",
+      "version": "0.3.1"
+    },
+    {
+      "id": "gtnhextlib",
+      "name": "GTNHExtLib",
+      "version": "1.0.4"
+    }
+  ]
+}
