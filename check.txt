@@ -1,0 +1,56 @@
+/home/runner/work/gtcalc-exporter/gtcalc-exporter/.github/scripts/check_export.py:94: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = [p for p in im.getdata() if p[3] > 128]
+export folder: export-out/ci-vanilla-20261005-235152
+minecraft 1.7.10 Forge 10.13.4.1614 | legacy ids (registry:meta)
+{
+ "itemsFromRegistry": 585,
+ "itemsAddedByNei": 21,
+ "itemsAddedByOreDictionary": 0,
+ "itemsAddedByFluidContainers": 0,
+ "craftingRecipes": 313,
+ "craftingSpecialRecipes": 4,
+ "smeltingRecipes": 22,
+ "gregtechRecipes": 0,
+ "gregtechMaps": 0,
+ "recipes": 339,
+ "oreDictionaryNames": 97,
+ "imagesWritten": 502,
+ "blankImages": 0,
+ "items": 606,
+ "fluids": 2,
+ "errors": 0
+}
+stage times (ms): {'items': 39, 'fluids': 21, 'recipes:craftingRecipes': 21, 'recipes:smeltingRecipes': 22, 'recipes:gregtechRecipes': 22, 'recipes': 22, 'tags': 11, 'item_images': 818, 'fluid_images': 31}
+ok   item ids are unique (606 items)
+ok   items have names (0 without, e.g. [])
+ok   manifest item count matches items.json
+ok   few errors logged (0)
+ok   500 item images (expected about 500)
+ok   every item image file exists (0 missing, e.g. [])
+ok   blank item images under 5% (0, e.g. [])
+ok   2 fluid images (expected about 2)
+mods with images: ['minecraft']
+ok   Oak Wood (minecraft:log:0) is listed
+ok   Oak Wood has a non-blank image
+ok   Oak Wood image looks right (brightness 64 >= 45, 135 colours >= 4)
+ok   Spruce Wood (minecraft:log:1) is listed
+ok   Spruce Wood has a non-blank image
+ok   Red Wool (minecraft:wool:14) is listed
+ok   Red Wool has a non-blank image
+ok   Iron Ingot (minecraft:iron_ingot:0) is listed
+ok   Iron Ingot has a non-blank image
+ok   fluid Water (water) is listed
+ok   fluid Water has a non-blank image
+ok   Water image looks right (brightness 84 >= 40, 52 colours >= 4)
+ok   fluid Lava (lava) is listed
+ok   fluid Lava has a non-blank image
+ok   ore dictionary logWood contains oak wood
+ok   crafting table recipe exported
+crafting table recipe: {"type": "shaped", "width": 2, "height": 2, "inputs": [{"ore": "plankWood", "amount": 1, "anyOf": ["minecraft:planks:0", "minecraft:planks:1", "minecraft:planks:2", "minecraft:planks:3", "minecraft:planks:4", "minecraft:planks:5"]}, {"ore": "plankWood", "amount": 1, "anyOf": ["minecraft:planks:0", "minecraft:planks:1", "minecraft:planks:2", "minecraft:planks:3", "minecraft:planks:4", "minecraft:pl
+ok   crafting table recipe has inputs
+ok   iron ore smelts to iron ingot
+ok   more than 200 crafting recipes
+ok   every item a recipe uses is in items.json (0 missing, e.g. [])
+contact sheet: contact-sheet.png
+
+all checks passed
