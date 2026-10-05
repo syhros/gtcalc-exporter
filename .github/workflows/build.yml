@@ -51,8 +51,9 @@ jobs:
 
       - name: Build
         run: |
-          ./gradlew --stacktrace setupCIWorkspace
-          ./gradlew --stacktrace build 2>&1 | tee build.log
+          ./gradlew --stacktrace setupCIWorkspace 2>&1 | tee build.log
+          # GTNH's formatter (Spotless) would fail the build on style; apply it instead.
+          ./gradlew --stacktrace spotlessApply build 2>&1 | tee -a build.log
           exit ${PIPESTATUS[0]}
 
       - name: Show compile errors
@@ -127,6 +128,7 @@ jobs:
           EXTRA=""
           if [ "${{ matrix.profile }}" = "gregtech" ]; then EXTRA="-PdevGregTech=true"; fi
           ./gradlew --stacktrace $EXTRA setupCIWorkspace
+          ./gradlew --stacktrace $EXTRA spotlessApply
           set +e
           timeout 3000 xvfb-run -a -s "-screen 0 1280x720x24" ./gradlew --stacktrace $EXTRA runClient 2>&1 | tee client.log
           echo "client exited with ${PIPESTATUS[0]}"
