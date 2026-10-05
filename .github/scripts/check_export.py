@@ -173,6 +173,13 @@ for r in crafting[:20000] + smelting + gregtech[:20000] + other[:20000]:
 unknown = [i for i in referenced if i not in by_id]
 check(not unknown, f"every item a recipe uses is in items.json ({len(unknown)} missing, e.g. {unknown[:5]})")
 
+if other:
+    from collections import Counter
+    kinds = Counter((r.get("type"), r.get("class")) for r in other)
+    print("other.json types and classes (top 20):")
+    for (t, c), n in kinds.most_common(20):
+        print(f"  {n:6} {t} {c}")
+
 if profile == "gregtech":
     check(len(gt_maps) > 30, f"more than 30 GregTech recipe maps ({len(gt_maps)})")
     check(len(gregtech) > 5000, f"more than 5000 GregTech recipes ({len(gregtech)})")
