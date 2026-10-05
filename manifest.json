@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "generator": "Pack Extract 1.1.0",
+  "minecraft": "1.21.1",
+  "loader": "NeoForge 21.1.255",
+  "pack": "ci-1.21.1-popular",
+  "generatedAt": "2026-10-05T23:53:26Z",
+  "seconds": 2,
+  "imageSize": 64,
+  "maxItems": 500,
+  "counts": {
+    "itemsFromRegistry": 2777,
+    "itemsAddedByCreativeTabs": 1137,
+    "itemsAddedByJei": 4,
+    "craftingRecipes": 2157,
+    "craftingSpecialRecipes": 62,
+    "smeltingRecipes": 185,
+    "otherRecipes": 2572,
+    "otherRecipeTypes": 49,
+    "recipes": 4976,
+    "itemTags": 654,
+    "fluidTags": 39,
+    "blockTags": 377,
+    "imagesWritten": 525,
+    "blankImages": 0,
+    "items": 3919,
+    "fluids": 25,
+    "errors": 0
+  },
+  "stageMillis": {
+    "items": 363,
+    "fluids": 118,
+    "recipes:craftingRecipes": 304,
+    "recipes:smeltingRecipes": 312,
+    "recipes:otherRecipes": 339,
+    "recipes": 339,
+    "tags": 101,
+    "item_images": 1603,
+    "fluid_images": 277
+  },
+  "files": {
+    "items": "items.json",
+    "itemsCsv": "items.csv",
+    "fluids": "fluids.json",
+    "fluidsCsv": "fluids.csv",
+    "craftingRecipes": "recipes/crafting.json",
+    "smeltingRecipes": "recipes/smelting.json",
+    "otherRecipes": "recipes/other.json",
+    "tags": "tags.json",
+    "errors": "errors.log"
+  },
+  "mods": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "version": "1.21.1"
+    },
+    {
+      "id": "packextract",
+      "name": "Pack Extract",
+      "version": "1.1.0"
+    },
+    {
+      "id": "guideme",
+      "name": "GuideME",
+      "version": "21.1.19"
+    },
+    {
+      "id": "ae2",
+      "name": "Applied Energistics 2",
+      "version": "19.2.18"
+    },
+    {
+      "id": "mekanism",
+      "name": "Mekanism",
+      "version": "10.7.19"
+    },
+    {
+      "id": "flywheel",
+      "name": "Flywheel",
+      "version": "1.0.6"
+    },
+    {
+      "id": "ponder",
+      "name": "Ponder",
+      "version": "1.0.82+mc1.21.1"
+    },
+    {
+      "id": "create",
+      "name": "Create",
+      "version": "6.0.10"
+    },
+    {
+      "id": "mezz_config",
+      "name": "MezzConfig",
+      "version": "0.6.8"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "version": "19.57.0.451"
+    },
+    {
+      "id": "neoforge",
+      "name": "NeoForge",
+      "version": "21.1.255"
+    }
+  ]
+}

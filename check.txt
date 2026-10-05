@@ -1,0 +1,81 @@
+/home/runner/work/gtcalc-exporter/gtcalc-exporter/.github/scripts/check_export.py:94: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = [p for p in im.getdata() if p[3] > 128]
+export folder: export-out/ci-1.21.1-popular-20261005-235326
+minecraft 1.21.1 NeoForge 21.1.255 | modern ids
+{
+ "itemsFromRegistry": 2777,
+ "itemsAddedByCreativeTabs": 1137,
+ "itemsAddedByJei": 4,
+ "craftingRecipes": 2157,
+ "craftingSpecialRecipes": 62,
+ "smeltingRecipes": 185,
+ "otherRecipes": 2572,
+ "otherRecipeTypes": 49,
+ "recipes": 4976,
+ "itemTags": 654,
+ "fluidTags": 39,
+ "blockTags": 377,
+ "imagesWritten": 525,
+ "blankImages": 0,
+ "items": 3919,
+ "fluids": 25,
+ "errors": 0
+}
+stage times (ms): {'items': 363, 'fluids': 118, 'recipes:craftingRecipes': 304, 'recipes:smeltingRecipes': 312, 'recipes:otherRecipes': 339, 'recipes': 339, 'tags': 101, 'item_images': 1603, 'fluid_images': 277}
+ok   item ids are unique (3919 items)
+ok   items have names (0 without, e.g. [])
+ok   manifest item count matches items.json
+ok   few errors logged (0)
+ok   500 item images (expected about 500)
+ok   every item image file exists (0 missing, e.g. [])
+ok   blank item images under 5% (0, e.g. [])
+ok   25 fluid images (expected about 25)
+mods with images: ['ae2', 'create', 'mekanism', 'minecraft']
+ok   Oak Wood (minecraft:oak_log) is listed
+ok   Oak Wood has a non-blank image
+ok   Oak Wood image looks right (brightness 63 >= 45, 21 colours >= 4)
+ok   Spruce Wood (minecraft:spruce_log) is listed
+ok   Spruce Wood has a non-blank image
+ok   Red Wool (minecraft:red_wool) is listed
+ok   Red Wool has a non-blank image
+ok   Iron Ingot (minecraft:iron_ingot) is listed
+ok   fluid Water (minecraft:water) is listed
+ok   fluid Water has a non-blank image
+ok   Water image looks right (brightness 67 >= 40, 9 colours >= 4)
+ok   fluid Lava (minecraft:lava) is listed
+ok   fluid Lava has a non-blank image
+ok   item tag minecraft:logs contains oak logs
+ok   fluid tags exported (39)
+ok   crafting table recipe exported
+crafting table recipe: {"id": "minecraft:crafting_table", "type": "shaped", "width": 2, "height": 2, "inputs": [{"tag": "minecraft:planks", "amount": 1, "anyOf": ["minecraft:oak_planks", "minecraft:spruce_planks", "minecraft:birch_planks", "minecraft:jungle_planks", "minecraft:acacia_planks", "minecraft:dark_oak_planks", "minecraft:crimson_planks", "minecraft:warped_planks", "minecraft:mangrove_planks", "minecraft:bambo
+ok   crafting table recipe has inputs
+ok   iron ore smelts to iron ingot
+ok   more than 200 crafting recipes
+ok   every item a recipe uses is in items.json (0 missing, e.g. [])
+other.json types and classes (top 20):
+     616 minecraft:stonecutting net.minecraft.world.item.crafting.StonecutterRecipe
+     230 mekanism:crushing mekanism.api.recipes.basic.BasicCrushingRecipe
+     195 mekanism:enriching mekanism.api.recipes.basic.BasicEnrichingRecipe
+     178 mekanism:pigment_extracting mekanism.api.recipes.basic.BasicPigmentExtractingRecipe
+     176 mekanism:painting mekanism.api.recipes.basic.BasicPaintingRecipe
+     167 create:deploying com.simibubi.create.content.kinetics.deployer.DeployerApplicationRecipe
+     143 create:cutting com.simibubi.create.content.kinetics.saw.CuttingRecipe
+     124 mekanism:sawing mekanism.api.recipes.basic.BasicSawmillRecipe
+      91 mekanism:injecting mekanism.api.recipes.basic.BasicInjectingRecipe
+      82 mekanism:combining mekanism.api.recipes.basic.BasicCombinerRecipe
+      67 create:crushing com.simibubi.create.content.kinetics.crusher.CrushingRecipe
+      51 create:milling com.simibubi.create.content.kinetics.millstone.MillingRecipe
+      37 create:splashing com.simibubi.create.content.kinetics.fan.processing.SplashingRecipe
+      30 mekanism:metallurgic_infusing mekanism.api.recipes.basic.BasicMetallurgicInfuserRecipe
+      28 mekanism:purifying mekanism.api.recipes.basic.BasicPurifyingRecipe
+      25 mekanism:oxidizing mekanism.api.recipes.basic.BasicChemicalOxidizerRecipe
+      24 mekanism:chemical_conversion mekanism.api.recipes.basic.BasicChemicalConversionRecipe
+      23 mekanism:dissolution mekanism.api.recipes.basic.BasicChemicalDissolutionRecipe
+      21 mekanism:nucleosynthesizing mekanism.api.recipes.basic.BasicNucleosynthesizingRecipe
+      20 create:haunting com.simibubi.create.content.kinetics.fan.processing.HauntingRecipe
+ok   other mods' recipes exported (2572 in recipes/other.json)
+other recipe types: ['ae2:charger', 'ae2:crafting_unit_transform', 'ae2:entropy', 'ae2:inscriber', 'ae2:matter_cannon', 'ae2:storage_cell_disassembly', 'ae2:transform', 'create:compacting', 'create:crushing', 'create:cutting', 'create:deploying', 'create:emptying', 'create:filling', 'create:haunting', 'create:item_application', 'create:mechanical_crafting', 'create:milling', 'create:mixing', 'create:pressing', 'create:sandpaper_polishing', 'create:sequenced_assembly', 'create:splashing', 'mekanism:activating', 'mekanism:centrifuging', 'mekanism:chemical_conversion', 'mekanism:chemical_infusing', 'mekanism:combining', 'mekanism:compressing', 'mekanism:crushing', 'mekanism:crystallizing', 'mekanism:dissolution', 'mekanism:energy_conversion', 'mekanism:enriching', 'mekanism:evaporating', 'mekanism:injecting', 'mekanism:metallurgic_infusing', 'mekanism:nucleosynthesizing', 'mekanism:oxidizing', 'mekanism:painting', 'mekanism:pigment_extracting']
+items added by JEI: 4
+contact sheet: contact-sheet.png
+
+all checks passed

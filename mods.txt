@@ -1,0 +1,7 @@
+Mekanism-1.21.1-10.7.19.85.jar
+appliedenergistics2-19.2.18.jar
+create-1.21.1-6.0.10.jar
+guideme-21.1.19.jar
+jei-1.21.1-neoforge-19.57.0.451.jar
+mezz_config-1.21.1-neoforge-0.6.8-standalone.jar
+packextract-neoforge-1.21.1-1.1.0.jar

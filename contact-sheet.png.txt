@@ -1,0 +1,177 @@
+0,0 minecraft:oak_log Oak Log
+0,1 minecraft:red_wool Red Wool
+0,2 minecraft:deepslate_gold_ore Deepslate Gold Ore
+0,3 minecraft:gunpowder Gunpowder
+0,4 minecraft:potion#318a3291 Potion of Fire Resistance
+0,5 create:cut_dripstone_bricks Cut Dripstone Bricks
+0,6 create:copper_backtank Copper Backtank
+0,7 minecraft:crimson_nylium Crimson Nylium
+0,8 minecraft:waxed_oxidized_cut_copper_slab Waxed Oxidized Cut Copper Slab
+0,9 minecraft:gravel Gravel
+0,10 minecraft:purpur_block Purpur Block
+0,11 create:copper_nugget Copper Nugget
+1,0 minecraft:torchflower Torchflower
+1,1 minecraft:twisting_vines Twisting Vines
+1,2 ae2:fluid_storage_cell_4k 4k ME Fluid Storage Cell
+1,3 minecraft:short_grass Short Grass
+1,4 create:dark_oak_window Dark Oak Window
+1,5 minecraft:cut_copper_slab Cut Copper Slab
+1,6 minecraft:spruce_sapling Spruce Sapling
+1,7 minecraft:small_dripleaf Small Dripleaf
+1,8 minecraft:tuff_wall Tuff Wall
+1,9 ae2:facade#ae44f4e3 Cable Facade - Cobblestone
+1,10 mekanism:creative_fluid_tank#4b3f3c02 Creative Fluid Tank
+1,11 minecraft:seagrass Seagrass
+2,0 minecraft:azure_bluet Azure Bluet
+2,1 minecraft:green_banner Green Banner
+2,2 create:crushed_raw_tin Crushed Raw Tin
+2,3 create:furnace_minecart_contraption Minecart Contraption
+2,4 minecraft:granite Granite
+2,5 mekanism:dye_base Dye Base
+2,6 minecraft:lily_of_the_valley Lily of the Valley
+2,7 minecraft:cherry_log Cherry Log
+2,8 mekanism:advanced_fluid_tank Advanced Fluid Tank
+2,9 mekanism:creative_chemical_tank#a5eff828 Creative Chemical Tank
+2,10 minecraft:waxed_weathered_chiseled_copper Waxed Weathered Chiseled Copper
+2,11 minecraft:bogged_spawn_egg Bogged Spawn Egg
+3,0 minecraft:cherry_sapling Cherry Sapling
+3,1 ae2:facade#0ede6ed6 Cable Facade - Purpur Pillar
+3,2 minecraft:stripped_crimson_hyphae Stripped Crimson Hyphae
+3,3 minecraft:chiseled_tuff Chiseled Tuff
+3,4 minecraft:tuff Tuff
+3,5 minecraft:tuff_stairs Tuff Stairs
+3,6 ae2:wireless_booster Wireless Booster
+3,7 minecraft:granite_slab Granite Slab
+3,8 minecraft:polished_diorite Polished Diorite
+3,9 minecraft:light#d8730754 Light
+3,10 minecraft:fern Fern
+3,11 mekanism:mekasuit_pants MekaSuit Pants
+4,0 minecraft:oxidized_cut_copper_slab Oxidized Cut Copper Slab
+4,1 minecraft:black_wool Black Wool
+4,2 mekanism:advanced_energy_cube Advanced Energy Cube
+4,3 ae2:facade#f54d319f Cable Facade - Piston
+4,4 minecraft:lime_glazed_terracotta Lime Glazed Terracotta
+4,5 minecraft:waxed_weathered_copper Waxed Weathered Copper
+4,6 mekanism:mekasuit_bodyarmor#12ff7c59 MekaSuit Bodyarmor
+4,7 minecraft:white_tulip White Tulip
+4,8 ae2:facade#94ee607a Cable Facade - Asurine Pillar
+4,9 minecraft:acacia_trapdoor Acacia Trapdoor
+4,10 minecraft:waxed_cut_copper Waxed Cut Copper
+4,11 minecraft:spruce_leaves Spruce Leaves
+5,0 minecraft:waxed_oxidized_chiseled_copper Waxed Oxidized Chiseled Copper
+5,1 ae2:smooth_sky_stone_stairs Sky Stone Block Stairs
+5,2 minecraft:waxed_exposed_copper Waxed Exposed Copper
+5,3 ae2:facade#0a328a16 Cable Facade - Layered Deepslate
+5,4 minecraft:crimson_fungus Crimson Fungus
+5,5 minecraft:stripped_acacia_log Stripped Acacia Log
+5,6 ae2:facade#128c7447 Cable Facade - Waxed Exposed Copper Bulb
+5,7 minecraft:brown_wool Brown Wool
+5,8 mekanism:creative_fluid_tank#c9659311 Creative Fluid Tank
+5,9 minecraft:waxed_oxidized_copper_trapdoor Waxed Oxidized Copper Trapdoor
+5,10 ae2:white_lumen_paint_ball White Lumen Paint Ball
+5,11 minecraft:acacia_sapling Acacia Sapling
+6,0 minecraft:chiseled_copper Chiseled Copper
+6,1 minecraft:sheaf_pottery_sherd Sheaf Pottery Sherd
+6,2 mekanism:antiprotonic_nucleosynthesizer Antiprotonic Nucleosynthesizer
+6,3 minecraft:stripped_mangrove_log Stripped Mangrove Log
+6,4 minecraft:coal_ore Coal Ore
+6,5 create:cart_assembler Cart Assembler
+6,6 minecraft:cherry_wood Cherry Wood
+6,7 ae2:facade#a3b52441 Cable Facade - Brown Concrete Powder
+6,8 mekanism:deepslate_tin_ore Deepslate Tin Ore
+6,9 minecraft:infested_deepslate Infested Deepslate
+6,10 ae2:wireless_crafting_terminal#277e87d4 Wireless Crafting Terminal
+6,11 minecraft:oak_stairs Oak Stairs
+7,0 ae2:sky_stone_block Sky Stone
+7,1 minecraft:weathered_chiseled_copper Weathered Chiseled Copper
+7,2 minecraft:stripped_spruce_wood Stripped Spruce Wood
+7,3 minecraft:stripped_spruce_log Stripped Spruce Log
+7,4 minecraft:melon_slice Melon Slice
+7,5 minecraft:jack_o_lantern Jack o'Lantern
+7,6 minecraft:chiseled_nether_bricks Chiseled Nether Bricks
+7,7 minecraft:white_wool White Wool
+7,8 minecraft:glass_bottle Glass Bottle
+7,9 minecraft:polished_tuff_slab Polished Tuff Slab
+7,10 minecraft:pink_petals Pink Petals
+7,11 minecraft:waxed_exposed_cut_copper_stairs Waxed Exposed Cut Copper Stairs
+8,0 minecraft:painting#481505a3 Painting
+8,1 minecraft:lime_wool Lime Wool
+8,2 minecraft:blue_wool Blue Wool
+8,3 ae2:monitor Bright Illuminated Panel
+8,4 minecraft:copper_block Block of Copper
+8,5 minecraft:glass Glass
+8,6 minecraft:mangrove_button Mangrove Button
+8,7 mekanism:dust_tin Tin Dust
+8,8 create:brown_seat Brown Seat
+8,9 ae2:creative_energy_cell Creative Energy Cell
+8,10 create:smart_chute Smart Chute
+8,11 minecraft:chiseled_sandstone Chiseled Sandstone
+9,0 minecraft:crimson_planks Crimson Planks
+9,1 minecraft:enchanted_book#4a50cee2 Enchanted Book
+9,2 ae2:brown_smart_dense_cable Brown ME Dense Smart Cable
+9,3 minecraft:cobblestone_wall Cobblestone Wall
+9,4 minecraft:bedrock Bedrock
+9,5 minecraft:raw_gold_block Block of Raw Gold
+9,6 minecraft:red_stained_glass Red Stained Glass
+9,7 ae2:facade#39665e85 Cable Facade - Red Concrete
+9,8 minecraft:lapis_block Block of Lapis Lazuli
+9,9 minecraft:bamboo Bamboo
+9,10 create:brass_encased_shaft Brass Encased Shaft
+9,11 ae2:facade#cbec56a1 Cable Facade - Block of Copper
+10,0 minecraft:weeping_vines Weeping Vines
+10,1 minecraft:tuff_brick_stairs Tuff Brick Stairs
+10,2 minecraft:stripped_jungle_wood Stripped Jungle Wood
+10,3 mekanism:clump_lead Lead Clump
+10,4 minecraft:nautilus_shell Nautilus Shell
+10,5 minecraft:enderman_spawn_egg Enderman Spawn Egg
+10,6 minecraft:slime_ball Slimeball
+10,7 create:rose_quartz_lamp Rose Quartz Lamp
+10,8 ae2:inverter_card Inverter Card
+10,9 minecraft:iron_block Block of Iron
+10,10 minecraft:budding_amethyst Budding Amethyst
+10,11 minecraft:red_mushroom_block Red Mushroom Block
+11,0 minecraft:waxed_exposed_chiseled_copper Waxed Exposed Chiseled Copper
+11,1 minecraft:polished_andesite Polished Andesite
+11,2 minecraft:oxidized_cut_copper Oxidized Cut Copper
+11,3 minecraft:red_nether_brick_stairs Red Nether Brick Stairs
+11,4 create:copper_shingle_slab Copper Shingle Slab
+11,5 minecraft:lingering_potion#99c50c4e Lingering Potion of Weakness
+11,6 minecraft:pink_wool Pink Wool
+11,7 minecraft:red_terracotta Red Terracotta
+11,8 minecraft:enchanted_book#9cc3e8de Enchanted Book
+11,9 minecraft:powder_snow_bucket Powder Snow Bucket
+11,10 minecraft:cherry_leaves Cherry Leaves
+11,11 minecraft:splash_potion#056ece50 Splash Potion of Healing
+12,0 minecraft:dark_oak_log Dark Oak Log
+12,1 ae2:purple_glass_cable Purple ME Glass Cable
+12,2 mekanism:block_fluorite Block of Fluorite
+12,3 ae2:facade#e2a312ba Cable Facade - Acacia Leaves
+12,4 minecraft:polished_granite Polished Granite
+12,5 minecraft:azalea Azalea
+12,6 minecraft:white_terracotta White Terracotta
+12,7 minecraft:deepslate_copper_ore Deepslate Copper Ore
+12,8 fluid:minecraft:water Water
+12,9 fluid:minecraft:lava Lava
+12,10 fluid:mekanism:hydrogen Liquid Hydrogen
+12,11 fluid:mekanism:oxygen Liquid Oxygen
+13,0 fluid:mekanism:chlorine Liquid Chlorine
+13,1 fluid:mekanism:sulfur_dioxide Liquid Sulfur Dioxide
+13,2 fluid:mekanism:sulfur_trioxide Liquid Sulfur Trioxide
+13,3 fluid:mekanism:sulfuric_acid Liquid Sulfuric Acid
+13,4 fluid:mekanism:hydrogen_chloride Liquid Hydrogen Chloride
+13,5 fluid:mekanism:hydrofluoric_acid Liquid Hydrofluoric Acid
+13,6 fluid:mekanism:uranium_oxide Liquid Uranium Oxide
+13,7 fluid:mekanism:uranium_hexafluoride Liquid Uranium Hexafluoride
+13,8 fluid:mekanism:ethene Liquid Ethene
+13,9 fluid:mekanism:sodium Liquid Sodium
+13,10 fluid:mekanism:superheated_sodium Liquid Superheated Sodium
+13,11 fluid:mekanism:brine Brine
+14,0 fluid:mekanism:lithium Liquid Lithium
+14,1 fluid:mekanism:steam Liquid Steam
+14,2 fluid:mekanism:heavy_water Heavy Water
+14,3 fluid:mekanism:nutritional_paste Nutritional Paste
+14,4 fluid:create:potion Uncraftable Potion
+14,5 fluid:create:tea Builder's Tea
+14,6 fluid:create:honey Honey
+14,7 fluid:create:chocolate Chocolate
+14,8 fluid:minecraft:milk Milk
