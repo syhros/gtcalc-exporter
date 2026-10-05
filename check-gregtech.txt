@@ -1,0 +1,75 @@
+/home/runner/work/gtcalc-exporter/gtcalc-exporter/.github/scripts/check_export.py:68: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = [p for p in im.getdata() if p[3] > 128]
+export folder: export-out/ci-gregtech-20261005-151722
+{
+ "itemsFromRegistry": 36229,
+ "itemsAddedByNei": 187,
+ "itemsAddedByOreDictionary": 5663,
+ "itemsAddedByFluidContainers": 2,
+ "craftingRecipes": 35352,
+ "craftingSpecialRecipes": 564,
+ "smeltingRecipes": 5785,
+ "gregtechRecipes": 98152,
+ "gregtechMaps": 168,
+ "oreDictionaryNames": 40708,
+ "imagesWritten": 64661,
+ "blankImages": 7,
+ "items": 63268,
+ "fluids": 1398,
+ "errors": 4
+}
+stage times (ms): {'items': 194, 'fluids': 52, 'crafting': 718, 'smelting': 61, 'gregtech': 1224, 'oredict': 111, 'item_images': 51500, 'fluid_images': 846}
+ok   item ids are unique (63268 items)
+ok   items have names
+ok   manifest item count matches items.json
+ok   63264/63268 items have an image
+ok   every item image file exists (0 missing, e.g. [])
+ok   blank item images under 5% (7, e.g. ['TConstruct:HeldItemBlock:0', 'TConstruct:BattleSignBlock:0', 'appliedenergistics2:tile.BlockMatrixFrame:0', 'appliedenergistics2:tile.BlockCableBus:0', 'appliedenergistics2:tile.BlockPaint:0'])
+ok   1397/1398 fluids have an image
+ok   Oak Wood (minecraft:log:0) is listed
+ok   Oak Wood has a non-blank image
+ok   Oak Wood image looks right (brightness 64 >= 45, 135 colours >= 4)
+ok   Spruce Wood (minecraft:log:1) is listed
+ok   Spruce Wood has a non-blank image
+ok   Red Wool (minecraft:wool:14) is listed
+ok   Red Wool has a non-blank image
+ok   Iron Ingot (minecraft:iron_ingot:0) is listed
+ok   Iron Ingot has a non-blank image
+ok   fluid Water (water) is listed
+ok   fluid Water has a non-blank image
+ok   Water image looks right (brightness 84 >= 40, 53 colours >= 4)
+ok   fluid Lava (lava) is listed
+ok   fluid Lava has a non-blank image
+ok   ore dictionary logWood contains oak wood
+ok   crafting table recipe exported
+crafting table recipe: {"type": "shaped", "width": 2, "height": 2, "inputs": [{"ore": "plankWood", "amount": 1, "anyOf": ["minecraft:planks:0", "minecraft:planks:1", "minecraft:planks:2", "minecraft:planks:3", "minecraft:planks:4", "minecraft:planks:5", "gregtech:gt.metaitem.01:17809"]}, {"ore": "plankWood", "amount": 1, "anyOf": ["minecraft:planks:0", "minecraft:planks:1", "minecraft:planks:2", "minecraft:planks:3", "m
+ok   crafting table recipe has inputs
+ok   iron ore smelts to iron ingot
+ok   more than 200 crafting recipes
+ok   Iron Dust (gregtech:gt.metaitem.01:2032) is listed
+ok   Iron Dust has a non-blank image
+ok   Iron Dust image looks right (brightness 149 >= 100, 5 colours >= 4)
+ok   Impure Pile of Iron Dust (gregtech:gt.metaitem.01:3032) is listed
+ok   Impure Pile of Iron Dust has a non-blank image
+ok   Impure Pile of Iron Dust image looks right (brightness 95 >= 60, 76 colours >= 4)
+ok   Purified Pile of Iron Dust (gregtech:gt.metaitem.01:4032) is listed
+ok   Purified Pile of Iron Dust has a non-blank image
+ok   Purified Pile of Iron Dust image looks right (brightness 155 >= 90, 77 colours >= 4)
+ok   Purified Crushed Iron Ore (gregtech:gt.metaitem.01:6032) is listed
+ok   Purified Crushed Iron Ore has a non-blank image
+ok   Purified Crushed Iron Ore image looks right (brightness 121 >= 80, 41 colours >= 4)
+ok   fluid Molten Iron (molten.iron) is listed
+ok   fluid Molten Iron has a non-blank image
+ok   Molten Iron image looks right (brightness 182 >= 60, 3 colours >= 1)
+ok   NEI's item list was used (export ran in a world)
+ok   more than 10000 GregTech recipes (98152)
+ok   more than 50 GregTech recipe maps (168)
+ok   macerator recipes exported (15702)
+ok   macerator recipes with chanced outputs (4380)
+chanced macerator recipe: {"map": "gt.recipe.macerator", "index": 6, "inputs": [{"item": "minecraft:wool:*", "amount": 1, "anyOf": ["minecraft:wool:0", "minecraft:wool:1", "minecraft:wool:2", "minecraft:wool:3", "minecraft:wool:4", "minecraft:wool:5", "minecraft:wool:6", "minecraft:wool:7", "minecraft:wool:8", "minecraft:wool:9", "minecraft:wool:10", "minecraft:wool:11", "minecraft:wool:12", "minecraft:wool:13", "minecraft:wool:14", "minecraft:wool:15"]}], "outputs": [{"item": "minecraft:string:0", "amount": 2}, {"item": "minecraft:string:0", "amount": 1, "chance": 0.5}], "fluidInputs": [], "fluidOutputs": [], "eut": 2
+ok   recipes with fluids (38490)
+ok   every item a GregTech recipe uses is in items.json (0 missing, e.g. [])
+ok   eut and duration are numbers
+contact sheet: contact-sheet-gregtech.png
+
+all checks passed

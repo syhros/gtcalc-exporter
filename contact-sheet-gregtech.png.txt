@@ -1,0 +1,199 @@
+0,0 minecraft:log:0 Oak Wood
+0,1 minecraft:wool:14 Red Wool
+0,2 minecraft:iron_ingot:0 Iron Ingot
+0,3 minecraft:chest:0 Chest
+0,4 minecraft:potion:8193 Potion of Regeneration
+0,5 gregtech:gt.metaitem.01:2032 Iron Dust
+0,6 gregtech:gt.metaitem.01:3032 Impure Pile of Iron Dust
+0,7 gregtech:gt.metaitem.01:4032 Purified Pile of Iron Dust
+0,8 gregtech:gt.metaitem.01:6032 Purified Iron Ore
+0,9 NotEnoughItems:neiFluidDisplay:1080#51a4663e Uranium Hexafluoride
+0,10 gregtech:gt.metaitem.01:1802 Small Pile of Flint Dust
+0,11 gregtech:gt.metatool.01:120#6177c548 Wrench (LV)
+1,0 gregtech:gt.metatool.01:114#a16660ee Chainsaw (HV)
+1,1 gregtech:gt.metatool.01:132#3ba35d14 JackHammer (MV)
+1,2 gregtech:gt.blockmachines:31033 Cold Trap I
+1,3 gregtech:gt.metaitem.01:22327 Dense Naquadria Plate
+1,4 NotEnoughItems:neiFluidDisplay:2#51a4663e Lava
+1,5 ForgeMicroblock:microblock:260#64136a50 Hollow Fancy Polished Stone Brick Slab
+1,6 gregtech:gt.metatool.01:134#77196896 JackHammer (HV)
+1,7 miscutils:gt.Volumetric_Flask_32k:0#44c0f9e7 Gigantic Volumetric Flask
+1,8 miscutils:gt.Volumetric_Flask_Infinite:0#0d67f53b Klein Bottle
+1,9 gregtech:gt.metatool.01:196#ebce3327 Wire Cutter (LV)
+1,10 miscutils:item.BasicMetaFood:8 Blaze Flesh
+1,11 gregtech:gt.metatool.01:100#0e564770 Drill (LV)
+2,0 appliedenergistics2:item.ItemFacade:0#ce596b8e Cable Facade - Small Olivine Ore
+2,1 gregtech:gt.blockores2:16930 Small Brown Limonite Ore
+2,2 ForgeMicroblock:microblock:4#2b80f38e Blue Stained Clay Slab
+2,3 gregtech:gt.blockmachines:1220 1x Lead Wire
+2,4 gregtech:gt.metatool.01:152#0597b3fe Screwdriver (MV)
+2,5 gregtech:gt.metatool.01:202#79da7726 File (LV)
+2,6 miscutils:itemCellFluorineSpargedTSalt:0 Fluorine Sparged T Salt Cell
+2,7 miscutils:gt.Volumetric_Flask_32k:0#07d7daf0 Gigantic Volumetric Flask
+2,8 gregtech:gt.metaitem.02:10610 Fiber-Reinforced Epoxy Resin Wrench Tip
+2,9 gregtech:gt.detrav.metatool.01:10#9b0efbfe Prospector's Scanner (IV)
+2,10 gregtech:gt.detrav.metatool.01:2#53d6eb78 Prospector's Scanner (LV)
+2,11 minecraft:lever:0 Lever
+3,0 gregtech:gt.metatool.01:22#fb9ec8c8 Screwdriver
+3,1 miscutils:gt.Volumetric_Flask_32k:0#8b2bcb6a Gigantic Volumetric Flask
+3,2 gregtech:gt.metaitem.01:26054 Silver Bolt
+3,3 gregtech:gt.metatool.01:16#9e9576f6 Wrench
+3,4 gregtech:gt.metatool.01:112#e3f83f93 Chainsaw (MV)
+3,5 gregtech:gt.metaitem.01:2327 Naquadria Dust
+3,6 gregtech:gt.metaitem.01:12485 Hot Alduorite Ingot
+3,7 gregtech:gt.metatool.01:170#91a7ec24 Small Turbine
+3,8 gregtech:bw.sheetmetal:10106 Tairitsu Sheetmetal
+3,9 gregtech:gt.metatool.01:202#ffc0dec9 File (LV)
+3,10 gregtech:gt.metaitem.02:23472 Small Polycaprolactam (PCL) Spring
+3,11 gregtech:gt.blockmachines:1463 8x Silver Wire
+4,0 gregtech:gt.blockmachines:383 Advanced Thermal Centrifuge II
+4,1 gregtech:gt.blockmachines:799 Matter Fabrication CPU
+4,2 gregtech:gt.metatool.01:124#ce3a22e3 Wrench (HV)
+4,3 bartworks:gt.bwMetaGeneratedtoolHeadHammer:36 Magneto Resonatic Hammer Head
+4,4 minecraft:wheat:0 Wheat
+4,5 gregtech:gt.metatool.01:18#5830cb9b File
+4,6 gregtech:gt.metatool.01:152#981220d0 Screwdriver (MV)
+4,7 miscutils:itemCellBlackTitanium:0 Black Titanium Cell
+4,8 gregtech:gt.metatool.01:180#80877433 Pocket Multitool
+4,9 appliedenergistics2:item.ItemFacade:0#a27c6169 Cable Facade - Block of Astral Silver
+4,10 miscutils:gt.Volumetric_Flask_8k:0#2daaf835 Large Volumetric Flask
+4,11 gregtech:gt.metatool.01:164#6d070ce0 Soldering Iron (HV)
+5,0 gregtech:gt.blockmachines:1290 12x Soldering Alloy Cable
+5,1 bartworks:gt.bwMetaGeneratednugget:10096 MAR-M200 Steel Nugget
+5,2 appliedenergistics2:item.ItemFacade:0#a3548671 Cable Facade - Ameliorated Superconducting Coil
+5,3 gregtech:gt.metatool.01:104#a35f96c7 Drill (HV)
+5,4 miscutils:gt.Volumetric_Flask_32k:0#edb348ce Gigantic Volumetric Flask
+5,5 gregtech:gt.metatool.01:18#2ecc9e54 File
+5,6 ForgeMicroblock:microblock:260#6a439ae8 Hollow End Stone Slab
+5,7 minecraft:potion:8200 Potion of Weakness
+5,8 gregtech:gt.metaitem.01:2882 Wulfenite Dust
+5,9 gregtech:gt.metaitem.99:829 Molten Deep Iron Cell
+5,10 gregtech:gt.metaitem.01:2550 Roasted Zinc Dust
+5,11 gregtech:gt.metatool.01:36#d17ea582 Butchery Knife
+6,0 appliedenergistics2:item.ItemFacade:0#1b37f93b Cable Facade - Block of Opal
+6,1 gregtech:gt.metatool.01:134#c60f9b13 JackHammer (HV)
+6,2 miscutils:gt.Volumetric_Flask_Infinite:0#652267b1 Klein Bottle
+6,3 gregtech:gt.metatool.01:176#21c167bc Huge Turbine
+6,4 gregtech:gt.metaitem.01:32349 §aTengam Electromagnet
+6,5 gregtech:gt.metatool.01:144#3dc3bf0d Buzzsaw (HV)
+6,6 gregtech:gt.blockmachines:301 Basic Macerator
+6,7 miscutils:gt.Volumetric_Flask_8k:0#210b9db3 Large Volumetric Flask
+6,8 gregtech:gt.metatool.01:122#3010de8c Wrench (MV)
+6,9 gregtech:gt.metatool.01:142#be29dfd2 Buzzsaw (MV)
+6,10 gregtech:gt.metaitem.01:27 Tiny Pile of Scandium Dust
+6,11 gregtech:gt.metatool.01:142#89602522 Buzzsaw (MV)
+7,0 gregtech:gt.metatool.01:24#12841417 Mortar
+7,1 gregtech:gt.sheetmetal:306 Stainless Steel Sheetmetal
+7,2 appliedenergistics2:item.ToolCertusQuartzHoe:0 Certus Quartz Hoe
+7,3 gregtech:gt.blockores7:3538 Lignite Coal Ore
+7,4 gregtech:gt.metatool.01:28#27964a4c Scoop
+7,5 gregtech:gt.metatool.01:200#bb19d3dc Wire Cutter (HV)
+7,6 gregtech:gt.metaitem.02:16363 Tin Alloy Turbine Blade
+7,7 NotEnoughItems:neiFluidDisplay:197#51a4663e Caesium Plasma
+7,8 gregtech:gt.metatool.01:130#68b5a90a JackHammer (LV)
+7,9 gregtech:gt.metaitem.03:5834 Raw Pyrite Ore
+7,10 gregtech:gt.metatool.01:154#f24a345a Screwdriver (HV)
+7,11 gregtech:gt.metatool.01:194#aa42cf66 Decorator's Trowel
+8,0 gregtech:gt.metatool.01:22#6354a25e Screwdriver
+8,1 ForgeMicroblock:microblock:514#e4f70229 Seared Paver Corner
+8,2 gregtech:gt.metatool.01:34#1a9de05c Knife
+8,3 ForgeMicroblock:microblock:769#39d1a6fc Lapis Lazuli Block Strip
+8,4 gregtech:gt.metatool.01:154#9e561647 Screwdriver (HV)
+8,5 gregtech:gt.metatool.01:140#1175d6eb Buzzsaw (LV)
+8,6 gregtech:gt.metatool.01:44#56d3c030 Plunger
+8,7 appliedenergistics2:item.ItemFacade:0#92a90edb Cable Facade - Fancy Brownstone
+8,8 gregtech:gt.metaitem.02:19319 Fine Adamantium Wire
+8,9 gregtech:gt.metaitem.01:30566 Polyaluminium Chloride Cell
+8,10 gregtech:gt.metaitem.01:7393 Centrifuged Oriharukon Ore
+8,11 gregtech:gt.metatool.01:198#7d27af3e Wire Cutter (MV)
+9,0 ForgeMicroblock:microblock:513#a0fc9c82 Orange Stained Glass Nook
+9,1 gregtech:gt.metatool.01:202#7bd9da90 File (LV)
+9,2 gregtech:gt.metatool.01:18#3f8b8a6a File
+9,3 ForgeMicroblock:microblock:516#dce3a02e Blue Stained Glass Notch
+9,4 miscutils:itemPlateDoubleMaragingSteel300:0 Double Maraging Steel 300 Plate
+9,5 gregtech:gt.metaitem.01:7902 Centrifuged Talc
+9,6 gregtech:gt.metatool.01:200#aa96f3c1 Wire Cutter (HV)
+9,7 gregtech:gt.blockmachines:2035 8x Superconductor Base UEV Wire
+9,8 ForgeMicroblock:microblock:1#efab4514 Fancy Seared Bricks Cover
+9,9 gregtech:gt.metaitem.01:17062 Caesium Plate
+9,10 gregtech:gt.detrav.metatool.01:10#26dd0d42 Prospector's Scanner (IV)
+9,11 gregtech:gt.detrav.metatool.01:6#aefabe07 Prospector's Scanner (HV)
+10,0 miscutils:itemDustTinyAgarditeY:0 Tiny Pile of Agardite (Y) Dust
+10,1 miscutils:gt.Volumetric_Flask_8k:0#a7bcc3e7 Large Volumetric Flask
+10,2 gregtech:gt.metatool.01:28#06bc3cac Scoop
+10,3 TConstruct:battleaxe:0#77fdf786 Iron Battleaxe
+10,4 gregtech:gt.Volumetric_Flask:0#f653aea3 Volumetric Flask
+10,5 bartworks:bw.HTGRMaterials:0 HTGR fuel mixture (Thorium)
+10,6 gregtech:gt.metatool.01:122#9473e603 Wrench (MV)
+10,7 gregtech:gt.metatool.01:164#b3946939 Soldering Iron (HV)
+10,8 gregtech:gt.detrav.metatool.01:6#6c5e6acf Prospector's Scanner (HV)
+10,9 gregtech:gt.metatool.01:124#957da4fb Wrench (HV)
+10,10 gregtech:gt.metatool.01:130#4173f222 JackHammer (LV)
+10,11 gregtech:gt.Volumetric_Flask:0#828a0a61 Volumetric Flask
+11,0 gregtech:gt.blockores2:17081 Small Tungsten Ore
+11,1 miscutils:gt.Volumetric_Flask_32k:0#c479f641 Gigantic Volumetric Flask
+11,2 gregtech:gt.metatool.01:162#c4372790 Soldering Iron (MV)
+11,3 ForgeMicroblock:microblock:769#abb92c34 White Stained Clay Strip
+11,4 miscutils:oreGadoliniteY:0 Gadolinite (Y) Ore
+11,5 gregtech:gt.metatool.01:100#a422950f Drill (LV)
+11,6 IC2:itemBatChargeRE:26 Charging RE Battery
+11,7 bartworks:gt.bwMetaGenerateddustTiny:10072 Tiny Pile of Naquadria Oxide Mixture Dust
+11,8 gregtech:gt.metatool.01:154#cba92e87 Screwdriver (HV)
+11,9 miscutils:itemHotIngotMaragingSteel300:0 Hot Maraging Steel 300 Ingot
+11,10 gregtech:gt.Volumetric_Flask:0#3d6d4034 Volumetric Flask
+11,11 ForgeMicroblock:microblock:257#fbb216ec Hollow Sky Stone Cover
+12,0 gregtech:gt.metatool.01:102#d31b92e7 Drill (MV)
+12,1 gregtech:gt.blockmachines:1349 8x Cupronickel Cable
+12,2 miscutils:gt.Volumetric_Flask_Infinite:0#e88887c5 Klein Bottle
+12,3 gregtech:gt.blockmachines:5594 Tiny Restrictive Tin Item Pipe
+12,4 gregtech:gt.metaitem.02:21317 Osmiridium Rotor
+12,5 gregtech:gt.metatool.01:180#7eca15f4 Pocket Multitool
+12,6 gregtech:gt.metatool.01:198#1617c8ff Wire Cutter (MV)
+12,7 gregtech:gt.blockores2:6110 Raw Tengam Ore
+12,8 gregtech:gt.metaitem.02:5355 Magnetic Steel Hammer Head
+12,9 gregtech:gt.metaitem.01:4883 Purified Pile of Powellite Dust
+12,10 miscutils:itemPlateDoubleMaragingSteel350:0 Double Maraging Steel 350 Plate
+12,11 gregtech:gt.metatool.01:200#b7080696 Wire Cutter (HV)
+13,0 TConstruct:frypan:0#8c6b2627 Stone Frying Pan
+13,1 TConstruct:shovel:0#b5cb7d1e Pig Iron Shovel
+13,2 ForgeMicroblock:microblock:514#b8fb4522 Smooth Sandstone Corner
+13,3 fluid:diluted monazite rare earth mud Diluted Monazite Rare Earth Mud
+13,4 fluid:molten.botmium Molten Botmium
+13,5 fluid:liquid_lpg LPG
+13,6 fluid:molten.infusedgold Molten Infused Gold
+13,7 fluid:iron.molten Molten Iron
+13,8 fluid:liquidoxygen Liquid Oxygen
+13,9 fluid:binnibacteriafluid Binni Bacteria Fluid
+13,10 fluid:dimensionallytranscendentcrudecatalyst Dimensionally Transcendent Crude Catalyst
+13,11 fluid:dye.watermixed.dyeyellow Water Mixed Yellow Dye
+14,0 fluid:molten.hellishmetal Molten Hellish Metal
+14,1 fluid:helium-3 Helium-3
+14,2 fluid:filled praseodymium extracting nano resin Filled Praseodymium Extracting Nano Resin
+14,3 fluid:molten.duralumin Molten Duralumin
+14,4 fluid:woodtar Wood Tar
+14,5 fluid:dimensionallytranscendentprosaiccatalyst Dimensionally Transcendent Prosaic Catalyst
+14,6 fluid:rocket_fuel Rocket Fuel
+14,7 fluid:potion.reedwater Reed Water
+14,8 fluid:molten.scandium Molten Scandium
+14,9 fluid:molten.arceusalloy2b Molten Arceus Alloy 2B
+14,10 fluid:europium extracting nano resin Europium Extracting Nano Resin
+14,11 fluid:silicontetrachloride Silicon Tetrachloride
+15,0 fluid:potion.poison.splash Splash Poisonous Brew
+15,1 fluid:molten.sunnarium Molten Sunnarium
+15,2 fluid:netherair Nether Air
+15,3 fluid:molten.uraniumhexafluoride Uranium Hexafluoride
+15,4 fluid:gadolinium chloride concentrate Gadolinium Chloride Concentrate
+15,5 fluid:plasma.plutonium241 Plutonium 241 Plasma
+15,6 fluid:styrene Styrene
+15,7 fluid:molten.copperiisulfate Molten Copper(II) Sulfate
+15,8 fluid:molten.zircaloy-2 Molten Zircaloy-2
+15,9 fluid:lightlysteamcracked.naphtha Lightly Steam-Cracked Naphtha
+15,10 fluid:entangled_chromaticglass Entangled Chromatic Glass Bose-Einstein Condensate
+15,11 fluid:plasma.iridium Iridium Plasma
+16,0 fluid:plasma.fermium Fermium Plasma
+16,1 fluid:molten.orundum Molten Orundum
+16,2 fluid:molten.vividalloy Molten Vivid Alloy
+16,3 fluid:molten.chrome Molten Chrome
+16,4 fluid:plasma.chlorine Chlorine Plasma
+16,5 fluid:moderatelyhydrocracked.propane Moderately Hydro-Cracked Propane
+16,6 fluid:prismarinesolution Prismarine Solution
