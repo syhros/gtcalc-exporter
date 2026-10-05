@@ -1,0 +1,154 @@
+0,0 minecraft:oak_log Oak Log
+0,1 minecraft:red_wool Red Wool
+0,2 minecraft:deepslate_gold_ore Deepslate Gold Ore
+0,3 minecraft:gray_stained_glass_pane Gray Stained Glass Pane
+0,4 minecraft:painting#1bd01678 Painting
+0,5 minecraft:flow_banner_pattern Banner Pattern
+0,6 minecraft:experience_bottle Bottle o' Enchanting
+0,7 minecraft:crimson_nylium Crimson Nylium
+0,8 minecraft:waxed_oxidized_cut_copper_slab Waxed Oxidized Cut Copper Slab
+0,9 minecraft:gravel Gravel
+0,10 minecraft:petrified_oak_slab Petrified Oak Slab
+0,11 minecraft:vindicator_spawn_egg Vindicator Spawn Egg
+1,0 minecraft:torchflower Torchflower
+1,1 minecraft:twisting_vines Twisting Vines
+1,2 minecraft:weathered_copper_trapdoor Weathered Copper Trapdoor
+1,3 minecraft:short_grass Short Grass
+1,4 minecraft:spectral_arrow Spectral Arrow
+1,5 minecraft:cut_copper_slab Cut Copper Slab
+1,6 minecraft:spruce_sapling Spruce Sapling
+1,7 minecraft:small_dripleaf Small Dripleaf
+1,8 minecraft:tuff_wall Tuff Wall
+1,9 minecraft:potion#fb180dc1 Potion of Regeneration
+1,10 minecraft:miner_pottery_sherd Miner Pottery Sherd
+1,11 minecraft:seagrass Seagrass
+2,0 minecraft:azure_bluet Azure Bluet
+2,1 minecraft:horn_coral_fan Horn Coral Fan
+2,2 minecraft:wolf_spawn_egg Wolf Spawn Egg
+2,3 minecraft:item_frame Item Frame
+2,4 minecraft:granite Granite
+2,5 minecraft:flint Flint
+2,6 minecraft:lily_of_the_valley Lily of the Valley
+2,7 minecraft:cherry_log Cherry Log
+2,8 minecraft:green_dye Green Dye
+2,9 minecraft:light#d6ad1362 Light
+2,10 minecraft:waxed_weathered_chiseled_copper Waxed Weathered Chiseled Copper
+2,11 minecraft:yellow_concrete Yellow Concrete
+3,0 minecraft:cherry_sapling Cherry Sapling
+3,1 minecraft:splash_potion#6658b404 Splash Potion of Leaping
+3,2 minecraft:stripped_crimson_hyphae Stripped Crimson Hyphae
+3,3 minecraft:chiseled_tuff Chiseled Tuff
+3,4 minecraft:tuff Tuff
+3,5 minecraft:tuff_stairs Tuff Stairs
+3,6 minecraft:mangrove_trapdoor Mangrove Trapdoor
+3,7 minecraft:diorite_wall Diorite Wall
+3,8 minecraft:polished_diorite Polished Diorite
+3,9 minecraft:suspicious_stew#887165ff Suspicious Stew
+3,10 minecraft:fern Fern
+3,11 minecraft:string String
+4,0 minecraft:oxidized_cut_copper_slab Oxidized Cut Copper Slab
+4,1 minecraft:black_wool Black Wool
+4,2 minecraft:lime_bed Lime Bed
+4,3 minecraft:enchanted_book#479c8d42 Enchanted Book
+4,4 minecraft:nether_brick_fence Nether Brick Fence
+4,5 minecraft:waxed_weathered_copper Waxed Weathered Copper
+4,6 minecraft:enchanted_book#86e1e64c Enchanted Book
+4,7 minecraft:white_tulip White Tulip
+4,8 minecraft:enchanted_book#2faae9cf Enchanted Book
+4,9 minecraft:orange_carpet Orange Carpet
+4,10 minecraft:waxed_cut_copper Waxed Cut Copper
+4,11 minecraft:spruce_leaves Spruce Leaves
+5,0 minecraft:waxed_oxidized_chiseled_copper Waxed Oxidized Chiseled Copper
+5,1 minecraft:wooden_axe Wooden Axe
+5,2 minecraft:waxed_exposed_copper Waxed Exposed Copper
+5,3 minecraft:enchanted_book#76f90c5c Enchanted Book
+5,4 minecraft:crimson_fungus Crimson Fungus
+5,5 minecraft:stripped_acacia_log Stripped Acacia Log
+5,6 minecraft:splash_potion#383c7fc0 Splash Potion of Harming
+5,7 minecraft:brown_wool Brown Wool
+5,8 minecraft:shelter_pottery_sherd Shelter Pottery Sherd
+5,9 minecraft:pink_carpet Pink Carpet
+5,10 minecraft:jungle_door Jungle Door
+5,11 minecraft:acacia_sapling Acacia Sapling
+6,0 minecraft:chiseled_copper Chiseled Copper
+6,1 minecraft:trapped_chest Trapped Chest
+6,2 minecraft:cake Cake
+6,3 minecraft:stripped_mangrove_log Stripped Mangrove Log
+6,4 minecraft:coal_ore Coal Ore
+6,5 minecraft:dolphin_spawn_egg Dolphin Spawn Egg
+6,6 minecraft:cherry_wood Cherry Wood
+6,7 minecraft:lingering_potion#1111d4c1 Lingering Potion of Leaping
+6,8 minecraft:compass Compass
+6,9 minecraft:bookshelf Bookshelf
+6,10 minecraft:potion#de5d5065 Mundane Potion
+6,11 minecraft:cobblestone_stairs Cobblestone Stairs
+7,0 minecraft:coal Coal
+7,1 minecraft:weathered_chiseled_copper Weathered Chiseled Copper
+7,2 minecraft:stripped_spruce_wood Stripped Spruce Wood
+7,3 minecraft:stripped_spruce_log Stripped Spruce Log
+7,4 minecraft:cyan_glazed_terracotta Cyan Glazed Terracotta
+7,5 minecraft:dark_prismarine_slab Dark Prismarine Slab
+7,6 minecraft:spawner Monster Spawner
+7,7 minecraft:white_wool White Wool
+7,8 minecraft:red_glazed_terracotta Red Glazed Terracotta
+7,9 minecraft:polished_tuff_slab Polished Tuff Slab
+7,10 minecraft:pink_petals Pink Petals
+7,11 minecraft:waxed_exposed_cut_copper_stairs Waxed Exposed Cut Copper Stairs
+8,0 minecraft:raiser_armor_trim_smithing_template Smithing Template
+8,1 minecraft:lime_wool Lime Wool
+8,2 minecraft:blue_wool Blue Wool
+8,3 minecraft:cherry_chest_boat Cherry Boat with Chest
+8,4 minecraft:copper_block Block of Copper
+8,5 minecraft:glass Glass
+8,6 minecraft:magenta_terracotta Magenta Terracotta
+8,7 minecraft:spruce_hanging_sign Spruce Hanging Sign
+8,8 minecraft:iron_horse_armor Iron Horse Armor
+8,9 minecraft:gold_ingot Gold Ingot
+8,10 minecraft:cauldron Cauldron
+8,11 minecraft:chiseled_sandstone Chiseled Sandstone
+9,0 minecraft:crimson_planks Crimson Planks
+9,1 minecraft:tipped_arrow#514b4812 Arrow of Healing
+9,2 minecraft:birch_chest_boat Birch Boat with Chest
+9,3 minecraft:jukebox Jukebox
+9,4 minecraft:bedrock Bedrock
+9,5 minecraft:raw_gold_block Block of Raw Gold
+9,6 minecraft:deepslate_bricks Deepslate Bricks
+9,7 minecraft:lingering_potion#b5b456db Lingering Potion of Night Vision
+9,8 minecraft:lapis_block Block of Lapis Lazuli
+9,9 minecraft:bamboo Bamboo
+9,10 minecraft:ender_pearl Ender Pearl
+9,11 minecraft:splash_potion#7c29ccbc Splash Potion of Swiftness
+10,0 minecraft:weeping_vines Weeping Vines
+10,1 minecraft:tuff_brick_stairs Tuff Brick Stairs
+10,2 minecraft:stripped_jungle_wood Stripped Jungle Wood
+10,3 minecraft:mangrove_hanging_sign Mangrove Hanging Sign
+10,4 minecraft:andesite_stairs Andesite Stairs
+10,5 minecraft:purple_concrete Purple Concrete
+10,6 minecraft:orange_shulker_box Orange Shulker Box
+10,7 minecraft:sheep_spawn_egg Sheep Spawn Egg
+10,8 minecraft:spruce_trapdoor Spruce Trapdoor
+10,9 minecraft:iron_block Block of Iron
+10,10 minecraft:budding_amethyst Budding Amethyst
+10,11 minecraft:end_rod End Rod
+11,0 minecraft:waxed_exposed_chiseled_copper Waxed Exposed Chiseled Copper
+11,1 minecraft:polished_andesite Polished Andesite
+11,2 minecraft:oxidized_cut_copper Oxidized Cut Copper
+11,3 minecraft:mud_brick_wall Mud Brick Wall
+11,4 minecraft:light_blue_banner Light Blue Banner
+11,5 minecraft:goat_horn#fdece9d7 Goat Horn
+11,6 minecraft:pink_wool Pink Wool
+11,7 minecraft:basalt Basalt
+11,8 minecraft:tipped_arrow#de5d5065 Tipped Arrow
+11,9 minecraft:warped_wart_block Warped Wart Block
+11,10 minecraft:cherry_leaves Cherry Leaves
+11,11 minecraft:painting#d7f0f839 Painting
+12,0 minecraft:dark_oak_log Dark Oak Log
+12,1 minecraft:chest_minecart Minecart with Chest
+12,2 minecraft:glowstone_dust Glowstone Dust
+12,3 minecraft:enchanted_book#ffe59bab Enchanted Book
+12,4 minecraft:polished_granite Polished Granite
+12,5 minecraft:azalea Azalea
+12,6 minecraft:pumpkin Pumpkin
+12,7 minecraft:deepslate_copper_ore Deepslate Copper Ore
+12,8 fluid:minecraft:water Water
+12,9 fluid:minecraft:lava Lava
