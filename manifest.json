@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "generator": "Pack Extract 1.1.0",
+  "minecraft": "1.20.1",
+  "loader": "Forge 47.4.26",
+  "pack": "ci-1.20.1-vanilla",
+  "generatedAt": "2026-10-05T23:53:08Z",
+  "seconds": 2,
+  "imageSize": 64,
+  "maxItems": 500,
+  "counts": {
+    "itemsFromRegistry": 1254,
+    "itemsAddedByCreativeTabs": 347,
+    "itemsAddedByJei": 5,
+    "craftingRecipes": 822,
+    "craftingSpecialRecipes": 14,
+    "smeltingRecipes": 112,
+    "otherRecipes": 226,
+    "otherRecipeTypes": 2,
+    "recipes": 1174,
+    "itemTags": 280,
+    "fluidTags": 3,
+    "blockTags": 273,
+    "imagesWritten": 502,
+    "blankImages": 0,
+    "items": 1607,
+    "fluids": 2,
+    "errors": 0
+  },
+  "stageMillis": {
+    "items": 302,
+    "fluids": 60,
+    "recipes:craftingRecipes": 187,
+    "recipes:smeltingRecipes": 193,
+    "recipes:otherRecipes": 198,
+    "recipes": 198,
+    "tags": 74,
+    "item_images": 1267,
+    "fluid_images": 163
+  },
+  "files": {
+    "items": "items.json",
+    "itemsCsv": "items.csv",
+    "fluids": "fluids.json",
+    "fluidsCsv": "fluids.csv",
+    "craftingRecipes": "recipes/crafting.json",
+    "smeltingRecipes": "recipes/smelting.json",
+    "otherRecipes": "recipes/other.json",
+    "tags": "tags.json",
+    "errors": "errors.log"
+  },
+  "mods": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "version": "1.20.1"
+    },
+    {
+      "id": "packextract",
+      "name": "Pack Extract",
+      "version": "1.1.0"
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "version": "47.4.26"
+    },
+    {
+      "id": "mezz_config",
+      "name": "MezzConfig",
+      "version": "0.6.8"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "version": "15.62.0.219"
+    }
+  ]
+}
