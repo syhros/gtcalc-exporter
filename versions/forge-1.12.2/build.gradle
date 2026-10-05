@@ -1,0 +1,47 @@
+// Pack Extract for Minecraft 1.12.2 (Forge 14.23.5). The version-neutral code is shared from ../../common.
+plugins {
+    id 'java'
+    id 'com.gtnewhorizons.retrofuturagradle' version '2.0.6'
+}
+
+version = System.getenv('VERSION') ?: mod_version
+group = 'com.syhros.packextract'
+base { archivesName = 'packextract-forge-1.12.2' }
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8)
+        // Azul covers the most platforms for Java 8 toolchains
+        vendor = JvmVendorSpec.AZUL
+    }
+}
+
+sourceSets.main.java.srcDir '../../common/src/main/java'
+
+minecraft {
+    mcVersion = '1.12.2'
+    mcpMappingChannel = 'stable'
+    mcpMappingVersion = '39'
+    username = 'Developer'
+    injectedTags.put('VERSION', project.version.toString())
+}
+
+tasks.injectTags.configure {
+    outputClassName.set('com.syhros.packextract.forge.Tags')
+}
+
+repositories {
+    maven { url = 'https://maven.blamejared.com' } // JEI
+}
+
+dependencies {
+    // JEI's item list is read through its API when JEI is installed (GregTech CEu is read by reflection).
+    compileOnly rfg.deobf("mezz.jei:jei_1.12.2:${jei_version}")
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('mcmod.info') { expand 'version': project.version }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

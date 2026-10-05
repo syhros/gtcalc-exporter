@@ -4,7 +4,23 @@ Repository: [syhros/gtcalc-exporter](https://github.com/syhros/gtcalc-exporter).
 
 A Minecraft mod that exports everything in a modpack: every item and its variants, every fluid, an image of each, the ore dictionary, and the recipes, including GregTech recipes with their chanced outputs. It writes plain JSON and CSV that a website such as [gtcalc.app](https://gtcalc.app) can load.
 
-The first version targets **Minecraft 1.7.10 with Forge**, which covers GT New Horizons.
+## Versions
+
+| Minecraft | Loader | Jar | GregTech recipes |
+|---|---|---|---|
+| 1.7.10 | Forge | `packextract-<version>.jar` | GregTech 5 (GT New Horizons) |
+| 1.12.2 | Forge | `packextract-forge-1.12.2-<version>.jar` | GregTech CEu / GregTech CE |
+| 1.20.1 | Forge | `packextract-forge-1.20.1-<version>.jar` | GregTech CEu Modern |
+| 1.21.1 | NeoForge | `packextract-neoforge-1.21.1-<version>.jar` | GregTech CEu Modern |
+
+The 1.7.10 build is the repository root; the others are in `versions/`. The export logic shared by all of them is in
+`common/`. On 1.13 and later, item ids have no meta (`minecraft:oak_log`, plus `#hash` of the NBT or data
+components), fluid ids are namespaced (`minecraft:water`), tags replace the ore dictionary (`tags.json`), and every
+other mod's recipe type is exported to `recipes/other.json`. 1.12.2 and later read their settings from
+`config/packextract.properties` (1.7.10 keeps `config/packextract.cfg`).
+
+Every push is built and tested on GitHub Actions: each version is exported in a real game client together with JEI,
+GregTech and other popular mods (see `.github/workflows/build.yml`), and the export is checked.
 
 ## Why another exporter
 

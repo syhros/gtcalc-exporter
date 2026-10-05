@@ -38,3 +38,9 @@ layout.json
 
 /pack-extract/
 __pycache__/
+
+# Builds for other Minecraft versions
+/versions/*/build/
+/versions/*/run/
+/versions/*/runs/
+/versions/*/build.log

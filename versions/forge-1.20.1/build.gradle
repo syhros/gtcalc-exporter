@@ -1,0 +1,44 @@
+// Pack Extract for Minecraft 1.20.1 (Forge). The version-neutral code is shared from ../../common.
+plugins {
+    id 'net.minecraftforge.gradle' version '[6.0.24,6.2)'
+}
+
+version = System.getenv('VERSION') ?: mod_version
+group = 'com.syhros.packextract'
+base { archivesName = "packextract-forge-${minecraft_version}" }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+sourceSets.main.java.srcDir '../../common/src/main/java'
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            mods { packextract { source sourceSets.main } }
+        }
+    }
+}
+
+repositories {
+    maven { url = 'https://maven.blamejared.com' } // JEI
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    // JEI's item list is read through its API when JEI is installed; nothing else is needed at compile time
+    // (GregTech CEu is read by reflection).
+    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}")
+}
+
+processResources {
+    inputs.property 'version', version
+    filesMatching('META-INF/mods.toml') { expand 'version': version }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+jar.finalizedBy('reobfJar')

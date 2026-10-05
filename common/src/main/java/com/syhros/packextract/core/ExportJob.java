@@ -1,4 +1,4 @@
-package com.syhros.packextract.export;
+package com.syhros.packextract.core;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -16,46 +16,48 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.TimeZone;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.fluids.Fluid;
-import net.minecraftforge.fluids.FluidContainerRegistry;
-import net.minecraftforge.fluids.FluidStack;
-import net.minecraftforge.oredict.OreDictionary;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.google.gson.stream.JsonWriter;
-import com.syhros.packextract.PackExtract;
-import com.syhros.packextract.Tags;
+import com.syhros.packextract.export.JsonArrayFile;
+import com.syhros.packextract.export.PngWriter;
+import com.syhros.packextract.export.Problems;
 import com.syhros.packextract.util.Colors;
 import com.syhros.packextract.util.Csv;
 import com.syhros.packextract.util.Ids;
 
-import cpw.mods.fml.common.Loader;
-import cpw.mods.fml.common.ModContainer;
-
 /**
- * One export run. {@link #step} is called every frame from the progress screen and does a slice of the work, so the
- * game keeps drawing and the progress stays visible.
+ * One export run, the same on every Minecraft version. {@link #step} is called every frame from the progress screen
+ * and does a slice of the work, so the game keeps drawing and the progress stays visible.
  */
 public final class ExportJob {
+
+    private static final Logger LOG = LogManager.getLogger("packextract");
 
     public static final class Settings {
 
         public File outputRoot;
         public String packName;
+        /** "Pack Extract 1.1.0". */
+        public String generator = "Pack Extract";
         public boolean images = true;
         public int imageSize = 64;
-        public boolean neiItems = true;
+        /** Also read NEI's or JEI's item list. */
+        public boolean viewerItems = true;
+        /**
+         * Draw at most N item images and N fluid images (0 = all), for quick tests. Everything is still listed and
+         * every recipe written; the drawn ones are the first half plus an even spread over the rest, so every mod
+         * gets some.
+         */
+        public int maxItems;
     }
 
     private enum Stage {
         ITEMS("Collecting items"),
         FLUIDS("Collecting fluids"),
-        CRAFTING("Crafting recipes"),
-        SMELTING("Furnace recipes"),
-        GREGTECH("GregTech recipes"),
-        OREDICT("Ore dictionary"),
+        RECIPES("Recipes"),
+        TAGS("Ore dictionary and tags"),
         ITEM_IMAGES("Item images"),
         FLUID_IMAGES("Fluid images"),
         WRITE("Writing files"),
@@ -69,6 +71,7 @@ public final class ExportJob {
         }
     }
 
+    private final Platform platform;
     private final Settings settings;
     private final File dir;
     private final ItemIndex items = new ItemIndex();
@@ -76,18 +79,20 @@ public final class ExportJob {
     private final Problems problems = new Problems();
     private final Map<String, Number> counts = new LinkedHashMap<String, Number>();
     private final Map<String, Long> timings = new LinkedHashMap<String, Long>();
+    private final Map<String, String> files = new LinkedHashMap<String, String>();
     private final long startedAt = System.currentTimeMillis();
     private Stage stage = Stage.ITEMS;
     private long stageStart = System.nanoTime();
-    private Refs refs;
 
-    private GregTechRecipes gregtech;
-    private List<GregTechRecipes.RecipeMapInfo> gtMaps;
-    private int gtNext;
-    private JsonArrayFile gtOut;
+    private List<RecipeSource> sources;
+    private int sourceNext;
+    private int partNext;
+    private int partCount = -1;
+    private JsonArrayFile recipeOut;
+    private int recipeTotal;
 
-    private List<ItemIndex.Entry> toRender;
-    private List<FluidIndex.Entry> fluidsToRender;
+    private List<ItemIndex.Entry> itemsToDraw;
+    private List<FluidIndex.Entry> fluidsToDraw;
     private int renderNext;
     private IconRenderer renderer;
     private PngWriter png;
@@ -96,7 +101,8 @@ public final class ExportJob {
     private int blank;
     private String failure;
 
-    public ExportJob(Settings settings) {
+    public ExportJob(Platform platform, Settings settings) {
+        this.platform = platform;
         this.settings = settings;
         String stamp = new SimpleDateFormat("yyyyMMdd-HHmmss", Locale.ROOT).format(new Date());
         this.dir = new File(settings.outputRoot, Ids.fileStem(settings.packName) + "-" + stamp);
@@ -129,11 +135,15 @@ public final class ExportJob {
     public String status() {
         switch (stage) {
             case ITEM_IMAGES:
-                return stage.label + " " + renderNext + " / " + (toRender == null ? 0 : toRender.size());
+                return stage.label + " " + renderNext + " / " + (itemsToDraw == null ? 0 : itemsToDraw.size());
             case FLUID_IMAGES:
-                return stage.label + " " + renderNext + " / " + (fluidsToRender == null ? 0 : fluidsToRender.size());
-            case GREGTECH:
-                return stage.label + " " + gtNext + " / " + (gtMaps == null ? "?" : gtMaps.size()) + " maps";
+                return stage.label + " " + renderNext + " / " + (fluidsToDraw == null ? 0 : fluidsToDraw.size());
+            case RECIPES:
+                if (sources != null && sourceNext < sources.size()) {
+                    RecipeSource s = sources.get(sourceNext);
+                    return s.label() + (partCount > 1 ? " " + partNext + " / " + partCount : "");
+                }
+                return stage.label;
             default:
                 return stage.label;
         }
@@ -141,14 +151,14 @@ public final class ExportJob {
 
     /** 0-1 progress within the current stage, -1 when unknown. */
     public float stageProgress() {
-        if (stage == Stage.ITEM_IMAGES && toRender != null && !toRender.isEmpty()) {
-            return renderNext / (float) toRender.size();
+        if (stage == Stage.ITEM_IMAGES && itemsToDraw != null && !itemsToDraw.isEmpty()) {
+            return renderNext / (float) itemsToDraw.size();
         }
-        if (stage == Stage.FLUID_IMAGES && fluidsToRender != null && !fluidsToRender.isEmpty()) {
-            return renderNext / (float) fluidsToRender.size();
+        if (stage == Stage.FLUID_IMAGES && fluidsToDraw != null && !fluidsToDraw.isEmpty()) {
+            return renderNext / (float) fluidsToDraw.size();
         }
-        if (stage == Stage.GREGTECH && gtMaps != null && !gtMaps.isEmpty()) {
-            return gtNext / (float) gtMaps.size();
+        if (stage == Stage.RECIPES && partCount > 1) {
+            return partNext / (float) partCount;
         }
         return -1;
     }
@@ -166,39 +176,22 @@ public final class ExportJob {
         try {
             switch (stage) {
                 case ITEMS:
-                    collectItems();
+                    platform.collectItems(items, problems, counts);
                     next(Stage.FLUIDS);
                     break;
                 case FLUIDS:
-                    fluids.addRegistered();
-                    for (FluidContainerRegistry.FluidContainerData d : FluidContainerRegistry
-                        .getRegisteredFluidContainerData()) {
-                        if (d.fluid != null && d.fluid.getFluid() != null) {
-                            fluids.add(d.fluid.getFluid(), "fluid-container");
-                        }
+                    platform.collectFluids(fluids, items, problems, counts);
+                    sources = platform.recipeSources(items, fluids, problems);
+                    next(Stage.RECIPES);
+                    break;
+                case RECIPES:
+                    stepRecipes(deadline);
+                    break;
+                case TAGS:
+                    String tagFile = platform.writeTags(dir, items, fluids, problems, counts);
+                    if (tagFile != null) {
+                        files.put(tagFile.startsWith("oredict") ? "oreDictionary" : "tags", tagFile);
                     }
-                    refs = new Refs(items, fluids);
-                    next(Stage.CRAFTING);
-                    break;
-                case CRAFTING:
-                    try (JsonArrayFile out = new JsonArrayFile(new File(dir, "recipes/crafting.json"))) {
-                        int[] c = CraftingRecipes.writeCrafting(out, refs, problems);
-                        counts.put("craftingRecipes", c[0]);
-                        counts.put("craftingSpecialRecipes", c[1]);
-                    }
-                    next(Stage.SMELTING);
-                    break;
-                case SMELTING:
-                    try (JsonArrayFile out = new JsonArrayFile(new File(dir, "recipes/smelting.json"))) {
-                        counts.put("smeltingRecipes", CraftingRecipes.writeSmelting(out, refs, problems));
-                    }
-                    next(Stage.GREGTECH);
-                    break;
-                case GREGTECH:
-                    stepGregTech(deadline);
-                    break;
-                case OREDICT:
-                    writeOreDictionary();
                     next(settings.images ? Stage.ITEM_IMAGES : Stage.WRITE);
                     break;
                 case ITEM_IMAGES:
@@ -210,13 +203,13 @@ public final class ExportJob {
                 case WRITE:
                     writeAll();
                     next(Stage.DONE);
-                    PackExtract.LOG.info("Export finished: {} ({})", dir.getAbsolutePath(), counts);
+                    LOG.info("Export finished: {} ({})", dir.getAbsolutePath(), counts);
                     break;
                 default:
                     break;
             }
         } catch (Throwable t) {
-            PackExtract.LOG.error("Export failed in stage " + stage, t);
+            LOG.error("Export failed in stage " + stage, t);
             problems.add("stage " + stage, t);
             failure = stage.label + ": " + t;
             stage = Stage.FAILED;
@@ -243,93 +236,70 @@ public final class ExportJob {
         stageStart = now;
         stage = s;
         renderNext = 0;
-        PackExtract.LOG.info("Export: {}", s.label);
+        LOG.info("Export: {}", s.label);
     }
 
-    private void collectItems() {
-        int registry = ItemSources.fromRegistry(items, problems);
-        int nei = settings.neiItems ? ItemSources.fromNei(items, problems) : 0;
-        int ore = ItemSources.fromOreDictionary(items);
-        int containers = ItemSources.fromFluidContainers(items);
-        counts.put("itemsFromRegistry", registry);
-        counts.put("itemsAddedByNei", nei);
-        counts.put("itemsAddedByOreDictionary", ore);
-        counts.put("itemsAddedByFluidContainers", containers);
-    }
-
-    private void stepGregTech(long deadline) throws IOException {
-        if (gtMaps == null) {
-            gtMaps = GregTechRecipes.maps(problems);
-            gregtech = new GregTechRecipes();
-            gtOut = new JsonArrayFile(new File(dir, "recipes/gregtech.json"));
-        }
-        while (gtNext < gtMaps.size()) {
-            gregtech.writeMap(gtOut, refs, problems, gtMaps.get(gtNext++));
+    private void stepRecipes(long deadline) throws IOException {
+        while (sourceNext < sources.size()) {
+            RecipeSource s = sources.get(sourceNext);
+            if (recipeOut == null) {
+                recipeOut = new JsonArrayFile(new File(dir, s.file()));
+                partCount = s.parts();
+                partNext = 0;
+            }
+            while (partNext < partCount) {
+                s.writePart(partNext++, recipeOut);
+                if (System.nanoTime() > deadline) {
+                    return;
+                }
+            }
+            recipeOut.close();
+            recipeTotal += recipeOut.count();
+            files.put(s.manifestKey(), s.file());
+            s.finish(dir, recipeOut, counts, files);
+            recipeOut = null;
+            partCount = -1;
+            sourceNext++;
+            timings.put("recipes:" + s.manifestKey(), (System.nanoTime() - stageStart) / 1_000_000L);
             if (System.nanoTime() > deadline) {
                 return;
             }
         }
-        gtOut.close();
-        counts.put("gregtechRecipes", gtOut.count());
-        counts.put("gregtechMaps", gtMaps.size());
-        try (Writer w = writer(new File(dir, "recipes/gregtech-maps.json"))) {
-            JsonWriter j = json(w);
-            j.beginArray();
-            for (GregTechRecipes.RecipeMapInfo m : gtMaps) {
-                j.beginObject();
-                j.name("id").value(m.id);
-                j.name("name").value(m.name);
-                j.name("recipes").value(m.written);
-                j.endObject();
-            }
-            j.endArray();
-            j.flush();
-        }
-        next(Stage.OREDICT);
+        counts.put("recipes", recipeTotal);
+        next(Stage.TAGS);
     }
 
-    private void writeOreDictionary() throws IOException {
-        try (Writer w = writer(new File(dir, "oredict.json"))) {
-            JsonWriter j = json(w);
-            j.beginObject();
-            String[] names = OreDictionary.getOreNames();
-            java.util.Arrays.sort(names);
-            for (String name : names) {
-                j.name(name);
-                j.beginArray();
-                for (ItemStack s : OreDictionary.getOres(name)) {
-                    String id = items.add(s, "oredict");
-                    if (id == null) {
-                        continue;
-                    }
-                    if (s.getItemDamage() == Ids.WILDCARD) {
-                        for (String v : items.variantsOf(ItemIndex.registryName(s.getItem()))) {
-                            j.value(v);
-                        }
-                    } else {
-                        j.value(id);
-                    }
-                }
-                j.endArray();
-            }
-            j.endObject();
-            j.flush();
-            counts.put("oreDictionaryNames", names.length);
+    /** All of the list, or {@code maxItems} of it: the first half, then an even spread over the rest. */
+    private <T> List<T> sample(List<T> list) {
+        int max = settings.maxItems;
+        if (max <= 0 || list.size() <= max) {
+            return list;
         }
+        int head = max / 2;
+        List<T> out = new ArrayList<T>(list.subList(0, head));
+        int rest = max - head;
+        double step = (list.size() - head) / (double) rest;
+        for (int k = 0; k < rest; k++) {
+            out.add(list.get(head + (int) (k * step)));
+        }
+        return out;
     }
 
     private void stepItemImages(long deadline) {
-        if (toRender == null) {
-            toRender = new ArrayList<ItemIndex.Entry>(items.all());
-            renderer = new IconRenderer(settings.imageSize);
+        if (itemsToDraw == null) {
+            itemsToDraw = sample(new ArrayList<ItemIndex.Entry>(items.all()));
+        }
+        List<ItemIndex.Entry> list = itemsToDraw;
+        if (renderer == null) {
+            renderer = platform.renderer(settings.imageSize, problems);
             png = new PngWriter(problems);
             if (!renderer.offscreen()) {
                 problems.note("Framebuffers are off; icons are drawn on screen instead (turn on FBOs in video settings)");
             }
         }
         int size = renderer.size();
-        while (renderNext < toRender.size()) {
-            ItemIndex.Entry e = toRender.get(renderNext++);
+        while (renderNext < list.size()) {
+            ItemIndex.Entry e = list.get(renderNext++);
             try {
                 byte[] rgba = renderer.renderItem(e.stack);
                 int[] argb = new int[size * size];
@@ -337,8 +307,7 @@ public final class ExportJob {
                     e.imageBlank = true;
                     blank++;
                 }
-                String file = itemFiles.claim(e.id, ".png");
-                e.image = "images/items/" + file;
+                e.image = "images/items/" + itemFiles.claim(e.id, ".png");
                 png.write(new File(dir, e.image), argb, size);
             } catch (Throwable t) {
                 e.imageError = t.toString();
@@ -352,12 +321,13 @@ public final class ExportJob {
     }
 
     private void stepFluidImages(long deadline) {
-        if (fluidsToRender == null) {
-            fluidsToRender = new ArrayList<FluidIndex.Entry>(fluids.all());
+        if (fluidsToDraw == null) {
+            fluidsToDraw = sample(new ArrayList<FluidIndex.Entry>(fluids.all()));
         }
+        List<FluidIndex.Entry> list = fluidsToDraw;
         int size = renderer.size();
-        while (renderNext < fluidsToRender.size()) {
-            FluidIndex.Entry e = fluidsToRender.get(renderNext++);
+        while (renderNext < list.size()) {
+            FluidIndex.Entry e = list.get(renderNext++);
             try {
                 byte[] rgba = renderer.renderFluid(e.fluid);
                 if (rgba == null) {
@@ -399,36 +369,36 @@ public final class ExportJob {
     }
 
     private void writeItems() throws IOException {
+        String tagField = platform.itemTagField();
         try (Writer jw = writer(new File(dir, "items.json")); Writer cw = writer(new File(dir, "items.csv"))) {
-            JsonWriter j = json(jw);
+            JsonWriter j = new JsonWriter(jw);
             Csv csv = new Csv(cw);
-            csv.row("id", "registryName", "meta", "nbt", "name", "mod", "oreDict", "image");
+            csv.row("id", "registryName", "meta", "nbt", "name", "mod", tagField, "image");
             j.beginArray();
             for (ItemIndex.Entry e : items.all()) {
-                String name = safe(() -> e.stack.getDisplayName());
-                String unlocalized = safe(() -> e.stack.getUnlocalizedName());
-                List<String> ores = new ArrayList<String>();
+                Platform.ItemInfo info;
                 try {
-                    for (int id : OreDictionary.getOreIDs(e.stack)) {
-                        ores.add(OreDictionary.getOreName(id));
-                    }
-                } catch (Throwable ignored) {
-                    // some items throw from their equality checks
+                    info = platform.describeItem(e);
+                } catch (Throwable t) {
+                    problems.add("describing " + e.id, t);
+                    info = new Platform.ItemInfo();
                 }
                 j.beginObject();
                 j.name("id").value(e.id);
                 j.name("registryName").value(e.registryName);
                 j.name("mod").value(e.mod());
-                j.name("meta").value(e.meta);
+                if (e.meta != null) {
+                    j.name("meta").value(e.meta);
+                }
                 if (e.nbt != null) {
                     j.name("nbt").value(e.nbt);
                 }
-                j.name("name").value(name);
-                j.name("unlocalizedName").value(unlocalized);
-                j.name("isBlock").value(e.stack.getItem() instanceof ItemBlock);
-                j.name("oreDict");
+                j.name("name").value(info.name);
+                j.name("unlocalizedName").value(info.unlocalizedName);
+                j.name("isBlock").value(info.isBlock);
+                j.name(tagField);
                 j.beginArray();
-                for (String o : ores) {
+                for (String o : info.tags) {
                     j.value(o);
                 }
                 j.endArray();
@@ -448,7 +418,7 @@ public final class ExportJob {
                 }
                 j.endArray();
                 j.endObject();
-                csv.row(e.id, e.registryName, e.meta, e.nbt, name, e.mod(), String.join(";", ores), e.image);
+                csv.row(e.id, e.registryName, e.meta, e.nbt, info.name, e.mod(), String.join(";", info.tags), e.image);
             }
             j.endArray();
             j.flush();
@@ -456,58 +426,46 @@ public final class ExportJob {
     }
 
     private void writeFluids() throws IOException {
-        Map<String, List<FluidContainerRegistry.FluidContainerData>> containers = new LinkedHashMap<String, List<FluidContainerRegistry.FluidContainerData>>();
-        for (FluidContainerRegistry.FluidContainerData d : FluidContainerRegistry.getRegisteredFluidContainerData()) {
-            if (d.fluid == null || d.fluid.getFluid() == null) {
-                continue;
-            }
-            String id = d.fluid.getFluid().getName();
-            List<FluidContainerRegistry.FluidContainerData> list = containers.get(id);
-            if (list == null) {
-                list = new ArrayList<FluidContainerRegistry.FluidContainerData>();
-                containers.put(id, list);
-            }
-            list.add(d);
-        }
         try (Writer jw = writer(new File(dir, "fluids.json")); Writer cw = writer(new File(dir, "fluids.csv"))) {
-            JsonWriter j = json(jw);
+            JsonWriter j = new JsonWriter(jw);
             Csv csv = new Csv(cw);
             csv.row("id", "name", "color", "temperature", "gaseous", "image");
             j.beginArray();
             for (FluidIndex.Entry e : fluids.all()) {
-                Fluid f = e.fluid;
-                String name = safe(() -> new FluidStack(f, 1000).getLocalizedName());
-                String color = Colors.hex(f.getColor());
+                Platform.FluidInfo f;
+                try {
+                    f = platform.describeFluid(e);
+                } catch (Throwable t) {
+                    problems.add("describing fluid " + e.id, t);
+                    f = new Platform.FluidInfo();
+                }
+                String color = f.color < 0 ? null : Colors.hex(f.color);
                 j.beginObject();
                 j.name("id").value(e.id);
-                j.name("name").value(name);
-                j.name("unlocalizedName").value(safe(() -> f.getUnlocalizedName()));
-                j.name("color").value(color);
-                j.name("temperature").value(f.getTemperature());
-                j.name("density").value(f.getDensity());
-                j.name("viscosity").value(f.getViscosity());
-                j.name("luminosity").value(f.getLuminosity());
-                j.name("gaseous").value(f.isGaseous());
-                String icon = safe(() -> f.getStillIcon() != null ? f.getStillIcon().getIconName() : null);
-                if (icon != null) {
-                    j.name("texture").value(icon);
+                j.name("name").value(f.name);
+                j.name("unlocalizedName").value(f.unlocalizedName);
+                if (color != null) {
+                    j.name("color").value(color);
                 }
-                Block block = f.getBlock();
-                if (block != null) {
-                    Object blockName = Block.blockRegistry.getNameForObject(block);
-                    if (blockName != null) {
-                        j.name("block").value(blockName.toString());
-                    }
+                j.name("temperature").value(f.temperature);
+                j.name("density").value(f.density);
+                j.name("viscosity").value(f.viscosity);
+                j.name("luminosity").value(f.luminosity);
+                j.name("gaseous").value(f.gaseous);
+                if (f.texture != null) {
+                    j.name("texture").value(f.texture);
                 }
-                List<FluidContainerRegistry.FluidContainerData> list = containers.get(e.id);
-                if (list != null) {
+                if (f.block != null) {
+                    j.name("block").value(f.block);
+                }
+                if (!f.containers.isEmpty()) {
                     j.name("containers");
                     j.beginArray();
-                    for (FluidContainerRegistry.FluidContainerData d : list) {
+                    for (Platform.Container c : f.containers) {
                         j.beginObject();
-                        j.name("filled").value(ItemIndex.idOf(d.filledContainer));
-                        j.name("empty").value(ItemIndex.idOf(d.emptyContainer));
-                        j.name("amount").value(d.fluid.amount);
+                        j.name("filled").value(c.filled);
+                        j.name("empty").value(c.empty);
+                        j.name("amount").value(c.amount);
                         j.endObject();
                     }
                     j.endArray();
@@ -522,7 +480,7 @@ public final class ExportJob {
                     j.name("imageError").value(e.imageError);
                 }
                 j.endObject();
-                csv.row(e.id, name, color, f.getTemperature(), f.isGaseous(), e.image);
+                csv.row(e.id, f.name, color, f.temperature, f.gaseous, e.image);
             }
             j.endArray();
             j.flush();
@@ -531,18 +489,22 @@ public final class ExportJob {
 
     private void writeManifest() throws IOException {
         try (Writer w = writer(new File(dir, "manifest.json"))) {
-            JsonWriter j = json(w);
+            JsonWriter j = new JsonWriter(w);
             j.setIndent("  ");
             j.beginObject();
             j.name("format").value(1);
-            j.name("generator").value("Pack Extract " + Tags.VERSION);
-            j.name("minecraft").value("1.7.10");
+            j.name("generator").value(settings.generator);
+            j.name("minecraft").value(platform.minecraftVersion());
+            j.name("loader").value(platform.loader());
             j.name("pack").value(settings.packName);
             SimpleDateFormat iso = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.ROOT);
             iso.setTimeZone(TimeZone.getTimeZone("UTC"));
             j.name("generatedAt").value(iso.format(new Date(startedAt)));
             j.name("seconds").value((System.currentTimeMillis() - startedAt) / 1000);
             j.name("imageSize").value(settings.images ? settings.imageSize : 0);
+            if (settings.maxItems > 0) {
+                j.name("maxItems").value(settings.maxItems);
+            }
             j.name("counts");
             j.beginObject();
             for (Map.Entry<String, Number> c : counts.entrySet()) {
@@ -561,20 +523,18 @@ public final class ExportJob {
             j.name("itemsCsv").value("items.csv");
             j.name("fluids").value("fluids.json");
             j.name("fluidsCsv").value("fluids.csv");
-            j.name("oreDictionary").value("oredict.json");
-            j.name("craftingRecipes").value("recipes/crafting.json");
-            j.name("smeltingRecipes").value("recipes/smelting.json");
-            j.name("gregtechRecipes").value("recipes/gregtech.json");
-            j.name("gregtechMaps").value("recipes/gregtech-maps.json");
+            for (Map.Entry<String, String> f : files.entrySet()) {
+                j.name(f.getKey()).value(f.getValue());
+            }
             j.name("errors").value("errors.log");
             j.endObject();
             j.name("mods");
             j.beginArray();
-            for (ModContainer mod : Loader.instance().getActiveModList()) {
+            for (Platform.ModInfo mod : platform.mods()) {
                 j.beginObject();
-                j.name("id").value(mod.getModId());
-                j.name("name").value(mod.getName());
-                j.name("version").value(mod.getVersion());
+                j.name("id").value(mod.id);
+                j.name("name").value(mod.name);
+                j.name("version").value(mod.version);
                 j.endObject();
             }
             j.endArray();
@@ -597,34 +557,18 @@ public final class ExportJob {
             renderer.delete();
             renderer = null;
         }
-        if (gtOut != null && stage == Stage.FAILED) {
+        if (recipeOut != null && stage == Stage.FAILED) {
             try {
-                gtOut.close();
+                recipeOut.close();
             } catch (IOException ignored) {
                 // already failing
             }
+            recipeOut = null;
         }
     }
 
-    private interface Getter {
-
-        String get() throws Throwable;
-    }
-
-    private static String safe(Getter g) {
-        try {
-            return g.get();
-        } catch (Throwable t) {
-            return null;
-        }
-    }
-
-    private static Writer writer(File f) throws IOException {
+    public static Writer writer(File f) throws IOException {
         f.getParentFile().mkdirs();
         return new BufferedWriter(new OutputStreamWriter(new FileOutputStream(f), StandardCharsets.UTF_8), 1 << 16);
-    }
-
-    private static JsonWriter json(Writer w) {
-        return new JsonWriter(w);
     }
 }

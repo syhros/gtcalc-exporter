@@ -12,7 +12,10 @@ import net.minecraftforge.common.MinecraftForge;
 
 import com.syhros.packextract.CommonProxy;
 import com.syhros.packextract.PackExtract;
-import com.syhros.packextract.export.ExportJob;
+import com.syhros.packextract.Tags;
+import com.syhros.packextract.core.Config;
+import com.syhros.packextract.core.ExportJob;
+import com.syhros.packextract.export.Platform1710;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -56,24 +59,17 @@ public class ClientProxy extends CommonProxy {
         ExportJob.Settings s = new ExportJob.Settings();
         File out = new File(ClientConfig.outputDir);
         s.outputRoot = out.isAbsolute() ? out : new File(mc.mcDataDir, ClientConfig.outputDir);
-        s.packName = ClientConfig.packName.isEmpty() ? instanceName(mc.mcDataDir) : ClientConfig.packName;
+        s.packName = ClientConfig.packName.isEmpty() ? Config.instanceName(mc.mcDataDir) : ClientConfig.packName;
         s.images = images && ClientConfig.images;
         s.imageSize = ClientConfig.imageSize;
-        s.neiItems = ClientConfig.neiItems;
+        s.viewerItems = ClientConfig.neiItems;
+        s.maxItems = ClientConfig.maxItems;
+        s.generator = "Pack Extract " + Tags.VERSION;
         return s;
     }
 
-    /** ".../GT_New_Horizons_2.8.4/.minecraft" gives "GT_New_Horizons_2.8.4". */
-    static String instanceName(File dataDir) {
-        File dir = dataDir.getAbsoluteFile();
-        if (dir.getName().equals(".")) {
-            dir = dir.getParentFile();
-        }
-        String name = dir.getName();
-        if ((name.equals(".minecraft") || name.equals("minecraft")) && dir.getParentFile() != null) {
-            name = dir.getParentFile().getName();
-        }
-        return name.isEmpty() ? "pack" : name;
+    static ExportJob job(ExportJob.Settings s) {
+        return new ExportJob(new Platform1710(s.viewerItems), s);
     }
 
     /** Called by the command: opens the export screen on the next tick, once the chat screen has closed. */
@@ -98,7 +94,7 @@ public class ClientProxy extends CommonProxy {
         if (mc.currentScreen == null) {
             ExportJob.Settings s = pending;
             pending = null;
-            mc.displayGuiScreen(new ExportScreen(new ExportJob(s), null, false));
+            mc.displayGuiScreen(new ExportScreen(job(s), null, false));
         }
     }
 
@@ -148,7 +144,7 @@ public class ClientProxy extends CommonProxy {
         }
         auto = Auto.STARTED;
         PackExtract.LOG.info("Automatic export: starting (NEI item list {})", neiReady ? "ready" : "not loaded");
-        mc.displayGuiScreen(new ExportScreen(new ExportJob(settings(true)), null, ClientConfig.quitAfterAutoExport));
+        mc.displayGuiScreen(new ExportScreen(job(settings(true)), null, ClientConfig.quitAfterAutoExport));
     }
 
     private static boolean neiItemListReady() {

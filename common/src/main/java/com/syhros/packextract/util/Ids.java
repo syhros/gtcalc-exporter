@@ -31,6 +31,14 @@ public final class Ids {
         return sb.toString();
     }
 
+    /**
+     * Item id on 1.13 and later, where items have no meta: the registry name, plus {@code #hash} of the NBT (or of the
+     * data components on 1.20.5+) when the stack has any.
+     */
+    public static String item(String registryName, String nbt) {
+        return nbt != null && !nbt.isEmpty() ? registryName + "#" + nbtHash(nbt) : registryName;
+    }
+
     /** Stable 8-hex-digit hash of an NBT string. */
     public static String nbtHash(String nbt) {
         CRC32 crc = new CRC32();

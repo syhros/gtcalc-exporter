@@ -1,0 +1,43 @@
+// Pack Extract for Minecraft 1.21.1 (NeoForge). The version-neutral code is shared from ../../common.
+plugins {
+    id 'net.neoforged.moddev' version '2.0.107'
+}
+
+version = System.getenv('VERSION') ?: mod_version
+group = 'com.syhros.packextract'
+base { archivesName = "packextract-neoforge-${minecraft_version}" }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+sourceSets.main.java.srcDir '../../common/src/main/java'
+
+neoForge {
+    version = neo_version
+    runs {
+        client {
+            client()
+        }
+    }
+    mods {
+        packextract {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+repositories {
+    maven { url = 'https://maven.blamejared.com' } // JEI
+}
+
+dependencies {
+    // JEI's item list is read through its API when JEI is installed (GregTech CEu is read by reflection).
+    compileOnly "mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"
+    compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
+}
+
+processResources {
+    inputs.property 'version', version
+    filesMatching('META-INF/neoforge.mods.toml') { expand 'version': version }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

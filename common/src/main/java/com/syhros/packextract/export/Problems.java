@@ -5,10 +5,13 @@ import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.syhros.packextract.PackExtract;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /** Errors and notes collected during an export; written to errors.log and counted in the manifest. */
 public final class Problems {
+
+    private static final Logger LOG = LogManager.getLogger("packextract");
 
     private final List<String> lines = new ArrayList<String>();
     private int errors;
@@ -26,14 +29,14 @@ public final class Problems {
             lines.add("ERROR " + what + ": " + trace);
         }
         if (errors <= 20) {
-            PackExtract.LOG.warn("{} failed: {}", what, t.toString());
+            LOG.warn("{} failed: {}", what, t.toString());
         }
     }
 
     public synchronized void note(String message) {
         notes++;
         lines.add("NOTE " + message);
-        PackExtract.LOG.info(message);
+        LOG.info(message);
     }
 
     public synchronized int errors() {

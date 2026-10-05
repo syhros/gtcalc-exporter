@@ -10,6 +10,7 @@ import net.minecraftforge.fluids.FluidContainerRegistry;
 import net.minecraftforge.oredict.OreDictionary;
 
 import com.syhros.packextract.PackExtract;
+import com.syhros.packextract.core.ItemIndex;
 
 /** Fills the item index from everything that lists items, except recipes (they add theirs as they are written). */
 public final class ItemSources {
@@ -35,13 +36,13 @@ public final class ItemSources {
                     subs.add(new ItemStack(item, 1, 0));
                 }
             } catch (Throwable t) {
-                problems.add("sub-items of " + ItemIndex.registryName(item), t);
+                problems.add("sub-items of " + Stacks.registryName(item), t);
                 if (subs.isEmpty()) {
                     subs.add(new ItemStack(item, 1, 0));
                 }
             }
             for (ItemStack s : subs) {
-                index.add(s, "registry");
+                Stacks.add(index, s, "registry");
             }
         }
         return index.size() - before;
@@ -63,7 +64,7 @@ public final class ItemSources {
             int before = index.size();
             for (Object o : new ArrayList<Object>(items)) {
                 if (o instanceof ItemStack) {
-                    index.add((ItemStack) o, "nei");
+                    Stacks.add(index, (ItemStack) o, "nei");
                 }
             }
             return index.size() - before;
@@ -79,7 +80,7 @@ public final class ItemSources {
         int before = index.size();
         for (String name : OreDictionary.getOreNames()) {
             for (ItemStack s : OreDictionary.getOres(name)) {
-                index.add(s, "oredict");
+                Stacks.add(index, s, "oredict");
             }
         }
         return index.size() - before;
@@ -88,8 +89,8 @@ public final class ItemSources {
     public static int fromFluidContainers(ItemIndex index) {
         int before = index.size();
         for (FluidContainerRegistry.FluidContainerData d : FluidContainerRegistry.getRegisteredFluidContainerData()) {
-            index.add(d.filledContainer, "fluid-container");
-            index.add(d.emptyContainer, "fluid-container");
+            Stacks.add(index, d.filledContainer, "fluid-container");
+            Stacks.add(index, d.emptyContainer, "fluid-container");
         }
         return index.size() - before;
     }

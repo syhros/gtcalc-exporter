@@ -1,0 +1,11 @@
+[
+  {
+    "modid": "packextract",
+    "name": "Pack Extract",
+    "description": "Exports every item, fluid, image, ore dictionary entry and recipe of a modpack (including GregTech CEu recipes) as JSON for gtcalc.app. Client-side only. Type /packextract in a world.",
+    "version": "${version}",
+    "mcversion": "1.12.2",
+    "url": "https://github.com/syhros/gtcalc-exporter",
+    "authorList": ["syhros"]
+  }
+]

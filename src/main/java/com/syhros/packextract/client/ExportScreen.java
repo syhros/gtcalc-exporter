@@ -10,7 +10,7 @@ import org.lwjgl.Sys;
 import org.lwjgl.input.Keyboard;
 
 import com.syhros.packextract.PackExtract;
-import com.syhros.packextract.export.ExportJob;
+import com.syhros.packextract.core.ExportJob;
 
 /** Shows progress and drives the export a slice per frame. */
 public class ExportScreen extends GuiScreen {
@@ -97,8 +97,8 @@ public class ExportScreen extends GuiScreen {
             Map<String, Number> c = job.counts();
             line(y, "Items: " + c.get("items") + ", fluids: " + c.get("fluids"));
             y += 12;
-            line(y, "Recipes: crafting " + c.get("craftingRecipes") + ", furnace " + c.get("smeltingRecipes")
-                + ", GregTech " + c.get("gregtechRecipes") + " in " + c.get("gregtechMaps") + " maps");
+            line(y, "Recipes: " + c.get("recipes") + " (crafting " + c.get("craftingRecipes") + ", furnace "
+                + c.get("smeltingRecipes") + ", GregTech " + c.get("gregtechRecipes") + ")");
             y += 12;
             if (c.get("imagesWritten") != null) {
                 line(y, "Images: " + c.get("imagesWritten") + " (" + c.get("blankImages") + " blank)");

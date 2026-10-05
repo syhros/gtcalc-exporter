@@ -11,6 +11,8 @@ import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.oredict.OreDictionary;
 
 import com.google.gson.stream.JsonWriter;
+import com.syhros.packextract.core.FluidIndex;
+import com.syhros.packextract.core.ItemIndex;
 import com.syhros.packextract.util.Ids;
 
 /**
@@ -67,7 +69,7 @@ public final class Refs {
     }
 
     public void writeStack(JsonWriter w, ItemStack stack, double chance, String source) throws IOException {
-        String id = items.add(stack, source);
+        String id = Stacks.add(items, stack, source);
         if (id == null) {
             w.nullValue();
             return;
@@ -81,7 +83,7 @@ public final class Refs {
         if (stack.getItemDamage() == Ids.WILDCARD) {
             w.name("anyOf");
             w.beginArray();
-            for (String v : items.variantsOf(ItemIndex.registryName(stack.getItem()))) {
+            for (String v : items.variantsOf(Stacks.registryName(stack.getItem()))) {
                 w.value(v);
             }
             w.endArray();
@@ -96,7 +98,7 @@ public final class Refs {
             return;
         }
         w.beginObject();
-        w.name("fluid").value(fluids.add(stack.getFluid(), "recipe"));
+        w.name("fluid").value(Stacks.addFluid(fluids, stack.getFluid(), "recipe"));
         w.name("amount").value(stack.amount);
         if (stack.tag != null) {
             w.name("nbt").value(stack.tag.toString());
@@ -119,12 +121,12 @@ public final class Refs {
                 continue;
             }
             ItemStack s = (ItemStack) o;
-            String id = items.add(s, source);
+            String id = Stacks.add(items, s, source);
             if (id == null) {
                 continue;
             }
             if (s.getItemDamage() == Ids.WILDCARD) {
-                for (String v : items.variantsOf(ItemIndex.registryName(s.getItem()))) {
+                for (String v : items.variantsOf(Stacks.registryName(s.getItem()))) {
                     w.value(v);
                 }
             } else {

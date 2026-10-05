@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/syhros/gtcalc-exporter/issues"
+
+[[mods]]
+modId = "packextract"
+version = "${version}"
+displayName = "Pack Extract"
+displayURL = "https://github.com/syhros/gtcalc-exporter"
+authors = "syhros"
+description = '''
+Exports every item, fluid, image, tag and recipe of a modpack (including GregTech CEu recipes) as JSON for gtcalc.app.
+Client-side only. Type /packextract in a world.
+'''
+
+[[dependencies.packextract]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.packextract]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,1.21.2)"
+ordering = "NONE"
+side = "CLIENT"

@@ -1,5 +1,13 @@
 name: Build and test
 
+# Every Minecraft version is built, then exported in a real game client with other mods installed:
+#   1.7.10           dev client from the build (GTNH's tooling), with NEI or GregTech 5
+#   1.12.2 / 1.20.1 / 1.21.1   the release jar in a real Forge/NeoForge client started by HeadlessMC,
+#                    with mods downloaded from Modrinth (profiles: vanilla, gregtech, popular)
+# Exports draw at most 500 item icons (PACKEXTRACT_MAX_ITEMS) to keep the runs short; everything else is exported
+# in full and checked by .github/scripts/check_export.py. Each test's results go to a ci-results-<version>-<profile>
+# branch (check output, contact sheet of icons, manifest, log tail).
+
 on:
   push:
     branches: [main]
@@ -12,7 +20,7 @@ on:
         type: boolean
         default: false
       version:
-        description: Release version, e.g. 1.0.0 (only with "release")
+        description: Release version, e.g. 1.1.0 (only with "release")
         type: string
         default: ''
 
@@ -23,9 +31,13 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  HMC_VERSION: '2.10.0'
+  MAX_ITEMS: '500'
+
 jobs:
-  build:
-    name: Compile and unit tests
+  build-1710:
+    name: Build 1.7.10
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -69,17 +81,17 @@ jobs:
           unzip -l "$JAR"
           unzip -p "$JAR" mcmod.info
           # Release jars use SRG names; MCP names would crash outside the dev environment.
-          if unzip -p "$JAR" com/syhros/packextract/export/IconRenderer.class | grep -a -q "renderItemAndEffectIntoGUI"; then
+          if unzip -p "$JAR" com/syhros/packextract/export/GlIconRenderer.class | grep -a -q "renderItemAndEffectIntoGUI"; then
             echo "::error::jar is not reobfuscated"; exit 1
           fi
 
       - uses: actions/upload-artifact@v4
         with:
-          name: pack-extract-jar
+          name: jar-1.7.10
           path: ${{ env.JAR }}
 
-  export:
-    name: Export test (${{ matrix.profile }})
+  export-1710:
+    name: Export 1.7.10 (${{ matrix.profile }})
     runs-on: ubuntu-24.04
     permissions:
       contents: write
@@ -117,13 +129,13 @@ jobs:
             mkdir -p "$d"
             printf 'automation {\n    B:autoExport=true\n    B:quitAfterAutoExport=true\n}\n\nexport {\n    S:outputDir=%s\n    S:packName=ci-%s\n}\n' "$OUT" "${{ matrix.profile }}" > "$d/packextract.cfg"
           done
-          cat run/client/config/packextract.cfg
 
       - name: Run the client and export
         env:
           PACKEXTRACT_AUTO: '1'
           PACKEXTRACT_QUIT: '1'
           PACKEXTRACT_OUT: ${{ github.workspace }}/export-out
+          PACKEXTRACT_MAX_ITEMS: ${{ env.MAX_ITEMS }}
         run: |
           EXTRA=""
           if [ "${{ matrix.profile }}" = "gregtech" ]; then EXTRA="-PdevGregTech=true"; fi
@@ -137,48 +149,203 @@ jobs:
 
       - name: Check the export
         run: |
-          python3 .github/scripts/check_export.py export-out ${{ matrix.profile }} contact-sheet-${{ matrix.profile }}.png 2>&1 | tee check-${{ matrix.profile }}.txt
+          python3 .github/scripts/check_export.py export-out ${{ matrix.profile }} contact-sheet.png 2>&1 | tee check.txt
           exit ${PIPESTATUS[0]}
 
-      - name: Show problems
-        if: always()
-        run: |
-          for f in export-out/*/errors.log; do echo "== $f"; head -c 20000 "$f"; done || true
-          grep -E "ERROR|Exception" client.log | grep -v "^\s*at " | head -80 || true
-
-      - name: Publish the contact sheet to the ci-screenshots branch
+      - name: Publish the results
         if: always() && (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository)
-        run: |
-          [ -f contact-sheet-${{ matrix.profile }}.png ] || exit 0
-          mkdir -p /tmp/shots && cp contact-sheet-${{ matrix.profile }}.png* /tmp/shots/
-          cp export-out/*/manifest.json /tmp/shots/manifest-${{ matrix.profile }}.json || true
-          cp check-${{ matrix.profile }}.txt /tmp/shots/ || true
-          cd /tmp/shots
-          git init -q -b ci-screenshots
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -q -m "Export test ${{ matrix.profile }} for ${GITHUB_SHA}"
-          for i in 1 2 3; do
-            git fetch -q "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}" ci-screenshots 2>/dev/null && git rebase -q FETCH_HEAD 2>/dev/null || true
-            git push -q -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}" HEAD:ci-screenshots-${{ matrix.profile }} && break
-            sleep 3
-          done
+        run: .github/scripts/publish_results.sh "1.7.10-${{ matrix.profile }}" client.log
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Upload the export
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: export-${{ matrix.profile }}
+          name: export-1.7.10-${{ matrix.profile }}
           path: |
             export-out/
             client.log
           if-no-files-found: ignore
 
+  build:
+    name: Build ${{ matrix.mc }}
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # gradle_java: the JDK Gradle itself runs on (ForgeGradle 6 needs Gradle 8, which cannot run on 25).
+          - { mc: '1.12.2', dir: versions/forge-1.12.2, gradle_java: '25', check_class: 'com/syhros/packextract/forge/Platform1122.class', dev_name: 'getDisplayName' }
+          - { mc: '1.20.1', dir: versions/forge-1.20.1, gradle_java: '17', check_class: 'com/syhros/packextract/forge/Platform1201.class', dev_name: 'getHoverName' }
+          - { mc: '1.21.1', dir: versions/neoforge-1.21.1, gradle_java: '21', check_class: '', dev_name: '' }
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: zulu
+          java-version: |
+            8
+            17
+            21
+            25
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Set the version
+        run: |
+          V="${{ inputs.version }}"
+          if [ -z "$V" ] && [ "${GITHUB_REF_TYPE}" = "tag" ]; then V="${GITHUB_REF_NAME#v}"; fi
+          if [ -n "$V" ]; then echo "VERSION=$V" >> "$GITHUB_ENV"; fi
+
+      - name: Build
+        working-directory: ${{ matrix.dir }}
+        run: |
+          export JAVA_HOME="$(printenv JAVA_HOME_${{ matrix.gradle_java }}_X64)"
+          chmod +x gradlew
+          ./gradlew --stacktrace build 2>&1 | tee build.log
+          exit ${PIPESTATUS[0]}
+
+      - name: Show compile errors
+        if: failure()
+        working-directory: ${{ matrix.dir }}
+        run: grep -E "error:|FAILED|What went wrong" -A3 build.log | head -200 || true
+
+      - name: Check the jar
+        working-directory: ${{ matrix.dir }}
+        run: |
+          ls -la build/libs
+          JAR=$(ls build/libs/*.jar | grep -v -- '-dev' | grep -v -- '-sources' | head -1)
+          echo "JAR=${{ matrix.dir }}/$JAR" >> "$GITHUB_ENV"
+          unzip -l "$JAR" | tail -5
+          # Forge release jars use SRG names; development names would crash in a normal game.
+          if [ -n "${{ matrix.check_class }}" ] && unzip -p "$JAR" "${{ matrix.check_class }}" | grep -a -q "${{ matrix.dev_name }}"; then
+            echo "::error::jar is not reobfuscated"; exit 1
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jar-${{ matrix.mc }}
+          path: ${{ env.JAR }}
+
+  export:
+    name: Export ${{ matrix.mc }} (${{ matrix.profile }})
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { mc: '1.12.2', loader: forge, java: '8', profile: vanilla, mods: 'jei' }
+          - { mc: '1.12.2', loader: forge, java: '8', profile: gregtech, mods: 'jei gregtech-ce-unofficial codechicken-lib mixinbooter' }
+          - { mc: '1.12.2', loader: forge, java: '8', profile: popular, mods: 'jei mekanism' }
+          - { mc: '1.20.1', loader: forge, java: '17', profile: vanilla, mods: 'jei' }
+          - { mc: '1.20.1', loader: forge, java: '17', profile: gregtech, mods: 'jei gregtechceu-modern' }
+          - { mc: '1.20.1', loader: forge, java: '17', profile: popular, mods: 'jei mekanism create ae2' }
+          - { mc: '1.21.1', loader: neoforge, java: '21', profile: vanilla, mods: 'jei' }
+          - { mc: '1.21.1', loader: neoforge, java: '21', profile: gregtech, mods: 'jei gregtechceu-modern' }
+          - { mc: '1.21.1', loader: neoforge, java: '21', profile: popular, mods: 'jei mekanism create ae2' }
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: zulu
+          java-version: ${{ matrix.java }}
+
+      - name: Install a virtual display
+        run: |
+          sudo apt-get update -y
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y xvfb x11-xserver-utils libgl1-mesa-dri mesa-utils
+          pip install --quiet pillow
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: jar-${{ matrix.mc }}
+          path: jar
+
+      - name: Get HeadlessMC
+        run: |
+          curl -sSfL -o hmc.jar "https://github.com/3arthqu4ke/headlessmc/releases/download/${HMC_VERSION}/headlessmc-launcher-${HMC_VERSION}.jar"
+          mkdir -p HeadlessMC run/mods
+          cat > HeadlessMC/config.properties <<EOF
+          hmc.java.versions=$JAVA_HOME/bin/java
+          hmc.gamedir=$PWD/run
+          hmc.mcdir=$HOME/.minecraft
+          hmc.offline=true
+          hmc.rethrow.launch.exceptions=true
+          hmc.exit.on.failed.command=true
+          hmc.assets.dummy=true
+          EOF
+
+      - name: Cache Minecraft
+        uses: actions/cache@v4
+        with:
+          path: ~/.minecraft
+          key: ${{ runner.os }}-mc-${{ matrix.mc }}-${{ matrix.loader }}-hmc${{ env.HMC_VERSION }}
+
+      - name: Install Minecraft ${{ matrix.mc }} with ${{ matrix.loader }}
+        run: |
+          if ! ls "$HOME/.minecraft/versions" 2>/dev/null | grep -qi "${{ matrix.loader }}"; then
+            java -jar hmc.jar --command download ${{ matrix.mc }}
+            java -jar hmc.jar --command ${{ matrix.loader }} ${{ matrix.mc }} --java ${{ matrix.java }}
+          fi
+          ls "$HOME/.minecraft/versions"
+
+      - name: Add Pack Extract and the test mods
+        run: |
+          cp jar/*.jar run/mods/
+          python3 .github/scripts/fetch_mods.py ${{ matrix.mc }} ${{ matrix.loader }} run/mods ${{ matrix.mods }}
+          ls -la run/mods
+          printf 'onboardAccessibility:false\npauseOnLostFocus:false\n' >> run/options.txt
+
+      - name: Run the client and export
+        env:
+          PACKEXTRACT_AUTO: '1'
+          PACKEXTRACT_QUIT: '1'
+          PACKEXTRACT_OUT: ${{ github.workspace }}/export-out
+          PACKEXTRACT_PACK_NAME: ci-${{ matrix.mc }}-${{ matrix.profile }}
+          PACKEXTRACT_MAX_ITEMS: ${{ env.MAX_ITEMS }}
+        run: |
+          mkdir -p export-out
+          set +e
+          timeout 2400 xvfb-run -a -s "-screen 0 1280x720x24" java -Dhmc.check.xvfb=true -jar hmc.jar \
+            --command launch ".*${{ matrix.loader }}.*" -regex --jvm "-Djava.awt.headless=true" 2>&1 | tee client.log
+          echo "client exited with ${PIPESTATUS[0]}"
+          set -e
+          grep -E "Pack Extract|packextract|Export" client.log | tail -60 || true
+          ls run/crash-reports 2>/dev/null && head -80 run/crash-reports/* || true
+
+      - name: Check the export
+        run: |
+          python3 .github/scripts/check_export.py export-out ${{ matrix.profile }} contact-sheet.png 2>&1 | tee check.txt
+          exit ${PIPESTATUS[0]}
+
+      - name: Publish the results
+        if: always() && (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository)
+        run: .github/scripts/publish_results.sh "${{ matrix.mc }}-${{ matrix.profile }}" run/logs/latest.log
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Upload the export
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: export-${{ matrix.mc }}-${{ matrix.profile }}
+          path: |
+            export-out/
+            client.log
+            run/logs/
+            run/crash-reports/
+          if-no-files-found: ignore
+
   release:
     name: Publish release
     if: startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'workflow_dispatch' && inputs.release)
-    needs: [build, export]
+    needs: [build-1710, export-1710, build, export]
     runs-on: ubuntu-24.04
     permissions:
       contents: write
@@ -186,8 +353,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with:
-          name: pack-extract-jar
+          pattern: jar-*
           path: jars
+          merge-multiple: true
       - name: Create the release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -195,6 +363,6 @@ jobs:
           V="${{ inputs.version }}"
           if [ -z "$V" ]; then V="${GITHUB_REF_NAME#v}"; fi
           if [ -z "$V" ] || [ "$V" = "${GITHUB_REF_NAME}" ]; then echo "::error::no version given"; exit 1; fi
-          JAR=$(ls jars/*.jar | head -1)
-          gh release create "v$V" "$JAR" --repo "${GITHUB_REPOSITORY}" --target "${GITHUB_SHA}" \
-            --title "Pack Extract $V (Minecraft 1.7.10)" --notes-file .github/RELEASE_NOTES.md
+          ls -la jars
+          gh release create "v$V" jars/*.jar --repo "${GITHUB_REPOSITORY}" --target "${GITHUB_SHA}" \
+            --title "Pack Extract $V" --notes-file .github/RELEASE_NOTES.md

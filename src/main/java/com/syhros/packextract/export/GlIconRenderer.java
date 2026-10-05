@@ -25,7 +25,7 @@ import org.lwjgl.opengl.GLContext;
  * Renders item and fluid icons into an off-screen framebuffer and reads the pixels back. Must run on the render
  * thread.
  */
-public final class IconRenderer {
+public final class GlIconRenderer implements com.syhros.packextract.core.IconRenderer {
 
     private final Minecraft mc = Minecraft.getMinecraft();
     private final RenderItem renderItem = new RenderItem();
@@ -35,7 +35,7 @@ public final class IconRenderer {
     private final byte[] bytes;
     private final boolean shaders = GLContext.getCapabilities().OpenGL20;
 
-    public IconRenderer(int size) {
+    public GlIconRenderer(int size) {
         this.size = size;
         ensureTileEntityTextures();
         this.fb = OpenGlHelper.isFramebufferEnabled() ? new Framebuffer(size, size, true) : null;
@@ -46,6 +46,7 @@ public final class IconRenderer {
         this.bytes = new byte[size * size * 4];
     }
 
+    @Override
     public int size() {
         return size;
     }
@@ -77,12 +78,15 @@ public final class IconRenderer {
     }
 
     /** True when rendering goes to an off-screen buffer (otherwise into the corner of the screen). */
+    @Override
     public boolean offscreen() {
         return fb != null;
     }
 
     /** Renders an item and returns its RGBA pixels (bottom row first). */
-    public byte[] renderItem(ItemStack stack) {
+    @Override
+    public byte[] renderItem(Object item) {
+        ItemStack stack = (ItemStack) item;
         begin();
         try {
             RenderHelper.enableGUIStandardItemLighting();
@@ -97,7 +101,9 @@ public final class IconRenderer {
     }
 
     /** Renders a fluid's still texture, tinted with its colour, and returns its RGBA pixels. */
-    public byte[] renderFluid(Fluid fluid) {
+    @Override
+    public byte[] renderFluid(Object fluidObject) {
+        Fluid fluid = (Fluid) fluidObject;
         IIcon icon = fluid.getStillIcon();
         if (icon == null) {
             icon = fluid.getIcon();
@@ -202,6 +208,7 @@ public final class IconRenderer {
         }
     }
 
+    @Override
     public void delete() {
         if (fb != null) {
             fb.deleteFramebuffer();

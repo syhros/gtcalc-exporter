@@ -15,6 +15,7 @@ public final class ClientConfig {
     public static boolean autoExport = false;
     public static boolean quitAfterAutoExport = false;
     public static int frameBudgetMillis = 40;
+    public static int maxItems = 0;
 
     private ClientConfig() {}
 
@@ -51,6 +52,13 @@ public final class ClientConfig {
             5,
             1000,
             "Time spent exporting per frame. Higher is faster but the progress screen updates less often.");
+        maxItems = c.getInt(
+            "maxItems",
+            g,
+            0,
+            0,
+            Integer.MAX_VALUE,
+            "Only list and draw the first N items and fluids, for quick tests. 0 = everything.");
         String a = "automation";
         autoExport = c.getBoolean(
             "autoExport",
@@ -72,6 +80,10 @@ public final class ClientConfig {
         String out = setting("packextract.out", "PACKEXTRACT_OUT");
         if (out != null) {
             outputDir = out;
+        }
+        String max = setting("packextract.maxItems", "PACKEXTRACT_MAX_ITEMS");
+        if (max != null) {
+            maxItems = Math.max(0, Integer.parseInt(max.trim()));
         }
         String size = setting("packextract.imageSize", "PACKEXTRACT_IMAGE_SIZE");
         if (size != null) {
