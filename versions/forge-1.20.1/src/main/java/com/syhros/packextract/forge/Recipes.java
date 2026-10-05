@@ -63,7 +63,7 @@ final class Recipes {
         list.add(new Crafting());
         list.add(new Cooking());
         GregTechRecipes gt = GregTechRecipes.create(refs, problems);
-        if (gt != null) {
+        if (byType.values().stream().anyMatch(gt::handles)) {
             list.add(gt.source(byType));
         }
         list.add(new Other(gt));
@@ -204,7 +204,7 @@ final class Recipes {
                     && (path.equals("minecraft:crafting") || path.equals("minecraft:smelting")
                         || path.equals("minecraft:blasting") || path.equals("minecraft:smoking")
                         || path.equals("minecraft:campfire_cooking"));
-                if (!vanilla && (gt == null || !gt.handles(byType.get(type)))) {
+                if (!vanilla && !gt.handles(byType.get(type))) {
                     types.add(type);
                 }
             }

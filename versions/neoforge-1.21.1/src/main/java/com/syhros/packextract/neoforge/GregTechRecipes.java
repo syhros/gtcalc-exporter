@@ -43,31 +43,34 @@ final class GregTechRecipes {
 
     private final Refs refs;
     private final Problems problems;
-    private final Class<?> recipeClass;
+    private static final String RECIPE_CLASS = "com.gregtechceu.gtceu.api.recipe.GTRecipe";
     private final Map<String, Field> fields = new HashMap<>();
 
-    private GregTechRecipes(Refs refs, Problems problems, Class<?> recipeClass) {
+    private GregTechRecipes(Refs refs, Problems problems) {
         this.refs = refs;
         this.problems = problems;
-        this.recipeClass = recipeClass;
     }
 
-    /** Null when GregTech CEu is not installed. */
+    /**
+     * Recognises GregTech recipes by class name (the recipe's class or a superclass), not Class.forName: on
+     * NeoForge the mod's class loader cannot always look GregTech's classes up by name.
+     */
     static GregTechRecipes create(Refs refs, Problems problems) {
-        try {
-            return new GregTechRecipes(refs, problems,
-                Class.forName("com.gregtechceu.gtceu.api.recipe.GTRecipe"));
-        } catch (ClassNotFoundException e) {
-            return null;
-        } catch (Throwable t) {
-            problems.add("GregTech CEu recipe class", t);
-            return null;
+        return new GregTechRecipes(refs, problems);
+    }
+
+    private static boolean isGregTech(Object recipe) {
+        for (Class<?> c = recipe.getClass(); c != null; c = c.getSuperclass()) {
+            if (c.getName().equals(RECIPE_CLASS)) {
+                return true;
+            }
         }
+        return false;
     }
 
     /** True for a recipe type whose recipes are GregTech recipes. */
     boolean handles(List<Recipe<?>> recipes) {
-        return recipes != null && !recipes.isEmpty() && recipeClass.isInstance(recipes.get(0));
+        return recipes != null && !recipes.isEmpty() && isGregTech(recipes.get(0));
     }
 
     RecipeSource source(Map<ResourceLocation, List<Recipe<?>>> byType) {
@@ -433,16 +436,17 @@ final class GregTechRecipes {
         }
     }
 
-    /** Public field of the recipe by name, cached. */
+    /** Public field of the recipe by name, cached per class. */
     private Object get(Object recipe, String name) throws IllegalAccessException {
-        Field f = fields.get(name);
-        if (f == null && !fields.containsKey(name)) {
+        String key = recipe.getClass().getName() + "#" + name;
+        Field f = fields.get(key);
+        if (f == null && !fields.containsKey(key)) {
             try {
-                f = recipeClass.getField(name);
+                f = recipe.getClass().getField(name);
             } catch (NoSuchFieldException e) {
                 f = null;
             }
-            fields.put(name, f);
+            fields.put(key, f);
         }
         return f == null ? null : f.get(recipe);
     }
