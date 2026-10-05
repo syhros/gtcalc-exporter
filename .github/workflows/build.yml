@@ -40,11 +40,11 @@ jobs:
     name: Build 1.7.10
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: zulu
           java-version: |
@@ -53,7 +53,7 @@ jobs:
             21
             25
 
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v5
 
       - name: Set the version
         run: |
@@ -85,7 +85,7 @@ jobs:
             echo "::error::jar is not reobfuscated"; exit 1
           fi
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: jar-1.7.10
           path: ${{ env.JAR }}
@@ -100,11 +100,11 @@ jobs:
       matrix:
         profile: [vanilla, gregtech]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: zulu
           java-version: |
@@ -113,7 +113,7 @@ jobs:
             21
             25
 
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v5
 
       - name: Install a virtual display
         run: |
@@ -160,7 +160,7 @@ jobs:
 
       - name: Upload the export
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: export-1.7.10-${{ matrix.profile }}
           path: |
@@ -180,9 +180,9 @@ jobs:
           - { mc: '1.20.1', dir: versions/forge-1.20.1, gradle_java: '17', check_class: 'com/syhros/packextract/forge/Platform1201.class', dev_name: 'getHoverName' }
           - { mc: '1.21.1', dir: versions/neoforge-1.21.1, gradle_java: '21', check_class: '', dev_name: '' }
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: zulu
           java-version: |
@@ -191,7 +191,7 @@ jobs:
             21
             25
 
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v5
 
       - name: Set the version
         run: |
@@ -224,7 +224,7 @@ jobs:
             echo "::error::jar is not reobfuscated"; exit 1
           fi
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: jar-${{ matrix.mc }}
           path: ${{ env.JAR }}
@@ -249,9 +249,9 @@ jobs:
           - { mc: '1.21.1', loader: neoforge, java: '21', profile: gregtech, mods: 'jei gregtechceu-modern' }
           - { mc: '1.21.1', loader: neoforge, java: '21', profile: popular, mods: 'jei mekanism create ae2' }
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: zulu
           java-version: ${{ matrix.java }}
@@ -262,7 +262,7 @@ jobs:
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y xvfb x11-xserver-utils libgl1-mesa-dri mesa-utils
           pip install --quiet pillow
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           name: jar-${{ matrix.mc }}
           path: jar
@@ -332,7 +332,7 @@ jobs:
 
       - name: Upload the export
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: export-${{ matrix.mc }}-${{ matrix.profile }}
           path: |
@@ -350,8 +350,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v5
         with:
           pattern: jar-*
           path: jars
