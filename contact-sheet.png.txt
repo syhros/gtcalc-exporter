@@ -1,0 +1,190 @@
+0,0 gregtech:meta_crushed:292 Crushed Magnetite Ore
+0,1 gregtech:meta_block_compressed_16:0 Block of Battery Alloy
+0,2 gregtech:meta_gem:2004 Olivine
+0,3 gregtech:studs:0 White Studs
+0,4 minecraft:double_plant:3 Large Fern
+0,5 gregtech:meta_crushed:64 Crushed Molybdenum Ore
+0,6 gregtech:meta_crushed:2509 Crushed Diatomite Ore
+0,7 gregtech:meta_crushed:279 Crushed Galena Ore
+0,8 gregtech:ore_spessartine_0:0 Spessartine Ore
+0,9 minecraft:carpet:8 Light Gray Carpet
+0,10 gregtech:meta_stick_long:100 Long Silver Rod
+0,11 gregtech:meta_stick_long:277 Long Electrum Rod
+1,0 gregtech:meta_dust_impure:279 Impure Pile of Galena Dust
+1,1 gregtech:meta_foil:335 Wrought Iron Foil
+1,2 gregtech:meta_dust_small:303 Small Pile of Bismuth Bronze Dust
+1,3 gregtech:meta_crushed:393 Crushed Soapstone Ore
+1,4 gregtech:meta_crushed:261 Crushed Brown Limonite Ore
+1,5 gregtech:meta_stick_long:302 Long Black Bronze Rod
+1,6 gregtech:item_pipe_normal_restrictive:23 Restrictive Cobalt Item Pipe
+1,7 gregtech:ore_lazurite_0:6 Diorite Lazurite Ore
+1,8 gregtech:computer_casing:0 Computer Casing
+1,9 gregtech:meta_foil:430 Uranium Rhodium Dinaquadide Foil
+1,10 gregtech:meta_stick_long:33 Long Europium Rod
+1,11 gregtech:meta_crushed_centrifuged:394 Centrifuged Kyanite Ore
+2,0 gregtech:cable_hex:124 16x Naquadah Cable
+2,1 gregtech:wire_hex:426 16x Mercury Barium Calcium Cuprate Wire
+2,2 gregtech:item_pipe_normal_restrictive:112 Restrictive Tin Item Pipe
+2,3 gregtech:machine:127 Advanced Autoclave II
+2,4 gregtech:meta_stick_long:90 Long Rhodium Rod
+2,5 gregtech:silver_lamp:1 Light Gray Lamp
+2,6 gregtech:machine:1302 Medium Voltage Diode
+2,7 gregtech:butchery_knife:0#661ce4fd Ultimet Butchery Knife
+2,8 gregtech:meta_crushed:2016 Crushed Red Garnet Ore
+2,9 gregtech:meta_item_1:594 Nano CPU
+2,10 gregtech:meta_crushed:265 Crushed Chalcopyrite Ore
+2,11 gregtech:ore_tantalite_0:8 Granite Tantalite Ore
+3,0 gregtech:meta_foil:41 Gold Foil
+3,1 gregtech:item_pipe_normal_restrictive:331 Restrictive Ultimet Item Pipe
+3,2 gregtech:item_pipe_normal_restrictive:274 Restrictive Cupronickel Item Pipe
+3,3 gregtech:item_pipe_normal_restrictive:301 Restrictive Rose Gold Item Pipe
+3,4 gregtech:meta_dust_impure:23 Impure Pile of Cobalt Dust
+3,5 minecraft:golden_helmet:0 Golden Helmet
+3,6 gregtech:item_pipe_normal_restrictive:2014 Restrictive Cobalt Brass Item Pipe
+3,7 gregtech:ore_certus_quartz_0:6 Diorite Certus Quartz Ore
+3,8 gregtech:meta_foil:338 Yttrium Barium Cuprate Foil
+3,9 gregtech:meta_dust_pure:272 Purified Pile of Cobaltite Dust
+3,10 gregtech:meta_crushed:1597 Crushed Oilsands Ore
+3,11 gregtech:meta_foil:2520 HSS-S Foil
+4,0 gregtech:machine:1414 HPCA Advanced Computation Component
+4,1 gregtech:wrench_hv:0#985ae936 Tungstencarbide Wrench (HV)
+4,2 gregtech:meta_nugget:302 Black Bronze Nugget
+4,3 gregtech:meta_crushed:2006 Crushed Amethyst Ore
+4,4 gregtech:wire_cutter_hv:0#71cab343 Iron Wire Cutter (HV)
+4,5 gregtech:meta_stick_long:51 Long Iron Rod
+4,6 gregtech:hoe:0#8951f55e Aluminium Hoe
+4,7 gregtech:meta_dust:116 Uranium 238 Dust
+4,8 gregtech:meta_crushed:2022 Crushed Vanadium Magnetite Ore
+4,9 gregtech:meta_foil:115 Tungsten Foil
+4,10 gregtech:meta_crushed:2017 Crushed Yellow Garnet Ore
+4,11 gregtech:meta_dust_tiny:2057 Tiny Pile of Platinum Sludge Residue
+5,0 gregtech:meta_crushed:2005 Crushed Opal Ore
+5,1 gregtech:meta_item_1:471#716e3fae Low Voltage Item Magnet
+5,2 gregtech:meta_stick_long:127 Long Neutronium Rod
+5,3 gregtech:ore_sulfur_0:1 Nether Sulfur Ore
+5,4 gregtech:ore_graphite_0:4 Red Sand Graphite Ore
+5,5 gregtech:meta_foil:2042 Naquadah Alloy Foil
+5,6 gregtech:battery_block:6 Empty Tier III Capacitor
+5,7 gregtech:meta_dust:274 Cupronickel Dust
+5,8 gregtech:meta_crushed_purified:271 Purified Coal Ore
+5,9 gregtech:meta_crushed:264 Ground Cassiterite Sand
+5,10 gregtech:meta_crushed:348 Crushed Chalcocite Ore
+5,11 forge:bucketfilled:0#6c7567a7 High Octane Gasoline Bucket
+6,0 gregtech:machine:1341 Ludicrous Voltage 16x Battery Buffer
+6,1 gregtech:ore_uraninite_0:1 Nether Uraninite Ore
+6,2 gregtech:meta_crushed:280 Crushed Garnierite Ore
+6,3 minecraft:prismarine:0 Prismarine
+6,4 gregtech:meta_foil:90 Rhodium Foil
+6,5 gregtech:ore_opal_0:5 Granite Opal Ore
+6,6 gregtech:machine:990 IV Machine Hull
+6,7 gregtech:wire_octal:294 8x Nichrome Wire
+6,8 gregtech:ore_blue_topaz_0:4 Red Sand Blue Topaz Ore
+6,9 gregtech:metal_casing:1 Firebricks
+6,10 gregtech:meta_dust_tiny:416 Tiny Pile of Enderpearl Dust
+6,11 gregtech:meta_crushed:379 Crushed Bastnasite Ore
+7,0 minecraft:rabbit_hide:0 Rabbit Hide
+7,1 gregtech:ore_emerald_0:1 Nether Emerald Ore
+7,2 gregtech:meta_item_1:426 Chemical Lime Dye
+7,3 gregtech:borderless_magenta_lamp:6 Borderless Magenta Lamp
+7,4 minecraft:potion:0#0fcab14a Potion of Strength
+7,5 gregtech:meta_foil:1000 Thin Silicone Rubber Sheet
+7,6 gregtech:meta_item_1:517 Glass Tube
+7,7 gregtech:item_pipe_normal_restrictive:277 Restrictive Electrum Item Pipe
+7,8 gregtech:meta_stick_long:294 Long Nichrome Rod
+7,9 gregtech:meta_crushed:2029 Crushed Monazite Ore
+7,10 gregtech:pink_lamp:7 Pink Lamp
+7,11 gregtech:meta_foil:1012 Thin Polyethylene (PE) Sheet
+8,0 gregtech:meta_foil:2036 Vanadiumsteel Foil
+8,1 gregtech:meta_dust_tiny:285 Tiny Pile of Rutile Dust
+8,2 gregtech:meta_crushed:332 Crushed Uraninite Ore
+8,3 gregtech:meta_foil:277 Electrum Foil
+8,4 minecraft:knowledge_book:0 Knowledge Book
+8,5 gregtech:machine:322 Advanced Extruder II
+8,6 gregtech:meta_ring:128 Tritanium Ring
+8,7 gregtech:meta_dust_tiny:2005 Tiny Pile of Opal Dust
+8,8 minecraft:banner:2 Green Banner
+8,9 gregtech:meta_foil:323 Stainless Steel Foil
+8,10 gregtech:meta_crushed:250 Crushed Almandine Ore
+8,11 gregtech:ore_aluminium_0:4 Red Sand Aluminium Ore
+9,0 gregtech:meta_dust_tiny:214 Tiny Pile of Certus Quartz Dust
+9,1 minecraft:cobblestone:0 Cobblestone
+9,2 gregtech:meta_crushed:271 Crushed Coal Ore
+9,3 gregtech:meta_crushed:322 Crushed Sphalerite Ore
+9,4 minecraft:golden_apple:0 Golden Apple
+9,5 gregtech:ore_kyanite_0:7 Andesite Kyanite Ore
+9,6 gregtech:meta_foil:296 Niobium-Titanium Foil
+9,7 gregtech:meta_stick_long:303 Long Bismuth Bronze Rod
+9,8 minecraft:bow:0 Bow
+9,9 gregtech:ore_tetrahedrite_0:7 Andesite Tetrahedrite Ore
+9,10 gregtech:meta_stick_long:274 Long Cupronickel Rod
+9,11 minecraft:wheat_seeds:0 Seeds
+10,0 gregtech:meta_foil:3 Americium Foil
+10,1 gregtech:machine:414 Elite Forge Hammer
+10,2 forge:bucketfilled:0#ebbb7b9d Liquid Carbon Bucket
+10,3 gregtech:meta_item_1:642 Crystal Supercomputer
+10,4 gregtech:meta_item_1:143 MV Electric Pump
+10,5 minecraft:prismarine_crystals:0 Prismarine Crystals
+10,6 gregtech:fluid_pipe_large:129 Large Duranium Fluid Pipe
+10,7 gregtech:meta_crushed:330 Crushed Tungstate Ore
+10,8 gregtech:meta_crushed:329 Crushed Topaz Ore
+10,9 minecraft:concrete_powder:12 Brown Concrete Powder
+10,10 gregtech:meta_crushed:2015 Crushed Tricalcium Phosphate Ore
+10,11 gregtech:item_pipe_normal_restrictive:75 Restrictive Osmium Item Pipe
+11,0 gregtech:meta_crushed:385 Crushed Malachite Ore
+11,1 gregtech:meta_turbine_blade:61 Manganese Turbine Blade
+11,2 gregtech:meta_plate_double:328 Double Tin Alloy Plate
+11,3 gregtech:borderless_brown_lamp:6 Borderless Brown Lamp
+11,4 gregtech:meta_foil:1015 Thin Polycaprolactam Sheet
+11,5 gregtech:meta_stick:301 Rose Gold Rod
+11,6 minecraft:enchanted_book:0#0d2944c6 Enchanted Book
+11,7 gregtech:meta_item_1:35 Extruder Shape (Cell)
+11,8 gregtech:meta_foil:126 Naquadria Foil
+11,9 gregtech:wire_single:80 1x Platinum Wire
+11,10 gregtech:silver_lamp:2 Light Gray Lamp
+11,11 gregtech:wire_quadruple:430 4x Uranium Rhodium Dinaquadide Wire
+12,0 gregtech:machine:1030 Processing Array
+12,1 gregtech:chainsaw_lv:0#821af478 Invar Chainsaw (LV)
+12,2 gregtech:item_pipe_normal_restrictive:300 Restrictive Sterling Silver Item Pipe
+12,3 gregtech:meta_foil:344 Osmiridium Foil
+12,4 gregtech:meta_stick:93 Ruthenium Rod
+12,5 gregtech:meta_crushed:289 Crushed Lazurite Ore
+12,6 fluid:water Water
+12,7 fluid:lava Lava
+12,8 fluid:aluminium Liquid Aluminium
+12,9 fluid:americium Liquid Americium
+12,10 fluid:plasma.americium Americium Plasma
+12,11 fluid:antimony Liquid Antimony
+13,0 fluid:argon Argon Gas
+13,1 fluid:plasma.argon Argon Plasma
+13,2 fluid:arsenic Arsenic Vapor
+13,3 fluid:beryllium Liquid Beryllium
+13,4 fluid:bismuth Liquid Bismuth
+13,5 fluid:carbon Liquid Carbon
+13,6 fluid:cerium Liquid Cerium
+13,7 fluid:chlorine Chlorine Gas
+13,8 fluid:chrome Liquid Chrome
+13,9 fluid:cobalt Liquid Cobalt
+13,10 fluid:copper Liquid Copper
+13,11 fluid:darmstadtium Liquid Darmstadtium
+14,0 fluid:deuterium Deuterium Gas
+14,1 fluid:europium Liquid Europium
+14,2 fluid:fluorine Fluorine Gas
+14,3 fluid:gallium Liquid Gallium
+14,4 fluid:gold Liquid Gold
+14,5 fluid:hydrogen Hydrogen Gas
+14,6 fluid:liquid_helium Liquid Helium
+14,7 fluid:helium Helium Gas
+14,8 fluid:plasma.helium Helium Plasma
+14,9 fluid:helium_3 Helium-3
+14,10 fluid:indium Liquid Indium
+14,11 fluid:iridium Liquid Iridium
+15,0 fluid:iron Liquid Iron
+15,1 fluid:plasma.iron Iron Plasma
+15,2 fluid:krypton Krypton
+15,3 fluid:lanthanum Liquid Lanthanum
+15,4 fluid:lead Liquid Lead
+15,5 fluid:lithium Liquid Lithium
+15,6 fluid:lutetium Liquid Lutetium
+15,7 fluid:magnesium Liquid Magnesium
+15,8 fluid:manganese Liquid Manganese
+15,9 fluid:mercury Mercury

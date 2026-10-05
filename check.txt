@@ -1,0 +1,60 @@
+/home/runner/work/gtcalc-exporter/gtcalc-exporter/.github/scripts/check_export.py:94: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  px = [p for p in im.getdata() if p[3] > 128]
+export folder: export-out/ci-1.12.2-gregtech-20261005-235309
+minecraft 1.12.2 Forge 14.23.5.2864 | legacy ids (registry:meta)
+{
+ "itemsFromRegistry": 6840,
+ "itemsAddedByJei": 144,
+ "itemsAddedByOreDictionary": 1014,
+ "craftingRecipes": 6106,
+ "craftingSpecialRecipes": 40,
+ "smeltingRecipes": 653,
+ "gregtechRecipes": 21108,
+ "gregtechMaps": 56,
+ "recipes": 27907,
+ "oreDictionaryNames": 5279,
+ "imagesWritten": 858,
+ "blankImages": 0,
+ "items": 8872,
+ "fluids": 358,
+ "errors": 0
+}
+stage times (ms): {'items': 224, 'fluids': 85, 'recipes:craftingRecipes': 334, 'recipes:smeltingRecipes': 348, 'recipes:gregtechRecipes': 1500, 'recipes': 1500, 'tags': 93, 'item_images': 1476, 'fluid_images': 484}
+ok   item ids are unique (8872 items)
+ok   items have names (2 without, e.g. ['gregtech:meta_gem_chipped:0', 'gregtech:meta_gem_flawed:0'])
+ok   manifest item count matches items.json
+ok   few errors logged (0)
+ok   500 item images (expected about 500)
+ok   every item image file exists (0 missing, e.g. [])
+ok   blank item images under 5% (0, e.g. [])
+ok   358 fluid images (expected about 358)
+mods with images: ['forge', 'gregtech', 'minecraft']
+ok   Oak Wood (minecraft:log:0) is listed
+ok   Spruce Wood (minecraft:log:1) is listed
+ok   Red Wool (minecraft:wool:14) is listed
+ok   Iron Ingot (minecraft:iron_ingot:0) is listed
+ok   fluid Water (water) is listed
+ok   fluid Water has a non-blank image
+ok   Water image looks right (brightness 84 >= 40, 54 colours >= 4)
+ok   fluid Lava (lava) is listed
+ok   fluid Lava has a non-blank image
+ok   ore dictionary logWood contains oak wood
+ok   crafting table recipe exported
+crafting table recipe: {"id": "minecraft:crafting_table", "type": "shaped", "width": 2, "height": 2, "inputs": [{"ore": "plankWood", "amount": 1, "anyOf": ["minecraft:planks:0", "minecraft:planks:1", "minecraft:planks:2", "minecraft:planks:3", "minecraft:planks:4", "minecraft:planks:5", "gregtech:meta_plate:1617", "gregtech:planks:0"]}, {"ore": "plankWood", "amount": 1, "anyOf": ["minecraft:planks:0", "minecraft:planks:
+ok   crafting table recipe has inputs
+ok   iron ore smelts to iron ingot
+ok   more than 200 crafting recipes
+ok   every item a recipe uses is in items.json (0 missing, e.g. [])
+ok   more than 30 GregTech recipe maps (56)
+ok   more than 5000 GregTech recipes (21108)
+ok   macerator recipes exported (3762 in macerator)
+ok   macerator recipes with chanced outputs (678)
+chanced macerator recipe: {"map": "macerator", "index": 1116, "inputs": [{"item": "minecraft:beef:0", "amount": 1}], "outputs": [{"item": "gregtech:meta_dust:1616", "amount": 1}, {"item": "gregtech:meta_dust_tiny:258", "amount": 1}, {"item": "gregtech:meta_dust:1616", "amount": 1, "chance": 0.5}], "fluidInputs": [], "fluidOutputs": [], "eut": 2, "duration": 102, "hidden": false}
+ok   recipes with fluids (9649)
+ok   eut and duration are numbers
+ok   GregTech items have images (450)
+ok   GregTech images are not blank (0 of 450 blank, e.g. [])
+items added by JEI: 144
+contact sheet: contact-sheet.png
+
+all checks passed

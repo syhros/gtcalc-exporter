@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "generator": "Pack Extract 1.1.0",
+  "minecraft": "1.12.2",
+  "loader": "Forge 14.23.5.2864",
+  "pack": "ci-1.12.2-gregtech",
+  "generatedAt": "2026-10-05T23:53:09Z",
+  "seconds": 4,
+  "imageSize": 64,
+  "maxItems": 500,
+  "counts": {
+    "itemsFromRegistry": 6840,
+    "itemsAddedByJei": 144,
+    "itemsAddedByOreDictionary": 1014,
+    "craftingRecipes": 6106,
+    "craftingSpecialRecipes": 40,
+    "smeltingRecipes": 653,
+    "gregtechRecipes": 21108,
+    "gregtechMaps": 56,
+    "recipes": 27907,
+    "oreDictionaryNames": 5279,
+    "imagesWritten": 858,
+    "blankImages": 0,
+    "items": 8872,
+    "fluids": 358,
+    "errors": 0
+  },
+  "stageMillis": {
+    "items": 224,
+    "fluids": 85,
+    "recipes:craftingRecipes": 334,
+    "recipes:smeltingRecipes": 348,
+    "recipes:gregtechRecipes": 1500,
+    "recipes": 1500,
+    "tags": 93,
+    "item_images": 1476,
+    "fluid_images": 484
+  },
+  "files": {
+    "items": "items.json",
+    "itemsCsv": "items.csv",
+    "fluids": "fluids.json",
+    "fluidsCsv": "fluids.csv",
+    "craftingRecipes": "recipes/crafting.json",
+    "smeltingRecipes": "recipes/smelting.json",
+    "gregtechRecipes": "recipes/gregtech.json",
+    "gregtechMaps": "recipes/gregtech-maps.json",
+    "oreDictionary": "oredict.json",
+    "errors": "errors.log"
+  },
+  "mods": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "version": "1.12.2"
+    },
+    {
+      "id": "mcp",
+      "name": "Minecraft Coder Pack",
+      "version": "9.42"
+    },
+    {
+      "id": "mixinbooter",
+      "name": "MixinBooter",
+      "version": "11.17"
+    },
+    {
+      "id": "FML",
+      "name": "Forge Mod Loader",
+      "version": "8.0.99.99"
+    },
+    {
+      "id": "forge",
+      "name": "Minecraft Forge",
+      "version": "14.23.5.2864"
+    },
+    {
+      "id": "codechickenlib",
+      "name": "CodeChicken Lib",
+      "version": "3.2.3.358"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "version": "4.22.0.1035"
+    },
+    {
+      "id": "gregtech",
+      "name": "GregTech",
+      "version": "2.8.10-beta"
+    },
+    {
+      "id": "packextract",
+      "name": "Pack Extract",
+      "version": "1.1.0"
+    }
+  ]
+}
